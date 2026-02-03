@@ -30,26 +30,32 @@ $count = 0;
                                     <?php echo $line[3]; ?>
                                 </p>
                                 <ul class="ulValueSlider">
+                                    <?php if (!empty($line[4])): ?>
                                     <li class="bg_F5F5F5 d_flex j_start fw_400 liValueSlider">
                                         <span class="cl_66A13F fw_400 iconLiValueSlider">●</span>
                                         <span class="cl_1D1D1F fw_400 txtLiValueSlider">
                                             <?php echo $line[4]; ?>
                                         </span>
                                     </li>
+                                    <?php endif; ?>
 
+                                    <?php if (!empty($line[5])): ?>
                                     <li class="bg_F5F5F5 d_flex j_start fw_400 liValueSlider">
                                         <span class="cl_66A13F fw_400 iconLiValueSlider">●</span>
                                         <span class="cl_1D1D1F fw_400 txtLiValueSlider">
                                             <?php echo $line[5]; ?>
                                         </span>
                                     </li>
+                                     <?php endif; ?>
 
+                                    <?php if (!empty($line[6])): ?>
                                     <li class="bg_F5F5F5 d_flex j_start fw_400 liValueSlider">
                                         <span class="cl_66A13F fw_400 iconLiValueSlider">●</span>
                                         <span class="cl_1D1D1F fw_400 txtLiValueSlider">
                                             <?php echo $line[6]; ?>
                                         </span>
                                     </li>
+                                     <?php endif; ?>
                                 </ul>
                             </div>
                         </div>
@@ -61,8 +67,10 @@ $count = 0;
                 </div>
 
                 <!-- 必要に応じてナビボタン -->
+                 <div class="arroWap">
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
+                </div>
             </div>
         </div>
     </section>

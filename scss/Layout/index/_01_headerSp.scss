@@ -12,14 +12,21 @@ LAYOUT
     @include mi.marginPercent(375, 0,9 ,0 ,16 );
 }
 .logoHeaderSp{
-@include mi.ontenerWidth( 350, 72 );
+    @include mi.ontenerWidth( 350, 72 );
 }
 .btnHeaderSp{
-@include mi.ontenerWidth( 350, 46 );
+    @include mi.ontenerWidth( 350, 46 );
 }
 .headerSpGnav{
     @include mi.paddingPercent(375, 9, 0, 92, 0);
-    display: none;
+    right: -100%;
+    top:0;
+    position: fixed;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 100vh;
+    width: 100%;
 }
 .headerSpGnavTop{
     @include mi.paddingPercent(375, 0, 0, 9, 0);
@@ -27,19 +34,15 @@ LAYOUT
     @include mi.ontenerWidth( 375, 340);
 }
 .logoHeaderSp{
-@include mi.ontenerWidth( 340, 82 );
+    @include mi.ontenerWidth( 340, 82 );
 }
 .btnHeaderSp{
-@include mi.ontenerWidth( 340, 46 );
+    @include mi.ontenerWidth( 340, 46 );
 }
 
 .navMainHeaderGnavSp{
    @include mi.ontenerWidth( 340, 300 );
    @include mi.marginPercent(340, 68,auto ,0 ,auto );
-   overflow: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    height: 100vh;
 }
 .ulMainHeaderGnavSp{
     @include mi.ontenerWidth( 300, 263.5 );
@@ -60,15 +63,15 @@ LAYOUT
     @include mi.marginPercent(300, 68,0 ,0 ,0 );
 }
 .liMainHeaderGnavSp{
-width: 100%;
+    width: 100%;
     &:nth-child(n+2){
         @include mi.marginPercent(300, 17,0 ,0 ,0 );
     }
 }
 .btnMainHeaderGnavSp{
-aspect-ratio: 300/60;
-@include mi.kadomaru(60px);
-width: 100%;
+    aspect-ratio: 300/60;
+    @include mi.kadomaru(60px);
+    width: 100%;
 }
 .secMainHeaderGnavSp{
 

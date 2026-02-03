@@ -38,3 +38,19 @@
         <p class="cl_4B4A4A fw_400 txtset copy">Copyright©E＆by. All rights reserved.</p>
     </div>
 </footer>
+<div class="pc_only pcFixedBtn">
+    <div class="d_flex j_between ali_center pcFixedBtnFx">
+        <ul class="ctaPcFixedBtnFxc">
+            <li class="liCtaPcFixedBtnFxc">
+                <a class="undernone bg_669B40 fw_500 d_flex j_center ali_center btnCtaPcFixedBtnFxc" href="mail">
+                    <p class="t_center cl_fff fw_500 txtset txtCtaPcFixedBtnFxc">お困りごとを話す</p>
+                </a>
+            </li>
+            <li class="liTopCtaFixedBtnFxc">
+                <a href="#pagetop" class="btnTopCtaFixedBtnFxc">
+                    <img loading="lazy" src="img/btnTopCtaFixedBtnFxc.svg" alt="TOPに戻る" width="60" height="60">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -6,9 +6,37 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.waps{
+    overflow: clip;
+}
 .wap {
     @include mi.wapLxn();
 }
+.baseHeader {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background: #FFF;
+    transition-duration: 0.5s;
+
+    @include mi.mq(sp) {
+        position: fixed;
+        background: unset;
+
+    }
+}
+
+.baseHeader.on {
+    @include mi.mq(sp) {
+        background: #FFF;
+    }
+}
+
+.hide {
+    transform: translateY(-100px);
+}
+
 
 .headerPc {
     margin: 0 auto;

@@ -162,70 +162,117 @@ LAYOUT
     z-index: 1;
 }
 .container_05 {
-  height: 143px;
-  position: relative;
+    height: 143px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    aspect-ratio: 25/143;
 }
 
 .scrollbar-text_05 {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  padding: 0px 0px 0;
-  color: #fff;
-  font-family: serif;
-  line-height: 1;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  writing-mode: vertical-lr;
-  right: 0%;
-  transform: translateX(-50%);
+    position: absolute;
+    top: 0;
+    margin: 0 0 0 auto;
+    color: #fff;
+    font-family: serif;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    right: 0%;
+    transform: translateX(20%);
 
-  @include mi.mq(sp) {
+    @include mi.mq(sp) {
 
-  }
+    }
 }
 
 .scrollbar_05 {
-  position: absolute;
-  left: 0%;
-  transform: translateX(-50%);
-  top: 0px;
+
 }
 .txtScroll{
     @include mi.fontSizePc(14);
     @include mi.lineheight(14,14);
     @include mi.letterSpacing(150);
     @include mi.mq(sp) {
-         @include mi.fontSizeSp(10);
+        @include mi.fontSizeSp(10);
     }
 }
 
 .scrollbar_05::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 1px;
-  height: 100px;
-  background: #1D1D1F;
-  animation: liner 2.5s cubic-bezier(1, 0, 0, 1) infinite;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1px;
+    height: 143px;
+    background: #1D1D1F;
+    animation: liner 2.5s cubic-bezier(1, 0, 0, 1) infinite;
 }
 
 @keyframes liner {
-  0% {
-    transform: scale(1, 0);
-    transform-origin: 0 0;
-  }
-  30% {
-    transform: scale(1, 1);
-    transform-origin: 0 0;
-  }
-  70% {
-    transform: scale(1, 1);
-    transform-origin: 0 100%;
-  }
-  100% {
-    transform: scale(1, 0);
-    transform-origin: 0 100%;
-  }
+    0% {
+        transform: scale(1, 0);
+        transform-origin: 0 0;
+    }
+    30% {
+        transform: scale(1, 1);
+        transform-origin: 0 0;
+    }
+    70% {
+        transform: scale(1, 1);
+        transform-origin: 0 100%;
+    }
+    100% {
+        transform: scale(1, 0);
+        transform-origin: 0 100%;
+    }
+}
+
+//文字
+.jstitleFlow {
+    overflow: hidden;
+    &> span {
+        opacity: 0;
+        transform: translateY(100%) scale(1.2, .8);
+    }
+
+    &.active {
+        &> span {
+            @for $var from 1 through 50 {
+                $delay: 0.01*$var;
+
+                &:nth-child(#{$var}) {
+                    -webkit-animation: bound 0.3s cubic-bezier(.33, 1, .68, 1) #{$delay}s forwards alternate;
+                    animation: bound 0.3s cubic-bezier(.33, 1, .68, 1) #{$delay}s forwards alternate;
+                }
+            }
+        }
+    }
+}
+
+@-webkit-keyframes bound {
+    0% {
+    opacity: 0;
+        transform: translateY(100%) ;
+    }
+
+
+    to {
+    opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes bound {
+    0% {
+opacity: 0;
+        transform: translateY(100%);
+    }
+
+
+    to {
+opacity: 1;
+        transform: none
+    }
 }

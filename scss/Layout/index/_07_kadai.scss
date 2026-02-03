@@ -7,32 +7,32 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .kadai{
-@include mi.paddingVw(1920 , 236, 0, 236, 0);
-@include mi.mq(sp) {
-    @include mi.paddingPercent(375, 104, 0, 1085, 0);
-}
+    @include mi.paddingVw(1920 , 236, 0, 236, 0);
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(375, 104, 0, 1085, 0);
+    }
 }
 .kadaiLxn{
-@include mi.mq(sp) {
-     @include mi.ontenerWidth( 375, 330 );
-}
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth( 375, 330 );
+    }
 }
 .secKadai{
-width: 100%;
-margin: auto;
-@include mi.mq(sp) {
+    width: 100%;
+    margin: auto;
+    @include mi.mq(sp) {
 
-}
+    }
 }
 .h2Kadai{
-@include mi.fontSizePc(20);
-@include mi.lineheightP(150);
-@include mi.letterSpacing(50);
-@include mi.mq(sp) {
-    @include mi.fontSizeSp(15);
+    @include mi.fontSizePc(20);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
-}
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(15);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(50);
+    }
 }
 .h3Kadai{
     @include mi.marginPercent(1570, 42,0 ,0 ,0 );
@@ -59,17 +59,17 @@ margin: auto;
     }
 }
 .ulKadai{
-@include mi.marginPercent(1570, 113,auto ,0 ,auto );
-@include mi.mq(sp) {
-    @include mi.marginPercent(330, 13,auto ,0 ,auto );
-}
+    @include mi.marginPercent(1570, 113,auto ,0 ,auto );
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 13,auto ,0 ,auto );
+    }
 }
 .liKadai{
     @include mi.paddingPercent(1570, 41, 0, 41, 0);
     width: 31.97%;
     @include mi.kadomaru(6px);
     background: #F6F6F6;
-      @include mi.marginPercent(330, 14,0 ,0 ,0 );
+    @include mi.marginPercent(330, 14,0 ,0 ,0 );
     @include mi.mq(sp) {
         @include mi.paddingPercent(330, 27, 0, 27, 0);
         width: 100%;
@@ -85,8 +85,9 @@ margin: auto;
     @include mi.fontSizePc(24);
     @include mi.lineheightP(145);
     @include mi.letterSpacing(50);
+    text-align: center;
     @include mi.mq(max1550) {
-       @include mi.fontVw(1920,24);
+        @include mi.fontVw(1920,24);
     }
     @include mi.mq(sp) {
         @include mi.fontSizeSp(15);
@@ -167,11 +168,29 @@ margin: auto;
     background-size: auto 9px;
     width: 100%;
     transition-duration: 0.5s;
-     background-color:#E5E5E5 ;
+    background-color:#E5E5E5 ;
+}
+
+.btnKadaiCta:hover {
+    opacity: 1;
+
+    &.btnKadaiCta01 {
+        background-image: url(../img/txtFvTopCta01.svg);
+        background-repeat: no-repeat;
+        background-position: 93% center;
+        background-size: auto 9px;
+    }
+
+    &.btnKadaiCta02 {
+        background-image: url(../img/txtFvTopCta02.svg);
+        background-repeat: no-repeat;
+        background-position: 93% center;
+        background-size: auto 9px;
+    }
 }
 
 .secKadaiCta{
- width: 380px;
+    width: 380px;
 
     @include mi.mq(max1000) {
         width: 34vw;
@@ -183,15 +202,15 @@ margin: auto;
     }
 }
 .h2KadaiCtaBtn{
-@include mi.fontSizePc(20);
-transition-duration: 0.5s;
+    @include mi.fontSizePc(20);
+    transition-duration: 0.5s;
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
     }
 }
 .rubyKadaiCta{
- @include mi.marginPercent(276, 6, 0, 0, 0);
+    @include mi.marginPercent(276, 6, 0, 0, 0);
     @include mi.fontSizePc(16);
     @include mi.lineheightP(190);
     @include mi.letterSpacing(0);
@@ -205,7 +224,7 @@ transition-duration: 0.5s;
     }
 }
 .txtKadaiCtaBtn{
-     @include mi.fontSizePc(20);
+    @include mi.fontSizePc(20);
     @include mi.lineheightP(130);
     @include mi.letterSpacing(0);
     transition-duration: 0.5s;
@@ -222,10 +241,10 @@ transition-duration: 0.5s;
         letter-spacing: 0.15em;
     }
 
-    .rubyKadaiCta {
-        letter-spacing: 0.15em;
-    }
     .txtKadaiCtaBtn{
         letter-spacing: 0.15em;
+    }
+    .rubyKadaiCta{
+        letter-spacing: 0.07em;
     }
 }

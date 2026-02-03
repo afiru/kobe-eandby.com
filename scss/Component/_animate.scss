@@ -18,7 +18,7 @@
             -ms-transform: scale(1.2);
             transform: scale(1.2);
         }
-    }    
+    }
 }
 
 
@@ -229,7 +229,7 @@
         -webkit-transform: scale(.5);
         transform: scale(.5);
     }
-    &:hover::after {        
+    &:hover::after {
 	-webkit-transform: scale(2) rotate(180deg);
 	transform: scale(2) rotate(180deg);
         background: $hoverbackcolor;
@@ -261,7 +261,7 @@
 	transform: rotateX(90deg);
 	opacity: 0;
     }
-    &:hover::after {        
+    &:hover::after {
 	-webkit-transform: rotateX(0);
 	transform: rotateX(0);
 	opacity: 1;
@@ -687,7 +687,7 @@
     -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
     -webkit-animation-name: headShake;
-    animation-name: headShake;    
+    animation-name: headShake;
     @-webkit-keyframes headShake {
       0% {
         -webkit-transform: translateX(0);
@@ -2098,7 +2098,7 @@
         transform: translate3d(100%, 0, 0);
       }
     }
-    
+
 }
 
 //fadeOutRightBigの設定
@@ -2135,7 +2135,7 @@
 @mixin animation_fadeOutUp() {
     @include animation_base();
     -webkit-animation-name: fadeOutUp;
-    animation-name: fadeOutUp;    
+    animation-name: fadeOutUp;
     @-webkit-keyframes fadeOutUp {
       from {
         opacity: 1;
@@ -2569,7 +2569,7 @@
         transform: none;
         opacity: 1;
       }
-    }    
+    }
 }
 
 //lightSpeedOutの設定
@@ -3002,7 +3002,7 @@
         transform: rotate3d(0, 0, 1, 90deg);
         opacity: 0;
       }
-    }    
+    }
 }
 
 //hingeの設定

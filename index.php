@@ -2,11 +2,12 @@
 require_once('config.php'); ?>
 <?php include_once('include/common/header/header.php'); ?>
 <!--コンテンツ-->
-<header id="scroll_off" class="baseHeader">
+<header id="scroll_off" class="baseHeader" data-lenis-prevent>
     <div class="pc_only"><?php include_once('include/layouts/index/00_headerPc.php'); ?></div>
     <div class="sp_only"><?php include_once('include/layouts/index/01_headerSp.php'); ?></div>
+    <?php include_once('include/layouts/index/03_headerPcGnav.php'); ?>
 </header>
-<?php include_once('include/layouts/index/03_headerPcGnav.php'); ?>
+
 <main class="indexMain">
     <?php include_once('include/layouts/index/04_fvTop.php'); ?>
     <?php include_once('include/layouts/index/05_fvBtm.php'); ?>
