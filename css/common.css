@@ -1158,11 +1158,6 @@ LAYOUT
     margin-right: 4.94%;
   }
 }
-@media screen and (max-width: 1249px) {
-  .navHeaderPcGnav {
-    width: 57.36%;
-  }
-}
 
 .ulNavHeaderPcGnav {
   width: 384px;

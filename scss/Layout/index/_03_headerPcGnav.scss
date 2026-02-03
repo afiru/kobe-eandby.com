@@ -102,7 +102,7 @@ LAYOUT
 }
 .navHeaderPcGnav{
     @include mi.marginPercent(1637, 47,81 ,0 ,auto );
-    @include mi.ontenerWidth( 1637,  939);
+    width: 939px;
 }
 .ulNavHeaderPcGnav{
 @include mi.ontenerWidth(939 , 384 );
