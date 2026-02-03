@@ -37,6 +37,7 @@ width: 100%;
 
 }
 .swiper-slide{
+
     width: 422px;
     @include mi.kadomaru(6px);
     @include mi.mq(sp) {
