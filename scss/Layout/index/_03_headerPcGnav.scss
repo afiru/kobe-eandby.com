@@ -96,6 +96,10 @@ LAYOUT
 }
 .headerPcGnavLxn{
     @include mi.paddingVw(1920 , 139, 0, 200, 0);
+    @include mi.mq(max1100) {
+        width: calc(100% - 100px);
+        margin: 0 70px 0 auto;
+    }
 }
 .logoHeaderPcGnavLxn{
 @include mi.ontenerWidth( 1637,  200);
@@ -103,6 +107,9 @@ LAYOUT
 .navHeaderPcGnav{
     @include mi.marginPercent(1637, 47,81 ,0 ,auto );
     width: 939px;
+    @include mi.mq(max1000) {
+        width: 100%;
+    }
 }
 .ulNavHeaderPcGnav{
 @include mi.ontenerWidth(939 , 384 );

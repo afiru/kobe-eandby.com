@@ -1133,6 +1133,12 @@ LAYOUT
 .headerPcGnavLxn {
   padding: 7.2395833333vw 0vw 10.4166666667vw 0vw;
 }
+@media screen and (max-width: 1100px) {
+  .headerPcGnavLxn {
+    width: calc(100% - 100px);
+    margin: 0 70px 0 auto;
+  }
+}
 
 .logoHeaderPcGnavLxn {
   width: 200px;
@@ -1156,6 +1162,11 @@ LAYOUT
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: 4.94%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .navHeaderPcGnav {
+    width: 100%;
   }
 }
 
