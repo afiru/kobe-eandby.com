@@ -6,6 +6,157 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.headerGnavPc{
+    width: 50px;
+    right: 2%;
+    top: 20vw;
+    margin: auto;
+    z-index: 0;
+    position: fixed;
+    z-index: 1;
+    &.off{
+
+    }
+    &.on{
+
+    }
+}
+.btnHeaderGnavPcOff{
+    cursor: pointer;
+}
+.headerGnavPc.off{
+    .btnHeaderGnavPcOff{
+        display: block;
+    }
+     .btnHeaderGnavPcOn{
+        display: none;
+    }
+}
+.btnHeaderGnavPcfill{
+fill:#1D1D1F;
+}
+.btnHeaderGnavPcStroke{
+stroke: #1D1D1F;
+}
+
+.btnHeaderGnavPcOn{
+    cursor: pointer;
+}
+.btnHeaderGnavPcOn{
+.btnHeaderGnavPcfill{
+    fill:#669B40;
+    }
+    .btnHeaderGnavPcStroke{
+    stroke: #669B40;
+    }
+}
+.btnHeaderGnavPcOn.off{
+    .btnHeaderGnavPcOff{
+        display: none;
+    }
+     .btnHeaderGnavPcOn{
+        display: block;
+    }
+}
+
+.headerPcGnav{
+position: fixed;
+width: 100%;
+display: none;
+}
+.headerPcGnavLxn{
+    @include mi.paddingVw(1920 , 139, 0, 200, 0);
+}
+.logoHeaderPcGnavLxn{
+@include mi.ontenerWidth( 1637,  200);
+}
+.navHeaderPcGnav{
+    @include mi.marginPercent(1637, 47,81 ,0 ,auto );
+    @include mi.ontenerWidth( 1637,  939);
+}
+.ulNavHeaderPcGnav{
+@include mi.ontenerWidth(939 , 384 );
+}
+.liNavHeaderPcGnav{
+
+    &:nth-child(n+2){
+    @include mi.marginPercent(939, 80,0 ,0 ,0 );
+    }
+}
+.btnLiNavHeaderPcGnav{
+text-decoration: none;
+    &:hover{
+        opacity:0.5 ;
+    }
+}
+.txtBtnLiNavHeaderPcGnav{
+    @include mi.ontenerWidth(384 , 349 );
+    @include mi.fontSizePc(30);
+    @include mi.lineheight(auto,auto);
+    @include mi.letterSpacing(50);
+}
+.iconBtnLiNavHeaderPcGnav{
+    border: 1px solid #FFF;
+    @include mi.kadomaru(100%);
+    @include mi.ontenerWidth(384 , 35 );
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnLiNavHeaderPcGnav:hover .iconBtnLiNavHeaderPcGnav{
+
+}
+
+
+.catHeaderPcGnavFx{
+    @include mi.marginPercent(1637, 124,auto,0 ,auto );
+    width: 100%;
+}
+
+.secCatHeaderPcGnavFx{
+   width: calc(100% - 800px);
+   max-width: 574px;
+    @include mi.mq(max1200) {
+        width: 100%;
+    }
+}
+.txtCatHeaderPcGnavFx{
+    @include mi.fontSizePc(18);
+    @include mi.lineheight(18,32);
+    @include mi.letterSpacing(0);
+}
+
+.ctaMainHeaderGnavPc{
+    @include mi.ontenerWidth(1637 , 760 );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include mi.mq(max1200) {
+         @include mi.ontenerWidth(1200 , 750 );
+    }
+}
+.liMainHeaderGnavPc{
+    @include mi.ontenerWidth( 760, 360 );
+     @include mi.mq(max1200) {
+         @include mi.ontenerWidth( 750, 360 );
+     }
+}
+.btnMainHeaderGnavPc{
+    aspect-ratio: 360/72;
+    @include mi.fontSizePc(20);
+    @include mi.lineheight(20,20);
+    @include mi.letterSpacing(0);
+    @include mi.kadomaru(59);
+    @include mi.kadomaru(60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rubyMainHeaderGnavPc{
+    @include mi.marginPercent(360, 10,auto ,0 ,auto );
+    @include mi.fontSizePc(14);
+    @include mi.lineheight(14,14);
+    @include mi.letterSpacing(0);
 }

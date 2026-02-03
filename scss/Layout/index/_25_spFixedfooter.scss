@@ -6,6 +6,47 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.spFixedFooter {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.ulFixedFooter {
+    width: 100%;
+}
+
+.liFixedFooter01 {
+    @include mi.ontenerWidth(375, 169);
+}
+
+.btnFixedFooter01 {
+    aspect-ratio: 169 / 37;
+    @include mi.fontSizeSp(13);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(0);
+}
+
+.liFixedFooter02 {
+    @include mi.ontenerWidth(375, 169);
+}
+
+.btnFixedFooter02 {
+    aspect-ratio: 169 / 37;
+    @include mi.fontSizeSp(13);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(0);
+}
+
+.liFixedFooter03 {
+    @include mi.ontenerWidth(375, 37);
+}
+
+.btnLiFixedFooter03 {
+    aspect-ratio: 37 / 37;
+
+    img {
+        @include mi.ontenerWidth(37, 23.45);
+    }
 }

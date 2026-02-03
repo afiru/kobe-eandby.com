@@ -6,6 +6,14 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.fvBtm {
+  background: url(../img/fvBtmPc.png) no-repeat center top;
+  background-size: auto 100%;
+  aspect-ratio:1920/745;
+  width: 100%;
+  @include mi.mq(sp) {
+    background: url(../img/fvBtmSp.png) no-repeat center top;
+  background-size: auto 100%;
+  aspect-ratio:375/258 ;
+  }
 }

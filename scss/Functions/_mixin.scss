@@ -4,13 +4,13 @@
 Settings
 ========================================================================== */
 //■横幅の設定
-$pcSize: 1161px;
-$tabSize: 1160px;
+$pcSize: 1250px;
+$tabSize: 1249px;
 $tabTateSize: 768px; //ここは不動だと思う
 $spSize: 767px; //ここは不動だと思う
 //ここも変更してほしい
-$pcSizePxNone: 1161;
-$tabSizePxNone: 1160;
+$pcSizePxNone: 1250;
+$tabSizePxNone: 1249;
 $tabTateSizePxNone: 769; //ここは不動だと思う
 $spSizePxNone: 768; //ここは不動だと思う
 
@@ -72,6 +72,16 @@ _wapSettings
     }
 }
 
+@mixin wapLxn() {
+    width: 82.4215789474%;
+    margin: 0 auto;
+
+    @include mq(max1600) {
+        width: 90%;
+    }
+
+}
+
 
 /* ==========================================================================
 _widthSettings
@@ -87,11 +97,7 @@ _widthSettings
 
 //横幅Tabvw
 @mixin ontener_width02($parentPxWidth, $pxWidth) {
-    width: $pxWidth+px;
-
-    @include mq(tab) {
-        width: floor((math.div($pxWidth, $parentPxWidth) * 10000vw)) * 0.01;
-    }
+    width: floor((math.div($pxWidth, $parentPxWidth) * 10000%)) * 0.01;
 }
 
 @mixin ontenerWidth($parentPxWidth, $pxWidth) {
@@ -195,7 +201,8 @@ borderRadius
     -moz-border-radius: $radius;
     /* Firefox用 */
 }
-@mixin kadomaruVw( $parentPxWidth , $radiusPx) {
+
+@mixin kadomaruVw($parentPxWidth, $radiusPx) {
     border-radius: math.div($radiusPx, $parentPxWidth) * 100vw;
 }
 
@@ -270,58 +277,28 @@ _marginSettings
 //マージンTabvw
 @mixin marginPercent02($parentPxWidth, $mTop, $mRight, $mBottom, $mLeft) {
     @if $mLeft==auto and $mRight==auto {
-        margin-top: $mTop + 0px;
-        margin-bottom: $mBottom + 0px;
+        margin-top: floor((math.div($mTop, $parentPxWidth) * 10000%)) * 0.01;
+        margin-bottom: floor((math.div($mBottom, $parentPxWidth) * 10000%)) * 0.01;
         margin-left: auto;
         margin-right: auto;
-
-        @include mq(tab) {
-            margin-top: floor((math.div($mTop, $parentPxWidth) * 10000vw)) * 0.01;
-            margin-bottom: floor((math.div($mBottom, $parentPxWidth) * 10000vw)) * 0.01;
-            margin-left: auto;
-            margin-right: auto;
-        }
     }
 
     @else if $mLeft==auto {
-        margin-top: $mTop + 0px;
-        margin-bottom: $mBottom + 0px;
+        margin-top: floor((math.div($mTop, $parentPxWidth) * 10000%)) * 0.01;
+        margin-bottom: floor((math.div($mBottom, $parentPxWidth) * 10000%)) * 0.01;
         margin-left: auto;
-        margin-right: $mRight + 0px;
-
-        @include mq(tab) {
-            margin-top: floor((math.div($mTop, $parentPxWidth) * 10000vw)) * 0.01;
-            margin-bottom: floor((math.div($mBottom, $parentPxWidth) * 10000vw)) * 0.01;
-            margin-left: auto;
-            margin-right: floor((math.div($mRight, $parentPxWidth) * 10000vw)) * 0.01;
-        }
+        margin-right: floor((math.div($mRight, $parentPxWidth) * 10000%)) * 0.01;
     }
 
     @else if $mRight==auto {
-        margin-top: $mTop + 0px;
-        margin-bottom: $mBottom + 0px;
-        margin-left: $mLeft + 0px;
+        margin-top: floor((math.div($mTop, $parentPxWidth) * 10000%)) * 0.01;
+        margin-bottom: floor((math.div($mBottom, $parentPxWidth) * 10000%)) * 0.01;
+        margin-left: floor((math.div($mLeft, $parentPxWidth) * 10000%)) * 0.01;
         margin-right: auto;
-
-        @include mq(tab) {
-            @include mq(tab) {
-                margin-top: floor((math.div($mTop, $parentPxWidth) * 10000vw)) * 0.01;
-                margin-bottom: floor((math.div($mBottom, $parentPxWidth) * 10000vw)) * 0.01;
-                margin-left: floor((math.div($mLeft, $parentPxWidth) * 10000vw)) * 0.01;
-                margin-right: auto;
-            }
-        }
     }
 
     @else {
-        margin-top: $mTop + 0px;
-        margin-bottom: $mBottom + 0px;
-        margin-left: $mLeft + 0px;
-        margin-right: $mRight + 0px;
-
-        @include mq(tab) {
-            margin: floor((math.div($mTop, $parentPxWidth) * 10000vw)) * 0.01 floor((math.div($mRight, $parentPxWidth) * 10000vw)) * 0.01 floor((math.div($mBottom, $parentPxWidth) * 10000vw)) * 0.01 floor((math.div($mLeft, $parentPxWidth) * 10000vw)) * 0.01;
-        }
+        margin: floor((math.div($mTop, $parentPxWidth) * 10000%)) * 0.01 floor((math.div($mRight, $parentPxWidth) * 10000%)) * 0.01 floor((math.div($mBottom, $parentPxWidth) * 10000%)) * 0.01 floor((math.div($mLeft, $parentPxWidth) * 10000%)) * 0.01;
     }
 }
 
@@ -412,29 +389,15 @@ _paddingSettings
 
 @mixin paddingPercent02($parentPxWidth, $mTop, $mRight, $mBottom, $mLeft) {
     @if $mLeft==auto or $mRight==auto {
-        padding-top: $mTop + 0px;
-        padding-bottom: $mBottom + 0px;
-        padding-left: 0 + 0px;
-        padding-right: 0 + 0px;
-
-        @include mq(tab) {
-            padding-top: floor((math.div($mTop, $parentPxWidth) * 10000vw)) * 0.01;
-            padding-bottom: floor((math.div($mBottom, $parentPxWidth) * 10000vw)) * 0.01;
-            padding-left: 0;
-            padding-right: 0;
-        }
+        padding-top: floor((math.div($mTop, $parentPxWidth) * 10000%)) * 0.01;
+        padding-bottom: floor((math.div($mBottom, $parentPxWidth) * 10000%)) * 0.01;
+        padding-left: 0;
+        padding-right: 0;
 
     }
 
     @else {
-        padding-top: $mTop + 0px;
-        padding-bottom: $mBottom + 0px;
-        padding-left: $mLeft + 0px;
-        padding-right: $mRight + 0px;
-
-        @include mq(tab) {
-            padding: floor((math.div($mTop, $parentPxWidth) * 10000vw)) * 0.01 floor((math.div($mRight, $parentPxWidth) * 10000vw)) * 0.01 floor((math.div($mBottom, $parentPxWidth) * 10000vw)) * 0.01 floor((math.div($mLeft, $parentPxWidth) * 10000vw)) * 0.01;
-        }
+        padding: floor((math.div($mTop, $parentPxWidth) * 10000%)) * 0.01 floor((math.div($mRight, $parentPxWidth) * 10000%)) * 0.01 floor((math.div($mBottom, $parentPxWidth) * 10000%)) * 0.01 floor((math.div($mLeft, $parentPxWidth) * 10000%)) * 0.01;
     }
 }
 
@@ -491,15 +454,19 @@ _paddingSettings
         padding: (math.div($mTop, 375) * 10000vw) * 0.01 (math.div($mRight, 375) * 10000vw) * 0.01 (math.div($mBottom, 375) * 10000vw) * 0.01 (math.div($mLeft, 375) * 10000vw) * 0.01;
     }
 }
+
 @mixin gapPercent($parentPxWidth, $gap) {
     @if $gap==auto {
         gap: $gap + 0px;
+
         @include mq(tab) {
             gap: floor((math.div($gap, $parentPxWidth) * 10000%)) * 0.01;
         }
     }
+
     @else {
         gap: $gap + 0px;
+
         @include mq(tab) {
             gap: floor((math.div($gap, $parentPxWidth) * 10000%)) * 0.01;
         }
@@ -507,56 +474,40 @@ _paddingSettings
 }
 
 @mixin gapPercentOnly($parentPxWidth, $gapPx, $rowGapPx) {
-  --gap-x: #{math.div($gapPx, $parentPxWidth) * 100%};
-  column-gap: var(--gap-x);
-  row-gap: $rowGapPx+px;
+    --gap-x: #{math.div($gapPx, $parentPxWidth) * 100%};
+    column-gap: var(--gap-x);
+    row-gap: $rowGapPx+px;
 }
 
 /* ==========================================================================
 clamp
 ========================================================================== */
 @mixin clampGridColumns($minPx, $designPx, $maxPx, $basePx) {
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(
-      clamp(
-        #{$minPx}px,
-        math.div($designPx, $basePx) * 100vw,
-        #{$maxPx}px
-      ),
-      1fr
-    )
-  );
+    grid-template-columns: repeat(auto-fill,
+        minmax(clamp(#{$minPx}px,
+                math.div($designPx, $basePx) * 100vw,
+                #{$maxPx}px),
+            1fr));
 }
 
-@mixin clampGrid(
-  $colMin,
-  $colDesign,
-  $colMax,
-  $gapMin,
-  $gapDesign,
-  $gapMax,
-  $basePx
-) {
-  display: grid;
+@mixin clampGrid($colMin,
+    $colDesign,
+    $colMax,
+    $gapMin,
+    $gapDesign,
+    $gapMax,
+    $basePx) {
+    display: grid;
 
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(
-      clamp(
-        #{$colMin}px,
-        ($colDesign / $basePx) * 100vw,
-        #{$colMax}px
-      ),
-      1fr
-    )
-  );
+    grid-template-columns: repeat(auto-fill,
+        minmax(clamp(#{$colMin}px,
+                ($colDesign / $basePx) * 100vw,
+                #{$colMax}px),
+            1fr));
 
-  gap: clamp(
-    #{$gapMin}px,
-    ($gapDesign / $basePx) * 100vw,
-    #{$gapMax}px
-  );
+    gap: clamp(#{$gapMin}px,
+        ($gapDesign / $basePx) * 100vw,
+        #{$gapMax}px);
 }
 
 /* ==========================================================================

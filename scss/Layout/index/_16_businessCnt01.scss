@@ -6,6 +6,307 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.bussinessCnt {
+    @include mi.marginVw(1920, 75, 0, 0, 0);
+    padding: 3.46% 0% 3.64% 0%;
+    @include mi.kadomaru(10px);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(355, 36, auto, 0, auto);
+        @include mi.paddingPercent(355, 17, 0, 21, 0);
+        @include mi.kadomaru(10px);
+    }
+}
+
+.bussinessCntLxn {
+    @include mi.ontener_width02(1570, 1460);
+    margin: auto;
+
+    @include mi.mq(max1700) {
+        @include mi.ontener_width02(1570, 1500);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(355, 321);
+    }
+}
+
+.bussinessCntTop {}
+
+.secBussinessCnt {
+    @include mi.ontener_width02(1460, 730);
+
+    @include mi.mq(max1700) {
+        @include mi.ontener_width02(1460, 760);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(321, 24, auto, 0, auto);
+        @include mi.ontenerWidth(321, 321);
+        order: 2;
+    }
+}
+
+.h2BussinessCnt {
+    @include mi.fontSizePc(12);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(50);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(10);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(50);
+    }
+}
+
+.h3BussinessCnt {
+    @include mi.marginPercent(730, 16, auto, 0, auto);
+    @include mi.fontSizePc(32);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(50);
+
+    @include mi.mq(max1700) {
+        @include mi.marginPercent(730, 10, auto, 0, auto);
+        font-feature-settings: "palt";
+    }
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(321, 12, auto, 0, auto);
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(50);
+    }
+}
+
+.h4BussinessCnt {
+    @include mi.marginPercent(730, 47, auto, 0, auto);
+    @include mi.fontSizePc(22);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(max1700) {
+        @include mi.marginPercent(730, 30, auto, 0, auto);
+        @include mi.fontSizePc(17);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(50);
+        font-feature-settings: "palt";
+    }
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(321, 32, auto, 0, auto);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheight(16, 26);
+        @include mi.letterSpacing(0);
+    }
+
+}
+
+.txtBussinessCnt {
+    @include mi.marginPercent(730, 27, auto, 0, auto);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(max1750) {
+        @include mi.marginPercent(730, 20, auto, 0, auto);
+        @include mi.fontSizePc(13);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+        font-feature-settings: "palt";
+    }
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(321, 24, auto, 0, auto);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheight(auto, auto);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.secListBussinessCnt {
+    @include mi.marginPercent(730, 42, auto, 0, auto);
+
+    @include mi.mq(max1750) {
+        @include mi.marginPercent(730, 32, auto, 0, auto);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(321, 40, auto, 0, auto);
+    }
+}
+
+.h4ListBussinessCnt {
+    @include mi.fontSizePc(18);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(max1750) {
+        @include mi.fontSizePc(16);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+        font-feature-settings: "palt";
+    }
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(13);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.ulListBussinessCnt {
+    @include mi.marginPercent(730, 17, auto, 0, auto);
+
+    @include mi.mq(max1750) {
+        @include mi.marginPercent(730, 10, auto, 0, auto);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(321, 13, auto, 0, auto);
+    }
+}
+
+.liListBussinessCnt {
+    @include mi.ontenerWidth(730, 371);
+    @include mi.paddingPercent(730, 7, 10, 2, 13);
+    background: #F3F3F3;
+    @include mi.kadomaru(3px);
+    @include mi.fontSizePc(15);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(max1750) {
+        @include mi.fontSizePc(13);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(0);
+        font-feature-settings: "palt";
+    }
+
+    @include mi.mq(max1250) {
+        @include mi.ontenerWidth(730, 460);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(321, 321);
+        @include mi.paddingPercent(321, 0, 0, 0, 9);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        aspect-ratio: 321 / 29;
+        @include mi.kadomaru(2px);
+        @include mi.fontSizeSp(13);
+        @include mi.lineheight(13, 30);
+        @include mi.letterSpacing(0);
+    }
+
+    &:nth-child(n+2) {
+        @include mi.marginPercent(730, 11, 0, 0, 0);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(321, 7, 0, 0, 0);
+        }
+    }
+}
+
+.photoBussinessCntTop {
+    @include mi.ontener_width02(1460, 654);
+
+    @include mi.mq(sp) {
+        order: 1;
+        width: 100%;
+    }
+}
+
+
+
+.ulBussinessBtm {
+    @include mi.marginPercent(1460, 65, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(321, 64, 0, 0, 0);
+    }
+}
+
+.liBussinessBtm {
+    @include mi.ontener_width02(1460, 410);
+
+    @include mi.mq(max1750) {
+        @include mi.ontener_width02(1460, 460);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.ontener_width02(321, 321);
+
+        &:nth-child(n+2) {
+            @include mi.marginPercent(321, 40, 0, 0, 0);
+        }
+    }
+}
+
+.photoLiBussinessBtm {}
+
+.h3BussinessBtm {
+    @include mi.marginPercent02(410, 16, auto, 0, auto);
+    @include mi.fontSizePc(18);
+    @include mi.lineheightP(130);
+    @include mi.letterSpacing(0);
+    @include mi.paddingPercent02(410, 0, 0, 8, 0);
+    border-bottom: 1px solid #D9D9D9;
+
+    @include mi.mq(max1750) {
+        @include mi.fontSizePc(15);
+        @include mi.lineheightP(130);
+        @include mi.letterSpacing(0);
+        font-feature-settings: "palt";
+    }
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(16);
+        @include mi.lineheight(16, 30);
+        @include mi.letterSpacing(0);
+        @include mi.marginPercent(321, 20, 0, 0, 0);
+        @include mi.paddingPercent02(321, 0, 0, 14, 0);
+    }
+}
+
+.h4BussinessBtm {
+    @include mi.marginPercent02(410, 17, auto, 0, auto);
+    @include mi.fontSizePc(15);
+    @include mi.lineheightP(140);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(max1750) {
+        @include mi.fontSizePc(13);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+        font-feature-settings: "palt";
+    }
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(321, 16, 0, 0, 0);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheight(auto, auto);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtBussinessBtm {
+    @include mi.marginPercent02(410, 11, auto, 0, auto);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(max1750) {
+        @include mi.fontSizePc(12);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+        font-feature-settings: "palt";
+    }
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(321, 16, 0, 0, 0);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheight(14, 20);
+        @include mi.letterSpacing(0);
+    }
 }

@@ -1,5 +1,5 @@
-<div class="company">
-    <div class="companyLxn">
+<div id="company" class="company">
+    <div class="wap companyLxn">
         <div class="d_flex j_between row companyFx">
             <h2 class="cl_1D1D1F fw_500 txtset h2Company">（会社概要）</h2>
             <ul class="ulCompany">

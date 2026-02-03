@@ -1,26 +1,14 @@
-<div class="bg_F5F5F5 briefHistory">
-    <section class="briefHistoryLxn">
+<div id="briefHistory" class="bg_F5F5F5 briefHistory">
+    <section class="wap briefHistoryLxn">
         <div class="d_flex j_start ali_center c_pointer row titleBriefHistory jstitleBriefHistory off">
             <h2 class=" plus cl_1D1D1F fw_700 h2TitleBriefHistory">BRIEF HISTORY</h2>
-            <div class="d_flex j_start ali_center titleArrowBreaf">
-                <h3 class="cl_2C2C2C fw_500 txtset h3TitleArrowBreaf">－これまで歩いてきた道のり（詳細略歴）</h3>
-                <figure class="iconTitleArrowBreaf">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                        <mask id="mask0_86_236" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="18" height="18">
-                            <rect width="18" height="18" fill="#D9D9D9" />
-                        </mask>
-                        <g mask="url(#mask0_86_236)">
-                            <path d="M14 7L8.5 12L3 7" stroke="#1D1D1F" />
-                        </g>
-                    </svg>
-                </figure>
-            </div>
+            <h3 class="cl_2C2C2C fw_500 txtset h3TitleArrowBreaf">－これまで歩いてきた道のり（詳細略歴）</h3>
         </div>
         <div class="bg_669B40 brdTitleBriefHistory"></div>
         <div class="mainBriefHistory jsMainBriefHistory">
-            <div class="d_flex j_between row mainBriefHistoryFx">
+            <div class="d_flex j_start row mainBriefHistoryFx">
                 <section class="secMainBriefHistoryFx">
-                    <h3 class="cl_2C2C2C fw_400 h3MainBriefHistoryFx">主な経歴</h3>
+                    <h3 class="cl_2C2C2C fw_500 h3MainBriefHistoryFx">主な経歴</h3>
                     <ul class="ulMainBriefHistoryFx">
                         <li class="d_flex j_start cl_2C2C2C fw_400 liMainBriefHistoryFx">
                             <span class="yearMainBriefHistoryFx">1985年</span>
@@ -62,8 +50,8 @@
                 </section>
 
                 <section class="secMainBriefHistoryFx secMainBriefHistoryFx02">
-                    <h3 class="cl_2C2C2C fw_400 h3MainBriefHistoryFx">海外法人・関連会社</h3>
-                    <ul class="ulMainBriefHistoryFx">
+                    <h3 class="cl_2C2C2C fw_500 h3MainBriefHistoryFx">海外法人・関連会社</h3>
+                    <ul class="ulMainBriefHistoryFx ulMainBriefHistoryFx02">
                         <li class="d_flex j_start cl_2C2C2C fw_400 liMainBriefCompanyFx">
                             <span class="yearMainBriefCompanyFx">●</span>
                             <span class="txtMainBriefCompanyFx">台灣富士電化股份有限公司 董事</span>

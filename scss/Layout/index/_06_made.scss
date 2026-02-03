@@ -6,6 +6,83 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.made{
+@include mi.paddingVw(1920 , 284, 0, 239, 0);
+position: relative;
+aspect-ratio: 1929/1730;
+width: 100%;
+@include mi.mq(sp) {
+    @include mi.paddingPercent(375, 105, 0, 111, 0);
+    aspect-ratio: 375/1057;
+}
+}
+.videoMade{
+position: absolute;
+min-width: 100%;
+min-height: 100%;
+height: auto;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+margin: auto;
+z-index: 2;
+
+}
+.madeLxn{
+position: relative;
+z-index: 3;
+}
+.secMade{
+@include mi.ontenerWidth(1570 , 962 );
+margin: auto;
+@include mi.mq(sp) {
+    @include mi.ontenerWidth( 375, 330 );
+}
+}
+.h2Made{
+@include mi.fontSizePc(20);
+@include mi.lineheightP(150);
+@include mi.letterSpacing(50);
+@include mi.mq(sp) {
+    @include mi.fontSizeSp(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+}
+}
+.h3Made{
+    @include mi.marginPercent(962, 25,0 ,0 ,0 );
+@include mi.fontSizePc(64);
+@include mi.lineheight(64,64);
+@include mi.letterSpacing(0);
+@include mi.mq(sp) {
+    @include mi.marginPercent(330, 22,auto ,0 ,auto );
+    @include mi.fontSizeSp(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+}
+}
+.txtMade{
+    @include mi.marginPercent(962, 81,auto ,0 ,auto );
+    @include mi.fontSizePc(32);
+    @include mi.lineheightP(190);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+@include mi.marginPercent(330, 22,auto ,0 ,auto );
+@include mi.fontSizeSp(16);
+@include mi.lineheightP(160);
+@include mi.letterSpacing(0);
+    }
+}
+.txtLastMade{
+    @include mi.marginPercent(962, 59,auto ,0 ,auto );
+    @include mi.fontSizePc(50);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 25,auto ,0 ,auto );
+        @include mi.fontSizeSp(24);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
 }

@@ -6,6 +6,10 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.bussinessCnt02 {
+    @include mi.marginVw(1920, 65, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(355, 62, 0, 0, 0);
+    }
 }

@@ -6,6 +6,180 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.briefHistory {
+    @include mi.paddingPercent(1920, 163, 0, 203, 0);
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(375, 186, 0, 96, 0);
+    }
+}
+
+.briefHistoryLxn {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 355);
+        margin: auto;
+    }
+}
+
+.titleBriefHistory {}
+
+.h2TitleBriefHistory {
+    @include mi.fontSizePc(26);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(150);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(150);
+    }
+}
+
+.h3TitleArrowBreaf {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+    @include mi.marginPercent(1570, 0, 0, 0, 27);
+
+    @include mi.mq(sp) {
+        width: 100%;
+        @include mi.fontSizeSp(15);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+        @include mi.marginPercent(355, 5, 0, 0, 0);
+    }
+}
+
+.brdTitleBriefHistory {
+    @include mi.marginPercent(1570, 12, 0, 0, 0);
+    height: 1px;
+    width: 100%;
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(355, 16, 0, 0, 0);
+    }
+}
+
+.mainBriefHistory {
+    @include mi.marginPercent(1570, 40, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(355, 28, 0, 0, 0);
+    }
+}
+
+.mainBriefHistoryFx {}
+
+.secMainBriefHistoryFx {
+    @include mi.ontenerWidth(1570, 596);
+
+    @include mi.mq(tab) {
+        @include mi.ontenerWidth(1250, 680);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(355, 355);
+    }
+}
+
+.h3MainBriefHistoryFx {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(130);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(15);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.ulMainBriefHistoryFx {
+    @include mi.marginPercent(748, 17, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(355, 19, 0, 0, 0);
+    }
+}
+
+.liMainBriefHistoryFx {
+    &:nth-child(n+2) {
+        @include mi.marginPercent(748, 13, 0, 0, 0);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(355, 15, 0, 0, 0);
+        }
+    }
+}
+
+.yearMainBriefHistoryFx {
+    @include mi.ontener_width02(748, 66);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(130);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(355, 60);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtMainBriefHistoryFx {
+    @include mi.ontener_width02(748, 682);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(130);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(355, 294);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+}
+
+
+.secMainBriefHistoryFx02 {
+    @include mi.ontenerWidth(1570, 530);
+    @include mi.marginVw(1920, 0, 0, 0, 57);
+
+    @include mi.mq(tab) {
+        @include mi.ontenerWidth(1250, 400);
+        @include mi.marginPercent(1250, 0, 0, 0, 60);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(355, 355);
+        @include mi.marginPercent(355, 44, 0, 0, 0);
+    }
+}
+
+.ulMainBriefHistoryFx02 {
+    @include mi.marginPercent(530, 17, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(355, 14, 0, 0, 0);
+    }
+}
+
+.liMainBriefCompanyFx {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(130);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheightP(140);
+        @include mi.letterSpacing(0);
+    }
+
+    &:nth-child(n+2) {
+        @include mi.marginPercent(530, 13, 0, 0, 0);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(355, 5, 0, 0, 0);
+        }
+    }
 }

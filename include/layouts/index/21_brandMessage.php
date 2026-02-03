@@ -1,5 +1,5 @@
-<div class="brandMessage">
-    <div class="brandMessageLxn">
+<div id="brandmessage" class="brandMessage">
+    <div class="wap brandMessageLxn">
         <div class="d_flex j_between row brandMessageFx">
             <section class="secBrandMessage">
                 <div class="d_flex j_start ali_center row titleBrandMessage">

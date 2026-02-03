@@ -1,26 +1,26 @@
-<div class="kadai">
-    <div class="kadaiLxn">
+<div id="kadai" class="kadai">
+    <div class="wap kadaiLxn">
         <section class="secKadai">
             <h2 class="cl_1D1D1F fw_500 txtset h2Kadai">（よくある“お困りごと”）</h2>
             <h3 class="cl_1D1D1F fw_700 txtset jstitleFlow h3Kadai">
-                <span class="show">こ</span>
-                <span class="show">の</span>
-                <span class="show">よ</span>
-                <span class="show">う</span>
-                <span class="show">な</span>
-                <span class="show">事</span>
-                <span class="show">業</span>
-                <span class="show">の</span>
-                <span class="show">課</span>
-                <span class="show">題</span>
-                <span class="show">は</span>
-                <span class="show">あ</span>
-                <span class="show">り</span>
-                <span class="show">ま</span>
-                <span class="show">せ</span>
-                <span class="show">ん</span>
-                <span class="show">か</span>
-                <span class="show">？</span>
+                <span class="txtset show">こ</span>
+                <span class="txtset show">の</span>
+                <span class="txtset show">よ</span>
+                <span class="txtset show">う</span>
+                <span class="txtset show">な</span>
+                <span class="txtset show">事</span>
+                <span class="txtset show">業</span>
+                <span class="txtset show">の</span>
+                <span class="txtset show">課</span>
+                <span class="txtset show">題</span>
+                <span class="txtset show">は</span>
+                <span class="txtset show">あ</span>
+                <span class="txtset show">り</span>
+                <span class="txtset show">ま</span>
+                <span class="txtset show">せ</span>
+                <span class="txtset show">ん</span>
+                <span class="txtset show">か</span>
+                <span class="txtset show">？</span>
             </h3>
             <h4 class="cl_1D1D1F fw_500 txtset h4Kadai">経営者・個人インポーター・海外展開をお考えの皆様</h4>
 
@@ -67,19 +67,19 @@
 
             <ul class="ctaKadaiCta">
                 <li class="liKadaiCta">
-                    <a class="bg_669B40 undernone cl_fff fw_500 d_flex j_center ali_center btnKadaiCta btnKadaiCta01" href="tel:">
+                    <a class=" undernone cl_fff fw_500 d_flex j_center ali_center btnKadaiCta btnKadaiCta01" href="tel:">
                         <!--bg:../img/btnKadaiCta01.svg-->
                         <section class="secKadaiCta">
-                            <h2 class="t_center cl_fff fw_500 txtset h2KadaiCta">お困りごとを電話で話す</h2>
+                            <h2 class="t_center cl_fff fw_500 txtset h2KadaiCtaBtn">お困りごとを電話で話す</h2>
                             <p class="t_center cl_fff fw_500 txtset rubyKadaiCta">090-9860-4544（9：00-18：00 土日祝休）</p>
                         </section>
                     </a>
                 </li>
 
                 <li class="liKadaiCta">
-                    <a class="bg_E5E5E5 undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnKadaiCta btnKadaiCta02" href="mail">
+                    <a class=" undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnKadaiCta btnKadaiCta02" href="mail">
                         <!--bg:../img/btnKadaiCta02.svg-->
-                        <p class="t_center cl_1D1D1F fw_500 txtset txtKadaiCta">お困りごとをメールで送る</p>
+                        <p class="t_center cl_1D1D1F fw_500 txtset txtKadaiCtaBtn">お困りごとをメールで送る</p>
                     </a>
                 </li>
             </ul>

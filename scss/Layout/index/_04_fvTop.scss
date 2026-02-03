@@ -8,12 +8,13 @@ LAYOUT
 ========================================================================== */
 .fvTopBx {
     width: 100%;
+    position: relative;
 }
 
 .fvTopLxn {
-    width: 81.77083333333333%;
     margin: auto;
     @include mi.paddingVw(1920, 254, 0, 198, 0);
+    @include mi.wapLxn();
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
@@ -21,7 +22,11 @@ LAYOUT
     }
 }
 
-.h1FvTop {}
+.h1FvTop {
+@include mi.fontSizePc(40);
+@include mi.lineheightP(130);
+@include mi.letterSpacing(0);
+}
 
 .rubyFvTop {
     @include mi.marginVw(1920, 60, 0, 0, 0);
@@ -147,4 +152,80 @@ LAYOUT
         @include mi.lineheight(13, 22);
         @include mi.letterSpacing(0);
     }
+}
+
+//scroll
+.scroll{
+    width: 25px;
+    position: absolute;
+    left: 10%;
+    z-index: 1;
+}
+.container_05 {
+  height: 143px;
+  position: relative;
+}
+
+.scrollbar-text_05 {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  padding: 0px 0px 0;
+  color: #fff;
+  font-family: serif;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  right: 0%;
+  transform: translateX(-50%);
+
+  @include mi.mq(sp) {
+
+  }
+}
+
+.scrollbar_05 {
+  position: absolute;
+  left: 0%;
+  transform: translateX(-50%);
+  top: 0px;
+}
+.txtScroll{
+    @include mi.fontSizePc(14);
+    @include mi.lineheight(14,14);
+    @include mi.letterSpacing(150);
+    @include mi.mq(sp) {
+         @include mi.fontSizeSp(10);
+    }
+}
+
+.scrollbar_05::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  height: 100px;
+  background: #1D1D1F;
+  animation: liner 2.5s cubic-bezier(1, 0, 0, 1) infinite;
+}
+
+@keyframes liner {
+  0% {
+    transform: scale(1, 0);
+    transform-origin: 0 0;
+  }
+  30% {
+    transform: scale(1, 1);
+    transform-origin: 0 0;
+  }
+  70% {
+    transform: scale(1, 1);
+    transform-origin: 0 100%;
+  }
+  100% {
+    transform: scale(1, 0);
+    transform-origin: 0 100%;
+  }
 }

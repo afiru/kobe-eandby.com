@@ -1,4 +1,4 @@
-<div class="sp_only spFixedFooter">
+<div id="spFixedFooter" class="sp_only spFixedFooter">
     <ul class="d_flex bg_669B40 j_between row ulFixedFooter">
         <li class="bg_669B40 liFixedFooter liFixedFooter01">
             <a class="bg_669B40 d_flex j_center ali_center undernone cl_fff fw_500 btnFixedFooter01" href="tel:">お困りごとを話す</a>

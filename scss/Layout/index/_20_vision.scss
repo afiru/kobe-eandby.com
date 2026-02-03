@@ -6,6 +6,216 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.vision {
+    @include mi.marginVw(1920, 297, 0, 0, 0);
+    overflow: hidden;
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 117, auto, 0, auto);
+    }
+}
+
+.visionLxn {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 375);
+    }
+}
+
+.visionFx {}
+
+.secVision {
+    @include mi.ontenerWidth(1570, 680);
+
+    @include mi.mq(max1350) {
+        @include mi.ontenerWidth(1570, 610);
+    }
+
+    @include mi.mq(tab) {
+        @include mi.ontenerWidth(1570, 700);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 375);
+        margin: auto;
+    }
+}
+
+.h2Vision {
+    @include mi.fontSizePc(20);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(50);
+
+    @include mi.mq(tab) {
+        @include mi.fontSizePc(18);
+        @include mi.lineheight(auto, auto);
+        @include mi.letterSpacing(50);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(15);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(50);
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+    }
+}
+
+.h3Vision {
+    @include mi.marginVw(1920, 87, 0, 0, 0);
+    @include mi.fontSizePc(40);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(-50);
+
+    @include mi.mq(tab) {
+        @include mi.fontSizePc(34);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(-50);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        @include mi.marginPercent(375, 17, auto, 0, auto);
+        @include mi.fontSizeSp(26);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(-50);
+    }
+}
+
+.txtVision {
+    @include mi.marginVw(1920, 41, 0, 0, 0);
+    @include mi.fontSizePc(18);
+    @include mi.lineheightP(220);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(tab) {
+        @include mi.fontSizePc(15);
+        @include mi.lineheightP(220);
+        @include mi.letterSpacing(0);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        @include mi.marginPercent(375, 36, auto, 0, auto);
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.photoVisionSp {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 375);
+        @include mi.marginPercent(375, 84, auto, 0, auto);
+    }
+}
+
+.h4Vision {
+    @include mi.marginVw(1920, 172, 0, 0, 0);
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(50);
+
+    @include mi.mq(tab) {
+        @include mi.fontSizePc(18);
+        @include mi.lineheight(auto, auto);
+        @include mi.letterSpacing(50);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        @include mi.marginPercent(375, 65, auto, 0, auto);
+        @include mi.fontSizeSp(15);
+        @include mi.lineheightP(100);
+        @include mi.letterSpacing(50);
+    }
+}
+
+.ulVision {
+    @include mi.marginVw(1920, 31, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        @include mi.marginPercent(375, 33, auto, 0, auto);
+    }
+}
+
+.liVision {
+    @include mi.paddingVw(1920, 36, 0, 36, 0);
+    border-bottom: 1px solid #A2A2A2;
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 26, 0, 19, 0);
+    }
+}
+
+.h5Vision {
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(50);
+
+    @include mi.mq(tab) {
+        @include mi.fontSizePc(14);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(50);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(12);
+        @include mi.lineheightP(160);
+        @include mi.letterSpacing(50);
+    }
+}
+
+.txtLiVison {
+    @include mi.marginVw(1920, 21, 0, 0, 0);
+    @include mi.fontSizePc(24);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(tab) {
+        @include mi.fontSizePc(20);
+        @include mi.lineheightP(auto);
+        @include mi.letterSpacing(0);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 13, auto, 0, auto);
+        @include mi.fontSizeSp(16);
+        line-height: normal;
+        @include mi.letterSpacing(0);
+    }
+}
+
+.photoVisionlxn {
+    @include mi.ontenerWidth(1570, 716);
+    position: relative;
+
+    @include mi.mq(max1700) {
+        @include mi.ontenerWidth(1570, 592);
+    }
+
+    @include mi.mq(max1350) {
+        @include mi.widthVw(1570, 620);
+    }
+
+    @include mi.mq(sp) {
+        display: none;
+    }
+}
+
+.photoVision {
+    position: absolute;
+    @include mi.widthVw(1920, 891);
+    left: 0;
+    top: 0;
+
+    img {
+        width: 100%;
+    }
+
+    @include mi.mq(max1700) {
+        @include mi.widthVw(1920, 891);
+    }
+
+
 }

@@ -6,6 +6,16 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.business {
+    @include mi.paddingPercent(1920, 236, 0, 236, 0);
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(375, 123, 0, 120, 0);
+    }
+}
+
+.businessLxn {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 355);
+    }
 }

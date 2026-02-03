@@ -1,7 +1,7 @@
-<div class="kyosan">
-    <div class="strongLxn kyosanLxn">
+<div id="kyosan" class="kyosan">
+    <div class="wap strongLxn kyosanLxn">
         <div class="kyosanLxnFx">
-            <h2 class="cl_1D1D1F fw_500 txtset h2Kyosan">（私たちの強み）</h2>
+            <h2 class="cl_1D1D1F fw_500 txtset h2Kyosan">（様々な企業様と伴走しております）</h2>
         </div>
         <div class="sliderKyosanLxn">
             <div class="loopSlidePc01">

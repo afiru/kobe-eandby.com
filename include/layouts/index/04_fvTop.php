@@ -1,27 +1,27 @@
 <div class="fvTopBx">
     <section class="fvTopLxn">
         <h1 class="cl_1D1D1F fw_800 txtset jstitleFlow h1FvTop">
-            <span class="show">お</span>
-            <span class="show">困</span>
-            <span class="show">り</span>
-            <span class="show">ご</span>
-            <span class="show">と</span>
-            <span class="show">を</span>
-            <span class="show">解</span>
-            <span class="show">決</span>
-            <span class="show">し</span>
-            <span class="show">ま</span>
-            <span class="show">す</span>
-            <span class="show">。</span>
+            <span class="txtset show">お</span>
+            <span class="txtset show">困</span>
+            <span class="txtset show">り</span>
+            <span class="txtset show">ご</span>
+            <span class="txtset show">と</span>
+            <span class="txtset show">を</span>
+            <span class="txtset show">解</span>
+            <span class="txtset show">決</span>
+            <span class="txtset show">し</span>
+            <span class="txtset show">ま</span>
+            <span class="txtset show">す</span>
+            <span class="txtset show">。</span>
             <br>
-            <span class="show">い</span>
-            <span class="show">い</span>
-            <span class="show">あ</span>
-            <span class="show">ん</span>
-            <span class="show">ば</span>
-            <span class="show">い</span>
-            <span class="show">に</span>
-            <span class="show">。</span>
+            <span class="txtset show">い</span>
+            <span class="txtset show">い</span>
+            <span class="txtset show">あ</span>
+            <span class="txtset show">ん</span>
+            <span class="txtset show">ば</span>
+            <span class="txtset show">い</span>
+            <span class="txtset show">に</span>
+            <span class="txtset show">。</span>
         </h1>
         <p class="cl_1D1D1F fw_500 txtset rubyFvTop">
             60カ国以上の現場で、ブランドも看板もないところから<br>“通れる道”だけを見つけてきた実践知。

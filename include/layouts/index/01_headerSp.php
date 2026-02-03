@@ -45,7 +45,7 @@
                 <a class="d_flex j_start ali_center cl_fff fw_500 undernone txtset btnMainHeaderGnavSp" href="#vison">VISION</a>
             </li>
             <li class="liMainHeaderGnavSp">
-                <a class="undernone cl_1D1D1F btnNavHeaderPc" href="#company">会社概要</a>
+                <a class="d_flex j_start ali_center cl_fff fw_500 undernone txtset btnMainHeaderGnavSp" href="#company">会社概要</a>
             </li>
         </ul>
 

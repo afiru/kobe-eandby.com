@@ -1,26 +1,37 @@
-<div class="contact">
+<div id="contact" class="contact">
     <!--
     Pc:../img/contactPc.png
     Sp:../img/contactSp.png
     -->
-    <div class="contactLxn">
+    <div class="wap contactLxn">
         <div class="d_flex j_between row contactFx">
             <section class="secContact">
                 <h2 class="cl_fff plus fw_700 txtset h2Contact">CONTACT</h2>
                 <h3 class="cl_fff fw_700 txtset jstitleFlow h3Contact">
-                    <span class="show">人</span>
-                    <span class="show">と</span>
-                    <span class="show">世</span>
-                    <span class="show">界</span>
-                    <span class="show">を</span>
-                    <span class="show">、</span>
-                    <span class="show">実</span>
-                    <span class="show">践</span>
-                    <span class="show">で</span>
-                    <span class="show">つ</span>
-                    <span class="show">な</span>
-                    <span class="show">ぐ</span>
-                    <span class="show">。</span>
+                    <span class="txtset show">ま</span>
+                    <span class="txtset show">ず</span>
+                    <span class="txtset show">は</span>
+                    <span class="txtset show">、</span>
+                    <span class="txtset show">今</span>
+                    <span class="txtset show">の</span>
+                    <span class="txtset show">“</span>
+                    <span class="txtset show">お</span>
+                    <span class="txtset show">困</span>
+                    <span class="txtset show">り</span>
+                    <span class="txtset show">ご</span>
+                    <span class="txtset show">と</span>
+                    <span class="txtset show">”</span>
+                    <span class="txtset show">を</span>
+                    <br class="sp_only">
+                    <span class="txtset show">聞</span>
+                    <span class="txtset show">か</span>
+                    <span class="txtset show">せ</span>
+                    <span class="txtset show">て</span>
+                    <span class="txtset show">く</span>
+                    <span class="txtset show">だ</span>
+                    <span class="txtset show">さ</span>
+                    <span class="txtset show">い</span>
+                    <span class="txtset show">。</span>
                 </h3>
                 <p class="cl_fff fw_500 rubyContact">
                     整理できていなくても構いません。<br>対話から、一緒に考えます。

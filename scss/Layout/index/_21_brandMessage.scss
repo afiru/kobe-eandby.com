@@ -6,6 +6,103 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.brandMessage {
+    @include mi.marginVw(1920, 190, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 227, auto, 0, auto);
+    }
+}
+
+.brandMessageLxn {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 328);
+    }
+}
+
+.brandMessageFx {}
+
+.secBrandMessage {
+    @include mi.ontener_width02(1570, 683);
+
+    @include mi.mq(max1350) {
+        @include mi.ontenerWidth(1250, 600);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(328, 328);
+    }
+}
+
+.titleBrandMessage {}
+
+.h2TitleBrandMessage {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheight(auto, auto);
+        @include mi.letterSpacing(50);
+    }
+}
+
+.h3TitleBrandMessage {
+    @include mi.fontSizePc(13);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+    @include mi.marginPercent(683, 0, 0, 0, 20);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(13);
+        @include mi.lineheight(13, 17);
+        @include mi.letterSpacing(0);
+        @include mi.marginPercent(328, 0, 0, 0, 21);
+    }
+}
+
+.h4TitleBrandMessage {
+    @include mi.fontSizePc(22);
+    @include mi.lineheightP(auto);
+    @include mi.letterSpacing(0);
+    @include mi.marginPercent(683, 40, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        line-height: normal;
+        @include mi.letterSpacing(0);
+        @include mi.marginPercent(328, 29, 0, 0, 0);
+    }
+}
+
+.txtBrandMessage {
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+    @include mi.marginPercent(683, 16, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+        @include mi.lineheight(14, 22);
+        @include mi.letterSpacing(0);
+        @include mi.marginPercent(328, 20, 0, 0, 0);
+    }
+}
+
+.picBrandMessage {
+    @include mi.ontener_width02(1570, 625);
+
+    @include mi.mq(max1350) {
+        @include mi.ontenerWidth(1250, 550);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(328, 21, 0, 0, 0);
+        @include mi.ontenerWidth(328, 328);
+    }
+
+    img {
+        width: 100%;
+    }
 }

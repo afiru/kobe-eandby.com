@@ -6,6 +6,94 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.company {
+    @include mi.marginVw(1920, 231, 0, 0, 0);
+    border-top: 1px solid #D9D9D9;
+    @include mi.paddingVw(1920, 239, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 113, auto, 0, auto);
+        @include mi.paddingPercent(375, 114, 0, 0, 0);
+    }
+}
+
+.companyLxn {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        margin: auto;
+    }
+}
+
+.companyFx {}
+
+.h2Company {
+    @include mi.ontener_width02(1570, 470);
+    @include mi.fontSizePc(20);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(50);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+        @include mi.fontSizeSp(15);
+        @include mi.lineheight(15, 15);
+        @include mi.letterSpacing(50);
+    }
+}
+
+.ulCompany {
+    @include mi.ontener_width02(1570, 960);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 330);
+        @include mi.marginPercent(330, 49, auto, 0, auto);
+    }
+}
+
+.liCompany {
+    @include mi.paddingPercent(960, 0, 0, 40, 0);
+    border-bottom: 1px solid #D9D9D9;
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(330, 0, 0, 28, 0);
+    }
+
+    &:nth-child(n+2) {
+        @include mi.marginPercent(960, 40, 0, 0, 0);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 19, 0, 0, 0);
+        }
+    }
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.h3Company {
+    @include mi.ontenerWidth(960, 175);
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(200);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 62);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheight(14, 30);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.txtCompany {
+    @include mi.ontenerWidth(960, 730);
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(200);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 260);
+        @include mi.fontSizeSp(14);
+        @include mi.lineheight(14, 30);
+        @include mi.letterSpacing(0);
+    }
 }

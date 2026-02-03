@@ -6,6 +6,80 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.headerSp{
+    @include mi.ontenerWidth(375 , 350 );
+    @include mi.paddingPercent(375, 9, 0, 9, 0);
+    @include mi.marginPercent(375, 0,9 ,0 ,16 );
+}
+.logoHeaderSp{
+@include mi.ontenerWidth( 350, 72 );
+}
+.btnHeaderSp{
+@include mi.ontenerWidth( 350, 46 );
+}
+.headerSpGnav{
+    @include mi.paddingPercent(375, 9, 0, 92, 0);
+    display: none;
+}
+.headerSpGnavTop{
+    @include mi.paddingPercent(375, 0, 0, 9, 0);
+    @include mi.marginPercent(375, 0,9 ,0 ,19 );
+    @include mi.ontenerWidth( 375, 340);
+}
+.logoHeaderSp{
+@include mi.ontenerWidth( 340, 82 );
+}
+.btnHeaderSp{
+@include mi.ontenerWidth( 340, 46 );
+}
+
+.navMainHeaderGnavSp{
+   @include mi.ontenerWidth( 340, 300 );
+   @include mi.marginPercent(340, 68,auto ,0 ,auto );
+   overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 100vh;
+}
+.ulMainHeaderGnavSp{
+    @include mi.ontenerWidth( 300, 263.5 );
+    margin: auto;
+}
+.liMainHeaderGnavSp{
+    &:nth-child(n+2){
+        @include mi.marginPercent(263.5, 40,0 ,0 ,0 );
+    }
+}
+.btnMainHeaderGnavSp{
+    @include mi.fontSizeSp(18);
+    @include mi.lineheight(18,18);
+    @include mi.letterSpacing(50);
+}
+
+.ctaMainHeaderGnavSp{
+    @include mi.marginPercent(300, 68,0 ,0 ,0 );
+}
+.liMainHeaderGnavSp{
+width: 100%;
+    &:nth-child(n+2){
+        @include mi.marginPercent(300, 17,0 ,0 ,0 );
+    }
+}
+.btnMainHeaderGnavSp{
+aspect-ratio: 300/60;
+@include mi.kadomaru(60px);
+width: 100%;
+}
+.secMainHeaderGnavSp{
+
+}
+.h2MainHeaderGnavSp{
+    @include mi.fontSizeSp(16);
+    @include mi.lineheight(16,16);
+    @include mi.letterSpacing(0);
+}
+.rubyMainHeaderGnavSp{
+    @include mi.fontSizeSp(12);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
 }

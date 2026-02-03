@@ -6,6 +6,32 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.h2BissinesTitle {
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(355, 335);
+        @include mi.fontSizeSp(15);
+        @include mi.lineheight(15, 15);
+        @include mi.letterSpacing(50);
+        margin: auto;
+    }
+}
+
+.h3BissinesTitle {
+    @include mi.marginVw(1920, 50, 0, 0, 0);
+    @include mi.fontSizePc(40);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(-50);
+    font-feature-settings: "palt";
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(355, 29, auto, 0, auto);
+        @include mi.ontenerWidth(355, 335);
+        @include mi.fontSizeSp(20);
+        @include mi.lineheight(20, 20);
+        @include mi.letterSpacing(-50);
+    }
 }

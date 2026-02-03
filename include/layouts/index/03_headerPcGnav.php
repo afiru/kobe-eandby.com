@@ -15,7 +15,7 @@
 </div>
 
 <div class="bg_669B40 pofixed headerPcGnav">
-    <div class="headerPcGnavLxn">
+    <div class="wap headerPcGnavLxn">
         <a class="undernone d_block logoHeaderPcGnavLxn" href="index.php">
             <img loading="lazy" src="img/logoHeaderPcGnavLxn.svg" alt="E＆By ロゴ" width="200" height="111">
         </a>

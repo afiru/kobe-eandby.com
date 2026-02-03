@@ -6,6 +6,46 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.value{
+    @include mi.paddingPercent(1920, 236, 0, 203, 0);
+}
+.valueLxn{
+
+}
+.titleValue{
+
+}
+.h2ValueLxn{
+    @include mi.fontSizePc(26);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(150);
+}
+.h3ValueLxn{
+    @include mi.fontSizePc(20);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(150);
+}
+.valueSwipper{
+@include mi.marginPercent(1570, 21,0 ,0 ,0 );
+overflow: hidden;
+width: 100%;
+}
+.swiper{
+
+}
+.swiper-wrapper{
+
+}
+.swiper-slide{
+    width: 422px;
+    @include mi.kadomaru(6px);
+    @include mi.mq(sp) {
+        width: 100%;
+    }
+}
+.valueSliderBx{
+
+}
+.valueSliderLxn{
+
 }

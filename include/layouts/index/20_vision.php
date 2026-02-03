@@ -1,44 +1,44 @@
 <?php
 //各マージンはvw
 ?>
-<div class="vision ovnone">
-    <div class="visionLxn">
+<div id="vision" class="vision ovnone">
+    <div class="wap visionLxn">
         <div class="d_flex j_between row visionFx">
             <section class="secVision">
                 <h2 class="cl_1D1D1F fw_500 txtset h2Vision">（VISION）</h2>
                 <h3 class="cl_1D1D1F fw_700 txtset jstitleFlow h3Vision">
-                    <span class="show">世</span>
-                    <span class="show">界</span>
-                    <span class="show">と</span>
-                    <span class="show">つ</span>
-                    <span class="show">な</span>
-                    <span class="show">が</span>
-                    <span class="show">り</span>
-                    <span class="show">、</span>
+                    <span class="txtset show">世</span>
+                    <span class="txtset show">界</span>
+                    <span class="txtset show">と</span>
+                    <span class="txtset show">つ</span>
+                    <span class="txtset show">な</span>
+                    <span class="txtset show">が</span>
+                    <span class="txtset show">り</span>
+                    <span class="txtset show">、</span>
                     <br>
-                    <span class="show">驚</span>
-                    <span class="show">き</span>
-                    <span class="show">と</span>
-                    <span class="show">本</span>
-                    <span class="show">質</span>
-                    <span class="show">的</span>
-                    <span class="show">価</span>
-                    <span class="show">値</span>
-                    <span class="show">を</span>
-                    <span class="show">届</span>
-                    <span class="show">け</span>
-                    <span class="show">る</span>
+                    <span class="txtset show">驚</span>
+                    <span class="txtset show">き</span>
+                    <span class="txtset show">と</span>
+                    <span class="txtset show">本</span>
+                    <span class="txtset show">質</span>
+                    <span class="txtset show">的</span>
+                    <span class="txtset show">価</span>
+                    <span class="txtset show">値</span>
+                    <span class="txtset show">を</span>
+                    <span class="txtset show">届</span>
+                    <span class="txtset show">け</span>
+                    <span class="txtset show">る</span>
                     <br>
-                    <span class="show">"</span>
-                    <span class="show">し</span>
-                    <span class="show">か</span>
-                    <span class="show">け</span>
-                    <span class="show">人</span>
-                    <span class="show">"</span>
-                    <span class="show">で</span>
-                    <span class="show">あ</span>
-                    <span class="show">れ</span>
-                    <span class="show">。</span>
+                    <span class="txtset show">"</span>
+                    <span class="txtset show">し</span>
+                    <span class="txtset show">か</span>
+                    <span class="txtset show">け</span>
+                    <span class="txtset show">人</span>
+                    <span class="txtset show">"</span>
+                    <span class="txtset show">で</span>
+                    <span class="txtset show">あ</span>
+                    <span class="txtset show">れ</span>
+                    <span class="txtset show">。</span>
                 </h3>
 
                 <p class="cl_1D1D1F fw_400 txtset txtVision">
@@ -48,6 +48,16 @@
                     表面的な解決ではなく、本質的な変化と持続的な価値創造を。<br>
                     人と社会の未来に、本当に必要なものだけを“ちょうどいい”バランスで。
                 </p>
+
+                <figure class="sp_only photoVisionSp">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="img/photoVisionPc.png">
+                        <!--PC画像-->
+                        <source media="(max-width: 767px)" srcset="img/photoVisionSp.png">
+                        <!--SP画像-->
+                        <img loading="lazy" src="img/photoVisionPc.png" alt="" width="891" height="1153">
+                    </picture>
+                </figure>
 
                 <h4 class="cl_1D1D1F fw_500 txtset h4Vision">（MISSION）</h4>
 

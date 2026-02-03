@@ -6,6 +6,111 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.strong {
+   @include mi.paddingVw(1920 , 236, 0, 134, 0);
+   @include mi.mq(sp) {
+    @include mi.paddingPercent(375, 108, 0, 67, 0);
+   }
+}
+.strongLxn{
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth( 375,  375);
+        margin: auto;
+    }
+}
+.strogTopFx{
+
+}
+.secStrongTop{
+     @include mi.ontenerWVw( 1920, 845 );
+    @include mi.mq(sp) {
+         @include mi.ontenerWidth( 375,  330);
+        margin: auto;
+    }
+}
+.h2StrongTop{
+@include mi.fontSizePc(20);
+@include mi.lineheightP(150);
+@include mi.letterSpacing(50);
+@include mi.mq(sp) {
+    @include mi.fontSizeSp(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(50);
+}
+}
+.h3StrongTop{
+    @include mi.marginPercent(630, 25,0 ,0 ,0 );
+    @include mi.fontSizePc(40);
+    @include mi.lineheightP(175);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 20,auto ,0 ,auto );
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(50);
+    }
+}
+.txtStrongTop{
+    @include mi.marginPercent(630, 32,0 ,0 ,0 );
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(200);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+@include mi.marginPercent(330, 24,0 ,0 ,0 );
+@include mi.fontSizeSp(14);
+@include mi.lineheightP(180);
+@include mi.letterSpacing(0);
+    }
+}
+.picStrongTop{
+    @include mi.ontenerWVw( 1920, 677 );
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth( 375, 352 );
+        margin: auto;
+    }
+}
+.strogBtmFx{
+@include mi.marginPercent(1570, 26,0 ,0 ,0 );
+@include mi.mq(sp) {
+    @include mi.marginPercent(375, 157,0 ,0 ,0 );
+}
+}
+.secStrongBtm{
+  @include mi.ontenerWVw( 1920, 845 );
+ @include mi.marginPercent(1570, 107,0 ,0 ,0 );
+ @include mi.mq(sp) {
+    @include mi.marginPercent(375, 0,auto ,0 ,auto );
+    @include mi.ontenerWidth( 375, 330 );
+ }
+}
+.h3StrongBtm{
+ @include mi.marginPercent(630, 0,0 ,0 ,0 );
+    @include mi.fontSizePc(40);
+    @include mi.lineheightP(175);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 22,auto ,0 ,auto );
+        @include mi.fontSizeSp(16);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(50);
+    }
+}
+.txtStrongBtm{
+     @include mi.marginPercent(630, 32,0 ,0 ,0 );
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(200);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+@include mi.marginPercent(330, 24,auto ,0 ,auto );
+@include mi.fontSizeSp(14);
+@include mi.lineheightP(180);
+@include mi.letterSpacing(0);
+    }
+}
+.picStrongBtm{
+ @include mi.ontenerWVw( 1920, 707 );
+@include mi.mq(sp) {
+    @include mi.marginPercent(375, 75,0 ,0 ,0 );
+    @include mi.ontenerWidth( 375, 375 );
+}
 }
