@@ -2700,7 +2700,7 @@ LAYOUT
   background-image: url(../img/txtFvTopCta01.svg);
   background-repeat: no-repeat;
   background-position: 91% center;
-  background-size: auto 9px;
+  background-size: auto 14px;
   width: 100%;
   transition-duration: 0.5s;
   background-color: #669B40;
@@ -2710,7 +2710,7 @@ LAYOUT
   background-image: url(../img/txtFvTopCta02.svg);
   background-repeat: no-repeat;
   background-position: 91% center;
-  background-size: auto 9px;
+  background-size: auto 14px;
   width: 100%;
   transition-duration: 0.5s;
   background-color: #E5E5E5;
@@ -2723,13 +2723,13 @@ LAYOUT
   background-image: url(../img/txtFvTopCta01.svg);
   background-repeat: no-repeat;
   background-position: 93% center;
-  background-size: auto 9px;
+  background-size: auto 14px;
 }
 .btnKadaiCta:hover.btnKadaiCta02 {
   background-image: url(../img/txtFvTopCta02.svg);
   background-repeat: no-repeat;
   background-position: 93% center;
-  background-size: auto 9px;
+  background-size: auto 14px;
 }
 
 .secKadaiCta {
