@@ -1,0 +1,150 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.fvTopBx {
+    width: 100%;
+}
+
+.fvTopLxn {
+    width: 81.77083333333333%;
+    margin: auto;
+    @include mi.paddingVw(1920, 254, 0, 198, 0);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 330);
+        @include mi.paddingPercent(375, 73, 0, 31, 0);
+    }
+}
+
+.h1FvTop {}
+
+.rubyFvTop {
+    @include mi.marginVw(1920, 60, 0, 0, 0);
+    @include mi.fontSizePc(24);
+    @include mi.lineheightP(170);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 32, auto, 0, auto);
+        @include mi.fontSizeSp(13);
+        @include mi.lineheight(13, 24);
+        @include mi.letterSpacing(0);
+    }
+}
+
+.fvTopFx {
+    @include mi.marginVw(1920, 70, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(330, 18, auto, 0, auto);
+    }
+}
+
+.ctaFvTopCta {
+    width: 686px;
+
+    @include mi.mq(max1600) {
+        @include mi.ontenerWVw(1600, 686);
+    }
+
+    @include mi.mq(sp) {
+        width: 100%;
+    }
+}
+
+.liFvTopCta {
+    width: 334px;
+
+    @include mi.mq(max1600) {
+        @include mi.ontenerWVw(1600, 334);
+    }
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 160);
+    }
+}
+
+.btnFvTopCta {
+    width: 100%;
+    @include mi.kadomaru(60px);
+    aspect-ratio: 334 / 72;
+    @include mi.fontSizePc(20);
+
+    @include mi.mq(sp) {
+        @include mi.kadomaru(60px);
+        aspect-ratio: 160 / 39;
+        @include mi.fontSizeSp(14);
+    }
+}
+
+.txtFvTopCta01 {
+    background: url(../img/txtFvTopCta01.svg) no-repeat 91% center;
+    background-size: auto 98%;
+    display: block;
+    width: 100%;
+    transition-duration: 0.5s;
+}
+
+.txtFvTopCta02 {
+    background: url(../img/txtFvTopCta02.svg) no-repeat 91% center;
+    background-size: auto 98%;
+    display: block;
+    width: 100%;
+    transition-duration: 0.5s;
+}
+
+.btnFvTopCta:hover {
+    opacity: 1;
+
+    .txtFvTopCta01 {
+        background: url(../img/txtFvTopCta01.svg) no-repeat 93% center;
+        background-size: auto 99%;
+        letter-spacing: 0.15em;
+    }
+
+    .txtFvTopCta02 {
+        background: url(../img/txtFvTopCta02.svg) no-repeat 93% center;
+        background-size: auto 98%;
+        letter-spacing: 0.15em;
+    }
+}
+
+.secFvTopFx {
+    width: 380px;
+
+    @include mi.mq(max1000) {
+        width: 34vw;
+    }
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(330, 276);
+        @include mi.marginPercent(330, 85, 0, 0, auto);
+    }
+}
+
+.h2FvTopFx {
+    @include mi.fontSizePc(20);
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(14);
+    }
+}
+
+.txtFvTopFx {
+    @include mi.marginVw(1920, 38, 0, 0, 0);
+    @include mi.fontSizePc(16);
+    @include mi.lineheightP(190);
+    @include mi.letterSpacing(0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(266, 9, 0, 0, 0);
+        @include mi.fontSizeSp(13);
+        @include mi.lineheight(13, 22);
+        @include mi.letterSpacing(0);
+    }
+}

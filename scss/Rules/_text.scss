@@ -1,0 +1,68 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../Functions/mixin"as mi;
+
+/* ==========================================================================
+Library
+========================================================================== */
+body {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    color: #1D1D1F;
+    font-weight: 500;
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+body {
+
+    input,
+    textarea,
+    button {
+        font-family: "Zen Kaku Gothic New", sans-serif;
+        font-weight: 500;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        line-height: 1;
+        font-weight: 500;
+    }
+}
+
+#mintyou,
+.mintyou,
+.mincho {
+    font-family: 'Shippori Mincho B1', serif;
+
+}
+
+.t_center {
+    text-align: center;
+}
+
+.text_justify {
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+.plus {
+    font-family: "Plus Jakarta Sans";
+}
+
+.tj {
+    text-indent: -9999px;
+    text-align: left;
+    overflow: hidden;
+    display: block;
+    font-size: 0.1em;
+}

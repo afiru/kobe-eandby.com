@@ -1,0 +1,86 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.headerPc {
+    margin: 0 auto;
+    padding: 1.3020833333vw 0.9145833333vw 1.3020833333vw 1.3541666667vw;
+
+    @include mi.mq(max1400) {
+        @include mi.paddingVw(1400, 30, 30, 30, 30);
+    }
+}
+
+.logoHeaderPc {
+    width: 103px;
+
+    @include mi.mq(max1400) {
+        @include mi.widthVw(1400, 103);
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.navHeaderPc {
+    width: 1196px;
+
+    @include mi.mq(max1400) {
+        @include mi.widthVw(1400, 1198);
+    }
+}
+
+.ulNavHeaderPc {
+    width: 997px;
+
+    @include mi.mq(max1400) {
+        @include mi.widthVw(1400, 997);
+    }
+}
+
+.liNavHeaderPc {
+    leading-trim: both;
+    text-edge: cap;
+    min-width: fit-content;
+    box-sizing: border-box;
+
+    &:nth-child(n+2) {
+        margin: 0 0 0 25px;
+
+        @include mi.mq(max1400) {
+            @include mi.marginVw(1400, 0, 0, 0, 30);
+        }
+    }
+}
+
+.btnNavHeaderPc {
+    @include mi.fontSizePc(16);
+    font-style: normal;
+    leading-trim: both;
+    text-edge: cap;
+
+    display: block;
+    letter-spacing: 0;
+
+    @include mi.mq(max1400) {
+        @include mi.fontVw(1400, 16);
+    }
+}
+
+.btnNavHeaderCta {
+    width: 171px;
+    background: #669B40;
+    aspect-ratio: 171 / 46;
+    @include mi.kadomaru(29px);
+    @include mi.fontSizePc(14);
+
+    @include mi.mq(max1400) {
+        @include mi.widthVw(1400, 171);
+        @include mi.fontVw(1400, 14);
+    }
+}
