@@ -1187,7 +1187,6 @@ LAYOUT
   }
 }
 .iconBtnLiNavHeaderPcGnav img {
-  transform: scale(0);
   transition-duration: 0.5s;
 }
 
@@ -1268,10 +1267,6 @@ LAYOUT
   font-size: 20px;
   line-height: 1;
   letter-spacing: 0em;
-  border-radius: 59;
-  /* CSS3草案 */
-  /* Safari,Google Chrome用 */
-  /* Firefox用 */
   border-radius: 60px;
   /* CSS3草案 */
   -webkit-border-radius: 60px;
@@ -1281,6 +1276,13 @@ LAYOUT
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #FFF;
+  background-image: url(../img/txtFvTopCta02.svg);
+  background-repeat: no-repeat;
+  background-position: 93% center;
+  background-size: auto 14px;
+  width: 100%;
+  transition-duration: 0.5s;
 }
 @media screen and (max-width: 1249px) {
   .btnMainHeaderGnavPc {
@@ -1301,6 +1303,25 @@ LAYOUT
   margin-bottom: calc((1 - 1) * 0.5em);
   content: "";
 }
+@media screen and (max-width: 767px) {
+  .btnMainHeaderGnavPc {
+    background-position: 95% 41%;
+  }
+}
+
+.btnMainHeaderGnavPc:hover {
+  background-image: url(../img/txtFvTopCta02.svg);
+  background-repeat: no-repeat;
+  background-position: 94% center;
+  background-size: auto 14px;
+  letter-spacing: 0.15em;
+  opacity: 1;
+}
+@media screen and (max-width: 767px) {
+  .btnMainHeaderGnavPc:hover {
+    background-position: 95% 41%;
+  }
+}
 
 .rubyMainHeaderGnavPc {
   margin-top: 10px;
@@ -1310,6 +1331,7 @@ LAYOUT
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0em;
+  transition-duration: 0.5s;
 }
 @media screen and (max-width: 1249px) {
   .rubyMainHeaderGnavPc {
@@ -1337,6 +1359,10 @@ LAYOUT
   height: 0;
   margin-bottom: calc((1 - 1) * 0.5em);
   content: "";
+}
+
+.btnMainHeaderGnavPc:hover .rubyMainHeaderGnavPc {
+  letter-spacing: 0.07em;
 }
 
 /* ==========================================================================

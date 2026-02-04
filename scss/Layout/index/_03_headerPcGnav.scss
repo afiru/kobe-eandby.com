@@ -145,12 +145,9 @@ text-decoration: none;
     align-items: center;
     justify-content: center;
     img{
-        transform: scale(0);
         transition-duration: 0.5s;
     }
 }
-
-
 
 .catHeaderPcGnavFx{
     @include mi.marginPercent(1637, 106,auto,0 ,auto );
@@ -194,17 +191,41 @@ text-decoration: none;
     @include mi.fontSizePc(20);
     @include mi.lineheight(20,20);
     @include mi.letterSpacing(0);
-    @include mi.kadomaru(59);
     @include mi.kadomaru(60px);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FFF;
+    background-image: url(../img/txtFvTopCta02.svg) ;
+    background-repeat: no-repeat;
+    background-position: 93% center;
+    background-size: auto 14px;
+    width: 100%;
+    transition-duration: 0.5s;
+     @include mi.mq(sp) {
+            background-position: 95% 41%;
+        }
 }
-
+.btnMainHeaderGnavPc:hover{
+    background-image: url(../img/txtFvTopCta02.svg) ;
+    background-repeat: no-repeat;
+    background-position: 94% center;
+     background-size: auto 14px;
+    letter-spacing: 0.15em;
+    opacity: 1;
+    @include mi.mq(sp) {
+        background-position: 95% 41%;
+    }
+}
 .rubyMainHeaderGnavPc{
     @include mi.marginPercent(360, 10,auto ,0 ,auto );
     @include mi.fontSizePc(14);
     @include mi.lineheight(14,14);
     @include mi.letterSpacing(0);
+    transition-duration: 0.5s;
 }
+.btnMainHeaderGnavPc:hover .rubyMainHeaderGnavPc{
+    letter-spacing: 0.07em;
+}
+
 

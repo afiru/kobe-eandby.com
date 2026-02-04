@@ -103,8 +103,8 @@ LAYOUT
     width: 100%;
     transition-duration: 0.5s;
      @include mi.mq(sp) {
-            background-position: 95% 41%;
-        }
+        background-position: 95% 41%;
+    }
 }
 
 .txtFvTopCta02 {
