@@ -34,7 +34,7 @@ LAYOUT
     @include mi.ontenerWidth(1570 , 962 );
     margin: auto;
     @include mi.mq(max1250) {
-        @include mi.ontenerWidth(1250 , 962 );
+        width: 90%;
     }
     @include mi.mq(sp) {
         width: 98%;

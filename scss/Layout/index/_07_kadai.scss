@@ -139,7 +139,9 @@ LAYOUT
 }
 .ctaKadaiCta{
     @include mi.marginPercent(1570, 39,auto ,0 ,auto );
-    width: 746px;
+    //width: 746px;
+    @include mi.ontenerWidth( 1570, 746 );
+    min-width: 500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,6 +153,7 @@ LAYOUT
         margin-left: auto;
         margin-right: auto;
         @include mi.ontenerWidth( 330, 300 );
+        min-width: unset;
     }
 }
 .liKadaiCta{

@@ -191,9 +191,10 @@ LAYOUT
 
 .secContactCta {
     @include mi.ontenerWidth(361, 341);
-    background: url(../img/btnContactCta.svg) no-repeat 94% center;
+    background: url(../img/btnContactCta.svg) no-repeat ;
+    background-position: 94% center;
     background-size: auto 34%;
-
+    transition-duration: 0.5s;
     @include mi.mq(sp) {
         background: url(../img/btnContactCta.svg) no-repeat 100% center;
         background-size: auto 33%;
@@ -232,7 +233,8 @@ LAYOUT
 
 .txtContactCta {
     @include mi.ontenerWidth(361, 341);
-    background: url(../img/btnContactCta02.svg) no-repeat 94% center;
+    background: url(../img/btnContactCta02.svg) no-repeat ;
+    background-position: 94% center;
     background-size: auto 63%;
     @include mi.fontSizePc(20);
     @include mi.lineheightP(130);
@@ -260,7 +262,17 @@ LAYOUT
         @include mi.letterSpacing(50);
     }
 
-    .txtContactCta {
+    .secContactCta{
+        background-position: 95% center;
+        @include mi.mq(sp) {
+            background-position: 100% center;
+        }
+    }
+     .txtContactCta {
         @include mi.letterSpacing(50);
+        background-position: 95% center;
+        @include mi.mq(sp) {
+            background-position: 99% center;
+        }
     }
 }

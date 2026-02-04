@@ -2018,12 +2018,7 @@ LAYOUT
 }
 @media screen and (max-width: 1250px) {
   .secMade {
-    width: 962px;
-  }
-}
-@media screen and (max-width: 1250px) and (max-width: 1249px) {
-  .secMade {
-    width: 76.95%;
+    width: 90%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -2516,6 +2511,7 @@ LAYOUT
   margin-left: auto;
   margin-right: auto;
   width: 746px;
+  min-width: 500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2529,6 +2525,11 @@ LAYOUT
     margin-right: auto;
   }
 }
+@media screen and (max-width: 1249px) {
+  .ctaKadaiCta {
+    width: 47.51%;
+  }
+}
 @media screen and (max-width: 767px) {
   .ctaKadaiCta {
     margin-top: 6%;
@@ -2536,6 +2537,7 @@ LAYOUT
     margin-left: auto;
     margin-right: auto;
     width: 300px;
+    min-width: unset;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1249px) {
@@ -7275,8 +7277,10 @@ LAYOUT
 
 .secContactCta {
   width: 341px;
-  background: url(../img/btnContactCta.svg) no-repeat 94% center;
+  background: url(../img/btnContactCta.svg) no-repeat;
+  background-position: 94% center;
   background-size: auto 34%;
+  transition-duration: 0.5s;
 }
 @media screen and (max-width: 1249px) {
   .secContactCta {
@@ -7363,7 +7367,8 @@ LAYOUT
 
 .txtContactCta {
   width: 341px;
-  background: url(../img/btnContactCta02.svg) no-repeat 94% center;
+  background: url(../img/btnContactCta02.svg) no-repeat;
+  background-position: 94% center;
   background-size: auto 63%;
   font-size: 20px;
   line-height: 130%;
@@ -7404,8 +7409,22 @@ LAYOUT
 .btnContactCta:hover .rubyContactCta {
   letter-spacing: 0.05em;
 }
+.btnContactCta:hover .secContactCta {
+  background-position: 95% center;
+}
+@media screen and (max-width: 767px) {
+  .btnContactCta:hover .secContactCta {
+    background-position: 100% center;
+  }
+}
 .btnContactCta:hover .txtContactCta {
   letter-spacing: 0.05em;
+  background-position: 95% center;
+}
+@media screen and (max-width: 767px) {
+  .btnContactCta:hover .txtContactCta {
+    background-position: 99% center;
+  }
 }
 
 /* ==========================================================================
