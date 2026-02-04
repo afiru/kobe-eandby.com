@@ -78,7 +78,7 @@
                 </li>
 
                 <li class="liNavHeaderPcGnav">
-                    <a class="d_flex j_start ali_center txtset btnLiNavHeaderPcGnav" href="#vison">
+                    <a class="d_flex j_start ali_center txtset btnLiNavHeaderPcGnav" href="#vision">
                         <p class="cl_fff fw_500 txtset txtBtnLiNavHeaderPcGnav">VISION</p>
                         <figure class="iconBtnLiNavHeaderPcGnav">
                             <img loading="lazy" src="img/iconBtnLiNavHeaderPcGnav.svg" alt="矢印" width="11" height="11">
@@ -125,5 +125,3 @@
         </div>
     </div>
 </div>
-
-

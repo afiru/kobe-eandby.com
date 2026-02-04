@@ -10,13 +10,16 @@ LAYOUT
     @include mi.marginVw(1920, 190, 0, 0, 0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 227, auto, 0, auto);
+        margin-top: 51.53%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 .brandMessageLxn {
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(375, 328);
+        width: 89.16%;
     }
 }
 
@@ -66,7 +69,7 @@ LAYOUT
     @include mi.fontSizePc(22);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
-    @include mi.marginPercent(683, 40, 0, 0, 0);
+    @include mi.marginPercent(683, 47, 0, 0, 0);
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(20);
@@ -79,27 +82,30 @@ LAYOUT
 .txtBrandMessage {
     @include mi.fontSizePc(14);
     @include mi.lineheightP(160);
-    @include mi.letterSpacing(0);
-    @include mi.marginPercent(683, 16, 0, 0, 0);
+    @include mi.lineheight(14, 24);
+    @include mi.marginPercent(683, 22, 0, 0, 0);
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(14);
         @include mi.lineheight(14, 22);
         @include mi.letterSpacing(0);
-        @include mi.marginPercent(328, 20, 0, 0, 0);
+        margin: 7.09% auto 0% auto;
+        width: 98.5%;
     }
 }
 
 .picBrandMessage {
     @include mi.ontener_width02(1570, 625);
+    transform: translate(2%, 16%);
 
     @include mi.mq(max1350) {
-        @include mi.ontenerWidth(1250, 550);
+        @include mi.ontenerWidth(1250, 500);
     }
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(328, 21, 0, 0, 0);
-        @include mi.ontenerWidth(328, 328);
+        margin: 14.4% 0% 0% 0%;
+        width: 97%;
+        transform: translate(0, 0);
     }
 
     img {

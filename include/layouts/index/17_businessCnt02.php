@@ -69,7 +69,7 @@
                         <img loading="lazy" src="img/photoLiBussinessBtm02_03Pc.png" alt="SDGsに即した環境啓発プログラム提案 写真" width="410" height="188">
                     </picture>
                 </figure>
-                <h3 class="cl_1D1D1F fw_500 txtset h3BussinessBtm">SDGsに即した環境啓発プログラム提案</h3>
+                <h3 class="cl_1D1D1F fw_500 txtset h3BussinessBtm">ESG・SDGsに即した環境啓発プログラム提案</h3>
                 <h4 class="cl_1D1D1F fw_500 txtset h4BussinessBtm">―理念を行動に変える環境プログラム</h4>
                 <p class="cl_2C2C2C fw_400 txtset text_justify txtBussinessBtm">
                     概念を掲げるだけで終わらせず、企業活動や人材育成の現場に落とし込み、実際の行動変容につながるプログラム設計と実装を支援します。

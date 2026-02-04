@@ -7,7 +7,7 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .made{
-    @include mi.paddingVw(1920 , 284, 0, 239, 0);
+    padding: 12.2vw 0vw 11.5vw 0vw;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -51,10 +51,10 @@ LAYOUT
     }
 }
 .h3Made{
-    @include mi.marginPercent(962, 25,0 ,0 ,0 );
+    @include mi.marginPercent(962, 17,0 ,0 ,0 );
     @include mi.fontSizePc(64);
     @include mi.lineheight(64,64);
-    @include mi.letterSpacing(0);
+    letter-spacing: -0.099em;
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 22,auto ,0 ,auto );
         @include mi.fontSizeSp(16);
@@ -63,7 +63,7 @@ LAYOUT
     }
 }
 .txtMade{
-    @include mi.marginPercent(962, 81,auto ,0 ,auto );
+    @include mi.marginPercent(962, 63,auto ,0 ,auto );
     @include mi.fontSizePc(32);
     @include mi.lineheightP(190);
     @include mi.letterSpacing(0);
@@ -75,7 +75,7 @@ LAYOUT
     }
 }
 .txtLastMade{
-    @include mi.marginPercent(962, 59,auto ,0 ,auto );
+    @include mi.marginPercent(962, 28,auto ,0 ,auto );
     @include mi.fontSizePc(50);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);

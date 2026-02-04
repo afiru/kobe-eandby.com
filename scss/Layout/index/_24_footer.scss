@@ -38,7 +38,8 @@ LAYOUT
 }
 
 .navFooter {
-    @include mi.ontenerWidth(1570, 819);
+    @include mi.ontenerWidth(1570, 823);
+    margin: 2% 0 0 0px;
 
     @include mi.mq(tab) {
         width: 72.16%;
@@ -46,7 +47,10 @@ LAYOUT
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(330, 330);
-        @include mi.marginPercent(330, 69, auto, 0, auto);
+        margin-top: 19.9%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -66,41 +70,48 @@ LAYOUT
 
 .liNavFooter01 {
     @include mi.ontenerWidth(819, 160);
-    @include mi.marginPercent(819, 0, 0, 45, 0);
+    @include mi.marginPercent(819, 0, 0, 34, 0);
 
     @include mi.mq(sp) {
-        width: 50%;
-        @include mi.marginPercent(330, 0, 0, 29, 0);
+        width: 42%;
+        margin: 0% 0% 7.78% 0%;
     }
 }
 
 .liNavFooter02 {
     @include mi.ontenerWidth(819, 230);
-    @include mi.marginPercent(819, 0, 0, 45, 46);
+    @include mi.marginPercent(819, 0, 0, 34, 46);
 
     @include mi.mq(sp) {
-        width: 50%;
-        @include mi.marginPercent(330, 0, 0, 29, 0);
+        width: 42%;
+        margin: 0% 0% 7.28% 0%;
     }
 }
 
 .liNavFooter03 {
     @include mi.ontenerWidth(819, 135);
-    @include mi.marginPercent(819, 0, 0, 45, 46);
+    @include mi.marginPercent(819, 0, 0, 34, 46);
 
     @include mi.mq(sp) {
-        width: 50%;
-        @include mi.marginPercent(330, 0, 0, 29, 0);
+        width: 42%;
+        margin: 0% 0% 7.78% 0%;
     }
 }
 
 .liNavFooter04 {
     @include mi.ontenerWidth(819, 156);
-    @include mi.marginPercent(819, 0, 0, 45, 46);
+    @include mi.marginPercent(819, 0, 0, 34, 46);
 
     @include mi.mq(sp) {
+        width: 42%;
+        margin: 0% 0% 7.78% 0%;
+    }
+}
+
+.liNavFooter05 {
+    @include mi.mq(sp) {
         width: 50%;
-        @include mi.marginPercent(330, 0, 0, 29, 0);
+        margin: 0% 0% 7.28% 0%;
     }
 }
 
@@ -115,8 +126,8 @@ LAYOUT
         text-align: center;
         @include mi.fontSizeSp(12);
         @include mi.lineheightP(180);
-        @include mi.letterSpacing(50);
-        @include mi.marginPercent(330, 53, 0, 0, 0);
+        @include mi.letterSpacing(70);
+        margin: 5.06% 0% 0% 0%;
 
     }
 }
@@ -124,26 +135,28 @@ LAYOUT
 
 
 
-.pcFixedBtn{
+.pcFixedBtn {
     position: fixed;
     bottom: 2%;
     right: 0;
     z-index: 2;
     width: 325px;
 }
-.pcFixedBtnFx{
 
+.pcFixedBtnFx {}
+
+.ctaPcFixedBtnFxc {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.ctaPcFixedBtnFxc{
-width: 100%;
-display: flex;
-justify-content: space-between;
-align-items: center;
+
+.liCtaPcFixedBtnFxc {
+    @include mi.ontenerWidth(325, 256);
 }
-.liCtaPcFixedBtnFxc{
- @include mi.ontenerWidth( 325, 256 );
-}
-.btnCtaPcFixedBtnFxc{
+
+.btnCtaPcFixedBtnFxc {
     width: 100%;
     @include mi.kadomaru(60px);
     aspect-ratio: 334 / 72;
@@ -156,12 +169,14 @@ align-items: center;
         @include mi.fontSizeSp(14);
     }
 }
-.txtCtaPcFixedBtnFxc{
+
+.txtCtaPcFixedBtnFxc {
     @include mi.fontSizePc(20);
     @include mi.lineheightP(130);
     @include mi.letterSpacing(0);
-     transition-duration: 0.5s;
+    transition-duration: 0.5s;
 }
+
 .btnCtaPcFixedBtnFxc:hover {
     opacity: 1;
 
@@ -172,6 +187,6 @@ align-items: center;
 
 
 
-.liTopCtaFixedBtnFxc{
-    @include mi.ontenerWidth( 325, 60 );
+.liTopCtaFixedBtnFxc {
+    @include mi.ontenerWidth(325, 60);
 }

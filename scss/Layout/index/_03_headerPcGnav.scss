@@ -8,8 +8,8 @@ LAYOUT
 ========================================================================== */
 .headerGnavPc{
     width: 50px;
-    right: 2%;
-    top: 50vh;
+    right: 0.8%;
+    top: 53.1vh;
     margin: auto;
     z-index: 0;
     position: fixed;
@@ -83,7 +83,8 @@ LAYOUT
 }
 
 .headerPcGnav{
-    position: absolute;
+    position: fixed;
+    top: 0;
     width: 100%;
     right: -100%;
     height: 100vh;
@@ -95,7 +96,8 @@ LAYOUT
     }
 }
 .headerPcGnavLxn{
-    @include mi.paddingVw(1920 , 139, 0, 200, 0);
+    padding: 6.4vw 0vw 10.4166666667vw 0vw;
+    width: 88.421579%;
     @include mi.mq(max1100) {
         width: calc(100% - 100px);
         margin: 0 70px 0 auto;
@@ -105,9 +107,10 @@ LAYOUT
 @include mi.ontenerWidth( 1637,  200);
 }
 .navHeaderPcGnav{
-    @include mi.marginPercent(1637, 47,81 ,0 ,auto );
+    @include mi.marginPercent(1637, 57,48 ,0 ,auto );
     width: 939px;
-    @include mi.mq(max1000) {
+    @include mi.mq(max1200) {
+        @include mi.marginPercent(1637, 47,81 ,0 ,auto );
         width: 100%;
     }
 }
@@ -117,7 +120,7 @@ LAYOUT
 .liNavHeaderPcGnav{
 
     &:nth-child(n+2){
-    @include mi.marginPercent(939, 80,0 ,0 ,0 );
+    @include mi.marginPercent(939, 70,0 ,0 ,0 );
     }
 }
 .btnLiNavHeaderPcGnav{
@@ -147,7 +150,7 @@ text-decoration: none;
 
 
 .catHeaderPcGnavFx{
-    @include mi.marginPercent(1637, 124,auto,0 ,auto );
+    @include mi.marginPercent(1637, 106,auto,0 ,auto );
     width: 100%;
     flex-flow: row wrap;
 }
@@ -155,6 +158,7 @@ text-decoration: none;
 .secCatHeaderPcGnavFx{
    width: calc(100% - 800px);
    max-width: 574px;
+   margin: 0.6% 0 0 0;
     @include mi.mq(max1200) {
         width: 100%;
         max-width: unset;
@@ -162,15 +166,16 @@ text-decoration: none;
 }
 .txtCatHeaderPcGnavFx{
     @include mi.fontSizePc(18);
-    @include mi.lineheight(18,32);
+    line-height: 1.65;
     @include mi.letterSpacing(0);
 }
 
 .ctaMainHeaderGnavPc{
-    width: 760px;
+    width: 747px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 3% 0 0;
     @include mi.mq(max1200) {
         margin: 10% auto 0 auto;
     }

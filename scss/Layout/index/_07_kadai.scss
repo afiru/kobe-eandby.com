@@ -35,10 +35,10 @@ LAYOUT
     }
 }
 .h3Kadai{
-    @include mi.marginPercent(1570, 42,0 ,0 ,0 );
+    @include mi.marginPercent(1570, 24,0 ,0 ,0 );
     @include mi.fontSizePc(40);
-    @include mi.lineheightP(150);
-    @include mi.letterSpacing(50);
+    @include mi.lineheightP(0);
+    letter-spacing: -0.115em;
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 14,auto ,0 ,auto );
         @include mi.fontSizeSp(22);
@@ -47,10 +47,10 @@ LAYOUT
     }
 }
 .h4Kadai{
-    @include mi.marginPercent(1570, 22,0 ,0 ,0 );
+    @include mi.marginPercent(1570, 4,0 ,0 ,0 );
     @include mi.fontSizePc(20);
     @include mi.lineheightP(175);
-    @include mi.letterSpacing(50);
+    letter-spacing: -0.115em;
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 13,auto ,0 ,auto );
         @include mi.fontSizeSp(22);
@@ -59,13 +59,13 @@ LAYOUT
     }
 }
 .ulKadai{
-    @include mi.marginPercent(1570, 113,auto ,0 ,auto );
+    @include mi.marginPercent(1570, 90,auto ,0 ,auto );
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 13,auto ,0 ,auto );
     }
 }
 .liKadai{
-    @include mi.paddingPercent(1570, 41, 0, 41, 0);
+    @include mi.paddingPercent(1570, 37, 0, 35, 0);
     width: 31.97%;
     @include mi.kadomaru(6px);
     background: #F6F6F6;
@@ -75,7 +75,7 @@ LAYOUT
         width: 100%;
     }
     &:nth-child(n+4){
-        @include mi.marginPercent(1570, 28,0 ,0 ,0 );
+        @include mi.marginPercent(1570, 26,0 ,0 ,0 );
         @include mi.mq(sp) {
             @include mi.marginPercent(330, 14,0 ,0 ,0 );
         }
@@ -96,7 +96,7 @@ LAYOUT
     }
 }
 .h2KadaiCta{
-    @include mi.marginPercent(1570, 44,auto ,0 ,auto );
+    @include mi.marginPercent(1570, 39,auto ,0 ,auto );
     @include mi.fontSizePc(30);
     @include mi.lineheightP(145);
     @include mi.letterSpacing(0);
@@ -108,7 +108,7 @@ LAYOUT
     }
 }
 .txtKadaiCta{
-    @include mi.marginPercent(1570, 25,auto ,0 ,auto );
+    @include mi.marginPercent(1570, 14,auto ,0 ,auto );
     @include mi.fontSizePc(16);
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
@@ -120,7 +120,7 @@ LAYOUT
     }
 }
 .ctaKadaiCta{
-    @include mi.marginPercent(1570, 43,auto ,0 ,auto );
+    @include mi.marginPercent(1570, 39,auto ,0 ,auto );
     width: 746px;
     display: flex;
     justify-content: space-between;
@@ -144,7 +144,7 @@ LAYOUT
 .btnKadaiCta{
     width: 100%;
     @include mi.kadomaru(60px);
-    aspect-ratio: 334 / 72;
+    aspect-ratio: 361 / 72;
     @include mi.fontSizePc(20);
 
     @include mi.mq(sp) {
@@ -156,7 +156,7 @@ LAYOUT
 .btnKadaiCta01{
     background-image: url(../img/txtFvTopCta01.svg) ;
     background-repeat: no-repeat;
-    background-position: 91% center;
+    background-position: 95% center;
     background-size: auto 14px;
     width: 100%;
     transition-duration: 0.5s;
@@ -165,7 +165,7 @@ LAYOUT
 .btnKadaiCta02{
      background-image: url(../img/txtFvTopCta02.svg) ;
     background-repeat: no-repeat;
-    background-position: 91% center;
+    background-position: 95% center;
     background-size: auto 14px;
     width: 100%;
     transition-duration: 0.5s;
@@ -178,14 +178,14 @@ LAYOUT
     &.btnKadaiCta01 {
         background-image: url(../img/txtFvTopCta01.svg);
         background-repeat: no-repeat;
-        background-position: 93% center;
+        background-position: 95% center;
         background-size: auto 14px;
     }
 
     &.btnKadaiCta02 {
         background-image: url(../img/txtFvTopCta02.svg);
         background-repeat: no-repeat;
-        background-position: 93% center;
+        background-position: 95% center;
         background-size: auto 14px;
     }
 }
@@ -211,9 +211,9 @@ LAYOUT
     }
 }
 .rubyKadaiCta{
-    @include mi.marginPercent(276, 6, 0, 0, 0);
-    @include mi.fontSizePc(16);
-    @include mi.lineheightP(190);
+    @include mi.marginPercent(276, 8, 0, 0, 0);
+    @include mi.fontSizePc(14);
+    @include mi.lineheightP(100);
     @include mi.letterSpacing(0);
     transition-duration: 0.5s;
 

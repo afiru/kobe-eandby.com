@@ -50,15 +50,16 @@
             </section>
         </div>
     </section>
-</div>
-<div class="scroll">
-    <div class="container_05">
-        <div class="scrollbar-text_05">
-            <span class="cl_1D1D1F fw_500 plus txtset txtScroll">scroll</span>
+    <div class="scroll">
+        <div class="container_05">
+            <div class="scrollbar-text_05">
+                <span class="cl_1D1D1F fw_500 plus txtset txtScroll">scroll</span>
+            </div>
+            <div class="scrollbar_05"></div>
         </div>
-        <div class="scrollbar_05"></div>
     </div>
 </div>
+
 <?php
 //https://web-design-pallet.site/scroll-down/ 参照
 ?>

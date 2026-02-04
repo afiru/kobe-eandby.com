@@ -7,7 +7,8 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .strong {
-   @include mi.paddingVw(1920 , 236, 0, 134, 0);
+   padding: 12.1vw 0vw 6.8vw 0vw;
+   border-top: 1px solid #D9D9D9;
    @include mi.mq(sp) {
         @include mi.paddingPercent(375, 108, 0, 67, 0);
    }
@@ -39,10 +40,10 @@ LAYOUT
     }
 }
 .h3StrongTop{
-    @include mi.marginPercent(630, 25,0 ,0 ,0 );
+    @include mi.marginPercent(630, 18,0 ,0 ,0 );
     @include mi.fontSizePc(40);
-    @include mi.lineheightP(175);
-    @include mi.letterSpacing(0);
+    @include mi.lineheightP(157);
+    letter-spacing: -0.115em;
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 20,auto ,0 ,auto );
         @include mi.fontSizeSp(16);
@@ -51,7 +52,7 @@ LAYOUT
     }
 }
 .txtStrongTop{
-    @include mi.marginPercent(630, 32,0 ,0 ,0 );
+    @include mi.marginPercent(630, 22,0 ,0 ,0 );
     @include mi.fontSizePc(16);
     @include mi.lineheightP(200);
     @include mi.letterSpacing(0);
@@ -64,6 +65,7 @@ LAYOUT
 }
 .picStrongTop{
     @include mi.ontenerWVw( 1920, 677 );
+    margin: 0.5% 0 0 0;
     @include mi.mq(sp) {
         @include mi.ontenerWidth( 375, 352 );
         margin: auto;
@@ -76,7 +78,7 @@ LAYOUT
 }
 }
 .secStrongBtm{
-    @include mi.ontenerWVw( 1920, 845 );
+    width: 37.01vw;
     @include mi.marginPercent(1570, 107,0 ,0 ,0 );
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 0,auto ,0 ,auto );
@@ -86,8 +88,9 @@ LAYOUT
 .h3StrongBtm{
     @include mi.marginPercent(630, 0,0 ,0 ,0 );
     @include mi.fontSizePc(40);
-    @include mi.lineheightP(175);
-    @include mi.letterSpacing(0);
+    @include mi.lineheightP(150);
+    letter-spacing: -0.115em;
+    width: 100%;
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 22,auto ,0 ,auto );
         @include mi.fontSizeSp(16);
@@ -96,7 +99,7 @@ LAYOUT
     }
 }
 .txtStrongBtm{
-    @include mi.marginPercent(630, 32,0 ,0 ,0 );
+    @include mi.marginPercent(630, 15,0 ,0 ,0 );
     @include mi.fontSizePc(16);
     @include mi.lineheightP(200);
     @include mi.letterSpacing(0);

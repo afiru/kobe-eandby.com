@@ -7,7 +7,7 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .business {
-    @include mi.paddingPercent(1920, 236, 0, 236, 0);
+    @include mi.paddingPercent(1920, 231, 0, 240, 0);
 
     @include mi.mq(sp) {
         @include mi.paddingPercent(375, 123, 0, 120, 0);

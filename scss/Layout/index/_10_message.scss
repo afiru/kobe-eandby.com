@@ -7,8 +7,7 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .message {
-    @include mi.paddingPercent(1920, 236, 0, 0, 0);
-
+    @include mi.paddingVw(1920, 236, 0, 0, 0);
     @include mi.mq(sp) {
         @include mi.paddingPercent(375, 119, 0, 0, 0);
     }
@@ -34,10 +33,10 @@ LAYOUT
 }
 
 .h3MasseageLxn {
-    @include mi.marginPercent(1570, 37, auto, 0, auto);
+    @include mi.marginPercent(1570, 24, auto, 0, auto);
     @include mi.fontSizePc(40);
     @include mi.lineheightP(150);
-    @include mi.letterSpacing(-50);
+    letter-spacing: -0.115em;
 
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 20, auto, 0, auto);
@@ -48,7 +47,7 @@ LAYOUT
 }
 
 .masseageFx {
-    @include mi.marginPercent(1570, 72, auto, 0, auto);
+    @include mi.marginPercent(1570, 60, auto, 0, auto);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 37, auto, 0, auto);
@@ -68,8 +67,8 @@ LAYOUT
 }
 
 .secMasseagePref {
-    @include mi.marginPercent(1570, 85, auto, 0, auto);
-    @include mi.ontener_width02(1570, 618);
+    @include mi.marginPercent(1570, 74, 0, 0, auto);
+    width: 39.25%;
 
     @include mi.mq(max1800) {
         @include mi.ontener_width02(1570, 700);
@@ -107,7 +106,7 @@ LAYOUT
 }
 
 .h4MasseagePref {
-    @include mi.marginPercent(618, 44, auto, 0, auto);
+    @include mi.marginPercent(618, 28, auto, 0, auto);
     @include mi.fontSizePc(15);
     @include mi.lineheight(auto, auto);
     @include mi.letterSpacing(0);
@@ -131,7 +130,7 @@ LAYOUT
 }
 
 .massageNameFx {
-    @include mi.marginPercent(618, 14, auto, 0, auto);
+    @include mi.marginPercent(618, 11, auto, 0, auto);
 
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 2, auto, 0, auto);
@@ -160,7 +159,7 @@ LAYOUT
     @include mi.fontSizePc(13);
     line-height: 1;
     @include mi.letterSpacing(150);
-    @include mi.marginPercent(618, 0, 0, 0, 16);
+    @include mi.marginPercent(618, 0, 0, 0, 15);
 
     @include mi.mq(max1450) {
         @include mi.fontSizePc(13);

@@ -23,7 +23,7 @@
                 <a class="txtset undernone cl_1D1D1F fw_500 btnNavHeaderPc" href="#business">私たちの事業</a>
             </li>
             <li class="liNavHeaderPc">
-                <a class="txtset undernone cl_1D1D1F fw_500 btnNavHeaderPc" href="#vison">VISION</a>
+                <a class="txtset undernone cl_1D1D1F fw_500 btnNavHeaderPc" href="#vision">VISION</a>
             </li>
             <li class="liNavHeaderPc">
                 <a class="txtset undernone cl_1D1D1F fw_500 btnNavHeaderPc" href="#company">会社概要</a>

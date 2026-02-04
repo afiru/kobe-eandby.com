@@ -14,9 +14,9 @@
                 <section class="secListBussinessCnt">
                     <h4 class="cl_1D1D1F fw_500 txtset h4ListBussinessCnt">－サービス一例</h4>
                     <ul class=" ulListBussinessCnt">
-                        <li class="bg_F3F3F3 cl_1D1D1F liListBussinessCnt">経営戦略立案/営業体制構築/ブランディング支援</li>
-                        <li class="bg_F3F3F3 cl_1D1D1F liListBussinessCnt">マーケティング企画/販路開拓/ビジネスマッチング</li>
-                        <li class="bg_F3F3F3 cl_1D1D1F liListBussinessCnt">経営人材向け研修/リーダーシップ開発プログラム</li>
+                        <li class="bg_F3F3F3 fw_400 cl_1D1D1F liListBussinessCnt">経営戦略立案/営業体制構築/ブランディング支援</li>
+                        <li class="bg_F3F3F3 fw_400 cl_1D1D1F liListBussinessCnt">マーケティング企画/販路開拓/ビジネスマッチング</li>
+                        <li class="bg_F3F3F3 fw_400 cl_1D1D1F liListBussinessCnt">経営人材向け研修/リーダーシップ開発プログラム</li>
                     </ul>
                 </section>
             </section>

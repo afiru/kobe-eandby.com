@@ -3,7 +3,7 @@
         <div class="d_flex j_between row brandMessageFx">
             <section class="secBrandMessage">
                 <div class="d_flex j_start ali_center row titleBrandMessage">
-                    <h2 class="cl_1D1D1F plus txtset fw_500 h2TitleBrandMessage">BRAND MESSEAGE</h2>
+                    <h2 class="cl_1D1D1F plus txtset fw_700 h2TitleBrandMessage">BRAND MESSEAGE</h2>
                     <h3 class="cl_1D1D1F fw_500 txtset h3TitleBrandMessage">社名に込めた想い</h3>
                 </div>
                 <h4 class="cl_1D1D1F fw_500 h4TitleBrandMessage">「ちょうどいい、がちょうどいい。いいあんばい。」</h4>

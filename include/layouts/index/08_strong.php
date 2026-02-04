@@ -66,6 +66,7 @@
                     <span class="txtset show">の</span>
                     <span class="txtset show">経</span>
                     <span class="txtset show">験</span>
+                    <br>
                     <span class="txtset show">ス</span>
                     <span class="txtset show">テ</span>
                     <span class="txtset show">ー</span>

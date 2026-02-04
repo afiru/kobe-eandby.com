@@ -1,4 +1,4 @@
-<div id="kadai" class="kadai">
+<div id="komarigoto" class="kadai">
     <div class="wap kadaiLxn">
         <section class="secKadai">
             <h2 class="cl_1D1D1F fw_500 txtset h2Kadai">（よくある“お困りごと”）</h2>

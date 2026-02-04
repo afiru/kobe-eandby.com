@@ -7,7 +7,7 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .bussinessCnt02 {
-    @include mi.marginVw(1920, 65, 0, 0, 0);
+    margin: 2.49854166667vw 0vw 0vw 0vw;
 
     @include mi.mq(sp) {
         @include mi.marginPercent(355, 62, 0, 0, 0);

@@ -42,7 +42,7 @@
                 <a class="d_flex j_start ali_center cl_fff fw_500 undernone txtset btnMainHeaderGnavSp" href="#business">私たちの事業</a>
             </li>
             <li class="liMainHeaderGnavSp">
-                <a class="d_flex j_start ali_center cl_fff fw_500 undernone txtset btnMainHeaderGnavSp" href="#vison">VISION</a>
+                <a class="d_flex j_start ali_center cl_fff fw_500 undernone txtset btnMainHeaderGnavSp" href="#vision">VISION</a>
             </li>
             <li class="liMainHeaderGnavSp">
                 <a class="d_flex j_start ali_center cl_fff fw_500 undernone txtset btnMainHeaderGnavSp" href="#company">会社概要</a>

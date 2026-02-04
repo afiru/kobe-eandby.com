@@ -6,6 +6,7 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+
 .fvTopBx {
     width: 100%;
     position: relative;
@@ -13,7 +14,7 @@ LAYOUT
 
 .fvTopLxn {
     margin: auto;
-    @include mi.paddingVw(1920, 254, 0, 198, 0);
+    padding: 10.6vw 0vw 6.95vw 0vw;
     @include mi.wapLxn();
 
     @include mi.mq(sp) {
@@ -23,16 +24,17 @@ LAYOUT
 }
 
 .h1FvTop {
-@include mi.fontSizePc(40);
-@include mi.lineheightP(130);
-@include mi.letterSpacing(0);
+    @include mi.fontSizePc(92);
+    @include mi.lineheightP(130);
+    @include mi.letterSpacing(0);
+    letter-spacing: -0.14em;
 }
 
 .rubyFvTop {
-    @include mi.marginVw(1920, 60, 0, 0, 0);
+    margin: 3.8vw 0vw 0vw 0vw;
     @include mi.fontSizePc(24);
     @include mi.lineheightP(170);
-    @include mi.letterSpacing(0);
+    letter-spacing: 0.05em;
 
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 32, auto, 0, auto);
@@ -43,7 +45,7 @@ LAYOUT
 }
 
 .fvTopFx {
-    @include mi.marginVw(1920, 70, 0, 0, 0);
+    margin: 3.4vw 0vw 0vw 0vw;
 
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 18, auto, 0, auto);
@@ -88,16 +90,16 @@ LAYOUT
 }
 
 .txtFvTopCta01 {
-    background: url(../img/txtFvTopCta01.svg) no-repeat 91% center;
-    background-size: auto 98%;
+    background: url(../img/txtFvTopCta01.svg) no-repeat 94% 41%;
+    background-size: auto 66%;
     display: block;
     width: 100%;
     transition-duration: 0.5s;
 }
 
 .txtFvTopCta02 {
-    background: url(../img/txtFvTopCta02.svg) no-repeat 91% center;
-    background-size: auto 98%;
+    background: url(../img/txtFvTopCta02.svg) no-repeat 94% 41%;
+    background-size: auto 66%;
     display: block;
     width: 100%;
     transition-duration: 0.5s;
@@ -108,20 +110,20 @@ LAYOUT
 
     .txtFvTopCta01 {
         background: url(../img/txtFvTopCta01.svg) no-repeat 93% center;
-        background-size: auto 99%;
+        background-size: auto 66%;
         letter-spacing: 0.15em;
     }
 
     .txtFvTopCta02 {
         background: url(../img/txtFvTopCta02.svg) no-repeat 93% center;
-        background-size: auto 98%;
+        background-size: auto 66%;
         letter-spacing: 0.15em;
     }
 }
 
 .secFvTopFx {
     width: 380px;
-
+    margin: -0.2% 0 0 0;
     @include mi.mq(max1000) {
         width: 34vw;
     }
@@ -141,9 +143,9 @@ LAYOUT
 }
 
 .txtFvTopFx {
-    @include mi.marginVw(1920, 38, 0, 0, 0);
+    margin: 1.2vw 0vw 0vw 0vw;
     @include mi.fontSizePc(16);
-    @include mi.lineheightP(190);
+    @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
@@ -156,9 +158,10 @@ LAYOUT
 
 //scroll
 .scroll{
-    width: 25px;
+   width: 25px;
     position: absolute;
-    left: 10%;
+    left: 5%;
+    bottom: -6.6%;
     z-index: 1;
 }
 .container_05 {
@@ -180,7 +183,7 @@ LAYOUT
     text-transform: uppercase;
     writing-mode: vertical-lr;
     right: 0%;
-    transform: translateX(20%);
+    transform: translateX(0%);
 
     @include mi.mq(sp) {
 
@@ -232,6 +235,7 @@ LAYOUT
 //文字
 .jstitleFlow {
     overflow: hidden;
+
     &> span {
         opacity: 0;
         transform: translateY(100%) scale(1.2, .8);

@@ -1,4 +1,4 @@
-<div id="made" class="pore made">
+<div id="about" class="pore made">
     <video class="videoMade pc_only" muted="" loop="" playsinline="" autoplay>
         <source src="video/topFv.mp4" type="video/mp4">
     </video>

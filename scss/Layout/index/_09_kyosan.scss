@@ -7,7 +7,7 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .kyosan{
-    @include mi.paddingPercent(1920, 134, 0, 236, 0);
+    @include mi.paddingVw(1920 , 0, 0, 229, 0);
     @include mi.mq(sp) {
         @include mi.paddingPercent(375, 67, 0, 111, 0);
     }
@@ -31,10 +31,10 @@ LAYOUT
     }
 }
 .sliderKyosanLxn{
-@include mi.marginPercent(1570, 39,0 ,0 ,0 );
-@include mi.mq(sp) {
-    @include mi.marginPercent(375, 29,0 ,0 ,0 );
-}
+    @include mi.marginPercent(1570, 33,0 ,0 ,0 );
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 29,0 ,0 ,0 );
+    }
 }
 .loopSlidePc01{
     width: 100%;
@@ -81,6 +81,7 @@ LAYOUT
 
 
 .loopSlidePc02{
+    margin: 2.2% auto 0 auto;
     width: 100%;
     height: 108px;
     overflow: hidden;

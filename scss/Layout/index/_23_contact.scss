@@ -7,14 +7,17 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .contact {
-    @include mi.marginVw(1920, 162, 0, 0, 0);
-    @include mi.paddingVw(1920, 268, 0, 207, 0);
+    margin: 8.4375vw 0vw 0vw 0vw;
+    padding: 13.8583333333vw 0vw 10.88125vw 0vw;
     background: url(../img/contactPc.png) no-repeat center center;
     background-size: cover;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 140, auto, 0, auto);
-        @include mi.paddingPercent(375, 114, 0, 51, 0);
+        margin-top: 35.03%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 29.4% 0% 13.6% 0%;
     }
 }
 
@@ -28,7 +31,13 @@ LAYOUT
 .contactFx {}
 
 .secContact {
-    @include mi.ontenerWidth(1570, 740);
+    @include mi.ontenerWidth(1570, 880);
+
+    @include mi.mq(max1400) {
+        @include mi.ontenerWidth(1570, 800);
+    }
+
+    @include mi.mq(max1350) {}
 
     @include mi.mq(tab) {
         width: 67.13%;
@@ -45,35 +54,48 @@ LAYOUT
     @include mi.lineheightP(150);
     @include mi.letterSpacing(100);
 
+
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(24);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(100);
+        margin: 0 0 0 1%;
     }
 }
 
 .h3Contact {
-    @include mi.marginPercent(1100, 14, 0, 0, 0);
+    @include mi.marginPercent(1100, -1, 0, 0, 0);
     @include mi.fontSizePc(40);
     @include mi.lineheight(auto, auto);
-    @include mi.letterSpacing(-50);
+    @include mi.letterSpacing(-140);
+
+    @include mi.mq(max1450) {
+        @include mi.fontSizePc(36);
+        @include mi.lineheightP(150);
+        @include mi.letterSpacing(-140);
+    }
+
+    @include mi.mq(tab) {
+        font-size: 2.6823058447vw;
+    }
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 24, 0, 0, 0);
+        margin: 6.27% 0% 0% 1%;
         @include mi.fontSizeSp(22);
         @include mi.lineheightP(150);
-        @include mi.letterSpacing(-75);
+        @include mi.letterSpacing(-140);
     }
 }
 
 .rubyContact {
-    @include mi.marginPercent(1100, 34, 0, 0, 0);
+    @include mi.marginPercent(1100, 28, 0, 0, 0);
     @include mi.fontSizePc(24);
     @include mi.lineheight(auto, auto);
     @include mi.letterSpacing(-0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 30, 0, 0, 0);
+        margin: 4.09% 0% 0% 1%;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
@@ -81,13 +103,13 @@ LAYOUT
 }
 
 .h4Contact {
-    @include mi.marginPercent(1100, 164, 0, 0, 0);
+    @include mi.marginPercent(1100, 159, 0, 0, 0);
     @include mi.fontSizePc(18);
     @include mi.lineheight(auto, auto);
     @include mi.letterSpacing(-0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 80, 0, 0, 0);
+        margin: 24.24% 0% 0% 1%;
         @include mi.fontSizeSp(14);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
@@ -95,10 +117,10 @@ LAYOUT
 }
 
 .txtContact {
-    @include mi.marginPercent(1100, 26, 0, 0, 0);
+    @include mi.marginPercent(1100, 30, 0, 0, 0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 17, 0, 0, 0);
+        margin: 3.15% 0% 0% 1%;
     }
 }
 
@@ -117,7 +139,7 @@ LAYOUT
         @include mi.marginPercent(1100, 22, 0, 0, 0);
 
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 17, 0, 0, 0);
+            margin: 2.85% 0% 0% 0%;
         }
     }
 }
@@ -125,9 +147,25 @@ LAYOUT
 //
 .ctaContactCta {
     @include mi.ontenerWidth(1100, 361);
+    margin: 3% 0 0 0;
+
+    @include mi.mq(max1400) {
+        @include mi.ontenerWidth(1570, 420);
+    }
+
+    @include mi.mq(max1350) {
+        @include mi.ontenerWidth(1570, 310);
+    }
+
+    @include mi.mq(tab) {
+        width: 31.01%;
+    }
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 37, auto, 0, auto);
+        margin-top: 9.21%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth(330, 300);
     }
 }
@@ -137,7 +175,7 @@ LAYOUT
         @include mi.marginPercent(361, 28, 0, 0, 0);
 
         @include mi.mq(sp) {
-            @include mi.marginPercent(330, 16, 0, 0, 0);
+            margin: 5.84% 0% 0% 0%;
         }
     }
 }
@@ -153,10 +191,12 @@ LAYOUT
 
 .secContactCta {
     @include mi.ontenerWidth(361, 341);
-    background: url(../img/btnContactCta.svg) no-repeat right center;
-    background-size: auto 40%;
+    background: url(../img/btnContactCta.svg) no-repeat 94% center;
+    background-size: auto 34%;
 
     @include mi.mq(sp) {
+        background: url(../img/btnContactCta.svg) no-repeat 100% center;
+        background-size: auto 33%;
         @include mi.ontenerWidth(300, 266);
     }
 }
@@ -171,11 +211,12 @@ LAYOUT
         @include mi.fontSizeSp(16);
         @include mi.lineheight(auto, auto);
         @include mi.letterSpacing(0);
+        transform: translate(-2%, 16%);
     }
 }
 
 .rubyContactCta {
-    @include mi.marginPercent(341, 6, 0, 0, 0);
+    @include mi.marginPercent(341, 1, 0, 0, 0);
     @include mi.fontSizePc(14);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
@@ -191,15 +232,17 @@ LAYOUT
 
 .txtContactCta {
     @include mi.ontenerWidth(361, 341);
-    background: url(../img/btnContactCta02.svg) no-repeat right center;
-    background-size: auto 80%;
+    background: url(../img/btnContactCta02.svg) no-repeat 94% center;
+    background-size: auto 63%;
     @include mi.fontSizePc(20);
     @include mi.lineheightP(130);
     @include mi.letterSpacing(0);
     transition-duration: 0.5s;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(266, 0, 0, 0, 0);
+        margin: 0% 0% 0% -3%;
+        background: url(../img/btnContactCta02.svg) no-repeat 99% center;
+        background-size: auto 60%;
         @include mi.fontSizeSp(16);
         @include mi.lineheight(auto, auto);
         @include mi.letterSpacing(0);

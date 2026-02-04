@@ -7,11 +7,14 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .vision {
-    @include mi.marginVw(1920, 297, 0, 0, 0);
+    @include mi.paddingVw(1920, 297, 0, 0, 0);
     overflow: hidden;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(375, 117, auto, 0, auto);
+        padding-top: 25.2%;
+        padding-bottom: 0%;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -61,28 +64,31 @@ LAYOUT
 }
 
 .h3Vision {
-    @include mi.marginVw(1920, 87, 0, 0, 0);
+    margin: 3.40125vw 0vw 0vw 0vw;
     @include mi.fontSizePc(40);
     @include mi.lineheightP(150);
-    @include mi.letterSpacing(-50);
+    @include mi.letterSpacing(-115);
 
     @include mi.mq(tab) {
         @include mi.fontSizePc(34);
         @include mi.lineheightP(150);
-        @include mi.letterSpacing(-50);
+        @include mi.letterSpacing(-115);
     }
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
-        @include mi.marginPercent(375, 17, auto, 0, auto);
+        margin-top: 1.53%;
+        margin-bottom: 0%;
+        margin-left: 6%;
+        margin-right: 0;
         @include mi.fontSizeSp(26);
         @include mi.lineheightP(160);
-        @include mi.letterSpacing(-50);
+        @include mi.letterSpacing(-140);
     }
 }
 
 .txtVision {
-    @include mi.marginVw(1920, 41, 0, 0, 0);
+    margin: 1.035417vw 0vw 0vw 0vw;
     @include mi.fontSizePc(18);
     @include mi.lineheightP(220);
     @include mi.letterSpacing(0);
@@ -95,7 +101,10 @@ LAYOUT
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
-        @include mi.marginPercent(375, 36, auto, 0, auto);
+        margin-top: 6.6%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -105,12 +114,15 @@ LAYOUT
 .photoVisionSp {
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 375);
-        @include mi.marginPercent(375, 84, auto, 0, auto);
+        margin-top: 21.4%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 .h4Vision {
-    @include mi.marginVw(1920, 172, 0, 0, 0);
+    margin: 8.458333vw 0vw 0vw 0vw;
     @include mi.fontSizePc(20);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(50);
@@ -135,7 +147,10 @@ LAYOUT
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
-        @include mi.marginPercent(375, 33, auto, 0, auto);
+        margin-top: 10.8%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -144,7 +159,11 @@ LAYOUT
     border-bottom: 1px solid #A2A2A2;
 
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 26, 0, 19, 0);
+        padding: 7.87% 0% 4.05% 0%;
+    }
+
+    &:nth-child(n+2) {
+        margin: 0.985833vw 0vw 0vw 0vw;
     }
 }
 
@@ -167,7 +186,7 @@ LAYOUT
 }
 
 .txtLiVison {
-    @include mi.marginVw(1920, 21, 0, 0, 0);
+    margin: 1.38375vw 0vw 0vw 0vw;
     @include mi.fontSizePc(24);
     @include mi.lineheightP(auto);
     @include mi.letterSpacing(0);
@@ -179,7 +198,10 @@ LAYOUT
     }
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 13, auto, 0, auto);
+        margin-top: 2.93%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(16);
         line-height: normal;
         @include mi.letterSpacing(0);

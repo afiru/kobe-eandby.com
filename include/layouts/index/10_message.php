@@ -1,7 +1,7 @@
 <div id="message" class="bg_F5F5F5 message">
     <div class="wap masseageLxn">
         <h2 class="cl_1D1D1F fw_500 txtset h2MasseageLxn">（代表メッセージ）</h2>
-        <h3 class="cl_1D1D1F fw_700 txtset h3MasseageLxn">
+        <h3 class="cl_1D1D1F fw_700 txtset jstitleFlow h3MasseageLxn">
             <span class="txtset show">現</span>
             <span class="txtset show">場</span>
             <span class="txtset show">で</span>
