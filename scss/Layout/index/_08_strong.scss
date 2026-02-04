@@ -48,7 +48,7 @@ LAYOUT
     @include mi.lineheightP(157);
     letter-spacing: -0.115em;
      @include mi.mq(max1400) {
-        @include mi.fontSizePc(37);
+        @include mi.fontSizePc(36);
     }
     @include mi.mq(sp) {
         margin-top: 3%;
@@ -104,7 +104,7 @@ LAYOUT
     letter-spacing: -0.115em;
     width: 100%;
     @include mi.mq(max1400) {
-        @include mi.fontSizePc(37);
+        @include mi.fontSizePc(36);
     }
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 22,auto ,0 ,auto );
