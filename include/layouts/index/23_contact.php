@@ -59,7 +59,7 @@
             </section>
             <ul class="ctaContactCta">
                 <li class="liContactCta">
-                    <a class="bg_669B40 cl_fff undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnContactCta" href="tel:">
+                    <a class="bg_669B40 cl_fff undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnContactCta" href="tel:090-9860-4544">
                         <section class="secContactCta">
                             <!--bg:../img/btnContactCta.svg-->
                             <h2 class="t_center cl_fff fw_500 txtset h2ContactCta">お困りごとを電話で話す</h2>
@@ -69,7 +69,7 @@
                 </li>
 
                 <li class="liContactCta">
-                    <a class="bg_E5E5E5 undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnContactCta" href="mail">
+                    <a class="bg_E5E5E5 undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnContactCta" href="mailto:okamoto@eandby.com">
                         <p class="t_center cl_1D1D1F fw_500 txtset txtContactCta">お困りごとをメールで送る</p>
                         <!--bg:../img/btnContactCta02.svg-->
                     </a>

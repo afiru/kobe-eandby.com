@@ -8,9 +8,8 @@ LAYOUT
 ========================================================================== */
 .value {
     @include mi.paddingPercent(1920, 102, 0, 0, 0);
-
     @include mi.mq(sp) {
-        @include mi.paddingPercent(375, 122, 0, 0, 0);
+            padding: 33% 0% 0% 0%;
     }
 }
 
@@ -21,7 +20,9 @@ LAYOUT
     }
 }
 
-.titleValue {}
+.titleValue {
+    flex-flow: row wrap;
+}
 
 .h2ValueLxn {
     @include mi.fontSizePc(26);
@@ -36,16 +37,17 @@ LAYOUT
 }
 
 .h3ValueLxn {
-        margin: 0 0 0 1.5%;
+    margin: 0 0 0 1.5%;
     @include mi.fontSizePc(20);
     @include mi.lineheightP(150);
-    letter-spacing: -0.115em;
+    letter-spacing: 0em;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(355, 9, 0, 0, 0);
+        margin: 1.53% 0% 0% 0%;
         @include mi.fontSizeSp(15);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
+        width: 100%;
     }
 }
 
@@ -55,7 +57,7 @@ LAYOUT
     width: 100%;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(355, 22, 0, 0, 0);
+        margin: 5.19% 0% 0% 0%;
     }
 }
 
@@ -82,6 +84,7 @@ LAYOUT
 
     @include mi.mq(sp) {
         @include mi.paddingPercent(355, 14, 0, 20, 0);
+        aspect-ratio: 355/363;
 
     }
 }
@@ -94,7 +97,7 @@ LAYOUT
     flex-flow: column;
 
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(355, 320);
+        width: 90%;
     }
 }
 
@@ -134,7 +137,7 @@ LAYOUT
     color: #66A13F;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(320, 8, 0, 0, 0);
+        margin: 1.5% 0% 0% 0%;
         @include mi.fontSizeSp(16);
         @include mi.lineheightP(160);
         @include mi.letterSpacing(0);
@@ -148,7 +151,7 @@ LAYOUT
     background: #669B40;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(320, 19, 0, 0, 0);
+        margin: 5% 0% 0% 0%;
         aspect-ratio: 320/1;
     }
 }
@@ -160,10 +163,11 @@ LAYOUT
     letter-spacing: -0.115em;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(320, 14, 0, 14, 0);
+        margin: 4.37% 0% 3.37% 0%;
         @include mi.fontSizeSp(14);
-        @include mi.lineheightP(160);
+        @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
+        font-feature-settings: "palt";
     }
 }
 
@@ -180,6 +184,9 @@ LAYOUT
     &:nth-child(n+2) {
         @include mi.marginPercent(320, 9, 0, 0, 0);
     }
+    @include mi.mq(sp) {
+        padding: 2% 1.4%;
+    }
 }
 
 .iconLiValueSlider {
@@ -187,7 +194,7 @@ LAYOUT
     color: #66A13F;
 
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(320, 20);
+
     }
 }
 
@@ -200,6 +207,7 @@ LAYOUT
         @include mi.fontSizeSp(13);
         @include mi.lineheightP(130);
         @include mi.letterSpacing(0);
+        font-feature-settings: "palt";
     }
 }
 
@@ -212,7 +220,7 @@ LAYOUT
 
     @include mi.mq(sp) {
         @include mi.marginPercent(320, 14, auto, 0, auto);
-        @include mi.ontenerWidth(320, 117);
+        width: 33.56%;
     }
 }
 
@@ -233,7 +241,7 @@ LAYOUT
     aspect-ratio: 1/1;
     background: url(../img/swiper-button-prev.svg) no-repeat center center;
     background-size: 100% 100%;
-
+    transition-duration: 0.5s;
     @include mi.mq(sp) {
         width: 40px;
     }
@@ -243,6 +251,9 @@ LAYOUT
         width: 100%;
         height: 100%;
         overflow: unset;
+    }
+    &:hover{
+        opacity: 0.6;
     }
 }
 
@@ -265,9 +276,12 @@ LAYOUT
     margin-top: 0;
     background: url(../img/swiper-button-next.svg) no-repeat center center;
     background-size: 100% 100%;
-
+    transition-duration: 0.5s;
     @include mi.mq(sp) {
         width: 40px;
+    }
+    &:hover{
+        opacity: 0.6;
     }
 
     svg {

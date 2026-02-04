@@ -9,7 +9,7 @@ LAYOUT
 .kadai{
     @include mi.paddingVw(1920 , 236, 0, 236, 0);
     @include mi.mq(sp) {
-        @include mi.paddingPercent(375, 104, 0, 1085, 0);
+        padding: 27.73% 0% 29% 0%;
     }
 }
 .kadaiLxn{
@@ -43,17 +43,20 @@ LAYOUT
         @include mi.marginPercent(330, 14,auto ,0 ,auto );
         @include mi.fontSizeSp(22);
         @include mi.lineheightP(150);
-        @include mi.letterSpacing(50);
+        letter-spacing: -0.14em;
     }
 }
 .h4Kadai{
     @include mi.marginPercent(1570, 4,0 ,0 ,0 );
     @include mi.fontSizePc(20);
     @include mi.lineheightP(175);
-    letter-spacing: -0.115em;
+    letter-spacing: 0;
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 13,auto ,0 ,auto );
-        @include mi.fontSizeSp(22);
+        margin-top: 2.93%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        @include mi.fontSizeSp(13);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
     }
@@ -61,7 +64,10 @@ LAYOUT
 .ulKadai{
     @include mi.marginPercent(1570, 90,auto ,0 ,auto );
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 13,auto ,0 ,auto );
+        margin-top: 9.93%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .liKadai{
@@ -69,10 +75,16 @@ LAYOUT
     width: 31.97%;
     @include mi.kadomaru(6px);
     background: #F6F6F6;
-    @include mi.marginPercent(330, 14,0 ,0 ,0 );
+
     @include mi.mq(sp) {
-        @include mi.paddingPercent(330, 27, 0, 27, 0);
+       padding: 8.18% 0% 7.18% 0%;
         width: 100%;
+    }
+     &:nth-child(n+2){
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(330, 14,0 ,0 ,0 );
+        }
     }
     &:nth-child(n+4){
         @include mi.marginPercent(1570, 26,0 ,0 ,0 );
@@ -101,10 +113,13 @@ LAYOUT
     @include mi.lineheightP(145);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 40,auto ,0 ,auto );
+        margin-top: 11%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(17);
         @include mi.lineheightP(160);
-        @include mi.letterSpacing(0);
+        letter-spacing: -0.03em;
     }
 }
 .txtKadaiCta{
@@ -113,7 +128,10 @@ LAYOUT
     @include mi.lineheightP(180);
     @include mi.letterSpacing(0);
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 16,auto ,0 ,auto );
+        margin-top: 3.84%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.fontSizeSp(13);
         @include mi.lineheightP(150);
         @include mi.letterSpacing(0);
@@ -128,7 +146,10 @@ LAYOUT
     flex-flow: row wrap;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 24,auto ,0 ,auto );
+        margin-top: 6%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
         @include mi.ontenerWidth( 330, 300 );
     }
 }
@@ -178,14 +199,14 @@ LAYOUT
     &.btnKadaiCta01 {
         background-image: url(../img/txtFvTopCta01.svg);
         background-repeat: no-repeat;
-        background-position: 95% center;
+        background-position: 96% center;
         background-size: auto 14px;
     }
 
     &.btnKadaiCta02 {
         background-image: url(../img/txtFvTopCta02.svg);
         background-repeat: no-repeat;
-        background-position: 95% center;
+        background-position: 96% center;
         background-size: auto 14px;
     }
 }
@@ -207,7 +228,8 @@ LAYOUT
     transition-duration: 0.5s;
 
     @include mi.mq(sp) {
-        @include mi.fontSizeSp(14);
+        @include mi.fontSizeSp(16);
+        line-height: 1.5;
     }
 }
 .rubyKadaiCta{
@@ -218,9 +240,9 @@ LAYOUT
     transition-duration: 0.5s;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(266, 9, 0, 0, 0);
+        margin: 0% 0% 0% 0%;
         @include mi.fontSizeSp(13);
-        @include mi.lineheight(13, 22);
+        line-height: 1.5;
         @include mi.letterSpacing(0);
     }
 }

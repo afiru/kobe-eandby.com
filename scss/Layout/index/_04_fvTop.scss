@@ -19,7 +19,7 @@ LAYOUT
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 330);
-        @include mi.paddingPercent(375, 73, 0, 31, 0);
+        padding: 32.46% 0% 8.26% 0%;
     }
 }
 
@@ -28,6 +28,10 @@ LAYOUT
     @include mi.lineheightP(130);
     @include mi.letterSpacing(0);
     letter-spacing: -0.14em;
+    @include mi.mq(sp) {
+         @include mi.fontSizeSp(38);
+        @include mi.lineheightP(138);
+    }
 }
 
 .rubyFvTop {
@@ -46,9 +50,11 @@ LAYOUT
 
 .fvTopFx {
     margin: 3.4vw 0vw 0vw 0vw;
-
     @include mi.mq(sp) {
-        @include mi.marginPercent(330, 18, auto, 0, auto);
+        margin-top: 6.45%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -90,34 +96,50 @@ LAYOUT
 }
 
 .txtFvTopCta01 {
-    background: url(../img/txtFvTopCta01.svg) no-repeat 94% 41%;
+    background: url(../img/txtFvTopCta01.svg) no-repeat;
+    background-position: 93% center;
     background-size: auto 66%;
     display: block;
     width: 100%;
     transition-duration: 0.5s;
+     @include mi.mq(sp) {
+            background-position: 95% 41%;
+        }
 }
 
 .txtFvTopCta02 {
-    background: url(../img/txtFvTopCta02.svg) no-repeat 94% 41%;
+    background: url(../img/txtFvTopCta02.svg) no-repeat;
+    background-position: 93% center;
     background-size: auto 66%;
     display: block;
     width: 100%;
     transition-duration: 0.5s;
+     @include mi.mq(sp) {
+            background-position: 95% 41%;
+        }
 }
 
 .btnFvTopCta:hover {
     opacity: 1;
 
     .txtFvTopCta01 {
-        background: url(../img/txtFvTopCta01.svg) no-repeat 93% center;
+        background: url(../img/txtFvTopCta01.svg) no-repeat;
+        background-position: 94% center;
         background-size: auto 66%;
         letter-spacing: 0.15em;
+        @include mi.mq(sp) {
+            background-position: 95% 41%;
+        }
     }
 
     .txtFvTopCta02 {
-        background: url(../img/txtFvTopCta02.svg) no-repeat 93% center;
+        background: url(../img/txtFvTopCta02.svg) no-repeat ;
+        background-position: 94% center;
         background-size: auto 66%;
         letter-spacing: 0.15em;
+        @include mi.mq(sp) {
+            background-position: 95% 41%;
+        }
     }
 }
 
@@ -129,8 +151,11 @@ LAYOUT
     }
 
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(330, 276);
-        @include mi.marginPercent(330, 85, 0, 0, auto);
+        width: 80.63%;
+        margin-top: 25.75%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: 0%;
     }
 }
 
@@ -149,7 +174,7 @@ LAYOUT
     @include mi.letterSpacing(0);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(266, 9, 0, 0, 0);
+        margin: 6.5% 0% 0% 0%;
         @include mi.fontSizeSp(13);
         @include mi.lineheight(13, 22);
         @include mi.letterSpacing(0);
@@ -163,6 +188,10 @@ LAYOUT
     left: 5%;
     bottom: -6.6%;
     z-index: 1;
+    @include mi.mq(sp) {
+        bottom: -13.5%;
+        left: 5.5%;
+    }
 }
 .container_05 {
     height: 143px;
@@ -170,6 +199,9 @@ LAYOUT
     display: flex;
     justify-content: space-between;
     aspect-ratio: 25/143;
+    @include mi.mq(sp) {
+        aspect-ratio: 21/143;
+    }
 }
 
 .scrollbar-text_05 {

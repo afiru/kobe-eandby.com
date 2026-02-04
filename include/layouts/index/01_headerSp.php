@@ -7,7 +7,7 @@
     </figure>
 </div>
 
-<div class="bg_669B40 headerSpGnav">
+<div class="bg_669B40 headerSpGnav" data-lenis-prevent>
     <div class="d_flex j_between alc_center headerSpGnavTop">
         <a class="d_block logoHeaderSp" href="index.php">
             <img loading="lazy" src="img/logoHeaderGnavSp.svg" alt="" width="103" height="57">
@@ -35,9 +35,7 @@
             <li class="liMainHeaderGnavSp">
                 <a class="d_flex j_start ali_center cl_fff fw_500 undernone txtset btnMainHeaderGnavSp" href="#special">スペシャリスト</a>
             </li>
-            <li class="liMainHeaderGnavSp">
-                <a class="d_flex j_start ali_center cl_fff fw_500 undernone txtset btnMainHeaderGnavSp" href="#komarigoto">よくある“お困りごと”</a>
-            </li>
+
             <li class="liMainHeaderGnavSp">
                 <a class="d_flex j_start ali_center cl_fff fw_500 undernone txtset btnMainHeaderGnavSp" href="#business">私たちの事業</a>
             </li>
@@ -50,8 +48,8 @@
         </ul>
 
         <ul class="ctaMainHeaderGnavSp">
-            <li class="liMainHeaderGnavSp">
-                <a class="bg_fff undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnMainHeaderGnavSp" href="tel:090-9860-4544">
+            <li class="liMainHeaderGnavSp02">
+                <a class="bg_fff undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnMainHeaderGnavSp02" href="tel:090-9860-4544">
                     <section class="secMainHeaderGnavSp">
                         <h2 class="t_center cl_1D1D1F fw_500 txtset h2MainHeaderGnavSp">お困りごとを電話で話す</h2>
                         <p class="t_center cl_1D1D1F fw_500 txtset rubyMainHeaderGnavSp">090-9860-4544（9：00-18：00 土日祝休）</p>
@@ -59,8 +57,8 @@
                 </a>
             </li>
 
-            <li class="liMainHeaderGnavSp">
-                <a class="bg_fff undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnMainHeaderGnavSp" href="mail">
+            <li class="liMainHeaderGnavSp02">
+                <a class="bg_fff undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnMainHeaderGnavSp02" href="mailto:okamoto@eandby.com">
                     <p class="t_center cl_1D1D1F fw_500 txtset txtMainHeaderGnavSp">お困りごとをメールで送る</p>
                 </a>
             </li>

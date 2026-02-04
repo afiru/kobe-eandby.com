@@ -14,6 +14,8 @@
                 <span class="txtset show">と</span>
                 <span class="show cl_669B40">闘</span>
                 <span class="txtset show">え</span>
+                <span class="txtset show">る</span>
+                <br class="sp_only">
                 <span class="txtset show">チ</span>
                 <span class="txtset show">ー</span>
                 <span class="txtset show">ム</span>
