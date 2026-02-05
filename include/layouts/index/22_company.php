@@ -9,7 +9,7 @@
                 </li>
                 <li class="d_flex j_between row liCompany">
                     <h3 class="cl_000 fw_500 txtset h3Company">代表者</h3>
-                    <p class="cl_000 fw_400 txtset txtCompany">代表取締役社長 岡本 裕之</p>
+                    <p class="cl_000 fw_400 txtset txtCompany">代表取締役 岡本 裕之</p>
                 </li>
                 <li class="d_flex j_between row liCompany">
                     <h3 class="cl_000 fw_500 txtset h3Company">所在地</h3>
