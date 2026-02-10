@@ -102,11 +102,17 @@ jQuery(function ($) {
     });
 
     //追従スクロールしたら表示
-    $(window).scroll(function () {
-        if ($(this).scrollTop() >= $(".kadai").offset().top) {
-            $(".pcFixedBtn").fadeIn(500);
+    $(window).on('scroll', function () {
+        // PC判定（例：768px以上）
+        if (window.innerWidth >= 768) {
+            if ($(this).scrollTop() >= $('.kadai').offset().top) {
+                $('.pcFixedBtn').fadeIn(500);
+            } else {
+                $('.pcFixedBtn').fadeOut(500);
+            }
         } else {
-            $(".pcFixedBtn").fadeOut(500);
+            // SPでは常に非表示にしたい場合
+            $('.pcFixedBtn').hide();
         }
     });
 });
