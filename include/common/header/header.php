@@ -65,7 +65,7 @@
      CSS
 ========================= -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
-    <link rel="stylesheet" href="/css/common.css?v=1.0.3">
+    <link rel="stylesheet" href="css/common.css?v=1.0.3">
 
     <!-- =========================
      JavaScript（順序保証 + 非ブロッキング）
@@ -112,8 +112,8 @@
     </script>
 
     <!-- 自作JS -->
-    <script src="/js/config.js?v=1.0.3" defer></script>
-    <script src="/js/bxsliderSetting.js?v=1.0.3" defer></script>
+    <script src="js/config.js?v=1.0.3" defer></script>
+    <script src="js/bxsliderSetting.js?v=1.0.3" defer></script>
 </head>
 
 <body id="body" class="body">

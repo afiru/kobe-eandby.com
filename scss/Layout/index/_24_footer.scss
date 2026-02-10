@@ -1,7 +1,7 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -21,8 +21,7 @@ LAYOUT
   }
 }
 
-.footerLxnFx {
-}
+.footerLxnFx {}
 
 .logoFoter {
   @include mi.ontenerWidth(1570, 144.54);
@@ -55,8 +54,7 @@ LAYOUT
   }
 }
 
-.ulNavFooter {
-}
+.ulNavFooter {}
 
 .liNavFooter {
   @include mi.fontSizePc(20);
@@ -142,8 +140,7 @@ LAYOUT
   display: none;
 }
 
-.pcFixedBtnFx {
-}
+.pcFixedBtnFx {}
 
 .ctaPcFixedBtnFxc {
   width: 100%;

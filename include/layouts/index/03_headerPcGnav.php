@@ -1,4 +1,4 @@
-<div class="pofied headerGnavPc off jsHeaderGnavPc off">
+<div class="pofied headerGnavPc off jsHeaderGnavPc off" data-lenis-prevent>
     <div class="c_pointer btnHeaderGnavPcOff">
         <!--.btnHeaderGnavPcfill{fill="#1D1D1F"} .btnHeaderGnavPcStroke{stroke="#1D1D1F"}-->
         <!--.btnHeaderGnavPcOff:hover .btnHeaderGnavPcfill{fill="#669B40"} .btnHeaderGnavPcOff:hover .btnHeaderGnavPcStroke{stroke="#669B40"}-->
@@ -14,7 +14,7 @@
     </figure>
 </div>
 
-<div class="bg_669B40 pofixed headerPcGnav">
+<div class="bg_669B40 pofixed headerPcGnav" data-lenis-prevent>
     <div class="wap headerPcGnavLxn">
         <a class="undernone d_block logoHeaderPcGnavLxn" href="index.php">
             <img loading="lazy" src="img/logoHeaderPcGnavLxn.svg" alt="E＆By ロゴ" width="200" height="111">
@@ -108,7 +108,7 @@
 
             <ul class="ctaMainHeaderGnavPc">
                 <li class="liMainHeaderGnavPc">
-                    <a class="bg_fff undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnMainHeaderGnavPc" href="tel:">
+                    <a class=" undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnMainHeaderGnavPc" href="tel:090-9860-4544">
                         <section class="secMainHeaderGnavPc">
                             <h2 class="t_center cl_1D1D1F fw_500 txtset h2MainHeaderGnavPc">お困りごとを電話で話す</h2>
                             <p class="t_center cl_1D1D1F fw_500 txtset rubyMainHeaderGnavPc">090-9860-4544（9：00-18：00 土日祝休）</p>

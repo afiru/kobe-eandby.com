@@ -10,7 +10,7 @@ LAYOUT
     @include mi.paddingVw(1920, 0, 0, 229, 0);
 
     @include mi.mq(sp) {
-        @include mi.paddingPercent(375, 67, 0, 111, 0);
+        @include mi.paddingPercent(375, 0, 0, 111, 0);
     }
 }
 

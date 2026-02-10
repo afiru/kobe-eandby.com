@@ -13,7 +13,7 @@ LAYOUT
     width: 100%;
 
     @include mi.mq(sp) {
-        @include mi.paddingPercent(375, 105, 0, 111, 0);
+        padding: 28% 0% 26% 0%;
     }
 }
 
@@ -86,7 +86,7 @@ LAYOUT
     @include mi.mq(sp) {
         @include mi.marginPercent(330, 22, auto, 0, auto);
         @include mi.fontSizeSp(16);
-        @include mi.lineheightP(160);
+        @include mi.lineheightP(162);
         @include mi.letterSpacing(0);
     }
 }

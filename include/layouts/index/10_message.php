@@ -38,7 +38,7 @@
                     一緒に考える人でありたい。<br>
                     一緒に“いいあんばい”を探しましょう。
                 </h3>
-                <h4 class="cl_1D1D1F fw_400 txtset h4MasseagePref">代表取締役社長</h4>
+                <h4 class="cl_1D1D1F fw_400 txtset h4MasseagePref">代表取締役</h4>
                 <div class="d_flex j_start ali_center massageNameFx">
                     <h5 class="cl_1D1D1F fw_500 txtset h5MasseagePref">岡本 裕之</h5>
                     <p class=" plus fw_400 txtset txtMasseagePref">Hiroyuki　Okamoto</p>

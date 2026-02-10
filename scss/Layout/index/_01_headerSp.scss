@@ -8,11 +8,12 @@ LAYOUT
 ========================================================================== */
 .headerSp{
     @include mi.ontenerWidth(375 , 350 );
-    padding: 3.2% 0% 2.4% 0%;
+   padding: 2.5% 0% 2.4% 0%;
     @include mi.marginPercent(375, 0,9 ,0 ,16 );
 }
 .logoHeaderSp{
     @include mi.ontenerWidth( 350, 72 );
+    transform: translateY(8%);
 }
 .btnHeaderSp{
     @include mi.ontenerWidth( 350, 46 );
@@ -22,6 +23,7 @@ LAYOUT
     right: -100%;
     top:0;
     position: fixed;
+    z-index: 99;
     overflow: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -30,8 +32,8 @@ LAYOUT
 }
 .headerSpGnavTop{
     @include mi.paddingPercent(375, 0, 0, 9, 0);
-    @include mi.marginPercent(375, 0,9 ,0 ,19 );
-    @include mi.ontenerWidth( 375, 340);
+    margin: 0% auto 0% 5.06%;
+    width: 92.66%;
 }
 .logoHeaderSp{
     @include mi.ontenerWidth( 340, 82 );
@@ -41,34 +43,40 @@ LAYOUT
 }
 
 .navMainHeaderGnavSp{
-   @include mi.ontenerWidth( 340, 300 );
-   @include mi.marginPercent(340, 68,auto ,0 ,auto );
+   width: 80.23%;
+    margin-top: 16%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .ulMainHeaderGnavSp{
-    @include mi.ontenerWidth( 300, 263.5 );
+    width: 87.83%;
     margin: auto;
 }
 .liMainHeaderGnavSp{
     &:nth-child(n+2){
-        @include mi.marginPercent(263.5, 40,0 ,0 ,0 );
+        margin: 13% 0% 0% 0%;
     }
 }
 .btnMainHeaderGnavSp{
     @include mi.fontSizeSp(18);
     @include mi.lineheight(18,18);
     @include mi.letterSpacing(50);
+    aspect-ratio: 263/24;
+    width: 100%;
+    background: url(../img/btnMainHeaderGnavSp.svg)no-repeat center right;
 }
 
 .ctaMainHeaderGnavSp{
-    @include mi.marginPercent(300, 68,0 ,0 ,0 );
+    margin: 22.66% 0% 0% 0%;
 }
-.liMainHeaderGnavSp{
+.liMainHeaderGnavSp02{
     width: 100%;
     &:nth-child(n+2){
         @include mi.marginPercent(300, 17,0 ,0 ,0 );
     }
 }
-.btnMainHeaderGnavSp{
+.btnMainHeaderGnavSp02{
     aspect-ratio: 300/60;
     @include mi.kadomaru(60px);
     width: 100%;
@@ -78,11 +86,12 @@ LAYOUT
 }
 .h2MainHeaderGnavSp{
     @include mi.fontSizeSp(16);
-    @include mi.lineheight(16,16);
+    line-height: 1.5;
     @include mi.letterSpacing(0);
 }
 .rubyMainHeaderGnavSp{
     @include mi.fontSizeSp(12);
-    @include mi.lineheightP(150);
+    margin: 1.2% 0 0 0;
+    line-height: 1.2;
     @include mi.letterSpacing(0);
 }

@@ -10,7 +10,7 @@ LAYOUT
     @include mi.paddingPercent(1920, 102, 0, 237, 0);
 
     @include mi.mq(sp) {
-        padding: 50.6% 0% 31.0% 0%;
+        padding: 34.6% 0% 31% 0%;
     }
 }
 
@@ -56,7 +56,7 @@ LAYOUT
     width: 100%;
 
     @include mi.mq(sp) {
-        margin: 3.5% 0% 0% 0%;
+        margin: 3.8% 0% 0% 0%;
     }
 }
 
@@ -64,7 +64,7 @@ LAYOUT
     @include mi.marginPercent(1570, 35, 0, 0, 0);
 
     @include mi.mq(sp) {
-        margin: 6.88% 0% 0% 0%;
+        margin: 8% 0% 0% 0%;
     }
 }
 
@@ -145,7 +145,7 @@ LAYOUT
     @include mi.ontenerWidth(1570, 530);
     margin: 0vw 0vw 0vw 9.96875vw;
 
-    @include mi.mq(tab) {
+    @include mi.mq(max1450) {
         @include mi.ontenerWidth(1250, 400);
         @include mi.marginPercent(1250, 0, 0, 0, 60);
     }

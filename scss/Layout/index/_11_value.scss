@@ -1,7 +1,7 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -21,8 +21,7 @@ LAYOUT
   }
 }
 
-.titleValue {
-}
+.titleValue {}
 
 .h2ValueLxn {
   @include mi.fontSizePc(26);
@@ -60,8 +59,7 @@ LAYOUT
   }
 }
 
-.swiper {
-}
+.swiper {}
 
 .swiper-wrapper {
   align-items: stretch;
@@ -100,8 +98,7 @@ LAYOUT
   }
 }
 
-.titleValueSlider {
-}
+.titleValueSlider {}
 
 .h4TitleValueSlider {
   @include mi.fontSizePc(26);
@@ -149,6 +146,7 @@ LAYOUT
   width: 100%;
   background: #669b40;
   @include mi.letterSpacing(0);
+
   @include mi.mq(sp) {
     @include mi.marginPercent(320, 19, 0, 0, 0);
     aspect-ratio: 320/1;
@@ -171,8 +169,7 @@ LAYOUT
 .ulValueSlider {
   margin-top: auto;
 
-  @include mi.mq(sp) {
-  }
+  @include mi.mq(sp) {}
 }
 
 .liValueSlider {
@@ -248,8 +245,7 @@ LAYOUT
   }
 }
 
-.swiper-button-prev:hover {
-}
+.swiper-button-prev:hover {}
 
 .swiper-button-prev:hover {
   opacity: 1;
@@ -280,8 +276,7 @@ LAYOUT
   }
 }
 
-.swiper-button-next:hover {
-}
+.swiper-button-next:hover {}
 
 .swiper-button-next:hover {
   opacity: 1;

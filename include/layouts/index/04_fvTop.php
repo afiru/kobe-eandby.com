@@ -7,6 +7,7 @@
             <span class="txtset show">ご</span>
             <span class="txtset show">と</span>
             <span class="txtset show">を</span>
+            <br class="sp_only">
             <span class="txtset show">解</span>
             <span class="txtset show">決</span>
             <span class="txtset show">し</span>
@@ -30,7 +31,7 @@
         <div class="d_flex j_between row fvTopFx">
             <ul class="d_flex j_between ctaFvTopCta">
                 <li class="liFvTopCta">
-                    <a class="bg_669B40 undernone cl_fff fw_500 d_flex j_center ali_center btnFvTopCta" href="tel:">
+                    <a class="bg_669B40 undernone cl_fff fw_500 d_flex j_center ali_center btnFvTopCta" href="#contact">
                         <p class="t_center cl_fff fw_500 txtset txtFvTopCta txtFvTopCta01">お困りごとを話す</p>
                     </a>
                 </li>

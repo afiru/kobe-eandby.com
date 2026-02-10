@@ -14,6 +14,7 @@
                 <span class="txtset show">課</span>
                 <span class="txtset show">題</span>
                 <span class="txtset show">は</span>
+                <br class="sp_only">
                 <span class="txtset show">あ</span>
                 <span class="txtset show">り</span>
                 <span class="txtset show">ま</span>
@@ -67,7 +68,7 @@
 
             <ul class="ctaKadaiCta">
                 <li class="liKadaiCta">
-                    <a class=" undernone cl_fff fw_500 d_flex j_center ali_center btnKadaiCta btnKadaiCta01" href="tel:">
+                    <a class=" undernone cl_fff fw_500 d_flex j_center ali_center btnKadaiCta btnKadaiCta01" href="tel:090-9860-4544">
                         <!--bg:../img/btnKadaiCta01.svg-->
                         <section class="secKadaiCta">
                             <h2 class="t_center cl_fff fw_500 txtset h2KadaiCtaBtn">お困りごとを電話で話す</h2>
