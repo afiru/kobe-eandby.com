@@ -3411,6 +3411,27 @@ LAYOUT
     transform: translateX(-200%);
   }
 }
+.loopSlidePc02 {
+  display: flex;
+  height: 108px;
+  overflow: hidden;
+  margin: 2.2% auto 0 auto;
+}
+@media screen and (max-width: 767px) {
+  .loopSlidePc02 {
+    margin-top: 23px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 58px;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 1249px) {
+  .loopSlidePc02 {
+    margin: 6.13% 0% 0% 0%;
+  }
+}
+
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
