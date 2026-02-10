@@ -60,7 +60,7 @@
             </div>
 
             <div class="loopSlidePc02">
-                <ul class="ulSliderKyosanLxn ulSliderKyosanLxn02">
+                <ul class=" ulSliderKyosanLxn02">
                     <li class="liSliderKyosanLxn">
                         <img loading="lazy" class="" src="img/liSliderKyosanLxn02_01.png" alt="" width="108" height="108">
                     </li>
@@ -86,7 +86,7 @@
                         <img loading="lazy" class="" src="img/liSliderKyosanLxn02_08.png" alt="" width="108" height="108">
                     </li>
                 </ul>
-                <ul class="ulSliderKyosanLxn ulSliderKyosanLxn02">
+                <ul class=" ulSliderKyosanLxn02">
                     <li class="liSliderKyosanLxn">
                         <img loading="lazy" class="" src="img/liSliderKyosanLxn02_01.png" alt="" width="108" height="108">
                     </li>
