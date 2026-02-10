@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* ==========================================================================
 Reset
 ========================================================================== */
@@ -9,18 +10,75 @@ Last Updated: 2010-09-17
 Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -38,8 +96,17 @@ body {
   line-height: 1;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -47,12 +114,15 @@ nav ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -84,7 +154,8 @@ del {
   text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
+abbr[title],
+dfn[title] {
   border-bottom: 1px dotted;
   cursor: help;
 }
@@ -104,7 +175,8 @@ hr {
   padding: 0;
 }
 
-input, select {
+input,
+select {
   vertical-align: middle;
 }
 
@@ -171,6 +243,7 @@ body {
     opacity: 1;
   }
 }
+
 body img {
   display: block;
   max-width: 100%;
@@ -202,11 +275,13 @@ svg {
   margin-left: auto;
   margin-right: auto;
 }
+
 @media screen and (max-width: 1249px) {
   .wapper {
     width: 98%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .wapper {
     width: 100%;
@@ -216,6 +291,7 @@ svg {
 .pc_only {
   display: block;
 }
+
 @media screen and (max-width: 767px) {
   .pc_only {
     display: none;
@@ -225,6 +301,7 @@ svg {
 .sp_only {
   display: none;
 }
+
 @media screen and (max-width: 767px) {
   .sp_only {
     display: block;
@@ -234,6 +311,7 @@ svg {
 .pc_order_0 {
   order: 0;
 }
+
 @media screen and (max-width: 767px) {
   .pc_order_0 {
     order: unset;
@@ -247,6 +325,7 @@ svg {
 .pc_order_1 {
   order: 1;
 }
+
 @media screen and (max-width: 767px) {
   .pc_order_1 {
     order: unset;
@@ -260,6 +339,7 @@ svg {
 .pc_order_2 {
   order: 2;
 }
+
 @media screen and (max-width: 767px) {
   .pc_order_2 {
     order: unset;
@@ -273,6 +353,7 @@ svg {
 .pc_order_3 {
   order: 3;
 }
+
 @media screen and (max-width: 767px) {
   .pc_order_3 {
     order: unset;
@@ -286,6 +367,7 @@ svg {
 .pc_order_4 {
   order: 4;
 }
+
 @media screen and (max-width: 767px) {
   .pc_order_4 {
     order: unset;
@@ -299,6 +381,7 @@ svg {
 .pc_order_5 {
   order: 5;
 }
+
 @media screen and (max-width: 767px) {
   .pc_order_5 {
     order: unset;
@@ -312,6 +395,7 @@ svg {
 .pc_order_6 {
   order: 6;
 }
+
 @media screen and (max-width: 767px) {
   .pc_order_6 {
     order: unset;
@@ -325,6 +409,7 @@ svg {
 .pc_order_7 {
   order: 7;
 }
+
 @media screen and (max-width: 767px) {
   .pc_order_7 {
     order: unset;
@@ -338,6 +423,7 @@ svg {
 .pc_order_8 {
   order: 8;
 }
+
 @media screen and (max-width: 767px) {
   .pc_order_8 {
     order: unset;
@@ -359,6 +445,7 @@ svg {
 a {
   transition-duration: 0.5s;
 }
+
 a:hover {
   opacity: 0.7;
 }
@@ -528,6 +615,7 @@ body {
   color: #1D1D1F;
   font-weight: 500;
 }
+
 body img {
   max-width: 100%;
   height: auto;
@@ -540,6 +628,7 @@ body button {
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 500;
 }
+
 body h1,
 body h2,
 body h3,
@@ -597,11 +686,13 @@ LAYOUT
   letter-spacing: 0.06em;
   font-size: 12px;
 }
+
 @media screen and (max-width: 1249px) {
   .test {
     font-size: 0.9607686149vw;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .test {
     font-size: 3.7333333333vw;
@@ -640,6 +731,7 @@ LAYOUT
   width: 82.4215789474%;
   margin: 0 auto;
 }
+
 @media screen and (max-width: 1600px) {
   .wap {
     width: 90%;
@@ -654,6 +746,7 @@ LAYOUT
   background: #FFF;
   transition-duration: 0.5s;
 }
+
 @media screen and (max-width: 767px) {
   .baseHeader {
     position: fixed;
@@ -675,6 +768,7 @@ LAYOUT
   margin: 0 auto;
   padding: 1.3020833333vw 0.9145833333vw 1.3020833333vw 1.3541666667vw;
 }
+
 @media screen and (max-width: 1400px) {
   .headerPc {
     padding: 2.1428571429vw 2.1428571429vw 2.1428571429vw 2.1428571429vw;
@@ -684,14 +778,17 @@ LAYOUT
 .logoHeaderPc {
   width: 103px;
 }
+
 @media screen and (max-width: 1400px) {
   .logoHeaderPc {
     width: 7.3571428571vw;
   }
+
   .logoHeaderPc img {
     max-width: 103px;
   }
 }
+
 .logoHeaderPc img {
   width: 100%;
 }
@@ -699,10 +796,12 @@ LAYOUT
 .navHeaderPc {
   width: 1196px;
 }
+
 @media screen and (max-width: 1400px) {
   .navHeaderPc {
     width: 85.5714285714vw;
   }
+
   .navHeaderPc img {
     max-width: 1198px;
   }
@@ -711,10 +810,12 @@ LAYOUT
 .ulNavHeaderPc {
   width: 997px;
 }
+
 @media screen and (max-width: 1400px) {
   .ulNavHeaderPc {
     width: 71.2142857143vw;
   }
+
   .ulNavHeaderPc img {
     max-width: 997px;
   }
@@ -726,9 +827,11 @@ LAYOUT
   min-width: fit-content;
   box-sizing: border-box;
 }
+
 .liNavHeaderPc:nth-child(n+2) {
   margin: 0 0 0 25px;
 }
+
 @media screen and (max-width: 1400px) {
   .liNavHeaderPc:nth-child(n+2) {
     margin: 0vw 0vw 0vw 2.1428571429vw;
@@ -743,11 +846,13 @@ LAYOUT
   display: block;
   letter-spacing: 0;
 }
+
 @media screen and (max-width: 1249px) {
   .btnNavHeaderPc {
     font-size: 1.2810248199vw;
   }
 }
+
 @media screen and (max-width: 1400px) {
   .btnNavHeaderPc {
     font-size: 1.1428571429vw;
@@ -766,16 +871,19 @@ LAYOUT
   /* Firefox用 */
   font-size: 14px;
 }
+
 @media screen and (max-width: 1249px) {
   .btnNavHeaderCta {
     font-size: 1.1208967174vw;
   }
 }
+
 @media screen and (max-width: 1400px) {
   .btnNavHeaderCta {
     width: 12.2142857143vw;
     font-size: 1vw;
   }
+
   .btnNavHeaderCta img {
     max-width: 171px;
   }
@@ -798,11 +906,13 @@ LAYOUT
   margin-left: 16px;
   margin-right: 9px;
 }
+
 @media screen and (max-width: 1249px) {
   .headerSp {
     width: 93.33%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .headerSp {
     margin: 0% 2.4% 0% 4.26%;
@@ -813,11 +923,13 @@ LAYOUT
   width: 72px;
   transform: translateY(8%);
 }
+
 @media screen and (max-width: 1249px) {
   .logoHeaderSp {
     width: 20.57%;
   }
 }
+
 .logoHeaderSp img {
   width: 100%;
   height: auto;
@@ -826,11 +938,13 @@ LAYOUT
 .btnHeaderSp {
   width: 46px;
 }
+
 @media screen and (max-width: 1249px) {
   .btnHeaderSp {
     width: 13.14%;
   }
 }
+
 .btnHeaderSp img {
   width: 100%;
   height: auto;
@@ -851,6 +965,7 @@ LAYOUT
   height: 100svh;
   width: 100%;
 }
+
 @media screen and (max-width: 1249px) {
   .headerSpGnav {
     padding: 2.4% 0% 0% 0%;
@@ -865,6 +980,7 @@ LAYOUT
   margin: 0% auto 0% 5.06%;
   width: 92.66%;
 }
+
 @media screen and (max-width: 1249px) {
   .headerSpGnavTop {
     padding: 0% 0% 2.4% 0%;
@@ -874,6 +990,7 @@ LAYOUT
 .logoHeaderSp {
   width: 82px;
 }
+
 @media screen and (max-width: 1249px) {
   .logoHeaderSp {
     width: 24.11%;
@@ -883,6 +1000,7 @@ LAYOUT
 .btnHeaderSp {
   width: 46px;
 }
+
 @media screen and (max-width: 1249px) {
   .btnHeaderSp {
     width: 13.52%;
@@ -900,11 +1018,13 @@ LAYOUT
   padding-left: 0px;
   padding-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .navMainHeaderGnavSp {
     width: 80%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .navMainHeaderGnavSp {
     padding: 0% 0% 24.53% 0%;
@@ -912,13 +1032,8 @@ LAYOUT
 }
 
 .ulMainHeaderGnavSp {
-  width: 264px;
+  width: 87.83%;
   margin: auto;
-}
-@media screen and (max-width: 1249px) {
-  .ulMainHeaderGnavSp {
-    width: 88%;
-  }
 }
 
 .liMainHeaderGnavSp:nth-child(n+2) {
@@ -933,11 +1048,13 @@ LAYOUT
   background: url(../img/btnMainHeaderGnavSp.svg) no-repeat center right;
   background-size: auto 100%;
 }
+
 @media screen and (max-width: 767px) {
   .btnMainHeaderGnavSp {
     font-size: 4.8vw;
   }
 }
+
 .btnMainHeaderGnavSp::before {
   display: block;
   width: 0;
@@ -945,6 +1062,7 @@ LAYOUT
   margin-top: calc((1 - 1) * 0.5em);
   content: "";
 }
+
 .btnMainHeaderGnavSp::after {
   display: block;
   width: 0;
@@ -960,12 +1078,14 @@ LAYOUT
 .liMainHeaderGnavSp02 {
   width: 100%;
 }
+
 .liMainHeaderGnavSp02:nth-child(n+2) {
   margin-top: 17px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .liMainHeaderGnavSp02:nth-child(n+2) {
     margin: 5.66% 0% 0% 0%;
@@ -987,6 +1107,7 @@ LAYOUT
   line-height: 1.5;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 767px) {
   .h2MainHeaderGnavSp {
     font-size: 4.2666666667vw;
@@ -998,6 +1119,7 @@ LAYOUT
   line-height: 1.2;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 767px) {
   .rubyMainHeaderGnavSp {
     font-size: 3.2vw;
@@ -1008,6 +1130,7 @@ LAYOUT
   line-height: 1.5;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 767px) {
   .txtMainHeaderGnavSp {
     font-size: 4.2666666667vw;
@@ -1032,11 +1155,13 @@ LAYOUT
   position: fixed;
   z-index: 100;
 }
+
 @media screen and (max-width: 767px) {
   .headerGnavPc {
     display: none;
   }
 }
+
 .btnHeaderGnavPcOff {
   cursor: pointer;
   transition-duration: 0.5s;
@@ -1045,6 +1170,7 @@ LAYOUT
 .headerGnavPc.off .btnHeaderGnavPcOff {
   display: block;
 }
+
 .headerGnavPc.off .btnHeaderGnavPcOn {
   display: none;
 }
@@ -1062,6 +1188,7 @@ LAYOUT
 .btnHeaderGnavPcOff:hover .btnHeaderGnavPcfill {
   fill: #669b40;
 }
+
 .btnHeaderGnavPcOff:hover .btnHeaderGnavPcStroke {
   stroke: #669b40;
 }
@@ -1073,6 +1200,7 @@ LAYOUT
 .btnHeaderGnavPcOn .btnHeaderGnavPcfill {
   fill: #669b40;
 }
+
 .btnHeaderGnavPcOn .btnHeaderGnavPcStroke {
   stroke: #669b40;
 }
@@ -1080,6 +1208,7 @@ LAYOUT
 .headerGnavPc.off .btnHeaderGnavPcOff {
   display: block;
 }
+
 .headerGnavPc.off .btnHeaderGnavPcOn {
   display: none;
 }
@@ -1087,6 +1216,7 @@ LAYOUT
 .headerGnavPc.on .btnHeaderGnavPcOff {
   display: none;
 }
+
 .headerGnavPc.on .btnHeaderGnavPcOn {
   display: block;
 }
@@ -1102,6 +1232,7 @@ LAYOUT
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
 .headerPcGnav::-webkit-scrollbar {
   display: none;
 }
@@ -1110,6 +1241,7 @@ LAYOUT
   padding: 6.4vw 0vw 10.4166666667vw 0vw;
   width: 88.421579%;
 }
+
 @media screen and (max-width: 1100px) {
   .headerPcGnavLxn {
     width: calc(100% - 100px);
@@ -1120,6 +1252,7 @@ LAYOUT
 .logoHeaderPcGnavLxn {
   width: 200px;
 }
+
 @media screen and (max-width: 1249px) {
   .logoHeaderPcGnavLxn {
     width: 12.21%;
@@ -1133,6 +1266,7 @@ LAYOUT
   margin-right: 48px;
   width: 939px;
 }
+
 @media screen and (max-width: 1249px) {
   .navHeaderPcGnav {
     margin-top: 3.48%;
@@ -1141,6 +1275,7 @@ LAYOUT
     margin-right: 2.93%;
   }
 }
+
 @media screen and (max-width: 1200px) {
   .navHeaderPcGnav {
     margin-top: 47px;
@@ -1150,6 +1285,7 @@ LAYOUT
     width: 100%;
   }
 }
+
 @media screen and (max-width: 1200px) and (max-width: 1249px) {
   .navHeaderPcGnav {
     margin-top: 2.87%;
@@ -1162,6 +1298,7 @@ LAYOUT
 .ulNavHeaderPcGnav {
   width: 384px;
 }
+
 @media screen and (max-width: 1249px) {
   .ulNavHeaderPcGnav {
     width: 40.89%;
@@ -1174,6 +1311,7 @@ LAYOUT
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .liNavHeaderPcGnav:nth-child(n+2) {
     margin: 7.45% 0% 0% 0%;
@@ -1183,6 +1321,7 @@ LAYOUT
 .btnLiNavHeaderPcGnav {
   text-decoration: none;
 }
+
 .btnLiNavHeaderPcGnav:hover {
   opacity: 0.5;
 }
@@ -1193,11 +1332,13 @@ LAYOUT
   line-height: normal;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtBtnLiNavHeaderPcGnav {
     width: 90.88%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .txtBtnLiNavHeaderPcGnav {
     font-size: 2.4019215372vw;
@@ -1218,11 +1359,13 @@ LAYOUT
   align-items: center;
   justify-content: center;
 }
+
 @media screen and (max-width: 1249px) {
   .iconBtnLiNavHeaderPcGnav {
     width: 9.11%;
   }
 }
+
 .iconBtnLiNavHeaderPcGnav img {
   transition-duration: 0.5s;
 }
@@ -1235,6 +1378,7 @@ LAYOUT
   width: 100%;
   flex-flow: row wrap;
 }
+
 @media screen and (max-width: 1249px) {
   .catHeaderPcGnavFx {
     margin-top: 6.47%;
@@ -1249,6 +1393,7 @@ LAYOUT
   max-width: 574px;
   margin: 0.6% 0 0 0;
 }
+
 @media screen and (max-width: 1200px) {
   .secCatHeaderPcGnavFx {
     width: 100%;
@@ -1261,6 +1406,7 @@ LAYOUT
   line-height: 1.65;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtCatHeaderPcGnavFx {
     font-size: 1.4411529223vw;
@@ -1274,6 +1420,7 @@ LAYOUT
   align-items: center;
   margin: 0 3% 0 0;
 }
+
 @media screen and (max-width: 1200px) {
   .ctaMainHeaderGnavPc {
     margin: 10% auto 0 auto;
@@ -1283,16 +1430,19 @@ LAYOUT
 .liMainHeaderGnavPc {
   width: 360px;
 }
+
 @media screen and (max-width: 1249px) {
   .liMainHeaderGnavPc {
     width: 47.36%;
   }
 }
+
 @media screen and (max-width: 1200px) {
   .liMainHeaderGnavPc {
     width: 360px;
   }
 }
+
 @media screen and (max-width: 1200px) and (max-width: 1249px) {
   .liMainHeaderGnavPc {
     width: 48%;
@@ -1321,11 +1471,13 @@ LAYOUT
   width: 100%;
   transition-duration: 0.5s;
 }
+
 @media screen and (max-width: 1249px) {
   .btnMainHeaderGnavPc {
     font-size: 1.6012810248vw;
   }
 }
+
 .btnMainHeaderGnavPc::before {
   display: block;
   width: 0;
@@ -1333,6 +1485,7 @@ LAYOUT
   margin-top: calc((1 - 1) * 0.5em);
   content: "";
 }
+
 .btnMainHeaderGnavPc::after {
   display: block;
   width: 0;
@@ -1340,6 +1493,7 @@ LAYOUT
   margin-bottom: calc((1 - 1) * 0.5em);
   content: "";
 }
+
 @media screen and (max-width: 767px) {
   .btnMainHeaderGnavPc {
     background-position: 95% 41%;
@@ -1354,6 +1508,7 @@ LAYOUT
   letter-spacing: 0.15em;
   opacity: 1;
 }
+
 @media screen and (max-width: 767px) {
   .btnMainHeaderGnavPc:hover {
     background-position: 95% 41%;
@@ -1370,6 +1525,7 @@ LAYOUT
   letter-spacing: 0em;
   transition-duration: 0.5s;
 }
+
 @media screen and (max-width: 1249px) {
   .rubyMainHeaderGnavPc {
     margin-top: 2.77%;
@@ -1378,11 +1534,13 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .rubyMainHeaderGnavPc {
     font-size: 1.1208967174vw;
   }
 }
+
 .rubyMainHeaderGnavPc::before {
   display: block;
   width: 0;
@@ -1390,6 +1548,7 @@ LAYOUT
   margin-top: calc((1 - 1) * 0.5em);
   content: "";
 }
+
 .rubyMainHeaderGnavPc::after {
   display: block;
   width: 0;
@@ -1422,17 +1581,20 @@ LAYOUT
   width: 82.4215789474%;
   margin: 0 auto;
 }
+
 @media screen and (max-width: 1600px) {
   .fvTopLxn {
     width: 90%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .fvTopLxn {
     width: 330px;
     padding: 32.46% 0% 8.26% 0%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .fvTopLxn {
     width: 88%;
@@ -1445,16 +1607,19 @@ LAYOUT
   letter-spacing: 0em;
   letter-spacing: -0.14em;
 }
+
 @media screen and (max-width: 1249px) {
   .h1FvTop {
     font-size: 7.3658927142vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h1FvTop {
     line-height: 138%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h1FvTop {
     font-size: 10.1333333333vw;
@@ -1467,11 +1632,13 @@ LAYOUT
   line-height: 170%;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .rubyFvTop {
     font-size: 1.9215372298vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .rubyFvTop {
     margin-top: 32px;
@@ -1482,6 +1649,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .rubyFvTop {
     margin-top: 9.69%;
@@ -1490,11 +1658,13 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .rubyFvTop {
     font-size: 3.4666666667vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .rubyFvTop::before {
     display: block;
@@ -1503,6 +1673,7 @@ LAYOUT
     margin-top: calc((1 - 1.8461538462) * 0.5em);
     content: "";
   }
+
   .rubyFvTop::after {
     display: block;
     width: 0;
@@ -1515,6 +1686,7 @@ LAYOUT
 .fvTopFx {
   margin: 3.4vw 0vw 0vw 0vw;
 }
+
 @media screen and (max-width: 767px) {
   .fvTopFx {
     margin-top: 6.45%;
@@ -1527,11 +1699,13 @@ LAYOUT
 .ctaFvTopCta {
   width: 686px;
 }
+
 @media screen and (max-width: 1600px) {
   .ctaFvTopCta {
     width: 42.87vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .ctaFvTopCta {
     width: 100%;
@@ -1541,16 +1715,19 @@ LAYOUT
 .liFvTopCta {
   width: 334px;
 }
+
 @media screen and (max-width: 1600px) {
   .liFvTopCta {
     width: 20.87vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liFvTopCta {
     width: 160px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .liFvTopCta {
     width: 48.48%;
@@ -1568,11 +1745,13 @@ LAYOUT
   aspect-ratio: 334/72;
   font-size: 20px;
 }
+
 @media screen and (max-width: 1249px) {
   .btnFvTopCta {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .btnFvTopCta {
     border-radius: 60px;
@@ -1584,6 +1763,7 @@ LAYOUT
     aspect-ratio: 160/39;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .btnFvTopCta {
     font-size: 3.7333333333vw;
@@ -1598,6 +1778,7 @@ LAYOUT
   width: 100%;
   transition-duration: 0.5s;
 }
+
 @media screen and (max-width: 767px) {
   .txtFvTopCta01 {
     background-position: 95% 41%;
@@ -1612,6 +1793,7 @@ LAYOUT
   width: 100%;
   transition-duration: 0.5s;
 }
+
 @media screen and (max-width: 767px) {
   .txtFvTopCta02 {
     background-position: 95% 41%;
@@ -1621,23 +1803,27 @@ LAYOUT
 .btnFvTopCta:hover {
   opacity: 1;
 }
+
 .btnFvTopCta:hover .txtFvTopCta01 {
   background: url(../img/txtFvTopCta01.svg) no-repeat;
   background-position: 94% center;
   background-size: auto 66%;
   letter-spacing: 0.15em;
 }
+
 @media screen and (max-width: 767px) {
   .btnFvTopCta:hover .txtFvTopCta01 {
     background-position: 95% 41%;
   }
 }
+
 .btnFvTopCta:hover .txtFvTopCta02 {
   background: url(../img/txtFvTopCta02.svg) no-repeat;
   background-position: 94% center;
   background-size: auto 66%;
   letter-spacing: 0.15em;
 }
+
 @media screen and (max-width: 767px) {
   .btnFvTopCta:hover .txtFvTopCta02 {
     background-position: 95% 41%;
@@ -1648,11 +1834,13 @@ LAYOUT
   width: 380px;
   margin: -0.2% 0 0 0;
 }
+
 @media screen and (max-width: 1000px) {
   .secFvTopFx {
     width: 34vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .secFvTopFx {
     width: 80.63%;
@@ -1666,11 +1854,13 @@ LAYOUT
 .h2FvTopFx {
   font-size: 20px;
 }
+
 @media screen and (max-width: 1249px) {
   .h2FvTopFx {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2FvTopFx {
     font-size: 3.7333333333vw;
@@ -1683,11 +1873,13 @@ LAYOUT
   line-height: 180%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtFvTopFx {
     font-size: 1.2810248199vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtFvTopFx {
     margin: 6.5% 0% 0% 0%;
@@ -1695,11 +1887,13 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtFvTopFx {
     font-size: 3.4666666667vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtFvTopFx::before {
     display: block;
@@ -1708,6 +1902,7 @@ LAYOUT
     margin-top: calc((1 - 1.6923076923) * 0.5em);
     content: "";
   }
+
   .txtFvTopFx::after {
     display: block;
     width: 0;
@@ -1724,6 +1919,7 @@ LAYOUT
   bottom: -6.6%;
   z-index: 1;
 }
+
 @media screen and (max-width: 1000px) {
   .scroll {
     bottom: -14.6%;
@@ -1737,6 +1933,7 @@ LAYOUT
   justify-content: space-between;
   aspect-ratio: 25/143;
 }
+
 @media screen and (max-width: 767px) {
   .container_05 {
     aspect-ratio: 21/143;
@@ -1756,16 +1953,19 @@ LAYOUT
   right: 0%;
   transform: translateX(0%);
 }
+
 .txtScroll {
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0.15em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtScroll {
     font-size: 1.1208967174vw;
   }
 }
+
 .txtScroll::before {
   display: block;
   width: 0;
@@ -1773,6 +1973,7 @@ LAYOUT
   margin-top: calc((1 - 1) * 0.5em);
   content: "";
 }
+
 .txtScroll::after {
   display: block;
   width: 0;
@@ -1780,6 +1981,7 @@ LAYOUT
   margin-bottom: calc((1 - 1) * 0.5em);
   content: "";
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtScroll {
     font-size: 2.6666666667vw;
@@ -1802,223 +2004,278 @@ LAYOUT
     transform: scale(1, 0);
     transform-origin: 0 0;
   }
+
   30% {
     transform: scale(1, 1);
     transform-origin: 0 0;
   }
+
   70% {
     transform: scale(1, 1);
     transform-origin: 0 100%;
   }
+
   100% {
     transform: scale(1, 0);
     transform-origin: 0 100%;
   }
 }
+
 .jstitleFlow {
   overflow: hidden;
 }
-.jstitleFlow > span {
+
+.jstitleFlow>span {
   opacity: 0;
   transform: translateY(100%) scale(1.2, 0.8);
 }
-.jstitleFlow.active > span:nth-child(1) {
+
+.jstitleFlow.active>span:nth-child(1) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.05s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.05s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(2) {
+
+.jstitleFlow.active>span:nth-child(2) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.1s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.1s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(3) {
+
+.jstitleFlow.active>span:nth-child(3) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.15s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.15s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(4) {
+
+.jstitleFlow.active>span:nth-child(4) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.2s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.2s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(5) {
+
+.jstitleFlow.active>span:nth-child(5) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.25s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.25s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(6) {
+
+.jstitleFlow.active>span:nth-child(6) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.3s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.3s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(7) {
+
+.jstitleFlow.active>span:nth-child(7) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.35s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.35s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(8) {
+
+.jstitleFlow.active>span:nth-child(8) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.4s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.4s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(9) {
+
+.jstitleFlow.active>span:nth-child(9) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.45s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.45s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(10) {
+
+.jstitleFlow.active>span:nth-child(10) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.5s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.5s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(11) {
+
+.jstitleFlow.active>span:nth-child(11) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.55s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.55s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(12) {
+
+.jstitleFlow.active>span:nth-child(12) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.6s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.6s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(13) {
+
+.jstitleFlow.active>span:nth-child(13) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.65s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.65s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(14) {
+
+.jstitleFlow.active>span:nth-child(14) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.7s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.7s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(15) {
+
+.jstitleFlow.active>span:nth-child(15) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.75s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.75s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(16) {
+
+.jstitleFlow.active>span:nth-child(16) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.8s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.8s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(17) {
+
+.jstitleFlow.active>span:nth-child(17) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.85s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.85s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(18) {
+
+.jstitleFlow.active>span:nth-child(18) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.9s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.9s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(19) {
+
+.jstitleFlow.active>span:nth-child(19) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.95s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 0.95s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(20) {
+
+.jstitleFlow.active>span:nth-child(20) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(21) {
+
+.jstitleFlow.active>span:nth-child(21) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.05s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.05s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(22) {
+
+.jstitleFlow.active>span:nth-child(22) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.1s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.1s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(23) {
+
+.jstitleFlow.active>span:nth-child(23) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.15s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.15s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(24) {
+
+.jstitleFlow.active>span:nth-child(24) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.2s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.2s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(25) {
+
+.jstitleFlow.active>span:nth-child(25) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.25s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.25s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(26) {
+
+.jstitleFlow.active>span:nth-child(26) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.3s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.3s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(27) {
+
+.jstitleFlow.active>span:nth-child(27) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.35s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.35s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(28) {
+
+.jstitleFlow.active>span:nth-child(28) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.4s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.4s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(29) {
+
+.jstitleFlow.active>span:nth-child(29) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.45s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.45s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(30) {
+
+.jstitleFlow.active>span:nth-child(30) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.5s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.5s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(31) {
+
+.jstitleFlow.active>span:nth-child(31) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.55s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.55s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(32) {
+
+.jstitleFlow.active>span:nth-child(32) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.6s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.6s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(33) {
+
+.jstitleFlow.active>span:nth-child(33) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.65s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.65s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(34) {
+
+.jstitleFlow.active>span:nth-child(34) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.7s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.7s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(35) {
+
+.jstitleFlow.active>span:nth-child(35) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.75s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.75s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(36) {
+
+.jstitleFlow.active>span:nth-child(36) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.8s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.8s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(37) {
+
+.jstitleFlow.active>span:nth-child(37) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.85s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.85s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(38) {
+
+.jstitleFlow.active>span:nth-child(38) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.9s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.9s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(39) {
+
+.jstitleFlow.active>span:nth-child(39) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.95s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 1.95s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(40) {
+
+.jstitleFlow.active>span:nth-child(40) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(41) {
+
+.jstitleFlow.active>span:nth-child(41) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.05s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.05s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(42) {
+
+.jstitleFlow.active>span:nth-child(42) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.1s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.1s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(43) {
+
+.jstitleFlow.active>span:nth-child(43) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.15s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.15s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(44) {
+
+.jstitleFlow.active>span:nth-child(44) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.2s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.2s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(45) {
+
+.jstitleFlow.active>span:nth-child(45) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.25s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.25s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(46) {
+
+.jstitleFlow.active>span:nth-child(46) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.3s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.3s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(47) {
+
+.jstitleFlow.active>span:nth-child(47) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.35s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.35s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(48) {
+
+.jstitleFlow.active>span:nth-child(48) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.4s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.4s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(49) {
+
+.jstitleFlow.active>span:nth-child(49) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.45s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.45s forwards alternate;
 }
-.jstitleFlow.active > span:nth-child(50) {
+
+.jstitleFlow.active>span:nth-child(50) {
   -webkit-animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.5s forwards alternate;
   animation: bound 0.5s cubic-bezier(0.33, 1, 0.68, 1) 2.5s forwards alternate;
 }
@@ -2028,21 +2285,25 @@ LAYOUT
     opacity: 0;
     transform: translateY(100%);
   }
+
   to {
     opacity: 1;
     transform: none;
   }
 }
+
 @keyframes bound {
   0% {
     opacity: 0;
     transform: translateY(100%);
   }
+
   to {
     opacity: 1;
     transform: none;
   }
 }
+
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
@@ -2058,6 +2319,7 @@ LAYOUT
   aspect-ratio: 1920/745;
   width: 100%;
 }
+
 @media screen and (max-width: 767px) {
   .fvBtm {
     background: url(../img/fvBtmSp.png) no-repeat center top;
@@ -2081,6 +2343,7 @@ LAYOUT
   overflow: hidden;
   width: 100%;
 }
+
 @media screen and (max-width: 767px) {
   .made {
     padding: 28% 0% 26% 0%;
@@ -2103,6 +2366,7 @@ LAYOUT
   position: relative;
   z-index: 1;
 }
+
 @media screen and (max-width: 767px) {
   .madeLxn {
     width: 90%;
@@ -2113,16 +2377,19 @@ LAYOUT
   width: 962px;
   margin: auto;
 }
+
 @media screen and (max-width: 1249px) {
   .secMade {
     width: 61.27%;
   }
 }
+
 @media screen and (max-width: 1250px) {
   .secMade {
     width: 78.95%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .secMade {
     width: 98%;
@@ -2134,17 +2401,20 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .h2Made {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2Made {
     line-height: 150%;
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2Made {
     font-size: 4.2666666667vw;
@@ -2160,16 +2430,19 @@ LAYOUT
   line-height: 1;
   letter-spacing: -0.099em;
 }
+
 @media screen and (max-width: 1249px) {
   .h3Made {
     margin: 1.76% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h3Made {
     font-size: 5.1240992794vw;
   }
 }
+
 .h3Made::before {
   display: block;
   width: 0;
@@ -2177,6 +2450,7 @@ LAYOUT
   margin-top: calc((1 - 1) * 0.5em);
   content: "";
 }
+
 .h3Made::after {
   display: block;
   width: 0;
@@ -2184,16 +2458,19 @@ LAYOUT
   margin-bottom: calc((1 - 1) * 0.5em);
   content: "";
 }
+
 @media screen and (max-width: 1000px) {
   .h3Made {
     font-size: 58px;
   }
 }
+
 @media screen and (max-width: 1000px) and (max-width: 1249px) {
   .h3Made {
     font-size: 4.643714972vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3Made {
     margin-top: 22px;
@@ -2204,6 +2481,7 @@ LAYOUT
     letter-spacing: -0.14em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h3Made {
     margin-top: 6.66%;
@@ -2212,6 +2490,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3Made {
     font-size: 10.6666666667vw;
@@ -2227,6 +2506,7 @@ LAYOUT
   line-height: 190%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtMade {
     margin-top: 6.54%;
@@ -2235,11 +2515,13 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .txtMade {
     font-size: 2.5620496397vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtMade {
     margin-top: 22px;
@@ -2250,6 +2532,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .txtMade {
     margin-top: 6.66%;
@@ -2258,6 +2541,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtMade {
     font-size: 4.2666666667vw;
@@ -2273,6 +2557,7 @@ LAYOUT
   line-height: 160%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtLastMade {
     margin-top: 2.91%;
@@ -2281,11 +2566,13 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .txtLastMade {
     font-size: 4.003202562vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtLastMade {
     margin-top: 25px;
@@ -2296,6 +2583,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .txtLastMade {
     margin-top: 7.57%;
@@ -2304,6 +2592,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtLastMade {
     font-size: 6.4vw;
@@ -2322,6 +2611,7 @@ LAYOUT
 .kadai {
   padding: 12.2916666667vw 0vw 12.2916666667vw 0vw;
 }
+
 @media screen and (max-width: 767px) {
   .kadai {
     padding: 27.73% 0% 29% 0%;
@@ -2333,6 +2623,7 @@ LAYOUT
     width: 330px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .kadaiLxn {
     width: 88%;
@@ -2343,22 +2634,26 @@ LAYOUT
   width: 100%;
   margin: auto;
 }
+
 .h2Kadai {
   font-size: 20px;
   line-height: 150%;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .h2Kadai {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2Kadai {
     line-height: 150%;
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2Kadai {
     font-size: 4vw;
@@ -2374,16 +2669,19 @@ LAYOUT
   line-height: 1;
   letter-spacing: -0.115em;
 }
+
 @media screen and (max-width: 1249px) {
   .h3Kadai {
     margin: 1.52% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h3Kadai {
     font-size: 3.2025620496vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3Kadai {
     margin-top: 14px;
@@ -2394,6 +2692,7 @@ LAYOUT
     letter-spacing: -0.14em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h3Kadai {
     margin-top: 4.24%;
@@ -2402,6 +2701,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3Kadai {
     font-size: 5.8666666667vw;
@@ -2417,16 +2717,19 @@ LAYOUT
   line-height: 175%;
   letter-spacing: -0.115em;
 }
+
 @media screen and (max-width: 1249px) {
   .h4Kadai {
     margin: 1.52% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h4Kadai {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h4Kadai {
     margin-top: 13px;
@@ -2437,6 +2740,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h4Kadai {
     margin-top: 3.93%;
@@ -2445,6 +2749,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h4Kadai {
     font-size: 3.4666666667vw;
@@ -2457,6 +2762,7 @@ LAYOUT
   margin-left: auto;
   margin-right: auto;
 }
+
 @media screen and (max-width: 1249px) {
   .ulKadai {
     margin-top: 5.73%;
@@ -2465,6 +2771,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) {
   .ulKadai {
     margin-top: 13px;
@@ -2473,6 +2780,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .ulKadai {
     margin-top: 3.93%;
@@ -2500,33 +2808,39 @@ LAYOUT
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .liKadai {
     padding: 2.35% 0% 2.22% 0%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .liKadai {
     margin: 4.24% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liKadai {
     padding: 8.18% 0% 7.18% 0%;
     width: 100%;
   }
 }
+
 .liKadai:nth-child(n+4) {
   margin-top: 26px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .liKadai:nth-child(n+4) {
     margin: 1.65% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liKadai:nth-child(n+4) {
     margin-top: 14px;
@@ -2535,6 +2849,7 @@ LAYOUT
     margin-right: 0px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .liKadai:nth-child(n+4) {
     margin: 4.24% 0% 0% 0%;
@@ -2547,22 +2862,26 @@ LAYOUT
   letter-spacing: 0.05em;
   text-align: center;
 }
+
 @media screen and (max-width: 1249px) {
   .txtLiKadai {
     font-size: 1.9215372298vw;
   }
 }
+
 @media screen and (max-width: 1550px) {
   .txtLiKadai {
     font-size: 1.25vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtLiKadai {
     line-height: 145%;
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtLiKadai {
     font-size: 4vw;
@@ -2578,6 +2897,7 @@ LAYOUT
   line-height: 145%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .h2KadaiCta {
     margin-top: 2.48%;
@@ -2586,11 +2906,13 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h2KadaiCta {
     font-size: 2.4019215372vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2KadaiCta {
     margin-top: 40px;
@@ -2601,6 +2923,7 @@ LAYOUT
     letter-spacing: -0.03em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h2KadaiCta {
     margin-top: 12.12%;
@@ -2609,6 +2932,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2KadaiCta {
     font-size: 4.5333333333vw;
@@ -2624,6 +2948,7 @@ LAYOUT
   line-height: 180%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtKadaiCta {
     margin-top: 0.89%;
@@ -2632,11 +2957,13 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .txtKadaiCta {
     font-size: 1.2810248199vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtKadaiCta {
     margin-top: 16px;
@@ -2647,6 +2974,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .txtKadaiCta {
     margin-top: 4.84%;
@@ -2655,6 +2983,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtKadaiCta {
     font-size: 3.4666666667vw;
@@ -2672,6 +3001,7 @@ LAYOUT
   align-items: center;
   flex-flow: row wrap;
 }
+
 @media screen and (max-width: 1249px) {
   .ctaKadaiCta {
     margin-top: 2.48%;
@@ -2680,6 +3010,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) {
   .ctaKadaiCta {
     margin-top: 24px;
@@ -2689,6 +3020,7 @@ LAYOUT
     width: 300px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .ctaKadaiCta {
     margin-top: 7.27%;
@@ -2697,6 +3029,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .ctaKadaiCta {
     width: 90.9%;
@@ -2706,15 +3039,18 @@ LAYOUT
 .liKadaiCta {
   width: 361px;
 }
+
 @media screen and (max-width: 1249px) {
   .liKadaiCta {
     width: 48.39%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liKadaiCta {
     width: 100%;
   }
+
   .liKadaiCta:nth-child(n+2) {
     margin-top: 16px;
     margin-bottom: 0px;
@@ -2722,6 +3058,7 @@ LAYOUT
     margin-right: 0px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .liKadaiCta:nth-child(n+2) {
     margin: 5.33% 0% 0% 0%;
@@ -2739,11 +3076,13 @@ LAYOUT
   aspect-ratio: 361/72;
   font-size: 20px;
 }
+
 @media screen and (max-width: 1249px) {
   .btnKadaiCta {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .btnKadaiCta {
     border-radius: 60px;
@@ -2755,6 +3094,7 @@ LAYOUT
     aspect-ratio: 300/60;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .btnKadaiCta {
     font-size: 3.7333333333vw;
@@ -2784,24 +3124,28 @@ LAYOUT
 .btnKadaiCta:hover {
   opacity: 1;
 }
+
 .btnKadaiCta:hover.btnKadaiCta01 {
   background-image: url(../img/txtFvTopCta01.svg);
   background-repeat: no-repeat;
   background-position: 96% center;
   background-size: auto 14px;
 }
+
 @media screen and (max-width: 767px) {
   .btnKadaiCta:hover.btnKadaiCta01 {
     background-position: 95% center;
     background-size: auto 14px;
   }
 }
+
 .btnKadaiCta:hover.btnKadaiCta02 {
   background-image: url(../img/txtFvTopCta02.svg);
   background-repeat: no-repeat;
   background-position: 96% center;
   background-size: auto 14px;
 }
+
 @media screen and (max-width: 767px) {
   .btnKadaiCta:hover.btnKadaiCta02 {
     background-position: 95% center;
@@ -2812,16 +3156,19 @@ LAYOUT
 .secKadaiCta {
   width: 380px;
 }
+
 @media screen and (max-width: 1000px) {
   .secKadaiCta {
     width: 34vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .secKadaiCta {
     width: 276px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .secKadaiCta {
     width: 83.63%;
@@ -2832,16 +3179,19 @@ LAYOUT
   font-size: 20px;
   transition-duration: 0.5s;
 }
+
 @media screen and (max-width: 1249px) {
   .h2KadaiCtaBtn {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2KadaiCtaBtn {
     line-height: 1.5;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2KadaiCtaBtn {
     font-size: 4.2666666667vw;
@@ -2858,16 +3208,19 @@ LAYOUT
   letter-spacing: 0em;
   transition-duration: 0.5s;
 }
+
 @media screen and (max-width: 1249px) {
   .rubyKadaiCta {
     margin: 2.89% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .rubyKadaiCta {
     font-size: 1.1208967174vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .rubyKadaiCta {
     margin: 0% 0% 0% 0%;
@@ -2875,6 +3228,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .rubyKadaiCta {
     font-size: 3.4666666667vw;
@@ -2887,17 +3241,20 @@ LAYOUT
   letter-spacing: 0em;
   transition-duration: 0.5s;
 }
+
 @media screen and (max-width: 1249px) {
   .txtKadaiCtaBtn {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtKadaiCtaBtn {
     line-height: 150%;
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtKadaiCtaBtn {
     font-size: 4.2666666667vw;
@@ -2907,25 +3264,31 @@ LAYOUT
 .btnKadaiCta:hover {
   opacity: 1;
 }
+
 .btnKadaiCta:hover .h2KadaiCtaBtn {
   letter-spacing: 0.15em;
 }
+
 @media screen and (max-width: 767px) {
   .btnKadaiCta:hover .h2KadaiCtaBtn {
     letter-spacing: 0em;
   }
 }
+
 .btnKadaiCta:hover .txtKadaiCtaBtn {
   letter-spacing: 0.15em;
 }
+
 @media screen and (max-width: 767px) {
   .btnKadaiCta:hover .txtKadaiCtaBtn {
     letter-spacing: 0em;
   }
 }
+
 .btnKadaiCta:hover .rubyKadaiCta {
   letter-spacing: 0.07em;
 }
+
 @media screen and (max-width: 767px) {
   .btnKadaiCta:hover .rubyKadaiCta {
     letter-spacing: 0em;
@@ -2945,6 +3308,7 @@ LAYOUT
   padding: 12.1vw 0vw 6.8vw 0vw;
   border-top: 1px solid #D9D9D9;
 }
+
 @media screen and (max-width: 767px) {
   .strong {
     padding: 28% 0% 17.86% 0%;
@@ -2957,6 +3321,7 @@ LAYOUT
     margin: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .strongLxn {
     width: 100%;
@@ -2966,17 +3331,20 @@ LAYOUT
 .secStrongTop {
   width: 44.01vw;
 }
+
 @media screen and (max-width: 1450px) {
   .secStrongTop {
     width: 51.01vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .secStrongTop {
     width: 330px;
     margin: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .secStrongTop {
     width: 88%;
@@ -2988,17 +3356,20 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .h2StrongTop {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2StrongTop {
     line-height: 150%;
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2StrongTop {
     font-size: 4.2666666667vw;
@@ -3014,26 +3385,31 @@ LAYOUT
   line-height: 157%;
   letter-spacing: -0.115em;
 }
+
 @media screen and (max-width: 1249px) {
   .h3StrongTop {
     margin: 2.85% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h3StrongTop {
     font-size: 3.2025620496vw;
   }
 }
+
 @media screen and (max-width: 1400px) {
   .h3StrongTop {
     font-size: 36px;
   }
 }
+
 @media screen and (max-width: 1400px) and (max-width: 1249px) {
   .h3StrongTop {
     font-size: 2.8823058447vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3StrongTop {
     margin-top: 3%;
@@ -3044,6 +3420,7 @@ LAYOUT
     letter-spacing: -0.14em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3StrongTop {
     font-size: 5.8666666667vw;
@@ -3059,16 +3436,19 @@ LAYOUT
   line-height: 200%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtStrongTop {
     margin: 3.49% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .txtStrongTop {
     font-size: 1.2810248199vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtStrongTop {
     margin: 4% 0% 0% 0%;
@@ -3076,6 +3456,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtStrongTop {
     font-size: 3.7333333333vw;
@@ -3086,12 +3467,14 @@ LAYOUT
   width: 35.26vw;
   margin: 0.5% 0 0 0;
 }
+
 @media screen and (max-width: 767px) {
   .picStrongTop {
     width: 352px;
     margin: 14% auto 0 auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .picStrongTop {
     width: 93.86%;
@@ -3104,11 +3487,13 @@ LAYOUT
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .strogBtmFx {
     margin: 1.65% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .strogBtmFx {
     margin: 36.5% 0% 0% 0%;
@@ -3122,16 +3507,19 @@ LAYOUT
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .secStrongBtm {
     margin: 6.81% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 1450px) {
   .secStrongBtm {
     width: 49vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .secStrongBtm {
     margin-top: 0px;
@@ -3141,6 +3529,7 @@ LAYOUT
     width: 330px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .secStrongBtm {
     margin-top: 0%;
@@ -3149,6 +3538,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .secStrongBtm {
     width: 88%;
@@ -3165,26 +3555,31 @@ LAYOUT
   letter-spacing: -0.115em;
   width: 100%;
 }
+
 @media screen and (max-width: 1249px) {
   .h3StrongBtm {
     margin: 0% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h3StrongBtm {
     font-size: 3.2025620496vw;
   }
 }
+
 @media screen and (max-width: 1400px) {
   .h3StrongBtm {
     font-size: 36px;
   }
 }
+
 @media screen and (max-width: 1400px) and (max-width: 1249px) {
   .h3StrongBtm {
     font-size: 2.8823058447vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3StrongBtm {
     margin-top: 22px;
@@ -3195,6 +3590,7 @@ LAYOUT
     letter-spacing: -0.14em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h3StrongBtm {
     margin-top: 6.66%;
@@ -3203,6 +3599,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3StrongBtm {
     font-size: 5.3333333333vw;
@@ -3218,16 +3615,19 @@ LAYOUT
   line-height: 200%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtStrongBtm {
     margin: 2.38% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .txtStrongBtm {
     font-size: 1.2810248199vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtStrongBtm {
     margin-top: 4.27%;
@@ -3238,6 +3638,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtStrongBtm {
     font-size: 3.7333333333vw;
@@ -3247,6 +3648,7 @@ LAYOUT
 .picStrongBtm {
   width: 36.82vw;
 }
+
 @media screen and (max-width: 767px) {
   .picStrongBtm {
     margin-top: 75px;
@@ -3256,11 +3658,13 @@ LAYOUT
     width: 375px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .picStrongBtm {
     margin: 20% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .picStrongBtm {
     width: 100%;
@@ -3279,6 +3683,7 @@ LAYOUT
 .kyosan {
   padding: 0vw 0vw 11.9270833333vw 0vw;
 }
+
 @media screen and (max-width: 767px) {
   .kyosan {
     padding-top: 0px;
@@ -3287,6 +3692,7 @@ LAYOUT
     padding-right: 0px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .kyosan {
     padding: 0% 0% 29.6% 0%;
@@ -3304,17 +3710,20 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .h2Kyosan {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2Kyosan {
     line-height: 175%;
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2Kyosan {
     font-size: 4vw;
@@ -3327,11 +3736,13 @@ LAYOUT
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .sliderKyosanLxn {
     margin: 2.1% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .sliderKyosanLxn {
     margin-top: 29px;
@@ -3340,6 +3751,7 @@ LAYOUT
     margin-right: 0px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .sliderKyosanLxn {
     margin: 7.73% 0% 0% 0%;
@@ -3351,6 +3763,7 @@ LAYOUT
   height: 108px;
   overflow: hidden;
 }
+
 @media screen and (max-width: 767px) {
   .loopSlidePc01 {
     height: 58px;
@@ -3360,17 +3773,21 @@ LAYOUT
 .ulSliderKyosanLxn {
   display: flex;
 }
+
 .ulSliderKyosanLxn:first-child {
   animation: 60s linear -30s infinite normal none running loop;
 }
+
 .ulSliderKyosanLxn:last-child {
   animation: 60s linear 0s infinite normal none running loop2;
 }
+
 .ulSliderKyosanLxn li {
   min-width: 108px;
   height: auto;
   margin: auto 0 auto 101px;
 }
+
 @media screen and (max-width: 767px) {
   .ulSliderKyosanLxn li {
     min-width: 58px;
@@ -3382,24 +3799,29 @@ LAYOUT
   0% {
     transform: translateX(100%);
   }
+
   100% {
     transform: translateX(-100%);
   }
 }
+
 @keyframes loop2 {
   0% {
     transform: translateX(0px);
   }
+
   100% {
     transform: translateX(-200%);
   }
 }
+
 .loopSlidePc02 {
   display: flex;
   height: 108px;
   overflow: hidden;
   margin: 2.2% auto 0 auto;
 }
+
 @media screen and (max-width: 767px) {
   .loopSlidePc02 {
     margin-top: 23px;
@@ -3409,6 +3831,7 @@ LAYOUT
     height: 58px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .loopSlidePc02 {
     margin: 6.13% 0% 0% 0%;
@@ -3418,17 +3841,21 @@ LAYOUT
 .ulSliderKyosanLxn02 {
   display: flex;
 }
+
 .ulSliderKyosanLxn02:first-child {
   animation: 60s linear -30s infinite normal none running loopBottom;
 }
+
 .ulSliderKyosanLxn02:last-child {
   animation: 60s linear 0s infinite normal none running loopBottom2;
 }
+
 .ulSliderKyosanLxn02 li {
   min-width: 108px;
   height: auto;
   margin: auto 0 auto 101px;
 }
+
 @media screen and (max-width: 767px) {
   .ulSliderKyosanLxn02 li {
     min-width: 58px;
@@ -3440,18 +3867,22 @@ LAYOUT
   0% {
     transform: translateX(-100%);
   }
+
   100% {
     transform: translateX(100%);
   }
 }
+
 @keyframes loopBottom2 {
   0% {
     transform: translateX(-200%);
   }
+
   100% {
     transform: translateX(0px);
   }
 }
+
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
@@ -3464,6 +3895,7 @@ LAYOUT
 .message {
   padding: 12.2916666667vw 0vw 0vw 0vw;
 }
+
 @media screen and (max-width: 767px) {
   .message {
     padding: 32.5% 0% 0% 0%;
@@ -3476,6 +3908,7 @@ LAYOUT
     margin: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .masseageLxn {
     width: 88%;
@@ -3487,17 +3920,20 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .h2MasseageLxn {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2MasseageLxn {
     line-height: 100%;
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2MasseageLxn {
     font-size: 4vw;
@@ -3513,6 +3949,7 @@ LAYOUT
   line-height: 150%;
   letter-spacing: -0.115em;
 }
+
 @media screen and (max-width: 1249px) {
   .h3MasseageLxn {
     margin-top: 1.52%;
@@ -3521,11 +3958,13 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h3MasseageLxn {
     font-size: 3.2025620496vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3MasseageLxn {
     margin-top: 20px;
@@ -3536,6 +3975,7 @@ LAYOUT
     letter-spacing: -0.14em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h3MasseageLxn {
     margin-top: 6.06%;
@@ -3544,6 +3984,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3MasseageLxn {
     font-size: 5.3333333333vw;
@@ -3556,6 +3997,7 @@ LAYOUT
   margin-left: auto;
   margin-right: auto;
 }
+
 @media screen and (max-width: 1249px) {
   .masseageFx {
     margin-top: 3.82%;
@@ -3564,6 +4006,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) {
   .masseageFx {
     margin-top: 9.21%;
@@ -3576,16 +4019,19 @@ LAYOUT
 .picMasseageFx {
   width: 46.49%;
 }
+
 @media screen and (max-width: 1800px) {
   .picMasseageFx {
     width: 46.49%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .picMasseageFx {
     width: 330px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .picMasseageFx {
     width: 100%;
@@ -3599,6 +4045,7 @@ LAYOUT
   margin-right: 0px;
   width: 39.25%;
 }
+
 @media screen and (max-width: 1249px) {
   .secMasseagePref {
     margin-top: 4.71%;
@@ -3607,11 +4054,13 @@ LAYOUT
     margin-right: 0%;
   }
 }
+
 @media screen and (max-width: 1800px) {
   .secMasseagePref {
     width: 44.58%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .secMasseagePref {
     margin-top: 3.5%;
@@ -3621,6 +4070,7 @@ LAYOUT
     width: 330px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .secMasseagePref {
     width: 100%;
@@ -3632,11 +4082,13 @@ LAYOUT
   line-height: 180%;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .h3MasseagePref {
     font-size: 2.4019215372vw;
   }
 }
+
 @media screen and (max-width: 1450px) {
   .h3MasseagePref {
     font-size: 28px;
@@ -3644,11 +4096,13 @@ LAYOUT
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 1450px) and (max-width: 1249px) {
   .h3MasseagePref {
     font-size: 2.2417934347vw;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h3MasseagePref {
     font-size: 26px;
@@ -3656,11 +4110,13 @@ LAYOUT
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 1249px) and (max-width: 1249px) {
   .h3MasseagePref {
     font-size: 2.0816653323vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3MasseagePref {
     margin-top: 20px;
@@ -3671,6 +4127,7 @@ LAYOUT
     letter-spacing: 0.02em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h3MasseagePref {
     margin-top: 6.06%;
@@ -3679,6 +4136,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3MasseagePref {
     font-size: 4.8vw;
@@ -3694,6 +4152,7 @@ LAYOUT
   line-height: normal;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .h4MasseagePref {
     margin-top: 4.53%;
@@ -3702,11 +4161,13 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h4MasseagePref {
     font-size: 1.2009607686vw;
   }
 }
+
 @media screen and (max-width: 1450px) {
   .h4MasseagePref {
     font-size: 13px;
@@ -3714,11 +4175,13 @@ LAYOUT
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 1450px) and (max-width: 1249px) {
   .h4MasseagePref {
     font-size: 1.0408326661vw;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h4MasseagePref {
     margin-top: 34px;
@@ -3727,6 +4190,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1249px) and (max-width: 1249px) {
   .h4MasseagePref {
     margin-top: 5.5%;
@@ -3735,6 +4199,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h4MasseagePref {
     margin-top: 7.03%;
@@ -3745,6 +4210,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h4MasseagePref {
     font-size: 3.4666666667vw;
@@ -3757,6 +4223,7 @@ LAYOUT
   margin-left: auto;
   margin-right: auto;
 }
+
 @media screen and (max-width: 1249px) {
   .massageNameFx {
     margin-top: 1.77%;
@@ -3765,6 +4232,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) {
   .massageNameFx {
     margin-top: 2.5%;
@@ -3779,11 +4247,13 @@ LAYOUT
   line-height: 1;
   letter-spacing: 0.1em;
 }
+
 @media screen and (max-width: 1249px) {
   .h5MasseagePref {
     font-size: 1.9215372298vw;
   }
 }
+
 @media screen and (max-width: 1450px) {
   .h5MasseagePref {
     font-size: 24px;
@@ -3791,17 +4261,20 @@ LAYOUT
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 1450px) and (max-width: 1249px) {
   .h5MasseagePref {
     font-size: 1.9215372298vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h5MasseagePref {
     line-height: 1;
     letter-spacing: 0.1em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h5MasseagePref {
     font-size: 5.3333333333vw;
@@ -3817,16 +4290,19 @@ LAYOUT
   margin-left: 15px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .txtMasseagePref {
     font-size: 1.0408326661vw;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .txtMasseagePref {
     margin: 0% 0% 0% 2.42%;
   }
 }
+
 @media screen and (max-width: 1450px) {
   .txtMasseagePref {
     font-size: 13px;
@@ -3834,11 +4310,13 @@ LAYOUT
     letter-spacing: 0.15em;
   }
 }
+
 @media screen and (max-width: 1450px) and (max-width: 1249px) {
   .txtMasseagePref {
     font-size: 1.0408326661vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtMasseagePref {
     line-height: 1;
@@ -3846,6 +4324,7 @@ LAYOUT
     margin: 0% 0% 0% 6%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtMasseagePref {
     font-size: 3.2vw;
@@ -3861,6 +4340,7 @@ LAYOUT
   line-height: 200%;
   letter-spacing: 0.1em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtMasseagePrefMain {
     margin-top: 11.65%;
@@ -3869,11 +4349,13 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .txtMasseagePrefMain {
     font-size: 1.2810248199vw;
   }
 }
+
 @media screen and (max-width: 1450px) {
   .txtMasseagePrefMain {
     margin-top: 62px;
@@ -3885,6 +4367,7 @@ LAYOUT
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 1450px) and (max-width: 1249px) {
   .txtMasseagePrefMain {
     margin-top: 10.03%;
@@ -3893,11 +4376,13 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1450px) and (max-width: 1249px) {
   .txtMasseagePrefMain {
     font-size: 1.0408326661vw;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .txtMasseagePrefMain {
     margin-top: 45px;
@@ -3906,6 +4391,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1249px) and (max-width: 1249px) {
   .txtMasseagePrefMain {
     margin-top: 7.28%;
@@ -3914,6 +4400,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtMasseagePrefMain {
     margin: 16.84% 0% 0% 0%;
@@ -3921,6 +4408,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtMasseagePrefMain {
     font-size: 3.7333333333vw;
@@ -3942,11 +4430,13 @@ LAYOUT
   padding-left: 0px;
   padding-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .value {
     padding: 5.31% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .value {
     padding-top: 122px;
@@ -3955,6 +4445,7 @@ LAYOUT
     padding-right: 0px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .value {
     padding: 32.53% 0% 0% 0%;
@@ -3967,6 +4458,7 @@ LAYOUT
     margin: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .valueLxn {
     width: 94.66%;
@@ -3978,17 +4470,20 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0.15em;
 }
+
 @media screen and (max-width: 1249px) {
   .h2ValueLxn {
     font-size: 2.0816653323vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2ValueLxn {
     line-height: 160%;
     letter-spacing: 0.15em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2ValueLxn {
     font-size: 5.3333333333vw;
@@ -4001,11 +4496,13 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .h3ValueLxn {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3ValueLxn {
     margin-top: 9px;
@@ -4016,11 +4513,13 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h3ValueLxn {
     margin: 2.53% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3ValueLxn {
     font-size: 4vw;
@@ -4035,11 +4534,13 @@ LAYOUT
   overflow: hidden;
   width: 100%;
 }
+
 @media screen and (max-width: 1249px) {
   .valueSwipper {
     margin: 1.33% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .valueSwipper {
     margin-top: 22px;
@@ -4048,6 +4549,7 @@ LAYOUT
     margin-right: 0px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .valueSwipper {
     margin: 6.19% 0% 0% 0%;
@@ -4062,6 +4564,7 @@ LAYOUT
   width: 422px;
   height: auto;
 }
+
 @media screen and (max-width: 767px) {
   .swiper-slide {
     width: 100%;
@@ -4082,11 +4585,13 @@ LAYOUT
   aspect-ratio: 422/426;
   width: 100%;
 }
+
 @media screen and (max-width: 1249px) {
   .valueSliderBx {
     padding: 4.26% 0% 5.92% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .valueSliderBx {
     padding-top: 14px;
@@ -4096,6 +4601,7 @@ LAYOUT
     aspect-ratio: 355/369;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .valueSliderBx {
     padding: 3.94% 0% 5.63% 0%;
@@ -4109,16 +4615,19 @@ LAYOUT
   display: flex;
   flex-flow: column;
 }
+
 @media screen and (max-width: 1249px) {
   .valueSliderLxn {
     width: 88.62%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .valueSliderLxn {
     width: 320px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .valueSliderLxn {
     width: 90.14%;
@@ -4130,17 +4639,20 @@ LAYOUT
   line-height: 160%;
   letter-spacing: 0.15em;
 }
+
 @media screen and (max-width: 1249px) {
   .h4TitleValueSlider {
     font-size: 2.0816653323vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h4TitleValueSlider {
     line-height: normal;
     letter-spacing: 0.15em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h4TitleValueSlider {
     font-size: 6.4vw;
@@ -4156,16 +4668,19 @@ LAYOUT
   line-height: 160%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .h5TitleValueSlider {
     margin: 0% 0% 0% 4.48%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h5TitleValueSlider {
     font-size: 1.2009607686vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h5TitleValueSlider {
     margin-top: 0px;
@@ -4176,11 +4691,13 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h5TitleValueSlider {
     margin: 0% 0% 0% 3.75%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h5TitleValueSlider {
     font-size: 3.4666666667vw;
@@ -4196,16 +4713,19 @@ LAYOUT
   line-height: 160%;
   color: #66a13f;
 }
+
 @media screen and (max-width: 1249px) {
   .h6TitleValueSlider {
     margin: 0% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h6TitleValueSlider {
     font-size: 1.4411529223vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h6TitleValueSlider {
     margin-top: 8px;
@@ -4215,11 +4735,13 @@ LAYOUT
     line-height: 160%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h6TitleValueSlider {
     margin: 2.5% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h6TitleValueSlider {
     font-size: 4.2666666667vw;
@@ -4236,11 +4758,13 @@ LAYOUT
   background: #669b40;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .brdTitleValueSlider {
     margin: 5.27% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .brdTitleValueSlider {
     margin-top: 19px;
@@ -4250,6 +4774,7 @@ LAYOUT
     aspect-ratio: 320/1;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .brdTitleValueSlider {
     margin: 5.93% 0% 0% 0%;
@@ -4264,16 +4789,19 @@ LAYOUT
   font-size: 16px;
   line-height: 160%;
 }
+
 @media screen and (max-width: 1249px) {
   .txtValueSlider {
     margin: 4.22% 0% 3.95% 0%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .txtValueSlider {
     font-size: 1.2810248199vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtValueSlider {
     margin-top: 14px;
@@ -4283,11 +4811,13 @@ LAYOUT
     line-height: 160%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .txtValueSlider {
     margin: 4.37% 0% 4.37% 0%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtValueSlider {
     font-size: 3.7333333333vw;
@@ -4297,6 +4827,7 @@ LAYOUT
 .ulValueSlider {
   margin-top: auto;
 }
+
 .liValueSlider {
   padding-top: 8px;
   padding-bottom: 10px;
@@ -4309,17 +4840,20 @@ LAYOUT
   -moz-border-radius: 15px;
   /* Firefox用 */
 }
+
 @media screen and (max-width: 1249px) {
   .liValueSlider {
     padding: 2.11% 3.43% 2.63% 3.43%;
   }
 }
+
 .liValueSlider:nth-child(n+2) {
   margin-top: 9px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .liValueSlider:nth-child(n+2) {
     margin: 2.81% 0% 0% 0%;
@@ -4330,11 +4864,13 @@ LAYOUT
   margin: 0 2% 0 0;
   color: #66a13f;
 }
+
 @media screen and (max-width: 767px) {
   .iconLiValueSlider {
     width: 20px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .iconLiValueSlider {
     width: 6.25%;
@@ -4346,17 +4882,20 @@ LAYOUT
   line-height: 130%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtLiValueSlider {
     font-size: 1.1208967174vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtLiValueSlider {
     line-height: 130%;
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtLiValueSlider {
     font-size: 3.4666666667vw;
@@ -4372,6 +4911,7 @@ LAYOUT
   display: flex;
   justify-content: space-between;
 }
+
 @media screen and (max-width: 1249px) {
   .arroWap {
     margin-top: 1.52%;
@@ -4380,6 +4920,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) {
   .arroWap {
     margin-top: 14px;
@@ -4389,6 +4930,7 @@ LAYOUT
     width: 117px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .arroWap {
     margin-top: 4.37%;
@@ -4397,6 +4939,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .arroWap {
     width: 36.56%;
@@ -4421,11 +4964,13 @@ LAYOUT
   background: url(../img/swiper-button-prev.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 @media screen and (max-width: 767px) {
   .swiper-button-prev {
     width: 40px;
   }
 }
+
 .swiper-button-prev svg {
   transition-duration: 0.5s;
   width: 100%;
@@ -4450,11 +4995,13 @@ LAYOUT
   background: url(../img/swiper-button-next.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 @media screen and (max-width: 767px) {
   .swiper-button-next {
     width: 40px;
   }
 }
+
 .swiper-button-next svg {
   transition-duration: 0.5s;
   width: 100%;
@@ -4486,11 +5033,13 @@ LAYOUT
   padding-left: 0px;
   padding-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .briefHistory {
     padding: 5.31% 0% 12.34% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .briefHistory {
     padding: 34.6% 0% 31% 0%;
@@ -4503,6 +5052,7 @@ LAYOUT
     margin: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .briefHistoryLxn {
     width: 94.66%;
@@ -4514,17 +5064,20 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0.15em;
 }
+
 @media screen and (max-width: 1249px) {
   .h2TitleBriefHistory {
     font-size: 2.0816653323vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2TitleBriefHistory {
     line-height: 160%;
     letter-spacing: 0.15em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2TitleBriefHistory {
     font-size: 5.3333333333vw;
@@ -4540,16 +5093,19 @@ LAYOUT
   margin-left: 23px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .h3TitleArrowBreaf {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h3TitleArrowBreaf {
     margin: 0% 0% 0% 1.46%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3TitleArrowBreaf {
     width: 100%;
@@ -4561,11 +5117,13 @@ LAYOUT
     margin-right: 0px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3TitleArrowBreaf {
     font-size: 4vw;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h3TitleArrowBreaf {
     margin: 1.4% 0% 0% 0%;
@@ -4580,11 +5138,13 @@ LAYOUT
   height: 1px;
   width: 100%;
 }
+
 @media screen and (max-width: 1249px) {
   .brdTitleBriefHistory {
     margin: 1.33% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .brdTitleBriefHistory {
     margin: 3.8% 0% 0% 0%;
@@ -4597,11 +5157,13 @@ LAYOUT
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .mainBriefHistory {
     margin: 2.22% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .mainBriefHistory {
     margin: 8% 0% 0% 0%;
@@ -4611,26 +5173,31 @@ LAYOUT
 .secMainBriefHistoryFx {
   width: 596px;
 }
+
 @media screen and (max-width: 1249px) {
   .secMainBriefHistoryFx {
     width: 37.96%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .secMainBriefHistoryFx {
     width: 680px;
   }
 }
+
 @media screen and (max-width: 1249px) and (max-width: 1249px) {
   .secMainBriefHistoryFx {
     width: 54.4%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .secMainBriefHistoryFx {
     width: 355px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .secMainBriefHistoryFx {
     width: 100%;
@@ -4642,17 +5209,20 @@ LAYOUT
   line-height: 130%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .h3MainBriefHistoryFx {
     font-size: 1.2810248199vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3MainBriefHistoryFx {
     line-height: 140%;
     letter-spacing: -0.009em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3MainBriefHistoryFx {
     font-size: 4vw;
@@ -4665,11 +5235,13 @@ LAYOUT
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .ulMainBriefHistoryFx {
     margin: 2.54% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .ulMainBriefHistoryFx {
     margin: 4.35% 0% 0% 0%;
@@ -4682,11 +5254,13 @@ LAYOUT
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .liMainBriefHistoryFx:nth-child(n+2) {
     margin: 1.47% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liMainBriefHistoryFx:nth-child(n+2) {
     margin: 3.02% 0% 0% 0%;
@@ -4699,11 +5273,13 @@ LAYOUT
   line-height: 130%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .yearMainBriefHistoryFx {
     font-size: 1.2810248199vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .yearMainBriefHistoryFx {
     width: 60px;
@@ -4711,11 +5287,13 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .yearMainBriefHistoryFx {
     width: 16.9%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .yearMainBriefHistoryFx {
     font-size: 3.7333333333vw;
@@ -4728,11 +5306,13 @@ LAYOUT
   line-height: 130%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtMainBriefHistoryFx {
     font-size: 1.2810248199vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtMainBriefHistoryFx {
     width: 294px;
@@ -4740,11 +5320,13 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .txtMainBriefHistoryFx {
     width: 82.81%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtMainBriefHistoryFx {
     font-size: 3.7333333333vw;
@@ -4755,11 +5337,13 @@ LAYOUT
   width: 530px;
   margin: 0vw 0vw 0vw 9.96875vw;
 }
+
 @media screen and (max-width: 1249px) {
   .secMainBriefHistoryFx02 {
     width: 33.75%;
   }
 }
+
 @media screen and (max-width: 1450px) {
   .secMainBriefHistoryFx02 {
     width: 400px;
@@ -4769,22 +5353,26 @@ LAYOUT
     margin-right: 0px;
   }
 }
+
 @media screen and (max-width: 1450px) and (max-width: 1249px) {
   .secMainBriefHistoryFx02 {
     width: 32%;
   }
 }
+
 @media screen and (max-width: 1450px) and (max-width: 1249px) {
   .secMainBriefHistoryFx02 {
     margin: 0% 0% 0% 4.8%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .secMainBriefHistoryFx02 {
     width: 355px;
     margin: 16.99% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .secMainBriefHistoryFx02 {
     width: 100%;
@@ -4797,11 +5385,13 @@ LAYOUT
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .ulMainBriefHistoryFx02 {
     margin: 5.84% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .ulMainBriefHistoryFx02 {
     margin: 1.94% 0% 0% 0%;
@@ -4813,33 +5403,39 @@ LAYOUT
   line-height: 130%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .liMainBriefCompanyFx {
     font-size: 1.2810248199vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liMainBriefCompanyFx {
     line-height: 140%;
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .liMainBriefCompanyFx {
     font-size: 3.7333333333vw;
   }
 }
+
 .liMainBriefCompanyFx:nth-child(n+2) {
   margin-top: 11px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .liMainBriefCompanyFx:nth-child(n+2) {
     margin: 2.07% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liMainBriefCompanyFx:nth-child(n+2) {
     margin: 2.4% 0% 0% 0%;
@@ -4859,6 +5455,7 @@ LAYOUT
   margin: 0vw 0vw 0vw 0vw;
   padding: 12.091667vw 0vw 11.40625vw 0vw;
 }
+
 @media screen and (max-width: 767px) {
   .special {
     margin-top: 0px;
@@ -4868,6 +5465,7 @@ LAYOUT
     padding: 30.93% 0% 32.16% 0%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .special {
     margin-top: 0%;
@@ -4882,6 +5480,7 @@ LAYOUT
     width: 355px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .specialLxn {
     width: 94.66%;
@@ -4893,11 +5492,13 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .h2Special {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2Special {
     width: 330px;
@@ -4906,11 +5507,13 @@ LAYOUT
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h2Special {
     width: 92.95%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2Special {
     font-size: 4vw;
@@ -4923,11 +5526,13 @@ LAYOUT
   line-height: 150%;
   letter-spacing: -0.115em;
 }
+
 @media screen and (max-width: 1249px) {
   .h3Special {
     font-size: 3.2025620496vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3Special {
     width: 330px;
@@ -4939,11 +5544,13 @@ LAYOUT
     letter-spacing: -0.14em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h3Special {
     width: 92.95%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3Special {
     font-size: 5.3333333333vw;
@@ -4953,6 +5560,7 @@ LAYOUT
 .ulSpecial {
   margin: 2.989583vw 0vw 0vw 0vw;
 }
+
 @media screen and (max-width: 767px) {
   .ulSpecial {
     margin-top: 8.04%;
@@ -4973,6 +5581,7 @@ LAYOUT
   -moz-border-radius: 10px;
   /* Firefox用 */
 }
+
 @media screen and (max-width: 767px) {
   .liSpecial {
     width: 100%;
@@ -4983,6 +5592,7 @@ LAYOUT
     padding: 4.78% 0% 5.41% 0%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .liSpecial {
     margin-top: 0%;
@@ -4991,9 +5601,11 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 .liSpecial:nth-child(3n+2) {
   margin: 0% 1.27% 1.33% 1.27%;
 }
+
 @media screen and (max-width: 767px) {
   .liSpecial:nth-child(3n+2) {
     margin-top: 0px;
@@ -5002,6 +5614,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .liSpecial:nth-child(3n+2) {
     margin-top: 0%;
@@ -5010,6 +5623,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liSpecial:nth-child(n+2) {
     margin-top: 16px;
@@ -5018,6 +5632,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .liSpecial:nth-child(n+2) {
     margin-top: 4.5%;
@@ -5031,11 +5646,13 @@ LAYOUT
   width: 90.19%;
   margin: auto;
 }
+
 @media screen and (max-width: 767px) {
   .liSpecialLxn {
     width: 321px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .liSpecialLxn {
     width: 90.42%;
@@ -5045,11 +5662,13 @@ LAYOUT
 .photoSpecialTop {
   width: 40.21%;
 }
+
 @media screen and (max-width: 767px) {
   .photoSpecialTop {
     width: 107px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .photoSpecialTop {
     width: 33.33%;
@@ -5060,11 +5679,13 @@ LAYOUT
   width: 53.26%;
   margin: 7.56% 0% 0% 0%;
 }
+
 @media screen and (max-width: 1700px) {
   .secSpecialTop {
     margin: 3.26% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .secSpecialTop {
     width: 62.3%;
@@ -5080,11 +5701,13 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .h4SpecialTop {
     font-size: 1.2810248199vw;
   }
 }
+
 @media screen and (max-width: 1700px) {
   .h4SpecialTop {
     font-size: 12px;
@@ -5092,17 +5715,20 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 1700px) and (max-width: 1249px) {
   .h4SpecialTop {
     font-size: 0.9607686149vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h4SpecialTop {
     line-height: 150%;
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h4SpecialTop {
     font-size: 3.7333333333vw;
@@ -5115,11 +5741,13 @@ LAYOUT
   line-height: auto0%;
   letter-spacing: 0.1em;
 }
+
 @media screen and (max-width: 1249px) {
   .h5SpecialTop {
     font-size: 1.9215372298vw;
   }
 }
+
 @media screen and (max-width: 1700px) {
   .h5SpecialTop {
     font-size: 18px;
@@ -5127,11 +5755,13 @@ LAYOUT
     letter-spacing: 0.1em;
   }
 }
+
 @media screen and (max-width: 1700px) and (max-width: 1249px) {
   .h5SpecialTop {
     font-size: 1.4411529223vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h5SpecialTop {
     margin: 6% 0% 0% 0%;
@@ -5139,11 +5769,13 @@ LAYOUT
     letter-spacing: 0.1em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h5SpecialTop {
     font-size: 4.8vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h5SpecialTop::before {
     display: block;
@@ -5152,6 +5784,7 @@ LAYOUT
     margin-top: calc((1 - 1.6666666667) * 0.5em);
     content: "";
   }
+
   .h5SpecialTop::after {
     display: block;
     width: 0;
@@ -5167,11 +5800,13 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtSpecialTop {
     font-size: 1.1208967174vw;
   }
 }
+
 @media screen and (max-width: 1700px) {
   .txtSpecialTop {
     font-size: 10px;
@@ -5179,11 +5814,13 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 1700px) and (max-width: 1249px) {
   .txtSpecialTop {
     font-size: 0.8006405124vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtSpecialTop {
     margin: 4% 0% 0% 0%;
@@ -5191,11 +5828,13 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtSpecialTop {
     font-size: 3.2vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtSpecialTop::before {
     display: block;
@@ -5204,6 +5843,7 @@ LAYOUT
     margin-top: calc((1 - 1.5) * 0.5em);
     content: "";
   }
+
   .txtSpecialTop::after {
     display: block;
     width: 0;
@@ -5219,11 +5859,13 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .h3SpecialMain {
     font-size: 1.4411529223vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3SpecialMain {
     margin: 3.23% 0% 0% 0%;
@@ -5231,6 +5873,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3SpecialMain {
     font-size: 4.2666666667vw;
@@ -5243,11 +5886,13 @@ LAYOUT
   line-height: 160%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtSpecialMain {
     font-size: 1.1208967174vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtSpecialMain {
     margin: 1.67% 0% 0% 0%;
@@ -5255,6 +5900,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtSpecialMain {
     font-size: 3.4666666667vw;
@@ -5276,11 +5922,13 @@ LAYOUT
   padding-left: 0px;
   padding-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .business {
     padding: 12.03% 0% 12.5% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .business {
     padding-top: 123px;
@@ -5289,6 +5937,7 @@ LAYOUT
     padding-right: 0px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .business {
     padding: 32.8% 0% 32% 0%;
@@ -5300,6 +5949,7 @@ LAYOUT
     width: 355px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .businessLxn {
     width: 94.66%;
@@ -5320,11 +5970,13 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .h2BissinesTitle {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2BissinesTitle {
     width: 93.36%;
@@ -5333,11 +5985,13 @@ LAYOUT
     margin: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2BissinesTitle {
     font-size: 4vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2BissinesTitle::before {
     display: block;
@@ -5346,6 +6000,7 @@ LAYOUT
     margin-top: calc((1 - 1) * 0.5em);
     content: "";
   }
+
   .h2BissinesTitle::after {
     display: block;
     width: 0;
@@ -5362,11 +6017,13 @@ LAYOUT
   letter-spacing: -0.115em;
   font-feature-settings: "palt";
 }
+
 @media screen and (max-width: 1249px) {
   .h3BissinesTitle {
     font-size: 3.2025620496vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3BissinesTitle {
     margin-top: 6.46%;
@@ -5378,11 +6035,13 @@ LAYOUT
     letter-spacing: -0.14em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3BissinesTitle {
     font-size: 5.3333333333vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3BissinesTitle::before {
     display: block;
@@ -5391,6 +6050,7 @@ LAYOUT
     margin-top: calc((1 - 1) * 0.5em);
     content: "";
   }
+
   .h3BissinesTitle::after {
     display: block;
     width: 0;
@@ -5419,6 +6079,7 @@ LAYOUT
   -moz-border-radius: 10px;
   /* Firefox用 */
 }
+
 @media screen and (max-width: 767px) {
   .bussinessCnt {
     margin-top: 9.14%;
@@ -5437,6 +6098,7 @@ LAYOUT
     /* Firefox用 */
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .bussinessCnt {
     padding: 4.78% 0% 5.91% 0%;
@@ -5447,16 +6109,19 @@ LAYOUT
   width: 92.99%;
   margin: auto;
 }
+
 @media screen and (max-width: 1700px) {
   .bussinessCntLxn {
     width: 95.54%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .bussinessCntLxn {
     width: 321px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .bussinessCntLxn {
     width: 90.42%;
@@ -5466,11 +6131,13 @@ LAYOUT
 .secBussinessCnt {
   width: 50%;
 }
+
 @media screen and (max-width: 1700px) {
   .secBussinessCnt {
     width: 52.05%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .secBussinessCnt {
     margin-top: 24px;
@@ -5481,6 +6148,7 @@ LAYOUT
     order: 2;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .secBussinessCnt {
     margin-top: 7.47%;
@@ -5489,6 +6157,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .secBussinessCnt {
     width: 100%;
@@ -5500,17 +6169,20 @@ LAYOUT
   line-height: auto0%;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .h2BussinessCnt {
     font-size: 0.9607686149vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2BussinessCnt {
     line-height: auto0%;
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2BussinessCnt {
     font-size: 2.6666666667vw;
@@ -5526,6 +6198,7 @@ LAYOUT
   line-height: auto0%;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .h3BussinessCnt {
     margin-top: 2.19%;
@@ -5534,11 +6207,13 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h3BussinessCnt {
     font-size: 2.5620496397vw;
   }
 }
+
 @media screen and (max-width: 1700px) {
   .h3BussinessCnt {
     margin-top: 10px;
@@ -5548,6 +6223,7 @@ LAYOUT
     font-feature-settings: "palt";
   }
 }
+
 @media screen and (max-width: 1700px) and (max-width: 1249px) {
   .h3BussinessCnt {
     margin-top: 1.36%;
@@ -5556,6 +6232,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3BussinessCnt {
     margin-top: 2.73%;
@@ -5566,6 +6243,7 @@ LAYOUT
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3BussinessCnt {
     font-size: 5.3333333333vw;
@@ -5581,6 +6259,7 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .h4BussinessCnt {
     margin-top: 6.43%;
@@ -5589,11 +6268,13 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h4BussinessCnt {
     font-size: 1.7614091273vw;
   }
 }
+
 @media screen and (max-width: 1700px) {
   .h4BussinessCnt {
     margin-top: 30px;
@@ -5606,6 +6287,7 @@ LAYOUT
     font-feature-settings: "palt";
   }
 }
+
 @media screen and (max-width: 1700px) and (max-width: 1249px) {
   .h4BussinessCnt {
     margin-top: 4.1%;
@@ -5614,11 +6296,13 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1700px) and (max-width: 1249px) {
   .h4BussinessCnt {
     font-size: 1.3610888711vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h4BussinessCnt {
     margin-top: 7.96%;
@@ -5629,11 +6313,13 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h4BussinessCnt {
     font-size: 4.2666666667vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h4BussinessCnt::before {
     display: block;
@@ -5642,6 +6328,7 @@ LAYOUT
     margin-top: calc((1 - 1.625) * 0.5em);
     content: "";
   }
+
   .h4BussinessCnt::after {
     display: block;
     width: 0;
@@ -5660,6 +6347,7 @@ LAYOUT
   line-height: 160%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtBussinessCnt {
     margin-top: 3.56%;
@@ -5668,11 +6356,13 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .txtBussinessCnt {
     font-size: 1.2810248199vw;
   }
 }
+
 @media screen and (max-width: 1750px) {
   .txtBussinessCnt {
     margin-top: 20px;
@@ -5685,6 +6375,7 @@ LAYOUT
     font-feature-settings: "palt";
   }
 }
+
 @media screen and (max-width: 1750px) and (max-width: 1249px) {
   .txtBussinessCnt {
     margin-top: 2.73%;
@@ -5693,11 +6384,13 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1750px) and (max-width: 1249px) {
   .txtBussinessCnt {
     font-size: 1.0408326661vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtBussinessCnt {
     margin-top: 5.47%;
@@ -5708,6 +6401,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtBussinessCnt {
     font-size: 3.7333333333vw;
@@ -5720,6 +6414,7 @@ LAYOUT
   margin-left: auto;
   margin-right: auto;
 }
+
 @media screen and (max-width: 1249px) {
   .secListBussinessCnt {
     margin-top: 6.02%;
@@ -5728,6 +6423,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1750px) {
   .secListBussinessCnt {
     margin-top: 32px;
@@ -5736,6 +6432,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1750px) and (max-width: 1249px) {
   .secListBussinessCnt {
     margin-top: 4.38%;
@@ -5744,6 +6441,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) {
   .secListBussinessCnt {
     margin-top: 9.46%;
@@ -5758,11 +6456,13 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .h4ListBussinessCnt {
     font-size: 1.4411529223vw;
   }
 }
+
 @media screen and (max-width: 1750px) {
   .h4ListBussinessCnt {
     font-size: 16px;
@@ -5771,17 +6471,20 @@ LAYOUT
     font-feature-settings: "palt";
   }
 }
+
 @media screen and (max-width: 1750px) and (max-width: 1249px) {
   .h4ListBussinessCnt {
     font-size: 1.2810248199vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h4ListBussinessCnt {
     line-height: auto0%;
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h4ListBussinessCnt {
     font-size: 3.4666666667vw;
@@ -5794,6 +6497,7 @@ LAYOUT
   margin-left: auto;
   margin-right: auto;
 }
+
 @media screen and (max-width: 1249px) {
   .ulListBussinessCnt {
     margin-top: 2.32%;
@@ -5802,6 +6506,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1750px) {
   .ulListBussinessCnt {
     margin-top: 10px;
@@ -5810,6 +6515,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 1750px) and (max-width: 1249px) {
   .ulListBussinessCnt {
     margin-top: 1.36%;
@@ -5818,6 +6524,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) {
   .ulListBussinessCnt {
     margin-top: 2.14%;
@@ -5844,21 +6551,25 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .liListBussinessCnt {
     width: 50.82%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .liListBussinessCnt {
     padding: 0.95% 1.36% 0.27% 1.78%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .liListBussinessCnt {
     font-size: 1.2009607686vw;
   }
 }
+
 @media screen and (max-width: 1750px) {
   .liListBussinessCnt {
     font-size: 13px;
@@ -5867,21 +6578,25 @@ LAYOUT
     font-feature-settings: "palt";
   }
 }
+
 @media screen and (max-width: 1750px) and (max-width: 1249px) {
   .liListBussinessCnt {
     font-size: 1.0408326661vw;
   }
 }
+
 @media screen and (max-width: 1250px) {
   .liListBussinessCnt {
     width: 460px;
   }
 }
+
 @media screen and (max-width: 1250px) and (max-width: 1249px) {
   .liListBussinessCnt {
     width: 63.01%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liListBussinessCnt {
     width: 321px;
@@ -5903,21 +6618,25 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .liListBussinessCnt {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .liListBussinessCnt {
     padding: 0% 0% 0% 2.8%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .liListBussinessCnt {
     font-size: 3.4666666667vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liListBussinessCnt::before {
     display: block;
@@ -5926,6 +6645,7 @@ LAYOUT
     margin-top: calc((1 - 2.3076923077) * 0.5em);
     content: "";
   }
+
   .liListBussinessCnt::after {
     display: block;
     width: 0;
@@ -5934,17 +6654,20 @@ LAYOUT
     content: "";
   }
 }
+
 .liListBussinessCnt:nth-child(n+2) {
   margin-top: 11px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .liListBussinessCnt:nth-child(n+2) {
     margin: 1.5% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liListBussinessCnt:nth-child(n+2) {
     margin-top: 7px;
@@ -5953,6 +6676,7 @@ LAYOUT
     margin-right: 0px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .liListBussinessCnt:nth-child(n+2) {
     margin: 2.18% 0% 0% 0%;
@@ -5962,6 +6686,7 @@ LAYOUT
 .photoBussinessCntTop {
   width: 44.79%;
 }
+
 @media screen and (max-width: 767px) {
   .photoBussinessCntTop {
     order: 1;
@@ -5975,6 +6700,7 @@ LAYOUT
   margin-left: auto;
   margin-right: auto;
 }
+
 @media screen and (max-width: 1249px) {
   .ulBussinessBtm {
     margin-top: 4.24%;
@@ -5983,6 +6709,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) {
   .ulBussinessBtm {
     margin-top: 64px;
@@ -5991,6 +6718,7 @@ LAYOUT
     margin-right: 0px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .ulBussinessBtm {
     margin: 19.93% 0% 0% 0%;
@@ -6000,15 +6728,18 @@ LAYOUT
 .liBussinessBtm {
   width: 28.08%;
 }
+
 @media screen and (max-width: 1750px) {
   .liBussinessBtm {
     width: 31.5%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liBussinessBtm {
     width: 100%;
   }
+
   .liBussinessBtm:nth-child(n+2) {
     margin-top: 40px;
     margin-bottom: 0px;
@@ -6016,6 +6747,7 @@ LAYOUT
     margin-right: 0px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .liBussinessBtm:nth-child(n+2) {
     margin: 12.46% 0% 0% 0%;
@@ -6033,11 +6765,13 @@ LAYOUT
   padding: 0% 0% 1.45% 0%;
   border-bottom: 1px solid #D9D9D9;
 }
+
 @media screen and (max-width: 1249px) {
   .h3BussinessBtm {
     font-size: 1.4411529223vw;
   }
 }
+
 @media screen and (max-width: 1750px) {
   .h3BussinessBtm {
     font-size: 15px;
@@ -6046,11 +6780,13 @@ LAYOUT
     font-feature-settings: "palt";
   }
 }
+
 @media screen and (max-width: 1750px) and (max-width: 1249px) {
   .h3BussinessBtm {
     font-size: 1.2009607686vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3BussinessBtm {
     line-height: 1.5625;
@@ -6059,11 +6795,13 @@ LAYOUT
     padding: 0% 0% 4.36% 0%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3BussinessBtm {
     font-size: 4.2666666667vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3BussinessBtm::before {
     display: block;
@@ -6072,6 +6810,7 @@ LAYOUT
     margin-top: calc((1 - 1.5625) * 0.5em);
     content: "";
   }
+
   .h3BussinessBtm::after {
     display: block;
     width: 0;
@@ -6090,11 +6829,13 @@ LAYOUT
   line-height: 140%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .h4BussinessBtm {
     font-size: 1.2009607686vw;
   }
 }
+
 @media screen and (max-width: 1750px) {
   .h4BussinessBtm {
     font-size: 13px;
@@ -6103,11 +6844,13 @@ LAYOUT
     font-feature-settings: "palt";
   }
 }
+
 @media screen and (max-width: 1750px) and (max-width: 1249px) {
   .h4BussinessBtm {
     font-size: 1.0408326661vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h4BussinessBtm {
     margin: 2.98% 0% 0% 0%;
@@ -6115,6 +6858,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h4BussinessBtm {
     font-size: 3.7333333333vw;
@@ -6130,11 +6874,13 @@ LAYOUT
   line-height: 160%;
   letter-spacing: 0.075em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtBussinessBtm {
     font-size: 1.1208967174vw;
   }
 }
+
 @media screen and (max-width: 1750px) {
   .txtBussinessBtm {
     font-size: 12px;
@@ -6143,11 +6889,13 @@ LAYOUT
     font-feature-settings: "palt";
   }
 }
+
 @media screen and (max-width: 1750px) and (max-width: 1249px) {
   .txtBussinessBtm {
     font-size: 0.9607686149vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtBussinessBtm {
     margin: 2.98% 0% 0% 0%;
@@ -6155,11 +6903,13 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtBussinessBtm {
     font-size: 3.7333333333vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtBussinessBtm::before {
     display: block;
@@ -6168,6 +6918,7 @@ LAYOUT
     margin-top: calc((1 - 1.4285714286) * 0.5em);
     content: "";
   }
+
   .txtBussinessBtm::after {
     display: block;
     width: 0;
@@ -6189,6 +6940,7 @@ LAYOUT
 .bussinessCnt02 {
   margin: 2.4985416667vw 0vw 0vw 0vw;
 }
+
 @media screen and (max-width: 767px) {
   .bussinessCnt02 {
     margin-top: 62px;
@@ -6197,6 +6949,7 @@ LAYOUT
     margin-right: 0px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .bussinessCnt02 {
     margin: 17.46% 0% 0% 0%;
@@ -6215,6 +6968,7 @@ LAYOUT
 .testIndex {
   width: 500px;
 }
+
 @media screen and (max-width: 1249px) {
   .testIndex {
     width: 41.66%;
@@ -6233,6 +6987,7 @@ LAYOUT
 .testIndex {
   width: 500px;
 }
+
 @media screen and (max-width: 1249px) {
   .testIndex {
     width: 41.66%;
@@ -6252,6 +7007,7 @@ LAYOUT
   padding: 15.46875vw 0vw 0vw 0vw;
   overflow: hidden;
 }
+
 @media screen and (max-width: 767px) {
   .vision {
     padding-top: 25.2%;
@@ -6266,6 +7022,7 @@ LAYOUT
     width: 375px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .visionLxn {
     width: 100%;
@@ -6275,37 +7032,44 @@ LAYOUT
 .secVision {
   width: 680px;
 }
+
 @media screen and (max-width: 1249px) {
   .secVision {
     width: 43.31%;
   }
 }
+
 @media screen and (max-width: 1350px) {
   .secVision {
     width: 610px;
   }
 }
+
 @media screen and (max-width: 1350px) and (max-width: 1249px) {
   .secVision {
     width: 38.85%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .secVision {
     width: 700px;
   }
 }
+
 @media screen and (max-width: 1249px) and (max-width: 1249px) {
   .secVision {
     width: 44.58%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .secVision {
     width: 375px;
     margin: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .secVision {
     width: 100%;
@@ -6317,11 +7081,13 @@ LAYOUT
   line-height: normal;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .h2Vision {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h2Vision {
     font-size: 18px;
@@ -6329,11 +7095,13 @@ LAYOUT
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 1249px) and (max-width: 1249px) {
   .h2Vision {
     font-size: 1.4411529223vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2Vision {
     line-height: 160%;
@@ -6342,11 +7110,13 @@ LAYOUT
     margin: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2Vision {
     font-size: 4vw;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h2Vision {
     width: 88%;
@@ -6359,11 +7129,13 @@ LAYOUT
   line-height: 150%;
   letter-spacing: -0.115em;
 }
+
 @media screen and (max-width: 1249px) {
   .h3Vision {
     font-size: 3.2025620496vw;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h3Vision {
     font-size: 34px;
@@ -6371,11 +7143,13 @@ LAYOUT
     letter-spacing: -0.115em;
   }
 }
+
 @media screen and (max-width: 1249px) and (max-width: 1249px) {
   .h3Vision {
     font-size: 2.7221777422vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3Vision {
     width: 330px;
@@ -6387,11 +7161,13 @@ LAYOUT
     letter-spacing: -0.14em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h3Vision {
     width: 88%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3Vision {
     font-size: 6.9333333333vw;
@@ -6404,11 +7180,13 @@ LAYOUT
   line-height: 220%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtVision {
     font-size: 1.4411529223vw;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .txtVision {
     font-size: 15px;
@@ -6416,11 +7194,13 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 1249px) and (max-width: 1249px) {
   .txtVision {
     font-size: 1.2009607686vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtVision {
     width: 330px;
@@ -6432,11 +7212,13 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .txtVision {
     width: 88%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtVision {
     font-size: 4.2666666667vw;
@@ -6452,6 +7234,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .photoVisionSp {
     width: 100%;
@@ -6464,11 +7247,13 @@ LAYOUT
   line-height: auto0%;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .h4Vision {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h4Vision {
     font-size: 18px;
@@ -6476,11 +7261,13 @@ LAYOUT
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 1249px) and (max-width: 1249px) {
   .h4Vision {
     font-size: 1.4411529223vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h4Vision {
     width: 330px;
@@ -6492,11 +7279,13 @@ LAYOUT
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h4Vision {
     width: 88%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h4Vision {
     margin-top: 17.33%;
@@ -6505,6 +7294,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h4Vision {
     font-size: 4vw;
@@ -6514,6 +7304,7 @@ LAYOUT
 .ulVision {
   margin: 1.6145833333vw 0vw 0vw 0vw;
 }
+
 @media screen and (max-width: 767px) {
   .ulVision {
     width: 330px;
@@ -6523,6 +7314,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .ulVision {
     width: 88%;
@@ -6533,11 +7325,13 @@ LAYOUT
   padding: 1.875vw 0vw 1.875vw 0vw;
   border-bottom: 1px solid #A2A2A2;
 }
+
 @media screen and (max-width: 767px) {
   .liVision {
     padding: 7.87% 0% 4.05% 0%;
   }
 }
+
 .liVision:nth-child(n+2) {
   margin: 0.985833vw 0vw 0vw 0vw;
 }
@@ -6547,11 +7341,13 @@ LAYOUT
   line-height: auto0%;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .h5Vision {
     font-size: 1.2810248199vw;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h5Vision {
     font-size: 14px;
@@ -6559,17 +7355,20 @@ LAYOUT
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 1249px) and (max-width: 1249px) {
   .h5Vision {
     font-size: 1.1208967174vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h5Vision {
     line-height: 160%;
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h5Vision {
     font-size: 3.2vw;
@@ -6582,11 +7381,13 @@ LAYOUT
   line-height: auto0%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtLiVison {
     font-size: 1.9215372298vw;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .txtLiVison {
     font-size: 20px;
@@ -6594,11 +7395,13 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 1249px) and (max-width: 1249px) {
   .txtLiVison {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtLiVison {
     margin-top: 2.93%;
@@ -6609,6 +7412,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtLiVison {
     font-size: 4.2666666667vw;
@@ -6619,29 +7423,35 @@ LAYOUT
   width: 716px;
   position: relative;
 }
+
 @media screen and (max-width: 1249px) {
   .photoVisionlxn {
     width: 45.6%;
   }
 }
+
 @media screen and (max-width: 1700px) {
   .photoVisionlxn {
     width: 592px;
   }
 }
+
 @media screen and (max-width: 1700px) and (max-width: 1249px) {
   .photoVisionlxn {
     width: 37.7%;
   }
 }
+
 @media screen and (max-width: 1350px) {
   .photoVisionlxn {
     width: 39.4904458599vw;
   }
+
   .photoVisionlxn img {
     max-width: 620px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .photoVisionlxn {
     display: none;
@@ -6654,16 +7464,20 @@ LAYOUT
   left: 0;
   top: 0;
 }
+
 .photoVision img {
   max-width: 891px;
 }
+
 .photoVision img {
   width: 100%;
 }
+
 @media screen and (max-width: 1700px) {
   .photoVision {
     width: 46.40625vw;
   }
+
   .photoVision img {
     max-width: 891px;
   }
@@ -6681,6 +7495,7 @@ LAYOUT
 .brandMessage {
   margin: 9.8958333333vw 0vw 0vw 0vw;
 }
+
 @media screen and (max-width: 767px) {
   .brandMessage {
     margin-top: 51.53%;
@@ -6699,21 +7514,25 @@ LAYOUT
 .secBrandMessage {
   width: 43.5%;
 }
+
 @media screen and (max-width: 1350px) {
   .secBrandMessage {
     width: 600px;
   }
 }
+
 @media screen and (max-width: 1350px) and (max-width: 1249px) {
   .secBrandMessage {
     width: 48%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .secBrandMessage {
     width: 328px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .secBrandMessage {
     width: 100%;
@@ -6725,17 +7544,20 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .h2TitleBrandMessage {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2TitleBrandMessage {
     line-height: normal;
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2TitleBrandMessage {
     font-size: 5.3333333333vw;
@@ -6751,16 +7573,19 @@ LAYOUT
   margin-left: 20px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .h3TitleBrandMessage {
     font-size: 1.0408326661vw;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h3TitleBrandMessage {
     margin: 0% 0% 0% 2.92%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3TitleBrandMessage {
     line-height: 1.3076923077;
@@ -6771,11 +7596,13 @@ LAYOUT
     margin-right: 0px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3TitleBrandMessage {
     font-size: 3.4666666667vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3TitleBrandMessage::before {
     display: block;
@@ -6784,6 +7611,7 @@ LAYOUT
     margin-top: calc((1 - 1.3076923077) * 0.5em);
     content: "";
   }
+
   .h3TitleBrandMessage::after {
     display: block;
     width: 0;
@@ -6792,6 +7620,7 @@ LAYOUT
     content: "";
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h3TitleBrandMessage {
     margin: 0% 0% 0% 6.4%;
@@ -6807,16 +7636,19 @@ LAYOUT
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .h4TitleBrandMessage {
     font-size: 1.7614091273vw;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h4TitleBrandMessage {
     margin: 6.88% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h4TitleBrandMessage {
     line-height: normal;
@@ -6827,11 +7659,13 @@ LAYOUT
     margin-right: 0px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h4TitleBrandMessage {
     font-size: 5.3333333333vw;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h4TitleBrandMessage {
     margin: 8.84% 0% 0% 0%;
@@ -6847,11 +7681,13 @@ LAYOUT
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .txtBrandMessage {
     font-size: 1.1208967174vw;
   }
 }
+
 .txtBrandMessage::before {
   display: block;
   width: 0;
@@ -6859,6 +7695,7 @@ LAYOUT
   margin-top: calc((1 - 1.7142857143) * 0.5em);
   content: "";
 }
+
 .txtBrandMessage::after {
   display: block;
   width: 0;
@@ -6866,11 +7703,13 @@ LAYOUT
   margin-bottom: calc((1 - 1.7142857143) * 0.5em);
   content: "";
 }
+
 @media screen and (max-width: 1249px) {
   .txtBrandMessage {
     margin: 3.22% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtBrandMessage {
     line-height: 1.5714285714;
@@ -6879,11 +7718,13 @@ LAYOUT
     width: 98.5%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtBrandMessage {
     font-size: 3.7333333333vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtBrandMessage::before {
     display: block;
@@ -6892,6 +7733,7 @@ LAYOUT
     margin-top: calc((1 - 1.5714285714) * 0.5em);
     content: "";
   }
+
   .txtBrandMessage::after {
     display: block;
     width: 0;
@@ -6905,16 +7747,19 @@ LAYOUT
   width: 39.8%;
   transform: translate(2%, 16%);
 }
+
 @media screen and (max-width: 1350px) {
   .picBrandMessage {
     width: 500px;
   }
 }
+
 @media screen and (max-width: 1350px) and (max-width: 1249px) {
   .picBrandMessage {
     width: 40%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .picBrandMessage {
     margin: 14.4% 0% 0% 0%;
@@ -6922,6 +7767,7 @@ LAYOUT
     transform: translate(0, 0);
   }
 }
+
 .picBrandMessage img {
   width: 100%;
 }
@@ -6940,6 +7786,7 @@ LAYOUT
   border-top: 1px solid #d9d9d9;
   padding: 11.9479166667vw 0vw 0vw 0vw;
 }
+
 @media screen and (max-width: 767px) {
   .company {
     margin-top: 31.13%;
@@ -6963,11 +7810,13 @@ LAYOUT
   line-height: normal;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .h2Company {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2Company {
     width: 330px;
@@ -6976,16 +7825,19 @@ LAYOUT
     margin: 0 0 0 1%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h2Company {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2Company {
     font-size: 4vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2Company::before {
     display: block;
@@ -6994,6 +7846,7 @@ LAYOUT
     margin-top: calc((1 - 1) * 0.5em);
     content: "";
   }
+
   .h2Company::after {
     display: block;
     width: 0;
@@ -7006,6 +7859,7 @@ LAYOUT
 .ulCompany {
   width: 61.14%;
 }
+
 @media screen and (max-width: 767px) {
   .ulCompany {
     width: 330px;
@@ -7015,6 +7869,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .ulCompany {
     width: 100%;
@@ -7028,30 +7883,36 @@ LAYOUT
   padding-right: 0px;
   border-bottom: 1px solid #d9d9d9;
 }
+
 @media screen and (max-width: 1249px) {
   .liCompany {
     padding: 0% 0% 2.91% 0%;
   }
 }
+
 .liCompany:last-child {
   border-bottom: none;
 }
+
 @media screen and (max-width: 767px) {
   .liCompany {
     padding: 0% 0% 11.48% 0%;
   }
 }
+
 .liCompany:nth-child(n+2) {
   margin-top: 26px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .liCompany:nth-child(n+2) {
     margin: 2.7% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liCompany:nth-child(n+2) {
     margin: 8.35% 0% 0% 0%;
@@ -7064,11 +7925,13 @@ LAYOUT
   line-height: 200%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .h3Company {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3Company {
     width: 62px;
@@ -7077,16 +7940,19 @@ LAYOUT
     padding: 0 0 0 1%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .h3Company {
     width: 18.78%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3Company {
     font-size: 3.7333333333vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3Company::before {
     display: block;
@@ -7095,6 +7961,7 @@ LAYOUT
     margin-top: calc((1 - 2.1428571429) * 0.5em);
     content: "";
   }
+
   .h3Company::after {
     display: block;
     width: 0;
@@ -7110,11 +7977,13 @@ LAYOUT
   line-height: 200%;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .txtCompany {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtCompany {
     width: 260px;
@@ -7122,16 +7991,19 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .txtCompany {
     width: 78.78%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtCompany {
     font-size: 3.7333333333vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtCompany::before {
     display: block;
@@ -7140,6 +8012,7 @@ LAYOUT
     margin-top: calc((1 - 2.1428571429) * 0.5em);
     content: "";
   }
+
   .txtCompany::after {
     display: block;
     width: 0;
@@ -7164,6 +8037,7 @@ LAYOUT
   background: url(../img/contactPc.png) no-repeat center center;
   background-size: cover;
 }
+
 @media screen and (max-width: 767px) {
   .contact {
     margin-top: 35.03%;
@@ -7182,6 +8056,7 @@ LAYOUT
     margin: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .contactLxn {
     width: 88%;
@@ -7191,32 +8066,38 @@ LAYOUT
 .secContact {
   width: 880px;
 }
+
 @media screen and (max-width: 1249px) {
   .secContact {
     width: 56.05%;
   }
 }
+
 @media screen and (max-width: 1400px) {
   .secContact {
     width: 800px;
   }
 }
+
 @media screen and (max-width: 1400px) and (max-width: 1249px) {
   .secContact {
     width: 50.95%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .secContact {
     width: 67.13%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .secContact {
     width: 330px;
     margin: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .secContact {
     width: 100%;
@@ -7228,11 +8109,13 @@ LAYOUT
   line-height: 150%;
   letter-spacing: 0.1em;
 }
+
 @media screen and (max-width: 1249px) {
   .h2Contact {
     font-size: 1.9215372298vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2Contact {
     line-height: 150%;
@@ -7240,6 +8123,7 @@ LAYOUT
     margin: 0 0 0 1%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2Contact {
     font-size: 6.4vw;
@@ -7255,16 +8139,19 @@ LAYOUT
   line-height: normal;
   letter-spacing: -0.14em;
 }
+
 @media screen and (max-width: 1249px) {
   .h3Contact {
     margin: -0.1% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h3Contact {
     font-size: 3.2025620496vw;
   }
 }
+
 @media screen and (max-width: 1450px) {
   .h3Contact {
     font-size: 36px;
@@ -7272,16 +8159,19 @@ LAYOUT
     letter-spacing: -0.14em;
   }
 }
+
 @media screen and (max-width: 1450px) and (max-width: 1249px) {
   .h3Contact {
     font-size: 2.8823058447vw;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h3Contact {
     font-size: 2.6823058447vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h3Contact {
     margin: 6.27% 0% 0% 1%;
@@ -7289,6 +8179,7 @@ LAYOUT
     letter-spacing: -0.14em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3Contact {
     font-size: 5.8666666667vw;
@@ -7304,16 +8195,19 @@ LAYOUT
   line-height: normal;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .rubyContact {
     margin: 2.54% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .rubyContact {
     font-size: 1.9215372298vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .rubyContact {
     margin: 4.09% 0% 0% 1%;
@@ -7321,6 +8215,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .rubyContact {
     font-size: 3.7333333333vw;
@@ -7336,16 +8231,19 @@ LAYOUT
   line-height: normal;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .h4Contact {
     margin: 14.45% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .h4Contact {
     font-size: 1.4411529223vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h4Contact {
     margin: 24.24% 0% 0% 1%;
@@ -7353,6 +8251,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h4Contact {
     font-size: 3.7333333333vw;
@@ -7365,11 +8264,13 @@ LAYOUT
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .txtContact {
     margin: 2.72% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtContact {
     margin: 3.15% 0% 0% 1%;
@@ -7381,11 +8282,13 @@ LAYOUT
   line-height: 1;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 1249px) {
   .liTxtContact {
     font-size: 1.2810248199vw;
   }
 }
+
 .liTxtContact::before {
   display: block;
   width: 0;
@@ -7393,6 +8296,7 @@ LAYOUT
   margin-top: calc((1 - 1) * 0.5em);
   content: "";
 }
+
 .liTxtContact::after {
   display: block;
   width: 0;
@@ -7400,28 +8304,33 @@ LAYOUT
   margin-bottom: calc((1 - 1) * 0.5em);
   content: "";
 }
+
 @media screen and (max-width: 767px) {
   .liTxtContact {
     line-height: 150%;
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .liTxtContact {
     font-size: 3.7333333333vw;
   }
 }
+
 .liTxtContact:nth-child(n+2) {
   margin-top: 22px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .liTxtContact:nth-child(n+2) {
     margin: 2% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liTxtContact:nth-child(n+2) {
     margin: 2.85% 0% 0% 0%;
@@ -7432,36 +8341,43 @@ LAYOUT
   width: 361px;
   margin: 3% 0 0 0;
 }
+
 @media screen and (max-width: 1249px) {
   .ctaContactCta {
     width: 32.81%;
   }
 }
+
 @media screen and (max-width: 1400px) {
   .ctaContactCta {
     width: 420px;
   }
 }
+
 @media screen and (max-width: 1400px) and (max-width: 1249px) {
   .ctaContactCta {
     width: 26.75%;
   }
 }
+
 @media screen and (max-width: 1350px) {
   .ctaContactCta {
     width: 310px;
   }
 }
+
 @media screen and (max-width: 1350px) and (max-width: 1249px) {
   .ctaContactCta {
     width: 19.74%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .ctaContactCta {
     width: 31.01%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .ctaContactCta {
     margin-top: 9.21%;
@@ -7471,6 +8387,7 @@ LAYOUT
     width: 300px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .ctaContactCta {
     width: 90.9%;
@@ -7483,11 +8400,13 @@ LAYOUT
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .liContactCta:nth-child(n+2) {
     margin: 7.75% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liContactCta:nth-child(n+2) {
     margin: 5.84% 0% 0% 0%;
@@ -7503,6 +8422,7 @@ LAYOUT
   -moz-border-radius: 60px;
   /* Firefox用 */
 }
+
 @media screen and (max-width: 767px) {
   .btnContactCta {
     aspect-ratio: 300/60;
@@ -7516,11 +8436,13 @@ LAYOUT
   background-size: auto 34%;
   transition-duration: 0.5s;
 }
+
 @media screen and (max-width: 1249px) {
   .secContactCta {
     width: 94.45%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .secContactCta {
     background: url(../img/btnContactCta.svg) no-repeat 100% center;
@@ -7528,6 +8450,7 @@ LAYOUT
     width: 266px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .secContactCta {
     width: 88.66%;
@@ -7540,11 +8463,13 @@ LAYOUT
   letter-spacing: 0em;
   transition-duration: 0.5s;
 }
+
 @media screen and (max-width: 1249px) {
   .h2ContactCta {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .h2ContactCta {
     line-height: normal;
@@ -7552,6 +8477,7 @@ LAYOUT
     transform: translate(-2%, 16%);
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h2ContactCta {
     font-size: 4.2666666667vw;
@@ -7568,16 +8494,19 @@ LAYOUT
   letter-spacing: 0em;
   transition-duration: 0.5s;
 }
+
 @media screen and (max-width: 1249px) {
   .rubyContactCta {
     margin: 0.29% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .rubyContactCta {
     font-size: 1.1208967174vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .rubyContactCta {
     margin-top: 3px;
@@ -7588,11 +8517,13 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .rubyContactCta {
     margin: 1.12% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .rubyContactCta {
     font-size: 3.2vw;
@@ -7609,16 +8540,19 @@ LAYOUT
   letter-spacing: 0em;
   transition-duration: 0.5s;
 }
+
 @media screen and (max-width: 1249px) {
   .txtContactCta {
     width: 94.45%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .txtContactCta {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .txtContactCta {
     margin: 0% 0% 0% -3%;
@@ -7628,6 +8562,7 @@ LAYOUT
     letter-spacing: 0em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtContactCta {
     font-size: 4.2666666667vw;
@@ -7637,24 +8572,30 @@ LAYOUT
 .btnContactCta:hover {
   opacity: 1;
 }
+
 .btnContactCta:hover .h2ContactCta {
   letter-spacing: 0.05em;
 }
+
 .btnContactCta:hover .rubyContactCta {
   letter-spacing: 0.05em;
 }
+
 .btnContactCta:hover .secContactCta {
   background-position: 95% center;
 }
+
 @media screen and (max-width: 767px) {
   .btnContactCta:hover .secContactCta {
     background-position: 100% center;
   }
 }
+
 .btnContactCta:hover .txtContactCta {
   letter-spacing: 0.05em;
   background-position: 95% center;
 }
+
 @media screen and (max-width: 767px) {
   .btnContactCta:hover .txtContactCta {
     background-position: 99% center;
@@ -7676,11 +8617,13 @@ LAYOUT
   padding-left: 0px;
   padding-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .footer {
     padding: 5.46% 0% 2.23% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .footer {
     padding-top: 54px;
@@ -7689,6 +8632,7 @@ LAYOUT
     padding-right: 0px;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .footer {
     padding: 14.4% 0% 9.6% 0%;
@@ -7701,6 +8645,7 @@ LAYOUT
     margin: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .footerLxn {
     width: 88%;
@@ -7710,22 +8655,26 @@ LAYOUT
 .logoFoter {
   width: 144.54px;
 }
+
 @media screen and (max-width: 1249px) {
   .logoFoter {
     width: 9.2%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .logoFoter {
     width: 144px;
     margin: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .logoFoter {
     width: 43.63%;
   }
 }
+
 .logoFoter img {
   width: 100%;
   height: auto;
@@ -7735,16 +8684,19 @@ LAYOUT
   width: 823px;
   margin: 2% 0 0 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .navFooter {
     width: 52.42%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .navFooter {
     width: 72.16%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .navFooter {
     width: 330px;
@@ -7754,6 +8706,7 @@ LAYOUT
     margin-right: auto;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 1249px) {
   .navFooter {
     width: 100%;
@@ -7765,17 +8718,20 @@ LAYOUT
   line-height: normal;
   letter-spacing: 0.05em;
 }
+
 @media screen and (max-width: 1249px) {
   .liNavFooter {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liNavFooter {
     line-height: normal;
     letter-spacing: 0.05em;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .liNavFooter {
     font-size: 4vw;
@@ -7789,16 +8745,19 @@ LAYOUT
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .liNavFooter01 {
     width: 19.53%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .liNavFooter01 {
     margin: 0% 0% 4.15% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liNavFooter01 {
     width: 42%;
@@ -7813,16 +8772,19 @@ LAYOUT
   margin-left: 46px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .liNavFooter02 {
     width: 28.08%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .liNavFooter02 {
     margin: 0% 0% 4.15% 5.61%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liNavFooter02 {
     width: 42%;
@@ -7837,16 +8799,19 @@ LAYOUT
   margin-left: 46px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .liNavFooter03 {
     width: 16.48%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .liNavFooter03 {
     margin: 0% 0% 4.15% 5.61%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liNavFooter03 {
     width: 42%;
@@ -7861,16 +8826,19 @@ LAYOUT
   margin-left: 46px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .liNavFooter04 {
     width: 19.04%;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .liNavFooter04 {
     margin: 0% 0% 4.15% 5.61%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .liNavFooter04 {
     width: 42%;
@@ -7895,16 +8863,19 @@ LAYOUT
   margin-left: 0px;
   margin-right: 0px;
 }
+
 @media screen and (max-width: 1249px) {
   .copy {
     font-size: 0.9607686149vw;
   }
 }
+
 @media screen and (max-width: 1249px) {
   .copy {
     margin: -0.13% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .copy {
     text-align: center;
@@ -7913,6 +8884,7 @@ LAYOUT
     margin: 5.06% 0% 0% 0%;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .copy {
     font-size: 3.2vw;
@@ -7945,6 +8917,7 @@ LAYOUT
 .liCtaPcFixedBtnFxc {
   width: 256px;
 }
+
 @media screen and (max-width: 1249px) {
   .liCtaPcFixedBtnFxc {
     width: 78.76%;
@@ -7963,11 +8936,13 @@ LAYOUT
   font-size: 20px;
   background: #669b40;
 }
+
 @media screen and (max-width: 1249px) {
   .btnCtaPcFixedBtnFxc {
     font-size: 1.6012810248vw;
   }
 }
+
 @media screen and (max-width: 767px) {
   .btnCtaPcFixedBtnFxc {
     border-radius: 60px;
@@ -7979,6 +8954,7 @@ LAYOUT
     aspect-ratio: 160/39;
   }
 }
+
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .btnCtaPcFixedBtnFxc {
     font-size: 3.7333333333vw;
@@ -7991,6 +8967,7 @@ LAYOUT
   letter-spacing: 0em;
   transition-duration: 0.5s;
 }
+
 @media screen and (max-width: 1249px) {
   .txtCtaPcFixedBtnFxc {
     font-size: 1.6012810248vw;
@@ -8000,6 +8977,7 @@ LAYOUT
 .btnCtaPcFixedBtnFxc:hover {
   opacity: 1;
 }
+
 .btnCtaPcFixedBtnFxc:hover .txtCtaPcFixedBtnFxc {
   letter-spacing: 0.15em;
 }
@@ -8007,6 +8985,7 @@ LAYOUT
 .liTopCtaFixedBtnFxc {
   width: 60px;
 }
+
 @media screen and (max-width: 1249px) {
   .liTopCtaFixedBtnFxc {
     width: 18.46%;
@@ -8036,6 +9015,7 @@ LAYOUT
 .liFixedFooter01 {
   width: 169px;
 }
+
 @media screen and (max-width: 1249px) {
   .liFixedFooter01 {
     width: 45.06%;
@@ -8047,6 +9027,7 @@ LAYOUT
   line-height: normal;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 767px) {
   .btnFixedFooter01 {
     font-size: 3.4666666667vw;
@@ -8056,6 +9037,7 @@ LAYOUT
 .liFixedFooter02 {
   width: 169px;
 }
+
 @media screen and (max-width: 1249px) {
   .liFixedFooter02 {
     width: 45.06%;
@@ -8067,6 +9049,7 @@ LAYOUT
   line-height: normal;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 767px) {
   .btnFixedFooter02 {
     font-size: 3.4666666667vw;
@@ -8076,6 +9059,7 @@ LAYOUT
 .liFixedFooter03 {
   width: 37px;
 }
+
 @media screen and (max-width: 1249px) {
   .liFixedFooter03 {
     width: 9.86%;
@@ -8085,9 +9069,11 @@ LAYOUT
 .btnLiFixedFooter03 {
   aspect-ratio: 37/37;
 }
+
 .btnLiFixedFooter03 img {
   width: 23.45px;
 }
+
 @media screen and (max-width: 1249px) {
   .btnLiFixedFooter03 img {
     width: 63.37%;
@@ -8240,37 +9226,45 @@ and open the template in the editor.
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
+
 @keyframes animsition-loading {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
+
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes fade-in {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 .fade-in {
   -webkit-animation-name: fade-in;
   animation-name: fade-in;
@@ -8280,18 +9274,22 @@ and open the template in the editor.
   0% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
 }
+
 @keyframes fade-out {
   0% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
 }
+
 .fade-out {
   -webkit-animation-name: fade-out;
   animation-name: fade-out;
@@ -8303,24 +9301,28 @@ and open the template in the editor.
     transform: translateY(500px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-in-up {
   0% {
     -webkit-transform: translateY(500px);
     transform: translateY(500px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 .fade-in-up {
   -webkit-animation-name: fade-in-up;
   animation-name: fade-in-up;
@@ -8332,24 +9334,28 @@ and open the template in the editor.
     transform: translateY(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateY(-500px);
     transform: translateY(-500px);
     opacity: 0;
   }
 }
+
 @keyframes fade-out-up {
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateY(-500px);
     transform: translateY(-500px);
     opacity: 0;
   }
 }
+
 .fade-out-up {
   -webkit-animation-name: fade-out-up;
   animation-name: fade-out-up;
@@ -8361,24 +9367,28 @@ and open the template in the editor.
     transform: translateY(100px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-in-up-sm {
   0% {
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 .fade-in-up-sm {
   -webkit-animation-name: fade-in-up-sm;
   animation-name: fade-in-up-sm;
@@ -8390,24 +9400,28 @@ and open the template in the editor.
     transform: translateY(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
     opacity: 0;
   }
 }
+
 @keyframes fade-out-up-sm {
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
     opacity: 0;
   }
 }
+
 .fade-out-up-sm {
   -webkit-animation-name: fade-out-up-sm;
   animation-name: fade-out-up-sm;
@@ -8419,24 +9433,28 @@ and open the template in the editor.
     transform: translateY(1000px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-in-up-lg {
   0% {
     -webkit-transform: translateY(1000px);
     transform: translateY(1000px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 .fade-in-up-lg {
   -webkit-animation-name: fade-in-up-lg;
   animation-name: fade-in-up-lg;
@@ -8448,24 +9466,28 @@ and open the template in the editor.
     transform: translateY(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateY(-1000px);
     transform: translateY(-1000px);
     opacity: 0;
   }
 }
+
 @keyframes fade-out-up-lg {
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateY(-1000px);
     transform: translateY(-1000px);
     opacity: 0;
   }
 }
+
 .fade-out-up-lg {
   -webkit-animation-name: fade-out-up-lg;
   animation-name: fade-out-up-lg;
@@ -8477,24 +9499,28 @@ and open the template in the editor.
     transform: translateY(-500px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-in-down {
   0% {
     -webkit-transform: translateY(-500px);
     transform: translateY(-500px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 .fade-in-down {
   -webkit-animation-name: fade-in-down;
   animation-name: fade-in-down;
@@ -8506,24 +9532,28 @@ and open the template in the editor.
     transform: translateY(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateY(500px);
     transform: translateY(500px);
     opacity: 0;
   }
 }
+
 @keyframes fade-out-down {
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateY(500px);
     transform: translateY(500px);
     opacity: 0;
   }
 }
+
 .fade-out-down {
   -webkit-animation-name: fade-out-down;
   animation-name: fade-out-down;
@@ -8535,24 +9565,28 @@ and open the template in the editor.
     transform: translateY(-100px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-in-down-sm {
   0% {
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 .fade-in-down-sm {
   -webkit-animation-name: fade-in-down-sm;
   animation-name: fade-in-down-sm;
@@ -8564,24 +9598,28 @@ and open the template in the editor.
     transform: translateY(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
     opacity: 0;
   }
 }
+
 @keyframes fade-out-down-sm {
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
     opacity: 0;
   }
 }
+
 .fade-out-down-sm {
   -webkit-animation-name: fade-out-down-sm;
   animation-name: fade-out-down-sm;
@@ -8593,24 +9631,28 @@ and open the template in the editor.
     transform: translateY(-1000px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-in-down-lg {
   0% {
     -webkit-transform: translateY(-1000px);
     transform: translateY(-1000px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 .fade-in-down-lg {
   -webkit-animation-name: fade-in-down;
   animation-name: fade-in-down;
@@ -8622,24 +9664,28 @@ and open the template in the editor.
     transform: translateY(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateY(1000px);
     transform: translateY(1000px);
     opacity: 0;
   }
 }
+
 @keyframes fade-out-down-lg {
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateY(1000px);
     transform: translateY(1000px);
     opacity: 0;
   }
 }
+
 .fade-out-down-lg {
   -webkit-animation-name: fade-out-down-lg;
   animation-name: fade-out-down-lg;
@@ -8651,24 +9697,28 @@ and open the template in the editor.
     transform: translateX(-500px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-in-left {
   0% {
     -webkit-transform: translateX(-500px);
     transform: translateX(-500px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
 }
+
 .fade-in-left {
   -webkit-animation-name: fade-in-left;
   animation-name: fade-in-left;
@@ -8680,24 +9730,28 @@ and open the template in the editor.
     transform: translateX(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateX(-500px);
     transform: translateX(-500px);
     opacity: 0;
   }
 }
+
 @keyframes fade-out-left {
   0% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateX(-500px);
     transform: translateX(-500px);
     opacity: 0;
   }
 }
+
 .fade-out-left {
   -webkit-animation-name: fade-out-left;
   animation-name: fade-out-left;
@@ -8709,24 +9763,28 @@ and open the template in the editor.
     transform: translateX(-100px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-in-left-sm {
   0% {
     -webkit-transform: translateX(-100px);
     transform: translateX(-100px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
 }
+
 .fade-in-left-sm {
   -webkit-animation-name: fade-in-left-sm;
   animation-name: fade-in-left-sm;
@@ -8738,24 +9796,28 @@ and open the template in the editor.
     transform: translateX(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateX(-100px);
     transform: translateX(-100px);
     opacity: 0;
   }
 }
+
 @keyframes fade-out-left-sm {
   0% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateX(-100px);
     transform: translateX(-100px);
     opacity: 0;
   }
 }
+
 .fade-out-left-sm {
   -webkit-animation-name: fade-out-left-sm;
   animation-name: fade-out-left-sm;
@@ -8767,24 +9829,28 @@ and open the template in the editor.
     transform: translateX(-1500px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-in-left-lg {
   0% {
     -webkit-transform: translateX(-1500px);
     transform: translateX(-1500px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
 }
+
 .fade-in-left-lg {
   -webkit-animation-name: fade-in-left-lg;
   animation-name: fade-in-left-lg;
@@ -8796,24 +9862,28 @@ and open the template in the editor.
     transform: translateX(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateX(-1500px);
     transform: translateX(-1500px);
     opacity: 0;
   }
 }
+
 @keyframes fade-out-left-lg {
   0% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateX(-1500px);
     transform: translateX(-1500px);
     opacity: 0;
   }
 }
+
 .fade-out-left-lg {
   -webkit-animation-name: fade-out-left-lg;
   animation-name: fade-out-left-lg;
@@ -8825,24 +9895,28 @@ and open the template in the editor.
     transform: translateX(500px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-in-right {
   0% {
     -webkit-transform: translateX(500px);
     transform: translateX(500px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
 }
+
 .fade-in-right {
   -webkit-animation-name: fade-in-right;
   animation-name: fade-in-right;
@@ -8854,24 +9928,28 @@ and open the template in the editor.
     transform: translateX(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateX(500px);
     transform: translateX(500px);
     opacity: 0;
   }
 }
+
 @keyframes fade-out-right {
   0% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateX(500px);
     transform: translateX(500px);
     opacity: 0;
   }
 }
+
 .fade-out-right {
   -webkit-animation-name: fade-out-right;
   animation-name: fade-out-right;
@@ -8883,24 +9961,28 @@ and open the template in the editor.
     transform: translateX(100px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-in-right-sm {
   0% {
     -webkit-transform: translateX(100px);
     transform: translateX(100px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
 }
+
 .fade-in-right-sm {
   -webkit-animation-name: fade-in-right-sm;
   animation-name: fade-in-right-sm;
@@ -8912,24 +9994,28 @@ and open the template in the editor.
     transform: translateX(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateX(100px);
     transform: translateX(100px);
     opacity: 0;
   }
 }
+
 @keyframes fade-out-right-sm {
   0% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateX(100px);
     transform: translateX(100px);
     opacity: 0;
   }
 }
+
 .fade-out-right-sm {
   -webkit-animation-name: fade-out-right-sm;
   animation-name: fade-out-right-sm;
@@ -8941,24 +10027,28 @@ and open the template in the editor.
     transform: translateX(1500px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
 }
+
 @keyframes fade-in-right-lg {
   0% {
     -webkit-transform: translateX(1500px);
     transform: translateX(1500px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
 }
+
 .fade-in-right-lg {
   -webkit-animation-name: fade-in-right-lg;
   animation-name: fade-in-right-lg;
@@ -8970,24 +10060,28 @@ and open the template in the editor.
     transform: translateX(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateX(1500px);
     transform: translateX(1500px);
     opacity: 0;
   }
 }
+
 @keyframes fade-out-right-lg {
   0% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: translateX(1500px);
     transform: translateX(1500px);
     opacity: 0;
   }
 }
+
 .fade-out-right-lg {
   -webkit-animation-name: fade-out-right-lg;
   animation-name: fade-out-right-lg;
@@ -9001,6 +10095,7 @@ and open the template in the editor.
     transform-origin: center center;
     opacity: 0;
   }
+
   100% {
     -webkit-transform: rotate(0);
     transform: rotate(0);
@@ -9009,6 +10104,7 @@ and open the template in the editor.
     opacity: 1;
   }
 }
+
 @keyframes rotate-in {
   0% {
     -webkit-transform: rotate(-90deg);
@@ -9017,6 +10113,7 @@ and open the template in the editor.
     transform-origin: center center;
     opacity: 0;
   }
+
   100% {
     -webkit-transform: rotate(0);
     transform: rotate(0);
@@ -9025,6 +10122,7 @@ and open the template in the editor.
     opacity: 1;
   }
 }
+
 .rotate-in {
   -webkit-animation-name: rotate-in;
   animation-name: rotate-in;
@@ -9038,6 +10136,7 @@ and open the template in the editor.
     transform-origin: center center;
     opacity: 1;
   }
+
   100% {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -9046,6 +10145,7 @@ and open the template in the editor.
     opacity: 0;
   }
 }
+
 @keyframes rotate-out {
   0% {
     -webkit-transform: rotate(0);
@@ -9054,6 +10154,7 @@ and open the template in the editor.
     transform-origin: center center;
     opacity: 1;
   }
+
   100% {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -9062,6 +10163,7 @@ and open the template in the editor.
     opacity: 0;
   }
 }
+
 .rotate-out {
   -webkit-animation-name: rotate-out;
   animation-name: rotate-out;
@@ -9075,6 +10177,7 @@ and open the template in the editor.
     transform-origin: center center;
     opacity: 0;
   }
+
   100% {
     -webkit-transform: rotate(0);
     transform: rotate(0);
@@ -9083,6 +10186,7 @@ and open the template in the editor.
     opacity: 1;
   }
 }
+
 @keyframes rotate-in-sm {
   0% {
     -webkit-transform: rotate(-45deg);
@@ -9091,6 +10195,7 @@ and open the template in the editor.
     transform-origin: center center;
     opacity: 0;
   }
+
   100% {
     -webkit-transform: rotate(0);
     transform: rotate(0);
@@ -9099,6 +10204,7 @@ and open the template in the editor.
     opacity: 1;
   }
 }
+
 .rotate-in-sm {
   -webkit-animation-name: rotate-in-sm;
   animation-name: rotate-in-sm;
@@ -9112,6 +10218,7 @@ and open the template in the editor.
     transform-origin: center center;
     opacity: 1;
   }
+
   100% {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -9120,6 +10227,7 @@ and open the template in the editor.
     opacity: 0;
   }
 }
+
 @keyframes rotate-out-sm {
   0% {
     -webkit-transform: rotate(0);
@@ -9128,6 +10236,7 @@ and open the template in the editor.
     transform-origin: center center;
     opacity: 1;
   }
+
   100% {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -9136,6 +10245,7 @@ and open the template in the editor.
     opacity: 0;
   }
 }
+
 .rotate-out-sm {
   -webkit-animation-name: rotate-out-sm;
   animation-name: rotate-out-sm;
@@ -9149,6 +10259,7 @@ and open the template in the editor.
     transform-origin: center center;
     opacity: 0;
   }
+
   100% {
     -webkit-transform: rotate(0);
     transform: rotate(0);
@@ -9157,6 +10268,7 @@ and open the template in the editor.
     opacity: 1;
   }
 }
+
 @keyframes rotate-in-lg {
   0% {
     -webkit-transform: rotate(-180deg);
@@ -9165,6 +10277,7 @@ and open the template in the editor.
     transform-origin: center center;
     opacity: 0;
   }
+
   100% {
     -webkit-transform: rotate(0);
     transform: rotate(0);
@@ -9173,6 +10286,7 @@ and open the template in the editor.
     opacity: 1;
   }
 }
+
 .rotate-in-lg {
   -webkit-animation-name: rotate-in-lg;
   animation-name: rotate-in-lg;
@@ -9186,6 +10300,7 @@ and open the template in the editor.
     transform-origin: center center;
     opacity: 1;
   }
+
   100% {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
@@ -9194,6 +10309,7 @@ and open the template in the editor.
     opacity: 0;
   }
 }
+
 @keyframes rotate-out-lg {
   0% {
     -webkit-transform: rotate(0);
@@ -9202,6 +10318,7 @@ and open the template in the editor.
     transform-origin: center center;
     opacity: 1;
   }
+
   100% {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
@@ -9210,6 +10327,7 @@ and open the template in the editor.
     opacity: 0;
   }
 }
+
 .rotate-out-lg {
   -webkit-animation-name: rotate-out-lg;
   animation-name: rotate-out-lg;
@@ -9221,24 +10339,28 @@ and open the template in the editor.
     transform: perspective(550px) rotateX(90deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: perspective(550px) rotateX(0deg);
     transform: perspective(550px) rotateX(0deg);
     opacity: 1;
   }
 }
+
 @keyframes flip-in-x {
   0% {
     -webkit-transform: perspective(550px) rotateX(90deg);
     transform: perspective(550px) rotateX(90deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: perspective(550px) rotateX(0deg);
     transform: perspective(550px) rotateX(0deg);
     opacity: 1;
   }
 }
+
 .flip-in-x {
   -webkit-animation-name: flip-in-x;
   animation-name: flip-in-x;
@@ -9252,24 +10374,28 @@ and open the template in the editor.
     transform: perspective(550px) rotateX(0deg);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: perspective(550px) rotateX(90deg);
     transform: perspective(550px) rotateX(90deg);
     opacity: 0;
   }
 }
+
 @keyframes flip-out-x {
   0% {
     -webkit-transform: perspective(550px) rotateX(0deg);
     transform: perspective(550px) rotateX(0deg);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: perspective(550px) rotateX(90deg);
     transform: perspective(550px) rotateX(90deg);
     opacity: 0;
   }
 }
+
 .flip-out-x {
   -webkit-animation-name: flip-out-x;
   animation-name: flip-out-x;
@@ -9283,24 +10409,28 @@ and open the template in the editor.
     transform: perspective(100px) rotateX(90deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: perspective(100px) rotateX(0deg);
     transform: perspective(100px) rotateX(0deg);
     opacity: 1;
   }
 }
+
 @keyframes flip-in-x-nr {
   0% {
     -webkit-transform: perspective(100px) rotateX(90deg);
     transform: perspective(100px) rotateX(90deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: perspective(100px) rotateX(0deg);
     transform: perspective(100px) rotateX(0deg);
     opacity: 1;
   }
 }
+
 .flip-in-x-nr {
   -webkit-animation-name: flip-in-x-nr;
   animation-name: flip-in-x-nr;
@@ -9314,24 +10444,28 @@ and open the template in the editor.
     transform: perspective(100px) rotateX(0deg);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: perspective(100px) rotateX(90deg);
     transform: perspective(100px) rotateX(90deg);
     opacity: 0;
   }
 }
+
 @keyframes flip-out-x-nr {
   0% {
     -webkit-transform: perspective(100px) rotateX(0deg);
     transform: perspective(100px) rotateX(0deg);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: perspective(100px) rotateX(90deg);
     transform: perspective(100px) rotateX(90deg);
     opacity: 0;
   }
 }
+
 .flip-out-x-nr {
   -webkit-animation-name: flip-out-x-nr;
   animation-name: flip-out-x-nr;
@@ -9345,24 +10479,28 @@ and open the template in the editor.
     transform: perspective(1000px) rotateX(90deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: perspective(1000px) rotateX(0deg);
     transform: perspective(1000px) rotateX(0deg);
     opacity: 1;
   }
 }
+
 @keyframes flip-in-x-fr {
   0% {
     -webkit-transform: perspective(1000px) rotateX(90deg);
     transform: perspective(1000px) rotateX(90deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: perspective(1000px) rotateX(0deg);
     transform: perspective(1000px) rotateX(0deg);
     opacity: 1;
   }
 }
+
 .flip-in-x-fr {
   -webkit-animation-name: flip-in-x-fr;
   animation-name: flip-in-x-fr;
@@ -9376,24 +10514,28 @@ and open the template in the editor.
     transform: perspective(1000px) rotateX(0deg);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: perspective(1000px) rotateX(90deg);
     transform: perspective(1000px) rotateX(90deg);
     opacity: 0;
   }
 }
+
 @keyframes flip-out-x-fr {
   0% {
     -webkit-transform: perspective(1000px) rotateX(0deg);
     transform: perspective(1000px) rotateX(0deg);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: perspective(1000px) rotateX(90deg);
     transform: perspective(1000px) rotateX(90deg);
     opacity: 0;
   }
 }
+
 .flip-out-x-fr {
   -webkit-animation-name: flip-out-x-fr;
   animation-name: flip-out-x-fr;
@@ -9407,24 +10549,28 @@ and open the template in the editor.
     transform: perspective(550px) rotateY(90deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: perspective(550px) rotateY(0deg);
     transform: perspective(550px) rotateY(0deg);
     opacity: 1;
   }
 }
+
 @keyframes flip-in-y {
   0% {
     -webkit-transform: perspective(550px) rotateY(90deg);
     transform: perspective(550px) rotateY(90deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: perspective(550px) rotateY(0deg);
     transform: perspective(550px) rotateY(0deg);
     opacity: 1;
   }
 }
+
 .flip-in-y {
   -webkit-animation-name: flip-in-y;
   animation-name: flip-in-y;
@@ -9438,24 +10584,28 @@ and open the template in the editor.
     transform: perspective(550px) rotateY(0deg);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: perspective(550px) rotateY(90deg);
     transform: perspective(550px) rotateY(90deg);
     opacity: 0;
   }
 }
+
 @keyframes flip-out-y {
   0% {
     -webkit-transform: perspective(550px) rotateY(0deg);
     transform: perspective(550px) rotateY(0deg);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: perspective(550px) rotateY(90deg);
     transform: perspective(550px) rotateY(90deg);
     opacity: 0;
   }
 }
+
 .flip-out-y {
   -webkit-animation-name: flip-out-y;
   animation-name: flip-out-y;
@@ -9469,24 +10619,28 @@ and open the template in the editor.
     transform: perspective(100px) rotateY(90deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: perspective(100px) rotateY(0deg);
     transform: perspective(100px) rotateY(0deg);
     opacity: 1;
   }
 }
+
 @keyframes flip-in-y-nr {
   0% {
     -webkit-transform: perspective(100px) rotateY(90deg);
     transform: perspective(100px) rotateY(90deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: perspective(100px) rotateY(0deg);
     transform: perspective(100px) rotateY(0deg);
     opacity: 1;
   }
 }
+
 .flip-in-y-nr {
   -webkit-animation-name: flip-in-y-nr;
   animation-name: flip-in-y-nr;
@@ -9500,24 +10654,28 @@ and open the template in the editor.
     transform: perspective(100px) rotateY(0deg);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: perspective(100px) rotateY(90deg);
     transform: perspective(100px) rotateY(90deg);
     opacity: 0;
   }
 }
+
 @keyframes flip-out-y-nr {
   0% {
     -webkit-transform: perspective(100px) rotateY(0deg);
     transform: perspective(100px) rotateY(0deg);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: perspective(100px) rotateY(90deg);
     transform: perspective(100px) rotateY(90deg);
     opacity: 0;
   }
 }
+
 .flip-out-y-nr {
   -webkit-animation-name: flip-out-y-nr;
   animation-name: flip-out-y-nr;
@@ -9531,24 +10689,28 @@ and open the template in the editor.
     transform: perspective(1000px) rotateY(90deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: perspective(1000px) rotateY(0deg);
     transform: perspective(1000px) rotateY(0deg);
     opacity: 1;
   }
 }
+
 @keyframes flip-in-y-fr {
   0% {
     -webkit-transform: perspective(1000px) rotateY(90deg);
     transform: perspective(1000px) rotateY(90deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: perspective(1000px) rotateY(0deg);
     transform: perspective(1000px) rotateY(0deg);
     opacity: 1;
   }
 }
+
 .flip-in-y-fr {
   -webkit-animation-name: flip-in-y-fr;
   animation-name: flip-in-y-fr;
@@ -9562,24 +10724,28 @@ and open the template in the editor.
     transform: perspective(1000px) rotateY(0deg);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: perspective(1000px) rotateY(90deg);
     transform: perspective(1000px) rotateY(90deg);
     opacity: 0;
   }
 }
+
 @keyframes flip-out-y-fr {
   0% {
     -webkit-transform: perspective(1000px) rotateY(0deg);
     transform: perspective(1000px) rotateY(0deg);
     opacity: 1;
   }
+
   100% {
     -webkit-transform: perspective(1000px) rotateY(90deg);
     transform: perspective(1000px) rotateY(90deg);
     opacity: 0;
   }
 }
+
 .flip-out-y-fr {
   -webkit-animation-name: flip-out-y-fr;
   animation-name: flip-out-y-fr;
@@ -9593,20 +10759,24 @@ and open the template in the editor.
     transform: scale(0.7);
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes zoom-in {
   0% {
     -webkit-transform: scale(0.7);
     transform: scale(0.7);
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 .zoom-in {
   -webkit-animation-name: zoom-in;
   animation-name: zoom-in;
@@ -9618,30 +10788,36 @@ and open the template in the editor.
     transform: scale(1);
     opacity: 1;
   }
+
   50% {
     -webkit-transform: scale(0.7);
     transform: scale(0.7);
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
 }
+
 @keyframes zoom-out {
   0% {
     -webkit-transform: scale(1);
     transform: scale(1);
     opacity: 1;
   }
+
   50% {
     -webkit-transform: scale(0.7);
     transform: scale(0.7);
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
 }
+
 .zoom-out {
   -webkit-animation-name: zoom-out;
   animation-name: zoom-out;
@@ -9653,20 +10829,24 @@ and open the template in the editor.
     transform: scale(0.95);
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes zoom-in-sm {
   0% {
     -webkit-transform: scale(0.95);
     transform: scale(0.95);
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 .zoom-in-sm {
   -webkit-animation-name: zoom-in-sm;
   animation-name: zoom-in-sm;
@@ -9678,30 +10858,36 @@ and open the template in the editor.
     transform: scale(1);
     opacity: 1;
   }
+
   50% {
     -webkit-transform: scale(0.95);
     transform: scale(0.95);
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
 }
+
 @keyframes zoom-out-sm {
   0% {
     -webkit-transform: scale(1);
     transform: scale(1);
     opacity: 1;
   }
+
   50% {
     -webkit-transform: scale(0.95);
     transform: scale(0.95);
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
 }
+
 .zoom-out-sm {
   -webkit-animation-name: zoom-out-sm;
   animation-name: zoom-out-sm;
@@ -9713,20 +10899,24 @@ and open the template in the editor.
     transform: scale(0.4);
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes zoom-in-lg {
   0% {
     -webkit-transform: scale(0.4);
     transform: scale(0.4);
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 .zoom-in-lg {
   -webkit-animation-name: zoom-in-lg;
   animation-name: zoom-in-lg;
@@ -9738,30 +10928,36 @@ and open the template in the editor.
     transform: scale(1);
     opacity: 1;
   }
+
   50% {
     -webkit-transform: scale(0.4);
     transform: scale(0.4);
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
 }
+
 @keyframes zoom-out-lg {
   0% {
     -webkit-transform: scale(1);
     transform: scale(1);
     opacity: 1;
   }
+
   50% {
     -webkit-transform: scale(0.4);
     transform: scale(0.4);
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
 }
+
 .zoom-out-lg {
   -webkit-animation-name: zoom-out-lg;
   animation-name: zoom-out-lg;
@@ -9771,18 +10967,22 @@ and open the template in the editor.
   0% {
     height: 100%;
   }
+
   100% {
     height: 0;
   }
 }
+
 @keyframes overlay-slide-in-top {
   0% {
     height: 100%;
   }
+
   100% {
     height: 0;
   }
 }
+
 .overlay-slide-in-top {
   top: 0;
   height: 0;
@@ -9794,18 +10994,22 @@ and open the template in the editor.
   0% {
     height: 0;
   }
+
   100% {
     height: 100%;
   }
 }
+
 @keyframes overlay-slide-out-top {
   0% {
     height: 0;
   }
+
   100% {
     height: 100%;
   }
 }
+
 .overlay-slide-out-top {
   top: 0;
   height: 100%;
@@ -9817,18 +11021,22 @@ and open the template in the editor.
   0% {
     height: 100%;
   }
+
   100% {
     height: 0;
   }
 }
+
 @keyframes overlay-slide-in-bottom {
   0% {
     height: 100%;
   }
+
   100% {
     height: 0;
   }
 }
+
 .overlay-slide-in-bottom {
   bottom: 0;
   height: 0;
@@ -9840,18 +11048,22 @@ and open the template in the editor.
   0% {
     height: 0;
   }
+
   100% {
     height: 100%;
   }
 }
+
 @keyframes overlay-slide-out-bottom {
   0% {
     height: 0;
   }
+
   100% {
     height: 100%;
   }
 }
+
 .overlay-slide-out-bottom {
   bottom: 0;
   height: 100%;
@@ -9863,18 +11075,22 @@ and open the template in the editor.
   0% {
     width: 100%;
   }
+
   100% {
     width: 0;
   }
 }
+
 @keyframes overlay-slide-in-left {
   0% {
     width: 100%;
   }
+
   100% {
     width: 0;
   }
 }
+
 .overlay-slide-in-left {
   width: 0;
   -webkit-animation-name: overlay-slide-in-left;
@@ -9885,18 +11101,22 @@ and open the template in the editor.
   0% {
     width: 0;
   }
+
   100% {
     width: 100%;
   }
 }
+
 @keyframes overlay-slide-out-left {
   0% {
     width: 0;
   }
+
   100% {
     width: 100%;
   }
 }
+
 .overlay-slide-out-left {
   left: 0;
   width: 100%;
@@ -9908,18 +11128,22 @@ and open the template in the editor.
   0% {
     width: 100%;
   }
+
   100% {
     width: 0;
   }
 }
+
 @keyframes overlay-slide-in-right {
   0% {
     width: 100%;
   }
+
   100% {
     width: 0;
   }
 }
+
 .overlay-slide-in-right {
   right: 0;
   width: 0;
@@ -9931,18 +11155,22 @@ and open the template in the editor.
   0% {
     width: 0;
   }
+
   100% {
     width: 100%;
   }
 }
+
 @keyframes overlay-slide-out-right {
   0% {
     width: 0;
   }
+
   100% {
     width: 100%;
   }
 }
+
 .overlay-slide-out-right {
   right: 0;
   width: 100%;
@@ -9955,57 +11183,69 @@ and open the template in the editor.
     opacity: 0;
     transform: translate3d(0px, 20px, 0px);
   }
+
   100% {
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
   }
 }
+
 @keyframes fadein_sc_top2 {
   0% {
     opacity: 0;
     transform: translate3d(0px, 20px, 0px);
   }
+
   70% {
     opacity: 1;
     transform: translate3d(0px, -10px, 0px);
   }
+
   100% {
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
   }
 }
+
 @keyframes fadein_sc_left {
   0% {
     opacity: 0;
     transform: translate3d(-20px, 0px, 0px);
   }
+
   100% {
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
   }
 }
+
 @keyframes fadein_sc_right {
   0% {
     opacity: 0;
     transform: translate3d(20px, 0px, 0px);
   }
+
   100% {
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
   }
 }
+
 @keyframes fadein_in {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 .opacity_0_fade_set {
   transform: translate3d(0px, 20px, 0px);
   opacity: 0;
 }
+
 .opacity_0_fade_set.active {
   -webkit-animation: fadein_sc_top 0.75s ease 0.35s forwards alternate;
   animation: fadein_sc_top 0.75s ease 0.35s forwards alternate;
@@ -10015,6 +11255,7 @@ and open the template in the editor.
   opacity: 0;
   transform: translate3d(-20px, 0px, 0px);
 }
+
 .opacity_0_fadeleft_in.active {
   -webkit-animation: fadein_sc_left 0.75s ease 0.35s forwards alternate;
   animation: fadein_sc_left 0.75s ease 0.35s forwards alternate;
@@ -10024,6 +11265,7 @@ and open the template in the editor.
   opacity: 0;
   transform: translate3d(20px, 0px, 0px);
 }
+
 .opacity_0_faderight_in.active {
   -webkit-animation: fadein_sc_right 0.75s ease 0.35s forwards alternate;
   animation: fadein_sc_right 0.75s ease 0.35s forwards alternate;
@@ -10032,61 +11274,74 @@ and open the template in the editor.
 .opacity_0_fade_in {
   opacity: 0;
 }
+
 .opacity_0_fade_in.active {
   -webkit-animation: fadein_in 0.75s ease 0.35s forwards alternate;
   animation: fadein_in 0.75s ease 0.35s forwards alternate;
 }
 
-.opacity_0_list_fade_set > li {
+.opacity_0_list_fade_set>li {
   transform: translate3d(0px, 20px, 0px);
   opacity: 0;
   position: relative;
 }
-.opacity_0_list_fade_set.active > li:nth-child(1) {
+
+.opacity_0_list_fade_set.active>li:nth-child(1) {
   -webkit-animation: fadein_sc_top 0.75s ease 0.35s forwards alternate;
   animation: fadein_sc_top 0.75s ease 0.35s forwards alternate;
 }
-.opacity_0_list_fade_set.active > li:nth-child(2) {
+
+.opacity_0_list_fade_set.active>li:nth-child(2) {
   -webkit-animation: fadein_sc_top 0.75s ease 0.7s forwards alternate;
   animation: fadein_sc_top 0.75s ease 0.7s forwards alternate;
 }
-.opacity_0_list_fade_set.active > li:nth-child(3) {
+
+.opacity_0_list_fade_set.active>li:nth-child(3) {
   -webkit-animation: fadein_sc_top 0.75s ease 1.05s forwards alternate;
   animation: fadein_sc_top 0.75s ease 1.05s forwards alternate;
 }
-.opacity_0_list_fade_set.active > li:nth-child(4) {
+
+.opacity_0_list_fade_set.active>li:nth-child(4) {
   -webkit-animation: fadein_sc_top 0.75s ease 1.4s forwards alternate;
   animation: fadein_sc_top 0.75s ease 1.4s forwards alternate;
 }
-.opacity_0_list_fade_set.active > li:nth-child(5) {
+
+.opacity_0_list_fade_set.active>li:nth-child(5) {
   -webkit-animation: fadein_sc_top 0.75s ease 1.75s forwards alternate;
   animation: fadein_sc_top 0.75s ease 1.75s forwards alternate;
 }
-.opacity_0_list_fade_set.active > li:nth-child(6) {
+
+.opacity_0_list_fade_set.active>li:nth-child(6) {
   -webkit-animation: fadein_sc_top 0.75s ease 2.1s forwards alternate;
   animation: fadein_sc_top 0.75s ease 2.1s forwards alternate;
 }
-.opacity_0_list_fade_set.active > li:nth-child(7) {
+
+.opacity_0_list_fade_set.active>li:nth-child(7) {
   -webkit-animation: fadein_sc_top 0.75s ease 2.45s forwards alternate;
   animation: fadein_sc_top 0.75s ease 2.45s forwards alternate;
 }
-.opacity_0_list_fade_set.active > li:nth-child(8) {
+
+.opacity_0_list_fade_set.active>li:nth-child(8) {
   -webkit-animation: fadein_sc_top 0.75s ease 2.8s forwards alternate;
   animation: fadein_sc_top 0.75s ease 2.8s forwards alternate;
 }
-.opacity_0_list_fade_set.active > li:nth-child(9) {
+
+.opacity_0_list_fade_set.active>li:nth-child(9) {
   -webkit-animation: fadein_sc_top 0.75s ease 3.15s forwards alternate;
   animation: fadein_sc_top 0.75s ease 3.15s forwards alternate;
 }
-.opacity_0_list_fade_set.active > li:nth-child(10) {
+
+.opacity_0_list_fade_set.active>li:nth-child(10) {
   -webkit-animation: fadein_sc_top 0.75s ease 3.5s forwards alternate;
   animation: fadein_sc_top 0.75s ease 3.5s forwards alternate;
 }
-.opacity_0_list_fade_set.active > li:nth-child(11) {
+
+.opacity_0_list_fade_set.active>li:nth-child(11) {
   -webkit-animation: fadein_sc_top 0.75s ease 3.85s forwards alternate;
   animation: fadein_sc_top 0.75s ease 3.85s forwards alternate;
 }
-.opacity_0_list_fade_set.active > li:nth-child(12) {
+
+.opacity_0_list_fade_set.active>li:nth-child(12) {
   -webkit-animation: fadein_sc_top 0.75s ease 4.2s forwards alternate;
   animation: fadein_sc_top 0.75s ease 4.2s forwards alternate;
 }
@@ -10094,42 +11349,52 @@ and open the template in the editor.
 .listcnt .moveList {
   opacity: 0;
 }
+
 .listcnt.active .moveList:nth-child(1) {
   -webkit-animation: fadein_in 0.75s ease 0.15s forwards alternate;
   animation: fadein_in 0.75s ease 0.15s forwards alternate;
 }
+
 .listcnt.active .moveList:nth-child(2) {
   -webkit-animation: fadein_in 0.75s ease 0.3s forwards alternate;
   animation: fadein_in 0.75s ease 0.3s forwards alternate;
 }
+
 .listcnt.active .moveList:nth-child(3) {
   -webkit-animation: fadein_in 0.75s ease 0.45s forwards alternate;
   animation: fadein_in 0.75s ease 0.45s forwards alternate;
 }
+
 .listcnt.active .moveList:nth-child(4) {
   -webkit-animation: fadein_in 0.75s ease 0.6s forwards alternate;
   animation: fadein_in 0.75s ease 0.6s forwards alternate;
 }
+
 .listcnt.active .moveList:nth-child(5) {
   -webkit-animation: fadein_in 0.75s ease 0.75s forwards alternate;
   animation: fadein_in 0.75s ease 0.75s forwards alternate;
 }
+
 .listcnt.active .moveList:nth-child(6) {
   -webkit-animation: fadein_in 0.75s ease 0.9s forwards alternate;
   animation: fadein_in 0.75s ease 0.9s forwards alternate;
 }
+
 .listcnt.active .moveList:nth-child(7) {
   -webkit-animation: fadein_in 0.75s ease 1.05s forwards alternate;
   animation: fadein_in 0.75s ease 1.05s forwards alternate;
 }
+
 .listcnt.active .moveList:nth-child(8) {
   -webkit-animation: fadein_in 0.75s ease 1.2s forwards alternate;
   animation: fadein_in 0.75s ease 1.2s forwards alternate;
 }
+
 .listcnt.active .moveList:nth-child(9) {
   -webkit-animation: fadein_in 0.75s ease 1.35s forwards alternate;
   animation: fadein_in 0.75s ease 1.35s forwards alternate;
 }
+
 .listcnt.active .moveList:nth-child(10) {
   -webkit-animation: fadein_in 0.75s ease 1.5s forwards alternate;
   animation: fadein_in 0.75s ease 1.5s forwards alternate;
@@ -10138,42 +11403,52 @@ and open the template in the editor.
 .listcntmainasu .moveList {
   opacity: 0;
 }
+
 .listcntmainasu.active .moveList:nth-child(1) {
   -webkit-animation: fadein_sc_top2 0.75s ease-in 0.25s forwards alternate;
   animation: fadein_sc_top2 0.75s ease-in 0.25s forwards alternate;
 }
+
 .listcntmainasu.active .moveList:nth-child(2) {
   -webkit-animation: fadein_sc_top2 0.75s ease-in 0.5s forwards alternate;
   animation: fadein_sc_top2 0.75s ease-in 0.5s forwards alternate;
 }
+
 .listcntmainasu.active .moveList:nth-child(3) {
   -webkit-animation: fadein_sc_top2 0.75s ease-in 0.75s forwards alternate;
   animation: fadein_sc_top2 0.75s ease-in 0.75s forwards alternate;
 }
+
 .listcntmainasu.active .moveList:nth-child(4) {
   -webkit-animation: fadein_sc_top2 0.75s ease-in 1s forwards alternate;
   animation: fadein_sc_top2 0.75s ease-in 1s forwards alternate;
 }
+
 .listcntmainasu.active .moveList:nth-child(5) {
   -webkit-animation: fadein_sc_top2 0.75s ease-in 1.25s forwards alternate;
   animation: fadein_sc_top2 0.75s ease-in 1.25s forwards alternate;
 }
+
 .listcntmainasu.active .moveList:nth-child(6) {
   -webkit-animation: fadein_sc_top2 0.75s ease-in 1.5s forwards alternate;
   animation: fadein_sc_top2 0.75s ease-in 1.5s forwards alternate;
 }
+
 .listcntmainasu.active .moveList:nth-child(7) {
   -webkit-animation: fadein_sc_top2 0.75s ease-in 1.75s forwards alternate;
   animation: fadein_sc_top2 0.75s ease-in 1.75s forwards alternate;
 }
+
 .listcntmainasu.active .moveList:nth-child(8) {
   -webkit-animation: fadein_sc_top2 0.75s ease-in 2s forwards alternate;
   animation: fadein_sc_top2 0.75s ease-in 2s forwards alternate;
 }
+
 .listcntmainasu.active .moveList:nth-child(9) {
   -webkit-animation: fadein_sc_top2 0.75s ease-in 2.25s forwards alternate;
   animation: fadein_sc_top2 0.75s ease-in 2.25s forwards alternate;
 }
+
 .listcntmainasu.active .moveList:nth-child(10) {
   -webkit-animation: fadein_sc_top2 0.75s ease-in 2.5s forwards alternate;
   animation: fadein_sc_top2 0.75s ease-in 2.5s forwards alternate;
@@ -10272,56 +11547,68 @@ and open the template in the editor.
 .listcntmainasuLeft .moveList {
   opacity: 0;
 }
+
 .listcntmainasuLeft.active .moveList:nth-child(1) {
   -webkit-animation: fadein_sc_left 0.75s ease 0.15s forwards alternate;
   animation: fadein_sc_left 0.75s ease 0.15s forwards alternate;
 }
+
 .listcntmainasuLeft.active .moveList:nth-child(2) {
   -webkit-animation: fadein_sc_left 0.75s ease 0.3s forwards alternate;
   animation: fadein_sc_left 0.75s ease 0.3s forwards alternate;
 }
+
 .listcntmainasuLeft.active .moveList:nth-child(3) {
   -webkit-animation: fadein_sc_left 0.75s ease 0.45s forwards alternate;
   animation: fadein_sc_left 0.75s ease 0.45s forwards alternate;
 }
+
 .listcntmainasuLeft.active .moveList:nth-child(4) {
   -webkit-animation: fadein_sc_left 0.75s ease 0.6s forwards alternate;
   animation: fadein_sc_left 0.75s ease 0.6s forwards alternate;
 }
+
 .listcntmainasuLeft.active .moveList:nth-child(5) {
   -webkit-animation: fadein_sc_left 0.75s ease 0.75s forwards alternate;
   animation: fadein_sc_left 0.75s ease 0.75s forwards alternate;
 }
+
 .listcntmainasuLeft.active .moveList:nth-child(6) {
   -webkit-animation: fadein_sc_left 0.75s ease 0.9s forwards alternate;
   animation: fadein_sc_left 0.75s ease 0.9s forwards alternate;
 }
+
 .listcntmainasuLeft.active .moveList:nth-child(7) {
   -webkit-animation: fadein_sc_left 0.75s ease 1.05s forwards alternate;
   animation: fadein_sc_left 0.75s ease 1.05s forwards alternate;
 }
+
 .listcntmainasuLeft.active .moveList:nth-child(8) {
   -webkit-animation: fadein_sc_left 0.75s ease 1.2s forwards alternate;
   animation: fadein_sc_left 0.75s ease 1.2s forwards alternate;
 }
+
 .listcntmainasuLeft.active .moveList:nth-child(9) {
   -webkit-animation: fadein_sc_left 0.75s ease 1.35s forwards alternate;
   animation: fadein_sc_left 0.75s ease 1.35s forwards alternate;
 }
+
 .listcntmainasuLeft.active .moveList:nth-child(10) {
   -webkit-animation: fadein_sc_left 0.75s ease 1.5s forwards alternate;
   animation: fadein_sc_left 0.75s ease 1.5s forwards alternate;
 }
+
 .listcntmainasuLeft.active .moveList:nth-child(11) {
   -webkit-animation: fadein_sc_left 0.75s ease 1.65s forwards alternate;
   animation: fadein_sc_left 0.75s ease 1.65s forwards alternate;
 }
+
 .listcntmainasuLeft.active .moveList:nth-child(12) {
   -webkit-animation: fadein_sc_left 0.75s ease 1.8s forwards alternate;
   animation: fadein_sc_left 0.75s ease 1.8s forwards alternate;
 }
 
-.opacity_0_list_left_fade_set > li,
+.opacity_0_list_left_fade_set>li,
 .opacity_0_list_left_fade_set section,
 .opacity_0_list_left_fade_set div,
 .opacity_0_list_left_fade_set tr,
@@ -10329,7 +11616,8 @@ and open the template in the editor.
   transform: translate3d(-10px, 0px, 0px);
   opacity: 0;
 }
-.opacity_0_list_left_fade_set.active > li:nth-child(1),
+
+.opacity_0_list_left_fade_set.active>li:nth-child(1),
 .opacity_0_list_left_fade_set.active section:nth-child(1),
 .opacity_0_list_left_fade_set.active div:nth-child(1),
 .opacity_0_list_left_fade_set.active p:nth-child(1),
@@ -10341,7 +11629,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_left 0.75s ease 0.35s forwards alternate;
   animation: fadein_sc_left 0.75s ease 0.35s forwards alternate;
 }
-.opacity_0_list_left_fade_set.active > li:nth-child(2),
+
+.opacity_0_list_left_fade_set.active>li:nth-child(2),
 .opacity_0_list_left_fade_set.active section:nth-child(2),
 .opacity_0_list_left_fade_set.active div:nth-child(2),
 .opacity_0_list_left_fade_set.active p:nth-child(2),
@@ -10353,7 +11642,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_left 0.75s ease 0.7s forwards alternate;
   animation: fadein_sc_left 0.75s ease 0.7s forwards alternate;
 }
-.opacity_0_list_left_fade_set.active > li:nth-child(3),
+
+.opacity_0_list_left_fade_set.active>li:nth-child(3),
 .opacity_0_list_left_fade_set.active section:nth-child(3),
 .opacity_0_list_left_fade_set.active div:nth-child(3),
 .opacity_0_list_left_fade_set.active p:nth-child(3),
@@ -10365,7 +11655,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_left 0.75s ease 1.05s forwards alternate;
   animation: fadein_sc_left 0.75s ease 1.05s forwards alternate;
 }
-.opacity_0_list_left_fade_set.active > li:nth-child(4),
+
+.opacity_0_list_left_fade_set.active>li:nth-child(4),
 .opacity_0_list_left_fade_set.active section:nth-child(4),
 .opacity_0_list_left_fade_set.active div:nth-child(4),
 .opacity_0_list_left_fade_set.active p:nth-child(4),
@@ -10377,7 +11668,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_left 0.75s ease 1.4s forwards alternate;
   animation: fadein_sc_left 0.75s ease 1.4s forwards alternate;
 }
-.opacity_0_list_left_fade_set.active > li:nth-child(5),
+
+.opacity_0_list_left_fade_set.active>li:nth-child(5),
 .opacity_0_list_left_fade_set.active section:nth-child(5),
 .opacity_0_list_left_fade_set.active div:nth-child(5),
 .opacity_0_list_left_fade_set.active p:nth-child(5),
@@ -10389,7 +11681,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_left 0.75s ease 1.75s forwards alternate;
   animation: fadein_sc_left 0.75s ease 1.75s forwards alternate;
 }
-.opacity_0_list_left_fade_set.active > li:nth-child(6),
+
+.opacity_0_list_left_fade_set.active>li:nth-child(6),
 .opacity_0_list_left_fade_set.active section:nth-child(6),
 .opacity_0_list_left_fade_set.active div:nth-child(6),
 .opacity_0_list_left_fade_set.active p:nth-child(6),
@@ -10401,7 +11694,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_left 0.75s ease 2.1s forwards alternate;
   animation: fadein_sc_left 0.75s ease 2.1s forwards alternate;
 }
-.opacity_0_list_left_fade_set.active > li:nth-child(7),
+
+.opacity_0_list_left_fade_set.active>li:nth-child(7),
 .opacity_0_list_left_fade_set.active section:nth-child(7),
 .opacity_0_list_left_fade_set.active div:nth-child(7),
 .opacity_0_list_left_fade_set.active p:nth-child(7),
@@ -10413,7 +11707,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_left 0.75s ease 2.45s forwards alternate;
   animation: fadein_sc_left 0.75s ease 2.45s forwards alternate;
 }
-.opacity_0_list_left_fade_set.active > li:nth-child(8),
+
+.opacity_0_list_left_fade_set.active>li:nth-child(8),
 .opacity_0_list_left_fade_set.active section:nth-child(8),
 .opacity_0_list_left_fade_set.active div:nth-child(8),
 .opacity_0_list_left_fade_set.active p:nth-child(8),
@@ -10425,7 +11720,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_left 0.75s ease 2.8s forwards alternate;
   animation: fadein_sc_left 0.75s ease 2.8s forwards alternate;
 }
-.opacity_0_list_left_fade_set.active > li:nth-child(9),
+
+.opacity_0_list_left_fade_set.active>li:nth-child(9),
 .opacity_0_list_left_fade_set.active section:nth-child(9),
 .opacity_0_list_left_fade_set.active div:nth-child(9),
 .opacity_0_list_left_fade_set.active p:nth-child(9),
@@ -10437,7 +11733,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_left 0.75s ease 3.15s forwards alternate;
   animation: fadein_sc_left 0.75s ease 3.15s forwards alternate;
 }
-.opacity_0_list_left_fade_set.active > li:nth-child(10),
+
+.opacity_0_list_left_fade_set.active>li:nth-child(10),
 .opacity_0_list_left_fade_set.active section:nth-child(10),
 .opacity_0_list_left_fade_set.active div:nth-child(10),
 .opacity_0_list_left_fade_set.active p:nth-child(10),
@@ -10449,7 +11746,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_left 0.75s ease 3.5s forwards alternate;
   animation: fadein_sc_left 0.75s ease 3.5s forwards alternate;
 }
-.opacity_0_list_left_fade_set.active > li:nth-child(11),
+
+.opacity_0_list_left_fade_set.active>li:nth-child(11),
 .opacity_0_list_left_fade_set.active section:nth-child(11),
 .opacity_0_list_left_fade_set.active div:nth-child(11),
 .opacity_0_list_left_fade_set.active p:nth-child(11),
@@ -10461,7 +11759,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_left 0.75s ease 3.85s forwards alternate;
   animation: fadein_sc_left 0.75s ease 3.85s forwards alternate;
 }
-.opacity_0_list_left_fade_set.active > li:nth-child(12),
+
+.opacity_0_list_left_fade_set.active>li:nth-child(12),
 .opacity_0_list_left_fade_set.active section:nth-child(12),
 .opacity_0_list_left_fade_set.active div:nth-child(12),
 .opacity_0_list_left_fade_set.active p:nth-child(12),
@@ -10474,7 +11773,7 @@ and open the template in the editor.
   animation: fadein_sc_left 0.75s ease 4.2s forwards alternate;
 }
 
-.opacity_0_list_right_fade_set > li,
+.opacity_0_list_right_fade_set>li,
 .opacity_0_list_right_fade_set section,
 .opacity_0_list_right_fade_set div,
 .opacity_0_list_right_fade_set tr,
@@ -10482,7 +11781,8 @@ and open the template in the editor.
   transform: translate3d(-10px, 0px, 0px);
   opacity: 0;
 }
-.opacity_0_list_right_fade_set.active > li:nth-child(1),
+
+.opacity_0_list_right_fade_set.active>li:nth-child(1),
 .opacity_0_list_right_fade_set.active section:nth-child(1),
 .opacity_0_list_right_fade_set.active div:nth-child(1),
 .opacity_0_list_right_fade_set.active p:nth-child(1),
@@ -10494,7 +11794,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_right 0.75s ease 0.35s forwards alternate;
   animation: fadein_sc_right 0.75s ease 0.35s forwards alternate;
 }
-.opacity_0_list_right_fade_set.active > li:nth-child(2),
+
+.opacity_0_list_right_fade_set.active>li:nth-child(2),
 .opacity_0_list_right_fade_set.active section:nth-child(2),
 .opacity_0_list_right_fade_set.active div:nth-child(2),
 .opacity_0_list_right_fade_set.active p:nth-child(2),
@@ -10506,7 +11807,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_right 0.75s ease 0.7s forwards alternate;
   animation: fadein_sc_right 0.75s ease 0.7s forwards alternate;
 }
-.opacity_0_list_right_fade_set.active > li:nth-child(3),
+
+.opacity_0_list_right_fade_set.active>li:nth-child(3),
 .opacity_0_list_right_fade_set.active section:nth-child(3),
 .opacity_0_list_right_fade_set.active div:nth-child(3),
 .opacity_0_list_right_fade_set.active p:nth-child(3),
@@ -10518,7 +11820,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_right 0.75s ease 1.05s forwards alternate;
   animation: fadein_sc_right 0.75s ease 1.05s forwards alternate;
 }
-.opacity_0_list_right_fade_set.active > li:nth-child(4),
+
+.opacity_0_list_right_fade_set.active>li:nth-child(4),
 .opacity_0_list_right_fade_set.active section:nth-child(4),
 .opacity_0_list_right_fade_set.active div:nth-child(4),
 .opacity_0_list_right_fade_set.active p:nth-child(4),
@@ -10530,7 +11833,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_right 0.75s ease 1.4s forwards alternate;
   animation: fadein_sc_right 0.75s ease 1.4s forwards alternate;
 }
-.opacity_0_list_right_fade_set.active > li:nth-child(5),
+
+.opacity_0_list_right_fade_set.active>li:nth-child(5),
 .opacity_0_list_right_fade_set.active section:nth-child(5),
 .opacity_0_list_right_fade_set.active div:nth-child(5),
 .opacity_0_list_right_fade_set.active p:nth-child(5),
@@ -10542,7 +11846,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_right 0.75s ease 1.75s forwards alternate;
   animation: fadein_sc_right 0.75s ease 1.75s forwards alternate;
 }
-.opacity_0_list_right_fade_set.active > li:nth-child(6),
+
+.opacity_0_list_right_fade_set.active>li:nth-child(6),
 .opacity_0_list_right_fade_set.active section:nth-child(6),
 .opacity_0_list_right_fade_set.active div:nth-child(6),
 .opacity_0_list_right_fade_set.active p:nth-child(6),
@@ -10554,7 +11859,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_right 0.75s ease 2.1s forwards alternate;
   animation: fadein_sc_right 0.75s ease 2.1s forwards alternate;
 }
-.opacity_0_list_right_fade_set.active > li:nth-child(7),
+
+.opacity_0_list_right_fade_set.active>li:nth-child(7),
 .opacity_0_list_right_fade_set.active section:nth-child(7),
 .opacity_0_list_right_fade_set.active div:nth-child(7),
 .opacity_0_list_right_fade_set.active p:nth-child(7),
@@ -10566,7 +11872,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_right 0.75s ease 2.45s forwards alternate;
   animation: fadein_sc_right 0.75s ease 2.45s forwards alternate;
 }
-.opacity_0_list_right_fade_set.active > li:nth-child(8),
+
+.opacity_0_list_right_fade_set.active>li:nth-child(8),
 .opacity_0_list_right_fade_set.active section:nth-child(8),
 .opacity_0_list_right_fade_set.active div:nth-child(8),
 .opacity_0_list_right_fade_set.active p:nth-child(8),
@@ -10578,7 +11885,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_right 0.75s ease 2.8s forwards alternate;
   animation: fadein_sc_right 0.75s ease 2.8s forwards alternate;
 }
-.opacity_0_list_right_fade_set.active > li:nth-child(9),
+
+.opacity_0_list_right_fade_set.active>li:nth-child(9),
 .opacity_0_list_right_fade_set.active section:nth-child(9),
 .opacity_0_list_right_fade_set.active div:nth-child(9),
 .opacity_0_list_right_fade_set.active p:nth-child(9),
@@ -10590,7 +11898,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_right 0.75s ease 3.15s forwards alternate;
   animation: fadein_sc_right 0.75s ease 3.15s forwards alternate;
 }
-.opacity_0_list_right_fade_set.active > li:nth-child(10),
+
+.opacity_0_list_right_fade_set.active>li:nth-child(10),
 .opacity_0_list_right_fade_set.active section:nth-child(10),
 .opacity_0_list_right_fade_set.active div:nth-child(10),
 .opacity_0_list_right_fade_set.active p:nth-child(10),
@@ -10602,7 +11911,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_right 0.75s ease 3.5s forwards alternate;
   animation: fadein_sc_right 0.75s ease 3.5s forwards alternate;
 }
-.opacity_0_list_right_fade_set.active > li:nth-child(11),
+
+.opacity_0_list_right_fade_set.active>li:nth-child(11),
 .opacity_0_list_right_fade_set.active section:nth-child(11),
 .opacity_0_list_right_fade_set.active div:nth-child(11),
 .opacity_0_list_right_fade_set.active p:nth-child(11),
@@ -10614,7 +11924,8 @@ and open the template in the editor.
   -webkit-animation: fadein_sc_right 0.75s ease 3.85s forwards alternate;
   animation: fadein_sc_right 0.75s ease 3.85s forwards alternate;
 }
-.opacity_0_list_right_fade_set.active > li:nth-child(12),
+
+.opacity_0_list_right_fade_set.active>li:nth-child(12),
 .opacity_0_list_right_fade_set.active section:nth-child(12),
 .opacity_0_list_right_fade_set.active div:nth-child(12),
 .opacity_0_list_right_fade_set.active p:nth-child(12),
@@ -10630,6 +11941,7 @@ and open the template in the editor.
 .moveTopBtms {
   transition: 0.5s;
 }
+
 .moveTopBtms:hover {
   transform: translate(0px, -5px);
 }
@@ -10645,16 +11957,19 @@ and open the template in the editor.
     top: 0;
     opacity: 0;
   }
+
   30% {
     height: 100%;
     opacity: 1;
   }
+
   100% {
     height: 0;
     top: 110%;
     opacity: 0;
   }
 }
+
 .jstitleFlow {
   display: inline-block;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -10868,7 +12183,8 @@ ul.bxslider {
   padding: 10px;
 }
 
-.lb-loader, .lightbox {
+.lb-loader,
+.lightbox {
   text-align: center;
   line-height: 0;
 }
@@ -10878,7 +12194,8 @@ body:after {
   display: none;
 }
 
-.lb-dataContainer:after, .lb-outerContainer:after {
+.lb-dataContainer:after,
+.lb-outerContainer:after {
   content: "";
   clear: both;
 }
@@ -10928,7 +12245,8 @@ body.lb-disable-scrolling {
   background-color: #fff;
 }
 
-.lb-loader, .lb-nav {
+.lb-loader,
+.lb-nav {
   position: absolute;
   left: 0;
 }
@@ -10958,7 +12276,7 @@ body.lb-disable-scrolling {
   z-index: 10;
 }
 
-.lb-container > .nav {
+.lb-container>.nav {
   left: 0;
 }
 
@@ -10967,7 +12285,8 @@ body.lb-disable-scrolling {
   background-image: url(data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
 }
 
-.lb-next, .lb-prev {
+.lb-next,
+.lb-prev {
   height: 100%;
   cursor: pointer;
   display: block;
@@ -11075,4 +12394,6 @@ body.lb-disable-scrolling {
   cursor: pointer;
   filter: alpha(Opacity=100);
   opacity: 1;
-}/*# sourceMappingURL=common.css.map */
+}
+
+/*# sourceMappingURL=common.css.map */
