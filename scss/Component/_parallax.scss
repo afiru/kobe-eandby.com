@@ -292,17 +292,18 @@
 }
 
 .jstitleFlow {
-     display: inline-block;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  -webkit-transition: -webkit-clip-path 0.4s cubic-bezier(0.19, 1, 0.22, 1);
-  transition: -webkit-clip-path 0.4s cubic-bezier(0.19, 1, 0.22, 1);
-  transition: clip-path 0.4s cubic-bezier(0.19, 1, 0.22, 1);
-  transition: clip-path 0.4s cubic-bezier(0.19, 1, 0.22, 1), -webkit-clip-path 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+    display: inline-block;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    -webkit-transition: -webkit-clip-path 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: -webkit-clip-path 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: clip-path 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: clip-path 0.4s cubic-bezier(0.19, 1, 0.22, 1), -webkit-clip-path 0.4s cubic-bezier(0.19, 1, 0.22, 1);
 }
-.show{
- display: inline-block;
-  opacity: 0;
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
+
+.show {
+    display: inline-block;
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
 }

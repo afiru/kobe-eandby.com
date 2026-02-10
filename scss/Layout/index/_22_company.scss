@@ -1,104 +1,107 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .company {
-    margin: 12.42125vw 0vw 0vw 0vw;
-    border-top: 1px solid #D9D9D9;
-    padding: 11.9479166667vw 0vw 0vw 0vw;
+  margin: 12.42125vw 0vw 0vw 0vw;
+  border-top: 1px solid #d9d9d9;
+  padding: 11.9479166667vw 0vw 0vw 0vw;
 
-    @include mi.mq(sp) {
-        margin-top: 31.13%;
-        margin-bottom: 0%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 32% 0% 0% 0%;
-    }
+  @include mi.mq(sp) {
+    margin-top: 31.13%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32% 0% 0% 0%;
+  }
 }
 
 .companyLxn {
-    @include mi.mq(sp) {
-        width: 87.5%;
-        margin: auto;
-    }
+  @include mi.mq(sp) {
+    width: 87.5%;
+    margin: auto;
+  }
 }
 
-.companyFx {}
+.companyFx {
+}
 
 .h2Company {
-    @include mi.ontener_width02(1570, 470);
-    @include mi.fontSizePc(20);
-    @include mi.lineheight(auto, auto);
-    @include mi.letterSpacing(50);
+  @include mi.ontener_width02(1570, 470);
+  @include mi.fontSizePc(20);
+  @include mi.lineheight(auto, auto);
+  @include mi.letterSpacing(50);
 
-    @include mi.mq(sp) {
-        @include mi.ontenerWidth(330, 330);
-        @include mi.fontSizeSp(15);
-        @include mi.lineheight(15, 15);
-        @include mi.letterSpacing(50);
-        margin: 0 0 0 1%;
-    }
+  @include mi.mq(sp) {
+    @include mi.ontenerWidth(330, 330);
+    @include mi.fontSizeSp(15);
+    @include mi.lineheight(15, 15);
+    @include mi.letterSpacing(50);
+    margin: 0 0 0 1%;
+  }
 }
 
 .ulCompany {
-    @include mi.ontener_width02(1570, 960);
+  @include mi.ontener_width02(1570, 960);
 
-    @include mi.mq(sp) {
-        @include mi.ontenerWidth(330, 330);
-        margin-top: 16.84%;
-        margin-bottom: 0%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  @include mi.mq(sp) {
+    @include mi.ontenerWidth(330, 330);
+    margin-top: 16.84%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .liCompany {
-    @include mi.paddingPercent(960, 0, 0, 28, 0);
-    border-bottom: 1px solid #D9D9D9;
+  @include mi.paddingPercent(960, 0, 0, 28, 0);
+  border-bottom: 1px solid #d9d9d9;
+  &:last-child {
+    border-bottom: none;
+  }
+
+  @include mi.mq(sp) {
+    padding: 0% 0% 11.48% 0%;
+  }
+
+  &:nth-child(n + 2) {
+    @include mi.marginPercent(960, 26, 0, 0, 0);
 
     @include mi.mq(sp) {
-        padding: 0% 0% 11.48% 0%;
+      margin: 8.35% 0% 0% 0%;
     }
-
-    &:nth-child(n+2) {
-        @include mi.marginPercent(960, 26, 0, 0, 0);
-
-        @include mi.mq(sp) {
-            margin: 8.35% 0% 0% 0%;
-        }
-    }
-
+  }
 }
 
 .h3Company {
-    @include mi.ontenerWidth(960, 175);
-    @include mi.fontSizePc(20);
-    @include mi.lineheightP(200);
-    @include mi.letterSpacing(0);
+  width: 18.2%;
+  @include mi.fontSizePc(20);
+  @include mi.lineheightP(200);
+  @include mi.letterSpacing(0);
 
-    @include mi.mq(sp) {
-        @include mi.ontenerWidth(330, 62);
-        @include mi.fontSizeSp(14);
-        @include mi.lineheight(14, 30);
-        @include mi.letterSpacing(0);
-        padding: 0 0 0 1%;
-    }
+  @include mi.mq(sp) {
+    @include mi.ontenerWidth(330, 62);
+    @include mi.fontSizeSp(14);
+    @include mi.lineheight(14, 30);
+    @include mi.letterSpacing(0);
+    padding: 0 0 0 1%;
+  }
 }
 
 .txtCompany {
-    @include mi.ontenerWidth(960, 734);
-    @include mi.fontSizePc(20);
-    @include mi.lineheightP(200);
-    @include mi.letterSpacing(0);
+  width: 76.5%;
+  @include mi.fontSizePc(20);
+  @include mi.lineheightP(200);
+  @include mi.letterSpacing(0);
 
-    @include mi.mq(sp) {
-        @include mi.ontenerWidth(330, 260);
-        @include mi.fontSizeSp(14);
-        @include mi.lineheight(14, 30);
-        @include mi.letterSpacing(0);
-    }
+  @include mi.mq(sp) {
+    @include mi.ontenerWidth(330, 260);
+    @include mi.fontSizeSp(14);
+    @include mi.lineheight(14, 30);
+    @include mi.letterSpacing(0);
+  }
 }

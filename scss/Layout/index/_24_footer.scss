@@ -1,192 +1,190 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .footer {
-    @include mi.paddingPercent(1920, 105, 0, 43, 0);
+  @include mi.paddingPercent(1920, 105, 0, 43, 0);
 
-    @include mi.mq(sp) {
-        @include mi.paddingPercent(375, 54, 0, 36, 0);
-    }
+  @include mi.mq(sp) {
+    @include mi.paddingPercent(375, 54, 0, 36, 0);
+  }
 }
 
 .footerLxn {
-    @include mi.mq(sp) {
-        @include mi.ontenerWidth(375, 330);
-        margin: auto;
-    }
+  @include mi.mq(sp) {
+    @include mi.ontenerWidth(375, 330);
+    margin: auto;
+  }
 }
 
-.footerLxnFx {}
+.footerLxnFx {
+}
 
 .logoFoter {
-    @include mi.ontenerWidth(1570, 144.54);
+  @include mi.ontenerWidth(1570, 144.54);
 
-    @include mi.mq(sp) {
-        @include mi.ontenerWidth(330, 144);
-        margin: auto;
-    }
+  @include mi.mq(sp) {
+    @include mi.ontenerWidth(330, 144);
+    margin: auto;
+  }
 
-    img {
-        width: 100%;
-        height: auto;
-    }
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .navFooter {
-    @include mi.ontenerWidth(1570, 823);
-    margin: 2% 0 0 0px;
+  @include mi.ontenerWidth(1570, 823);
+  margin: 2% 0 0 0px;
 
-    @include mi.mq(tab) {
-        width: 72.16%;
-    }
+  @include mi.mq(tab) {
+    width: 72.16%;
+  }
 
-    @include mi.mq(sp) {
-        @include mi.ontenerWidth(330, 330);
-        margin-top: 19.9%;
-        margin-bottom: 0%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  @include mi.mq(sp) {
+    @include mi.ontenerWidth(330, 330);
+    margin-top: 19.9%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-.ulNavFooter {}
+.ulNavFooter {
+}
 
 .liNavFooter {
-    @include mi.fontSizePc(20);
+  @include mi.fontSizePc(20);
+  @include mi.lineheight(auto, auto);
+  @include mi.letterSpacing(50);
+
+  @include mi.mq(sp) {
+    @include mi.fontSizeSp(15);
     @include mi.lineheight(auto, auto);
     @include mi.letterSpacing(50);
-
-    @include mi.mq(sp) {
-        @include mi.fontSizeSp(15);
-        @include mi.lineheight(auto, auto);
-        @include mi.letterSpacing(50);
-    }
+  }
 }
 
 .liNavFooter01 {
-    @include mi.ontenerWidth(819, 160);
-    @include mi.marginPercent(819, 0, 0, 34, 0);
+  @include mi.ontenerWidth(819, 160);
+  @include mi.marginPercent(819, 0, 0, 34, 0);
 
-    @include mi.mq(sp) {
-        width: 42%;
-        margin: 0% 0% 7.78% 0%;
-    }
+  @include mi.mq(sp) {
+    width: 42%;
+    margin: 0% 0% 7.78% 0%;
+  }
 }
 
 .liNavFooter02 {
-    @include mi.ontenerWidth(819, 230);
-    @include mi.marginPercent(819, 0, 0, 34, 46);
+  @include mi.ontenerWidth(819, 230);
+  @include mi.marginPercent(819, 0, 0, 34, 46);
 
-    @include mi.mq(sp) {
-        width: 42%;
-        margin: 0% 0% 7.28% 0%;
-    }
+  @include mi.mq(sp) {
+    width: 42%;
+    margin: 0% 0% 7.28% 0%;
+  }
 }
 
 .liNavFooter03 {
-    @include mi.ontenerWidth(819, 135);
-    @include mi.marginPercent(819, 0, 0, 34, 46);
+  @include mi.ontenerWidth(819, 135);
+  @include mi.marginPercent(819, 0, 0, 34, 46);
 
-    @include mi.mq(sp) {
-        width: 42%;
-        margin: 0% 0% 7.78% 0%;
-    }
+  @include mi.mq(sp) {
+    width: 42%;
+    margin: 0% 0% 7.78% 0%;
+  }
 }
 
 .liNavFooter04 {
-    @include mi.ontenerWidth(819, 156);
-    @include mi.marginPercent(819, 0, 0, 34, 46);
+  @include mi.ontenerWidth(819, 156);
+  @include mi.marginPercent(819, 0, 0, 34, 46);
 
-    @include mi.mq(sp) {
-        width: 42%;
-        margin: 0% 0% 7.78% 0%;
-    }
+  @include mi.mq(sp) {
+    width: 42%;
+    margin: 0% 0% 7.78% 0%;
+  }
 }
 
 .liNavFooter05 {
-    @include mi.mq(sp) {
-        width: 50%;
-        margin: 0% 0% 7.28% 0%;
-    }
+  @include mi.mq(sp) {
+    width: 50%;
+    margin: 0% 0% 7.28% 0%;
+  }
 }
 
 .copy {
-    text-align: right;
-    @include mi.fontSizePc(12);
+  text-align: left;
+  @include mi.fontSizePc(12);
+  @include mi.lineheightP(180);
+  @include mi.letterSpacing(50);
+  @include mi.marginPercent(1570, -2, 0, 0, 0);
+
+  @include mi.mq(sp) {
+    text-align: center;
+    @include mi.fontSizeSp(12);
     @include mi.lineheightP(180);
-    @include mi.letterSpacing(50);
-    @include mi.marginPercent(1570, -2, 0, 0, 0);
-
-    @include mi.mq(sp) {
-        text-align: center;
-        @include mi.fontSizeSp(12);
-        @include mi.lineheightP(180);
-        @include mi.letterSpacing(70);
-        margin: 5.06% 0% 0% 0%;
-
-    }
+    @include mi.letterSpacing(70);
+    margin: 5.06% 0% 0% 0%;
+  }
 }
-
-
-
 
 .pcFixedBtn {
-    position: fixed;
-    bottom: 2%;
-    right: 0;
-    z-index: 2;
-    width: 325px;
+  position: fixed;
+  bottom: 2%;
+  right: 0;
+  z-index: 2;
+  width: 325px;
+  display: none;
 }
 
-.pcFixedBtnFx {}
+.pcFixedBtnFx {
+}
 
 .ctaPcFixedBtnFxc {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .liCtaPcFixedBtnFxc {
-    @include mi.ontenerWidth(325, 256);
+  @include mi.ontenerWidth(325, 256);
 }
 
 .btnCtaPcFixedBtnFxc {
-    width: 100%;
-    @include mi.kadomaru(60px);
-    aspect-ratio: 334 / 72;
-    @include mi.fontSizePc(20);
-    background: #669B40;
+  width: 100%;
+  @include mi.kadomaru(60px);
+  aspect-ratio: 334 / 72;
+  @include mi.fontSizePc(20);
+  background: #669b40;
 
-    @include mi.mq(sp) {
-        @include mi.kadomaru(60px);
-        aspect-ratio: 160 / 39;
-        @include mi.fontSizeSp(14);
-    }
+  @include mi.mq(sp) {
+    @include mi.kadomaru(60px);
+    aspect-ratio: 160 / 39;
+    @include mi.fontSizeSp(14);
+  }
 }
 
 .txtCtaPcFixedBtnFxc {
-    @include mi.fontSizePc(20);
-    @include mi.lineheightP(130);
-    @include mi.letterSpacing(0);
-    transition-duration: 0.5s;
+  @include mi.fontSizePc(20);
+  @include mi.lineheightP(130);
+  @include mi.letterSpacing(0);
+  transition-duration: 0.5s;
 }
 
 .btnCtaPcFixedBtnFxc:hover {
-    opacity: 1;
+  opacity: 1;
 
-    .txtCtaPcFixedBtnFxc {
-        letter-spacing: 0.15em;
-    }
+  .txtCtaPcFixedBtnFxc {
+    letter-spacing: 0.15em;
+  }
 }
 
-
-
 .liTopCtaFixedBtnFxc {
-    @include mi.ontenerWidth(325, 60);
+  @include mi.ontenerWidth(325, 60);
 }

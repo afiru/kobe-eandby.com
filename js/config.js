@@ -4,8 +4,8 @@ jQuery(function ($) {
     let jsheaderGnav = $('.headerPcGnav');
     let menuBtn = $('.jsHeaderGnavPc');
     let menuBtnSp = $('.jsBtnHeaderOpenSp');
-    let menuCloseBtnSp=$('.jsBtnHeaderCloseSp');
-    let headerSpGnav= $('.headerSpGnav');
+    let menuCloseBtnSp = $('.jsBtnHeaderCloseSp');
+    let headerSpGnav = $('.headerSpGnav');
 
     // メニューボタンを押したとき
     menuBtn.on('click', function () {
@@ -30,7 +30,7 @@ jQuery(function ($) {
         }
     });
 
-     menuBtnSp.on('click', function () {
+    menuBtnSp.on('click', function () {
         header.addClass('on'); // メニュー開いたら必ず on
         headerSpGnav.animate({
             'right': '0%'
@@ -99,5 +99,14 @@ jQuery(function ($) {
                 scrollTop: position
             }, 500);
         });
+    });
+
+    //追従スクロールしたら表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() >= $(".kadai").offset().top) {
+            $(".pcFixedBtn").fadeIn(500);
+        } else {
+            $(".pcFixedBtn").fadeOut(500);
+        }
     });
 });

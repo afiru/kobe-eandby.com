@@ -1,6 +1,6 @@
 <div class="fvTopBx">
     <section class="fvTopLxn">
-        <h1 class="cl_1D1D1F fw_800 txtset jstitleFlow h1FvTop">
+        <h1 class="cl_1D1D1F fw_700 txtset jstitleFlow h1FvTop">
             <span class="txtset show">お</span>
             <span class="txtset show">困</span>
             <span class="txtset show">り</span>
@@ -36,7 +36,7 @@
                 </li>
 
                 <li class="liFvTopCta">
-                    <a class="bg_E5E5E5 undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnFvTopCta" href="mail">
+                    <a class="bg_E5E5E5 undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnFvTopCta" href="mailto:okamoto@eandby.com">
                         <p class="t_center cl_1D1D1F fw_500 txtset txtFvTopCta txtFvTopCta02">事業内容を見る</p>
                     </a>
                 </li>

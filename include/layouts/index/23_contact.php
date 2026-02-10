@@ -41,7 +41,7 @@
                 <ul class="txtContact">
                     <li class="d_flex j_start cl_fff fw_500 txtset liTxtContact">
                         <span class="distLiTxtContact">●</span>
-                        <span class="txtLiTxtContact">日本の農作物を国内でブランド化して、売りたいがやり方がわからない。</span>
+                        <span class="txtLiTxtContact">日本の農作物を国内でブランド化して売りたいが、やり方がわからない。</span>
                     </li>
                     <li class="d_flex j_start cl_fff fw_500 txtset liTxtContact liTxtContact02">
                         <span class="distLiTxtContact">●</span>
@@ -69,7 +69,7 @@
                 </li>
 
                 <li class="liContactCta">
-                    <a class="bg_E5E5E5 undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnContactCta" href="mail">
+                    <a class="bg_E5E5E5 undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnContactCta" href="mailto:okamoto@eandby.com">
                         <p class="t_center cl_1D1D1F fw_500 txtset txtContactCta">お困りごとをメールで送る</p>
                         <!--bg:../img/btnContactCta02.svg-->
                     </a>

@@ -124,6 +124,7 @@ LAYOUT
 .secFvTopFx {
     width: 380px;
     margin: -0.2% 0 0 0;
+
     @include mi.mq(max1000) {
         width: 34vw;
     }
@@ -157,13 +158,18 @@ LAYOUT
 }
 
 //scroll
-.scroll{
-   width: 25px;
+.scroll {
+    width: 25px;
     position: absolute;
     left: 5%;
     bottom: -6.6%;
     z-index: 1;
+
+    @include mi.mq(max1000) {
+        bottom: -14.6%;
+    }
 }
+
 .container_05 {
     height: 143px;
     position: relative;
@@ -185,18 +191,16 @@ LAYOUT
     right: 0%;
     transform: translateX(0%);
 
-    @include mi.mq(sp) {
-
-    }
+    @include mi.mq(sp) {}
 }
 
-.scrollbar_05 {
+.scrollbar_05 {}
 
-}
-.txtScroll{
+.txtScroll {
     @include mi.fontSizePc(14);
-    @include mi.lineheight(14,14);
+    @include mi.lineheight(14, 14);
     @include mi.letterSpacing(150);
+
     @include mi.mq(sp) {
         @include mi.fontSizeSp(10);
     }
@@ -218,14 +222,17 @@ LAYOUT
         transform: scale(1, 0);
         transform-origin: 0 0;
     }
+
     30% {
         transform: scale(1, 1);
         transform-origin: 0 0;
     }
+
     70% {
         transform: scale(1, 1);
         transform-origin: 0 100%;
     }
+
     100% {
         transform: scale(1, 0);
         transform-origin: 0 100%;
@@ -236,19 +243,19 @@ LAYOUT
 .jstitleFlow {
     overflow: hidden;
 
-    &> span {
+    &>span {
         opacity: 0;
         transform: translateY(100%) scale(1.2, .8);
     }
 
     &.active {
-        &> span {
+        &>span {
             @for $var from 1 through 50 {
-                $delay: 0.01*$var;
+                $delay: 0.05*$var;
 
                 &:nth-child(#{$var}) {
-                    -webkit-animation: bound 0.3s cubic-bezier(.33, 1, .68, 1) #{$delay}s forwards alternate;
-                    animation: bound 0.3s cubic-bezier(.33, 1, .68, 1) #{$delay}s forwards alternate;
+                    -webkit-animation: bound 0.5s cubic-bezier(.33, 1, .68, 1) #{$delay}s forwards alternate;
+                    animation: bound 0.5s cubic-bezier(.33, 1, .68, 1) #{$delay}s forwards alternate;
                 }
             }
         }
@@ -257,26 +264,26 @@ LAYOUT
 
 @-webkit-keyframes bound {
     0% {
-    opacity: 0;
-        transform: translateY(100%) ;
+        opacity: 0;
+        transform: translateY(100%);
     }
 
 
     to {
-    opacity: 1;
+        opacity: 1;
         transform: none;
     }
 }
 
 @keyframes bound {
     0% {
-opacity: 0;
+        opacity: 0;
         transform: translateY(100%);
     }
 
 
     to {
-opacity: 1;
+        opacity: 1;
         transform: none
     }
 }

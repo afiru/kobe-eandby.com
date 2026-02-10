@@ -1,290 +1,293 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .value {
-    @include mi.paddingPercent(1920, 102, 0, 0, 0);
+  @include mi.paddingPercent(1920, 102, 0, 0, 0);
 
-    @include mi.mq(sp) {
-        @include mi.paddingPercent(375, 122, 0, 0, 0);
-    }
+  @include mi.mq(sp) {
+    @include mi.paddingPercent(375, 122, 0, 0, 0);
+  }
 }
 
 .valueLxn {
-    @include mi.mq(sp) {
-        @include mi.ontenerWidth(375, 355);
-        margin: auto;
-    }
+  @include mi.mq(sp) {
+    @include mi.ontenerWidth(375, 355);
+    margin: auto;
+  }
 }
 
-.titleValue {}
+.titleValue {
+}
 
 .h2ValueLxn {
-    @include mi.fontSizePc(26);
-    @include mi.lineheightP(150);
-    @include mi.letterSpacing(150);
+  @include mi.fontSizePc(26);
+  @include mi.lineheightP(150);
+  @include mi.letterSpacing(150);
 
-    @include mi.mq(sp) {
-        @include mi.fontSizeSp(20);
-        @include mi.lineheightP(160);
-        @include mi.letterSpacing(150);
-    }
+  @include mi.mq(sp) {
+    @include mi.fontSizeSp(20);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(150);
+  }
 }
 
 .h3ValueLxn {
-        margin: 0 0 0 1.5%;
-    @include mi.fontSizePc(20);
-    @include mi.lineheightP(150);
-    letter-spacing: -0.115em;
+  margin: 0 0 0 1.5%;
+  @include mi.fontSizePc(20);
+  @include mi.lineheightP(150);
+  letter-spacing: -0.115em;
 
-    @include mi.mq(sp) {
-        @include mi.marginPercent(355, 9, 0, 0, 0);
-        @include mi.fontSizeSp(15);
-        @include mi.lineheightP(160);
-        @include mi.letterSpacing(0);
-    }
+  @include mi.mq(sp) {
+    @include mi.marginPercent(355, 9, 0, 0, 0);
+    @include mi.fontSizeSp(15);
+    @include mi.lineheightP(160);
+    @include mi.letterSpacing(0);
+  }
 }
 
 .valueSwipper {
-    @include mi.marginPercent(1570, 21, 0, 0, 0);
-    overflow: hidden;
-    width: 100%;
+  @include mi.marginPercent(1570, 21, 0, 0, 0);
+  overflow: hidden;
+  width: 100%;
 
-    @include mi.mq(sp) {
-        @include mi.marginPercent(355, 22, 0, 0, 0);
-    }
+  @include mi.mq(sp) {
+    @include mi.marginPercent(355, 22, 0, 0, 0);
+  }
 }
 
-.swiper {}
+.swiper {
+}
 
 .swiper-wrapper {
-    align-items: stretch;
+  align-items: stretch;
 }
 
 .swiper-slide {
-    width: 422px;
-    height: auto;
+  width: 422px;
+  height: auto;
 
-    @include mi.mq(sp) {
-        width: 100%;
-    }
+  @include mi.mq(sp) {
+    width: 100%;
+  }
 }
 
 .valueSliderBx {
-    @include mi.paddingPercent(422, 18, 0, 25, 0);
-    @include mi.kadomaru(6px);
-    aspect-ratio: 422/373;
-    width: 100%;
+  @include mi.paddingPercent(422, 18, 0, 25, 0);
+  @include mi.kadomaru(6px);
+  aspect-ratio: 422/373;
+  width: 100%;
 
-    @include mi.mq(sp) {
-        @include mi.paddingPercent(355, 14, 0, 20, 0);
-
-    }
+  @include mi.mq(sp) {
+    @include mi.paddingPercent(355, 14, 0, 20, 0);
+    aspect-ratio: 355/355;
+  }
 }
 
 .valueSliderLxn {
-    @include mi.ontenerWidth(422, 374);
-    margin: auto;
-    height: 100%;
-    display: flex;
-    flex-flow: column;
+  @include mi.ontenerWidth(422, 374);
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
 
-    @include mi.mq(sp) {
-        @include mi.ontenerWidth(355, 320);
-    }
+  @include mi.mq(sp) {
+    @include mi.ontenerWidth(355, 320);
+  }
 }
 
-.titleValueSlider {}
+.titleValueSlider {
+}
 
 .h4TitleValueSlider {
-    @include mi.fontSizePc(26);
-    @include mi.lineheightP(160);
-    @include mi.letterSpacing(150);
+  @include mi.fontSizePc(26);
+  @include mi.lineheightP(160);
+  @include mi.letterSpacing(150);
 
-    @include mi.mq(sp) {
-        @include mi.fontSizeSp(24);
-        @include mi.lineheight(auto, auto);
-        @include mi.letterSpacing(150);
-    }
+  @include mi.mq(sp) {
+    @include mi.fontSizeSp(24);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(150);
+  }
 }
 
 .h5TitleValueSlider {
-    @include mi.marginPercent(379, 0, 0, 0, 17);
-    @include mi.fontSizePc(15);
+  @include mi.marginPercent(379, 0, 0, 0, 17);
+  @include mi.fontSizePc(15);
+  @include mi.lineheightP(160);
+  @include mi.letterSpacing(0);
+
+  @include mi.mq(sp) {
+    @include mi.marginPercent(320, 0, 0, 0, 12);
+    @include mi.fontSizeSp(13);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
-
-    @include mi.mq(sp) {
-        @include mi.marginPercent(320, 0, 0, 0, 12);
-        @include mi.fontSizeSp(13);
-        @include mi.lineheightP(160);
-        @include mi.letterSpacing(0);
-    }
+  }
 }
 
 .h6TitleValueSlider {
-    @include mi.marginPercent(379, 0, 0, 0, 0);
-    @include mi.fontSizePc(18);
+  @include mi.marginPercent(379, 0, 0, 0, 0);
+  @include mi.fontSizePc(18);
+  @include mi.lineheightP(160);
+  color: #66a13f;
+
+  @include mi.mq(sp) {
+    @include mi.marginPercent(320, 8, 0, 0, 0);
+    @include mi.fontSizeSp(16);
     @include mi.lineheightP(160);
     letter-spacing: -0.115em;
-    color: #66A13F;
-
-    @include mi.mq(sp) {
-        @include mi.marginPercent(320, 8, 0, 0, 0);
-        @include mi.fontSizeSp(16);
-        @include mi.lineheightP(160);
-        @include mi.letterSpacing(0);
-    }
+  }
 }
 
 .brdTitleValueSlider {
-    @include mi.marginPercent(379, 20, 0, 0, 0);
-    aspect-ratio: 379/1;
-    width: 100%;
-    background: #669B40;
-
-    @include mi.mq(sp) {
-        @include mi.marginPercent(320, 19, 0, 0, 0);
-        aspect-ratio: 320/1;
-    }
+  @include mi.marginPercent(379, 20, 0, 0, 0);
+  aspect-ratio: 379/1;
+  width: 100%;
+  background: #669b40;
+  @include mi.letterSpacing(0);
+  @include mi.mq(sp) {
+    @include mi.marginPercent(320, 19, 0, 0, 0);
+    aspect-ratio: 320/1;
+  }
 }
 
 .txtValueSlider {
-    @include mi.marginPercent(379, 16, 0, 15, 0);
-    @include mi.fontSizePc(16);
+  @include mi.marginPercent(379, 16, 0, 15, 0);
+  @include mi.fontSizePc(16);
+  @include mi.lineheightP(160);
+
+  @include mi.mq(sp) {
+    @include mi.marginPercent(320, 14, 0, 14, 0);
+    @include mi.fontSizeSp(14);
     @include mi.lineheightP(160);
     letter-spacing: -0.115em;
-
-    @include mi.mq(sp) {
-        @include mi.marginPercent(320, 14, 0, 14, 0);
-        @include mi.fontSizeSp(14);
-        @include mi.lineheightP(160);
-        @include mi.letterSpacing(0);
-    }
+  }
 }
 
 .ulValueSlider {
-    margin-top: auto;
+  margin-top: auto;
 
-    @include mi.mq(sp) {}
+  @include mi.mq(sp) {
+  }
 }
 
 .liValueSlider {
-    @include mi.paddingPercent(379, 8, 13, 10, 13);
-    @include mi.kadomaru(15px);
+  @include mi.paddingPercent(379, 8, 13, 10, 13);
+  @include mi.kadomaru(15px);
 
-    &:nth-child(n+2) {
-        @include mi.marginPercent(320, 9, 0, 0, 0);
-    }
+  &:nth-child(n + 2) {
+    @include mi.marginPercent(320, 9, 0, 0, 0);
+  }
 }
 
 .iconLiValueSlider {
-    margin: 0 2% 0 0;
-    color: #66A13F;
+  margin: 0 2% 0 0;
+  color: #66a13f;
 
-    @include mi.mq(sp) {
-        @include mi.ontenerWidth(320, 20);
-    }
+  @include mi.mq(sp) {
+    @include mi.ontenerWidth(320, 20);
+  }
 }
 
 .txtLiValueSlider {
-    @include mi.fontSizePc(14);
+  @include mi.fontSizePc(14);
+  @include mi.lineheightP(130);
+  @include mi.letterSpacing(0);
+
+  @include mi.mq(sp) {
+    @include mi.fontSizeSp(13);
     @include mi.lineheightP(130);
     @include mi.letterSpacing(0);
-
-    @include mi.mq(sp) {
-        @include mi.fontSizeSp(13);
-        @include mi.lineheightP(130);
-        @include mi.letterSpacing(0);
-    }
+  }
 }
 
 //
 .arroWap {
-    @include mi.marginPercent(1570, 24, auto, 0, auto);
-    width: 103px;
-    display: flex;
-    justify-content: space-between;
+  @include mi.marginPercent(1570, 24, auto, 0, auto);
+  width: 103px;
+  display: flex;
+  justify-content: space-between;
 
-    @include mi.mq(sp) {
-        @include mi.marginPercent(320, 14, auto, 0, auto);
-        @include mi.ontenerWidth(320, 117);
-    }
+  @include mi.mq(sp) {
+    @include mi.marginPercent(320, 14, auto, 0, auto);
+    @include mi.ontenerWidth(320, 117);
+  }
 }
 
 .swiper-button-prev:after,
 .swiper-button-next:after {
-    display: none;
+  display: none;
 }
 
 .swiper-button-prev {
-    position: relative;
-    left: unset;
-    right: unset;
-    top: unset;
-    bottom: unset;
-    width: 35px;
-    height: auto;
-    margin-top: 0;
-    aspect-ratio: 1/1;
-    background: url(../img/swiper-button-prev.svg) no-repeat center center;
-    background-size: 100% 100%;
+  position: relative;
+  left: unset;
+  right: unset;
+  top: unset;
+  bottom: unset;
+  width: 35px;
+  height: auto;
+  margin-top: 0;
+  aspect-ratio: 1/1;
+  background: url(../img/swiper-button-prev.svg) no-repeat center center;
+  background-size: 100% 100%;
 
-    @include mi.mq(sp) {
-        width: 40px;
-    }
+  @include mi.mq(sp) {
+    width: 40px;
+  }
 
-    svg {
-        transition-duration: 0.5s;
-        width: 100%;
-        height: 100%;
-        overflow: unset;
-    }
+  svg {
+    transition-duration: 0.5s;
+    width: 100%;
+    height: 100%;
+    overflow: unset;
+  }
 }
-
-.swiper-button-prev:hover {}
 
 .swiper-button-prev:hover {
-    opacity: 1;
 }
 
+.swiper-button-prev:hover {
+  opacity: 1;
+}
 
 .swiper-button-next {
-    position: relative;
-    left: unset;
-    right: unset;
-    top: unset;
-    bottom: unset;
-    width: 35px;
-    height: auto;
-    aspect-ratio: 1/1;
-    margin-top: 0;
-    background: url(../img/swiper-button-next.svg) no-repeat center center;
-    background-size: 100% 100%;
+  position: relative;
+  left: unset;
+  right: unset;
+  top: unset;
+  bottom: unset;
+  width: 35px;
+  height: auto;
+  aspect-ratio: 1/1;
+  margin-top: 0;
+  background: url(../img/swiper-button-next.svg) no-repeat center center;
+  background-size: 100% 100%;
 
-    @include mi.mq(sp) {
-        width: 40px;
-    }
+  @include mi.mq(sp) {
+    width: 40px;
+  }
 
-    svg {
-        transition-duration: 0.5s;
-        width: 100%;
-        height: 100%;
-        overflow: unset;
-    }
+  svg {
+    transition-duration: 0.5s;
+    width: 100%;
+    height: 100%;
+    overflow: unset;
+  }
 }
 
-.swiper-button-next:hover {}
+.swiper-button-next:hover {
+}
 
 .swiper-button-next:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .swiper-button-next.swiper-button-disabled,
 .swiper-button-prev.swiper-button-disabled {
-    opacity: 1;
+  opacity: 1;
 }

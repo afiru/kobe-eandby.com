@@ -77,7 +77,7 @@
                 </li>
 
                 <li class="liKadaiCta">
-                    <a class=" undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnKadaiCta btnKadaiCta02" href="mail">
+                    <a class=" undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnKadaiCta btnKadaiCta02" href="mailto:okamoto@eandby.com">
                         <!--bg:../img/btnKadaiCta02.svg-->
                         <p class="t_center cl_1D1D1F fw_500 txtset txtKadaiCtaBtn">お困りごとをメールで送る</p>
                     </a>

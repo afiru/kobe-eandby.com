@@ -22,11 +22,11 @@ $count = 0;
                                     <h4 class=" plus cl_1D1D1F fw_600 txtset h4TitleValueSlider"><?php echo $line[0]; ?></h4>
                                     <h5 class="cl_1D1D1F fw_500 txtset h5TitleValueSlider"><?php echo $line[1]; ?></h5>
                                 </div>
-                                <h6 class="cl_66A13F fw_500 txtset text_justify h6TitleValueSlider">
+                                <h6 class="cl_66A13F fw_500 h6TitleValueSlider">
                                     <?php echo $line[2]; ?>
                                 </h6>
                                 <div class="bg_D9D9D9 brdTitleValueSlider"></div>
-                                <p class="cl_1D1D1F fw_400 txtset text_justify txtValueSlider">
+                                <p class="cl_1D1D1F fw_400 txtValueSlider">
                                     <?php echo $line[3]; ?>
                                 </p>
                                 <ul class="ulValueSlider">
@@ -46,7 +46,7 @@ $count = 0;
                                             <?php echo $line[5]; ?>
                                         </span>
                                     </li>
-                                     <?php endif; ?>
+                                    <?php endif; ?>
 
                                     <?php if (!empty($line[6])): ?>
                                     <li class="bg_F5F5F5 d_flex j_start fw_400 liValueSlider">
@@ -55,7 +55,7 @@ $count = 0;
                                             <?php echo $line[6]; ?>
                                         </span>
                                     </li>
-                                     <?php endif; ?>
+                                    <?php endif; ?>
                                 </ul>
                             </div>
                         </div>
@@ -67,9 +67,9 @@ $count = 0;
                 </div>
 
                 <!-- 必要に応じてナビボタン -->
-                 <div class="arroWap">
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <div class="arroWap">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
         </div>

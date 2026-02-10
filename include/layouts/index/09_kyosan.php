@@ -5,14 +5,113 @@
         </div>
         <div class="sliderKyosanLxn">
             <div class="loopSlidePc01">
-                <img loading="lazy" class="" src="img/sliderKyosan01_01Pc.png" alt="" width="1571" height="108">
-                <img loading="lazy" class="" src="img/sliderKyosan01_02Pc.png" alt="" width="1673" height="108">
+                <ul class="ulSliderKyosanLxn">
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn01_01.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn01_02.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn01_03.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn01_04.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn01_05.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn01_06.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn01_07.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn01_08.png" alt="" width="108" height="108">
+                    </li>
+                </ul>
+                <ul class="ulSliderKyosanLxn">
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn01_01.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn01_02.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn01_03.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn01_04.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn01_05.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn01_06.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn01_07.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn01_08.png" alt="" width="108" height="108">
+                    </li>
+                </ul>
             </div>
 
             <div class="loopSlidePc02">
-                <img loading="lazy" class="" src="img/sliderKyosan02_01Pc.png" alt="" width="1571" height="108">
-                <img loading="lazy" class="" src="img/sliderKyosan02_02Pc.png" alt="" width="1673" height="108">
-
+                <ul class="ulSliderKyosanLxn ulSliderKyosanLxn02">
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_01.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_02.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_03.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_04.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_05.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_06.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_07.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_08.png" alt="" width="108" height="108">
+                    </li>
+                </ul>
+                <ul class="ulSliderKyosanLxn ulSliderKyosanLxn02">
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_01.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_02.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_03.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_04.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_05.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_06.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_07.png" alt="" width="108" height="108">
+                    </li>
+                    <li class="liSliderKyosanLxn">
+                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_08.png" alt="" width="108" height="108">
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
