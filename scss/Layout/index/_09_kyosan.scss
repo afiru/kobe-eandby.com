@@ -46,7 +46,7 @@ LAYOUT
 
 .loopSlidePc01 {
     display: flex;
-    height: 80px;
+    height: 108px;
     overflow: hidden;
 
     @include mi.mq(sp) {
@@ -69,6 +69,11 @@ LAYOUT
         min-width: 108px;
         height: auto;
         margin: auto 0 auto 101px;
+
+        @include mi.mq(sp) {
+            min-width: 58px;
+            margin: auto 0 auto 32px;
+        }
     }
 }
 

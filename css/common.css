@@ -3365,7 +3365,7 @@ LAYOUT
 
 .loopSlidePc01 {
   display: flex;
-  height: 80px;
+  height: 108px;
   overflow: hidden;
 }
 @media screen and (max-width: 767px) {
@@ -3387,6 +3387,11 @@ LAYOUT
   min-width: 108px;
   height: auto;
   margin: auto 0 auto 101px;
+}
+@media screen and (max-width: 767px) {
+  .ulSliderKyosanLxn li {
+    min-width: 58px;
+  }
 }
 
 @keyframes loop {
