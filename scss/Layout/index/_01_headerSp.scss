@@ -67,6 +67,7 @@ LAYOUT
   @include mi.paddingPercent(375, 0, 0, 92, 0);
 }
 
+
 .ulMainHeaderGnavSp {
   width: 87.83%;
   margin: auto;
@@ -74,7 +75,7 @@ LAYOUT
 
 .liMainHeaderGnavSp {
   &:nth-child(n + 2) {
-    margin: 11.15% 0% 0% 0%;
+    margin: 11.35% 0% 0% 0%;
   }
 }
 
