@@ -1,7 +1,7 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -21,7 +21,8 @@ LAYOUT
   }
 }
 
-.titleValue {}
+.titleValue {
+}
 
 .h2ValueLxn {
   @include mi.fontSizePc(26);
@@ -39,7 +40,7 @@ LAYOUT
   margin: 0 0 0 1.5%;
   @include mi.fontSizePc(20);
   @include mi.lineheightP(150);
-  letter-spacing: -0.115em;
+  letter-spacing: 0em;
 
   @include mi.mq(sp) {
     @include mi.marginPercent(355, 9, 0, 0, 0);
@@ -59,7 +60,8 @@ LAYOUT
   }
 }
 
-.swiper {}
+.swiper {
+}
 
 .swiper-wrapper {
   align-items: stretch;
@@ -77,12 +79,12 @@ LAYOUT
 .valueSliderBx {
   @include mi.paddingPercent(422, 18, 0, 25, 0);
   @include mi.kadomaru(6px);
-  aspect-ratio: 422/373;
+  aspect-ratio: 422/426;
   width: 100%;
 
   @include mi.mq(sp) {
     @include mi.paddingPercent(355, 14, 0, 20, 0);
-    aspect-ratio: 355/355;
+    aspect-ratio: 355/369;
   }
 }
 
@@ -98,7 +100,8 @@ LAYOUT
   }
 }
 
-.titleValueSlider {}
+.titleValueSlider {
+}
 
 .h4TitleValueSlider {
   @include mi.fontSizePc(26);
@@ -136,7 +139,6 @@ LAYOUT
     @include mi.marginPercent(320, 8, 0, 0, 0);
     @include mi.fontSizeSp(16);
     @include mi.lineheightP(160);
-    letter-spacing: -0.115em;
   }
 }
 
@@ -162,14 +164,14 @@ LAYOUT
     @include mi.marginPercent(320, 14, 0, 14, 0);
     @include mi.fontSizeSp(14);
     @include mi.lineheightP(160);
-    letter-spacing: -0.115em;
   }
 }
 
 .ulValueSlider {
   margin-top: auto;
 
-  @include mi.mq(sp) {}
+  @include mi.mq(sp) {
+  }
 }
 
 .liValueSlider {
@@ -245,7 +247,8 @@ LAYOUT
   }
 }
 
-.swiper-button-prev:hover {}
+.swiper-button-prev:hover {
+}
 
 .swiper-button-prev:hover {
   opacity: 1;
@@ -276,7 +279,8 @@ LAYOUT
   }
 }
 
-.swiper-button-next:hover {}
+.swiper-button-next:hover {
+}
 
 .swiper-button-next:hover {
   opacity: 1;

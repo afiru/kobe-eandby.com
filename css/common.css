@@ -891,9 +891,9 @@ LAYOUT
 }
 
 .navMainHeaderGnavSp {
-  width: 80.23%;
-  margin-top: 16%;
-  margin-bottom: 0%;
+  width: 300px;
+  margin-top: 18px;
+  margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 0px;
@@ -903,17 +903,43 @@ LAYOUT
 }
 @media screen and (max-width: 1249px) {
   .navMainHeaderGnavSp {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1249px) {
+  .navMainHeaderGnavSp {
+    margin-top: 4.8%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 1249px) {
+  .navMainHeaderGnavSp {
     padding: 0% 0% 24.53% 0%;
   }
 }
 
 .ulMainHeaderGnavSp {
-  width: 87.83%;
+  width: 264px;
   margin: auto;
+}
+@media screen and (max-width: 1249px) {
+  .ulMainHeaderGnavSp {
+    width: 88%;
+  }
 }
 
 .liMainHeaderGnavSp:nth-child(n+2) {
-  margin: 13% 0% 0% 0%;
+  margin-top: 17px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1249px) {
+  .liMainHeaderGnavSp:nth-child(n+2) {
+    margin: 6.43% 0% 0% 0%;
+  }
 }
 
 .btnMainHeaderGnavSp {
@@ -945,7 +971,15 @@ LAYOUT
 }
 
 .ctaMainHeaderGnavSp {
-  margin: 22.66% 0% 0% 0%;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 1249px) {
+  .ctaMainHeaderGnavSp {
+    margin: 8.33% 0% 0% 0%;
+  }
 }
 
 .liMainHeaderGnavSp02 {
@@ -3929,7 +3963,7 @@ LAYOUT
   margin: 0 0 0 1.5%;
   font-size: 20px;
   line-height: 150%;
-  letter-spacing: -0.115em;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .h3ValueLxn {
@@ -4009,7 +4043,7 @@ LAYOUT
   /* Safari,Google Chrome用 */
   -moz-border-radius: 6px;
   /* Firefox用 */
-  aspect-ratio: 422/373;
+  aspect-ratio: 422/426;
   width: 100%;
 }
 @media screen and (max-width: 1249px) {
@@ -4023,7 +4057,7 @@ LAYOUT
     padding-bottom: 20px;
     padding-left: 0px;
     padding-right: 0px;
-    aspect-ratio: 355/355;
+    aspect-ratio: 355/369;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1249px) {
@@ -4143,7 +4177,6 @@ LAYOUT
     margin-left: 0px;
     margin-right: 0px;
     line-height: 160%;
-    letter-spacing: -0.115em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1249px) {
@@ -4212,7 +4245,6 @@ LAYOUT
     margin-left: 0px;
     margin-right: 0px;
     line-height: 160%;
-    letter-spacing: -0.115em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1249px) {

@@ -51,20 +51,17 @@ LAYOUT
 }
 
 .navMainHeaderGnavSp {
-  width: 80.23%;
-  margin-top: 16%;
-  margin-bottom: 0%;
-  margin-left: auto;
-  margin-right: auto;
+  @include mi.ontenerWidth(375, 300);
+  @include mi.marginPercent(375, 18, auto, 0, auto);
   @include mi.paddingPercent(375, 0, 0, 92, 0);
 }
 .ulMainHeaderGnavSp {
-  width: 87.83%;
+  @include mi.ontenerWidth(300, 264);
   margin: auto;
 }
 .liMainHeaderGnavSp {
   &:nth-child(n + 2) {
-    margin: 13% 0% 0% 0%;
+    @include mi.marginPercent(264, 17, 0, 0, 0);
   }
 }
 .btnMainHeaderGnavSp {
@@ -78,7 +75,7 @@ LAYOUT
 }
 
 .ctaMainHeaderGnavSp {
-  margin: 22.66% 0% 0% 0%;
+  @include mi.marginPercent(300, 25, 0, 0, 0);
 }
 .liMainHeaderGnavSp02 {
   width: 100%;
