@@ -1,286 +1,303 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .kadai {
-    @include mi.paddingVw(1920, 236, 0, 236, 0);
+  @include mi.paddingVw(1920, 236, 0, 236, 0);
 
-    @include mi.mq(sp) {
-        padding: 27.73% 0% 29% 0%;
-    }
+  @include mi.mq(sp) {
+    padding: 27.73% 0% 29% 0%;
+  }
 }
 
 .kadaiLxn {
-    @include mi.mq(sp) {
-        @include mi.ontenerWidth(375, 330);
-    }
+  @include mi.mq(sp) {
+    @include mi.ontenerWidth(375, 330);
+  }
 }
 
 .secKadai {
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 
-    @include mi.mq(sp) {}
+  @include mi.mq(sp) {
+  }
 }
 
 .h2Kadai {
-    @include mi.fontSizePc(20);
+  @include mi.fontSizePc(20);
+  @include mi.lineheightP(150);
+  @include mi.letterSpacing(50);
+
+  @include mi.mq(sp) {
+    @include mi.fontSizeSp(15);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
-
-    @include mi.mq(sp) {
-        @include mi.fontSizeSp(15);
-        @include mi.lineheightP(150);
-        @include mi.letterSpacing(50);
-    }
+  }
 }
 
 .h3Kadai {
-    @include mi.marginPercent(1570, 24, 0, 0, 0);
-    @include mi.fontSizePc(40);
-    line-height: 1;
-    letter-spacing: -0.115em;
+  @include mi.marginPercent(1570, 24, 0, 0, 0);
+  @include mi.fontSizePc(40);
+  line-height: 1;
+  letter-spacing: -0.115em;
 
-    @include mi.mq(sp) {
-        @include mi.marginPercent(330, 14, auto, 0, auto);
-        @include mi.fontSizeSp(22);
-        @include mi.lineheightP(150);
-        letter-spacing: -0.14em;
-    }
+  @include mi.mq(sp) {
+    @include mi.marginPercent(330, 14, auto, 0, auto);
+    @include mi.fontSizeSp(22);
+    @include mi.lineheightP(150);
+    letter-spacing: -0.14em;
+  }
 }
 
 .h4Kadai {
-    @include mi.marginPercent(1570, 24, 0, 0, 0);
-    @include mi.fontSizePc(20);
-    @include mi.lineheightP(175);
-    letter-spacing: -0.115em;
+  @include mi.marginPercent(1570, 24, 0, 0, 0);
+  @include mi.fontSizePc(20);
+  @include mi.lineheightP(175);
+  letter-spacing: -0.115em;
 
-    @include mi.mq(sp) {
-        @include mi.marginPercent(330, 13, auto, 0, auto);
-        @include mi.fontSizeSp(22);
-        @include mi.lineheightP(150);
-        @include mi.letterSpacing(0);
-    }
+  @include mi.mq(sp) {
+    @include mi.marginPercent(330, 13, auto, 0, auto);
+    @include mi.fontSizeSp(22);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+  }
 }
 
 .ulKadai {
-    @include mi.marginPercent(1570, 90, auto, 0, auto);
+  @include mi.marginPercent(1570, 90, auto, 0, auto);
 
-    @include mi.mq(sp) {
-        @include mi.marginPercent(330, 13, auto, 0, auto);
-    }
+  @include mi.mq(sp) {
+    @include mi.marginPercent(330, 13, auto, 0, auto);
+  }
 }
 
 .liKadai {
-    @include mi.paddingPercent(1570, 37, 0, 35, 0);
-    width: 31.97%;
-    @include mi.kadomaru(6px);
-    background: #F6F6F6;
-    @include mi.marginPercent(330, 14, 0, 0, 0);
+  @include mi.paddingPercent(1570, 37, 0, 35, 0);
+  width: 31.97%;
+  @include mi.kadomaru(6px);
+  background: #f6f6f6;
+  @include mi.marginPercent(330, 14, 0, 0, 0);
+
+  @include mi.mq(sp) {
+    padding: 8.18% 0% 7.18% 0%;
+    width: 100%;
+  }
+
+  &:nth-child(n + 4) {
+    @include mi.marginPercent(1570, 26, 0, 0, 0);
 
     @include mi.mq(sp) {
-        padding: 8.18% 0% 7.18% 0%;
-        width: 100%;
+      @include mi.marginPercent(330, 14, 0, 0, 0);
     }
-
-    &:nth-child(n+4) {
-        @include mi.marginPercent(1570, 26, 0, 0, 0);
-
-        @include mi.mq(sp) {
-            @include mi.marginPercent(330, 14, 0, 0, 0);
-        }
-    }
+  }
 }
 
 .txtLiKadai {
-    @include mi.fontSizePc(24);
+  @include mi.fontSizePc(24);
+  @include mi.lineheightP(145);
+  @include mi.letterSpacing(50);
+  text-align: center;
+
+  @include mi.mq(max1550) {
+    @include mi.fontVw(1920, 24);
+  }
+
+  @include mi.mq(sp) {
+    @include mi.fontSizeSp(15);
     @include mi.lineheightP(145);
     @include mi.letterSpacing(50);
-    text-align: center;
-
-    @include mi.mq(max1550) {
-        @include mi.fontVw(1920, 24);
-    }
-
-    @include mi.mq(sp) {
-        @include mi.fontSizeSp(15);
-        @include mi.lineheightP(145);
-        @include mi.letterSpacing(50);
-    }
+  }
 }
 
 .h2KadaiCta {
-    @include mi.marginPercent(1570, 39, auto, 0, auto);
-    @include mi.fontSizePc(30);
-    @include mi.lineheightP(145);
-    @include mi.letterSpacing(0);
+  @include mi.marginPercent(1570, 39, auto, 0, auto);
+  @include mi.fontSizePc(30);
+  @include mi.lineheightP(145);
+  @include mi.letterSpacing(0);
 
-    @include mi.mq(sp) {
-        @include mi.marginPercent(330, 40, auto, 0, auto);
-        @include mi.fontSizeSp(17);
-        @include mi.lineheightP(160);
-        letter-spacing: -0.03em;
-    }
+  @include mi.mq(sp) {
+    @include mi.marginPercent(330, 40, auto, 0, auto);
+    @include mi.fontSizeSp(17);
+    @include mi.lineheightP(160);
+    letter-spacing: -0.03em;
+  }
 }
 
 .txtKadaiCta {
-    @include mi.marginPercent(1570, 14, auto, 0, auto);
-    @include mi.fontSizePc(16);
-    @include mi.lineheightP(180);
-    @include mi.letterSpacing(0);
+  @include mi.marginPercent(1570, 14, auto, 0, auto);
+  @include mi.fontSizePc(16);
+  @include mi.lineheightP(180);
+  @include mi.letterSpacing(0);
 
-    @include mi.mq(sp) {
-        @include mi.marginPercent(330, 16, auto, 0, auto);
-        @include mi.fontSizeSp(13);
-        @include mi.lineheightP(150);
-        @include mi.letterSpacing(0);
-    }
+  @include mi.mq(sp) {
+    @include mi.marginPercent(330, 16, auto, 0, auto);
+    @include mi.fontSizeSp(13);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+  }
 }
 
 .ctaKadaiCta {
-    @include mi.marginPercent(1570, 39, auto, 0, auto);
-    width: 746px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow: row wrap;
+  @include mi.marginPercent(1570, 39, auto, 0, auto);
+  width: 746px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
 
-    @include mi.mq(sp) {
-        @include mi.marginPercent(330, 24, auto, 0, auto);
-        @include mi.ontenerWidth(330, 300);
-    }
+  @include mi.mq(sp) {
+    @include mi.marginPercent(330, 24, auto, 0, auto);
+    @include mi.ontenerWidth(330, 300);
+  }
 }
 
 .liKadaiCta {
-    @include mi.ontenerWidth(746, 361);
+  @include mi.ontenerWidth(746, 361);
 
-    @include mi.mq(sp) {
-        width: 100%;
+  @include mi.mq(sp) {
+    width: 100%;
 
-        &:nth-child(n+2) {
-            @include mi.marginPercent(300, 16, 0, 0, 0);
-        }
+    &:nth-child(n + 2) {
+      @include mi.marginPercent(300, 16, 0, 0, 0);
     }
+  }
 }
 
 .btnKadaiCta {
-    width: 100%;
-    @include mi.kadomaru(60px);
-    aspect-ratio: 361 / 72;
-    @include mi.fontSizePc(20);
+  width: 100%;
+  @include mi.kadomaru(60px);
+  aspect-ratio: 361 / 72;
+  @include mi.fontSizePc(20);
 
-    @include mi.mq(sp) {
-        @include mi.kadomaru(60px);
-        aspect-ratio: 300 / 60;
-        @include mi.fontSizeSp(14);
-    }
+  @include mi.mq(sp) {
+    @include mi.kadomaru(60px);
+    aspect-ratio: 300 / 60;
+    @include mi.fontSizeSp(14);
+  }
 }
 
 .btnKadaiCta01 {
-    background-image: url(../img/txtFvTopCta01.svg);
-    background-repeat: no-repeat;
-    background-position: 95% center;
-    background-size: auto 14px;
-    width: 100%;
-    transition-duration: 0.5s;
-    background-color: #669B40;
+  background-image: url(../img/txtFvTopCta01.svg);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: auto 14px;
+  width: 100%;
+  transition-duration: 0.5s;
+  background-color: #669b40;
 }
 
 .btnKadaiCta02 {
-    background-image: url(../img/txtFvTopCta02.svg);
-    background-repeat: no-repeat;
-    background-position: 95% center;
-    background-size: auto 14px;
-    width: 100%;
-    transition-duration: 0.5s;
-    background-color: #E5E5E5;
+  background-image: url(../img/txtFvTopCta02.svg);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: auto 14px;
+  width: 100%;
+  transition-duration: 0.5s;
+  background-color: #e5e5e5;
 }
 
 .btnKadaiCta:hover {
-    opacity: 1;
+  opacity: 1;
 
-    &.btnKadaiCta01 {
-        background-image: url(../img/txtFvTopCta01.svg);
-        background-repeat: no-repeat;
-        background-position: 96% center;
-        background-size: auto 14px;
+  &.btnKadaiCta01 {
+    background-image: url(../img/txtFvTopCta01.svg);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    background-size: auto 14px;
+    @include mi.mq(sp) {
+      background-position: 95% center;
+      background-size: auto 14px;
     }
+  }
 
-    &.btnKadaiCta02 {
-        background-image: url(../img/txtFvTopCta02.svg);
-        background-repeat: no-repeat;
-        background-position: 96% center;
-        background-size: auto 14px;
+  &.btnKadaiCta02 {
+    background-image: url(../img/txtFvTopCta02.svg);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    background-size: auto 14px;
+    @include mi.mq(sp) {
+      background-position: 95% center;
+      background-size: auto 14px;
     }
+  }
 }
 
 .secKadaiCta {
-    width: 380px;
+  width: 380px;
 
-    @include mi.mq(max1000) {
-        width: 34vw;
-    }
+  @include mi.mq(max1000) {
+    width: 34vw;
+  }
 
-    @include mi.mq(sp) {
-        @include mi.ontenerWidth(330, 276);
-
-    }
+  @include mi.mq(sp) {
+    @include mi.ontenerWidth(330, 276);
+  }
 }
 
 .h2KadaiCtaBtn {
-    @include mi.fontSizePc(20);
-    transition-duration: 0.5s;
+  @include mi.fontSizePc(20);
+  transition-duration: 0.5s;
 
-    @include mi.mq(sp) {
-        @include mi.fontSizeSp(16);
-        line-height: 1.5;
-    }
+  @include mi.mq(sp) {
+    @include mi.fontSizeSp(16);
+    line-height: 1.5;
+  }
 }
 
 .rubyKadaiCta {
-    @include mi.marginPercent(276, 8, 0, 0, 0);
-    @include mi.fontSizePc(14);
-    @include mi.lineheightP(100);
-    @include mi.letterSpacing(0);
-    transition-duration: 0.5s;
+  @include mi.marginPercent(276, 8, 0, 0, 0);
+  @include mi.fontSizePc(14);
+  @include mi.lineheightP(100);
+  @include mi.letterSpacing(0);
+  transition-duration: 0.5s;
 
-    @include mi.mq(sp) {
-        margin: 0% 0% 0% 0%;
-        @include mi.fontSizeSp(13);
-        line-height: 1.5;
-        @include mi.letterSpacing(0);
-    }
+  @include mi.mq(sp) {
+    margin: 0% 0% 0% 0%;
+    @include mi.fontSizeSp(13);
+    line-height: 1.5;
+    @include mi.letterSpacing(0);
+  }
 }
 
 .txtKadaiCtaBtn {
-    @include mi.fontSizePc(20);
-    @include mi.lineheightP(130);
-    @include mi.letterSpacing(0);
-    transition-duration: 0.5s;
+  @include mi.fontSizePc(20);
+  @include mi.lineheightP(130);
+  @include mi.letterSpacing(0);
+  transition-duration: 0.5s;
 
-    @include mi.mq(sp) {
-        @include mi.fontSizeSp(16);
-        @include mi.lineheightP(150);
-        @include mi.letterSpacing(0);
-    }
+  @include mi.mq(sp) {
+    @include mi.fontSizeSp(16);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+  }
 }
 
 .btnKadaiCta:hover {
-    opacity: 1;
+  opacity: 1;
 
-    .h2KadaiCtaBtn {
-        letter-spacing: 0.15em;
+  .h2KadaiCtaBtn {
+    letter-spacing: 0.15em;
+    @include mi.mq(sp) {
+      letter-spacing: 0em;
     }
+  }
 
-    .txtKadaiCtaBtn {
-        letter-spacing: 0.15em;
+  .txtKadaiCtaBtn {
+    letter-spacing: 0.15em;
+    @include mi.mq(sp) {
+      letter-spacing: 0em;
     }
+  }
 
-    .rubyKadaiCta {
-        letter-spacing: 0.07em;
+  .rubyKadaiCta {
+    letter-spacing: 0.07em;
+    @include mi.mq(sp) {
+      letter-spacing: 0em;
     }
+  }
 }

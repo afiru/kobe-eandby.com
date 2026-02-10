@@ -1,278 +1,280 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .contact {
-    margin: 8.4375vw 0vw 0vw 0vw;
-    padding: 13.8583333333vw 0vw 10.88125vw 0vw;
-    background: url(../img/contactPc.png) no-repeat center center;
-    background-size: cover;
+  margin: 8.4375vw 0vw 0vw 0vw;
+  padding: 13.8583333333vw 0vw 10.88125vw 0vw;
+  background: url(../img/contactPc.png) no-repeat center center;
+  background-size: cover;
 
-    @include mi.mq(sp) {
-        margin-top: 35.03%;
-        margin-bottom: 0%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 29.4% 0% 13.6% 0%;
-    }
+  @include mi.mq(sp) {
+    margin-top: 35.03%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 29.4% 0% 13.6% 0%;
+    background: url(../img/contactSp.png) no-repeat center center;
+    background-size: 100% auto;
+  }
 }
 
 .contactLxn {
-    @include mi.mq(sp) {
-        @include mi.ontenerWidth(375, 330);
-        margin: auto;
-    }
+  @include mi.mq(sp) {
+    @include mi.ontenerWidth(375, 330);
+    margin: auto;
+  }
 }
 
-.contactFx {}
+.contactFx {
+}
 
 .secContact {
-    @include mi.ontenerWidth(1570, 880);
+  @include mi.ontenerWidth(1570, 880);
 
-    @include mi.mq(max1400) {
-        @include mi.ontenerWidth(1570, 800);
-    }
+  @include mi.mq(max1400) {
+    @include mi.ontenerWidth(1570, 800);
+  }
 
-    @include mi.mq(max1350) {}
+  @include mi.mq(max1350) {
+  }
 
-    @include mi.mq(tab) {
-        width: 67.13%;
-    }
+  @include mi.mq(tab) {
+    width: 67.13%;
+  }
 
-    @include mi.mq(sp) {
-        @include mi.ontenerWidth(330, 330);
-        margin: auto;
-    }
+  @include mi.mq(sp) {
+    @include mi.ontenerWidth(330, 330);
+    margin: auto;
+  }
 }
 
 .h2Contact {
-    @include mi.fontSizePc(24);
+  @include mi.fontSizePc(24);
+  @include mi.lineheightP(150);
+  @include mi.letterSpacing(100);
+
+  @include mi.mq(sp) {
+    @include mi.fontSizeSp(24);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(100);
-
-
-
-    @include mi.mq(sp) {
-        @include mi.fontSizeSp(24);
-        @include mi.lineheightP(150);
-        @include mi.letterSpacing(100);
-        margin: 0 0 0 1%;
-    }
+    margin: 0 0 0 1%;
+  }
 }
 
 .h3Contact {
-    @include mi.marginPercent(1100, -1, 0, 0, 0);
-    @include mi.fontSizePc(40);
-    @include mi.lineheight(auto, auto);
+  @include mi.marginPercent(1100, -1, 0, 0, 0);
+  @include mi.fontSizePc(40);
+  @include mi.lineheight(auto, auto);
+  @include mi.letterSpacing(-140);
+
+  @include mi.mq(max1450) {
+    @include mi.fontSizePc(36);
+    @include mi.lineheightP(150);
     @include mi.letterSpacing(-140);
+  }
 
-    @include mi.mq(max1450) {
-        @include mi.fontSizePc(36);
-        @include mi.lineheightP(150);
-        @include mi.letterSpacing(-140);
-    }
+  @include mi.mq(tab) {
+    font-size: 2.6823058447vw;
+  }
 
-    @include mi.mq(tab) {
-        font-size: 2.6823058447vw;
-    }
-
-    @include mi.mq(sp) {
-        margin: 6.27% 0% 0% 1%;
-        @include mi.fontSizeSp(22);
-        @include mi.lineheightP(150);
-        @include mi.letterSpacing(-140);
-    }
+  @include mi.mq(sp) {
+    margin: 6.27% 0% 0% 1%;
+    @include mi.fontSizeSp(22);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(-140);
+  }
 }
 
 .rubyContact {
-    @include mi.marginPercent(1100, 28, 0, 0, 0);
-    @include mi.fontSizePc(24);
-    @include mi.lineheight(auto, auto);
-    @include mi.letterSpacing(-0);
+  @include mi.marginPercent(1100, 28, 0, 0, 0);
+  @include mi.fontSizePc(24);
+  @include mi.lineheight(auto, auto);
+  @include mi.letterSpacing(-0);
 
-    @include mi.mq(sp) {
-        margin: 4.09% 0% 0% 1%;
-        @include mi.fontSizeSp(14);
-        @include mi.lineheightP(150);
-        @include mi.letterSpacing(0);
-    }
+  @include mi.mq(sp) {
+    margin: 4.09% 0% 0% 1%;
+    @include mi.fontSizeSp(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+  }
 }
 
 .h4Contact {
-    @include mi.marginPercent(1100, 159, 0, 0, 0);
-    @include mi.fontSizePc(18);
-    @include mi.lineheight(auto, auto);
-    @include mi.letterSpacing(-0);
+  @include mi.marginPercent(1100, 159, 0, 0, 0);
+  @include mi.fontSizePc(18);
+  @include mi.lineheight(auto, auto);
+  @include mi.letterSpacing(-0);
 
-    @include mi.mq(sp) {
-        margin: 24.24% 0% 0% 1%;
-        @include mi.fontSizeSp(14);
-        @include mi.lineheightP(150);
-        @include mi.letterSpacing(0);
-    }
+  @include mi.mq(sp) {
+    margin: 24.24% 0% 0% 1%;
+    @include mi.fontSizeSp(14);
+    @include mi.lineheightP(150);
+    @include mi.letterSpacing(0);
+  }
 }
 
 .txtContact {
-    @include mi.marginPercent(1100, 30, 0, 0, 0);
+  @include mi.marginPercent(1100, 30, 0, 0, 0);
 
-    @include mi.mq(sp) {
-        margin: 3.15% 0% 0% 1%;
-    }
+  @include mi.mq(sp) {
+    margin: 3.15% 0% 0% 1%;
+  }
 }
 
 .liTxtContact {
-    @include mi.fontSizePc(16);
-    @include mi.lineheight(16, 16);
+  @include mi.fontSizePc(16);
+  @include mi.lineheight(16, 16);
+  @include mi.letterSpacing(-0);
+
+  @include mi.mq(sp) {
+    @include mi.fontSizeSp(14);
+    @include mi.lineheightP(150);
     @include mi.letterSpacing(-0);
+  }
+
+  &:nth-child(n + 2) {
+    @include mi.marginPercent(1100, 22, 0, 0, 0);
 
     @include mi.mq(sp) {
-        @include mi.fontSizeSp(14);
-        @include mi.lineheightP(150);
-        @include mi.letterSpacing(-0);
+      margin: 2.85% 0% 0% 0%;
     }
-
-    &:nth-child(n+2) {
-        @include mi.marginPercent(1100, 22, 0, 0, 0);
-
-        @include mi.mq(sp) {
-            margin: 2.85% 0% 0% 0%;
-        }
-    }
+  }
 }
 
 //
 .ctaContactCta {
-    @include mi.ontenerWidth(1100, 361);
-    margin: 3% 0 0 0;
+  @include mi.ontenerWidth(1100, 361);
+  margin: 3% 0 0 0;
 
-    @include mi.mq(max1400) {
-        @include mi.ontenerWidth(1570, 420);
-    }
+  @include mi.mq(max1400) {
+    @include mi.ontenerWidth(1570, 420);
+  }
 
-    @include mi.mq(max1350) {
-        @include mi.ontenerWidth(1570, 310);
-    }
+  @include mi.mq(max1350) {
+    @include mi.ontenerWidth(1570, 310);
+  }
 
-    @include mi.mq(tab) {
-        width: 31.01%;
-    }
+  @include mi.mq(tab) {
+    width: 31.01%;
+  }
 
-    @include mi.mq(sp) {
-        margin-top: 9.21%;
-        margin-bottom: 0%;
-        margin-left: auto;
-        margin-right: auto;
-        @include mi.ontenerWidth(330, 300);
-    }
+  @include mi.mq(sp) {
+    margin-top: 9.21%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    @include mi.ontenerWidth(330, 300);
+  }
 }
 
 .liContactCta {
-    &:nth-child(n+2) {
-        @include mi.marginPercent(361, 28, 0, 0, 0);
+  &:nth-child(n + 2) {
+    @include mi.marginPercent(361, 28, 0, 0, 0);
 
-        @include mi.mq(sp) {
-            margin: 5.84% 0% 0% 0%;
-        }
+    @include mi.mq(sp) {
+      margin: 5.84% 0% 0% 0%;
     }
+  }
 }
 
 .btnContactCta {
-    aspect-ratio: 361 /72;
-    @include mi.kadomaru(60px);
+  aspect-ratio: 361 /72;
+  @include mi.kadomaru(60px);
 
-    @include mi.mq(sp) {
-        aspect-ratio: 300 /60;
-    }
+  @include mi.mq(sp) {
+    aspect-ratio: 300 /60;
+  }
 }
 
 .secContactCta {
-    @include mi.ontenerWidth(361, 341);
-    background: url(../img/btnContactCta.svg) no-repeat ;
-    background-position: 94% center;
-    background-size: auto 34%;
-    transition-duration: 0.5s;
-    @include mi.mq(sp) {
-        background: url(../img/btnContactCta.svg) no-repeat 100% center;
-        background-size: auto 33%;
-        @include mi.ontenerWidth(300, 266);
-    }
+  @include mi.ontenerWidth(361, 341);
+  background: url(../img/btnContactCta.svg) no-repeat;
+  background-position: 94% center;
+  background-size: auto 34%;
+  transition-duration: 0.5s;
+  @include mi.mq(sp) {
+    background: url(../img/btnContactCta.svg) no-repeat 100% center;
+    background-size: auto 33%;
+    @include mi.ontenerWidth(300, 266);
+  }
 }
 
 .h2ContactCta {
-    @include mi.fontSizePc(20);
-    @include mi.lineheightP(130);
-    @include mi.letterSpacing(0);
-    transition-duration: 0.5s;
+  @include mi.fontSizePc(20);
+  @include mi.lineheightP(130);
+  @include mi.letterSpacing(0);
+  transition-duration: 0.5s;
 
-    @include mi.mq(sp) {
-        @include mi.fontSizeSp(16);
-        @include mi.lineheight(auto, auto);
-        @include mi.letterSpacing(0);
-        transform: translate(-2%, 16%);
-    }
+  @include mi.mq(sp) {
+    @include mi.fontSizeSp(16);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(0);
+    transform: translate(-2%, 16%);
+  }
 }
 
 .rubyContactCta {
-    @include mi.marginPercent(341, 1, 0, 0, 0);
-    @include mi.fontSizePc(14);
+  @include mi.marginPercent(341, 1, 0, 0, 0);
+  @include mi.fontSizePc(14);
+  @include mi.lineheightP(150);
+  @include mi.letterSpacing(0);
+  transition-duration: 0.5s;
+
+  @include mi.mq(sp) {
+    @include mi.marginPercent(266, 3, 0, 0, 0);
+    @include mi.fontSizeSp(12);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
-    transition-duration: 0.5s;
-
-    @include mi.mq(sp) {
-        @include mi.marginPercent(266, 3, 0, 0, 0);
-        @include mi.fontSizeSp(12);
-        @include mi.lineheightP(150);
-        @include mi.letterSpacing(0);
-    }
+  }
 }
 
 .txtContactCta {
-    @include mi.ontenerWidth(361, 341);
-    background: url(../img/btnContactCta02.svg) no-repeat ;
-    background-position: 94% center;
-    background-size: auto 63%;
-    @include mi.fontSizePc(20);
-    @include mi.lineheightP(130);
-    @include mi.letterSpacing(0);
-    transition-duration: 0.5s;
+  @include mi.ontenerWidth(361, 341);
+  background: url(../img/btnContactCta02.svg) no-repeat;
+  background-position: 94% center;
+  background-size: auto 63%;
+  @include mi.fontSizePc(20);
+  @include mi.lineheightP(130);
+  @include mi.letterSpacing(0);
+  transition-duration: 0.5s;
 
-    @include mi.mq(sp) {
-        margin: 0% 0% 0% -3%;
-        background: url(../img/btnContactCta02.svg) no-repeat 99% center;
-        background-size: auto 60%;
-        @include mi.fontSizeSp(16);
-        @include mi.lineheight(auto, auto);
-        @include mi.letterSpacing(0);
-    }
+  @include mi.mq(sp) {
+    margin: 0% 0% 0% -3%;
+    background: url(../img/btnContactCta02.svg) no-repeat 99% center;
+    background-size: auto 60%;
+    @include mi.fontSizeSp(16);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(0);
+  }
 }
 
 .btnContactCta:hover {
-    opacity: 1;
+  opacity: 1;
 
-    .h2ContactCta {
-        @include mi.letterSpacing(50);
-    }
+  .h2ContactCta {
+    @include mi.letterSpacing(50);
+  }
 
-    .rubyContactCta {
-        @include mi.letterSpacing(50);
-    }
+  .rubyContactCta {
+    @include mi.letterSpacing(50);
+  }
 
-    .secContactCta{
-        background-position: 95% center;
-        @include mi.mq(sp) {
-            background-position: 100% center;
-        }
+  .secContactCta {
+    background-position: 95% center;
+    @include mi.mq(sp) {
+      background-position: 100% center;
     }
-     .txtContactCta {
-        @include mi.letterSpacing(50);
-        background-position: 95% center;
-        @include mi.mq(sp) {
-            background-position: 99% center;
-        }
+  }
+  .txtContactCta {
+    @include mi.letterSpacing(50);
+    background-position: 95% center;
+    @include mi.mq(sp) {
+      background-position: 99% center;
     }
+  }
 }
