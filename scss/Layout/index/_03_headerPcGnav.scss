@@ -1,231 +1,226 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.headerGnavPc{
-    width: 50px;
-    right: 0.8%;
-    top: 53.1vh;
-    margin: auto;
-    z-index: 0;
-    position: fixed;
-    z-index: 100;
-    @include mi.mq(sp) {
-        display: none;
-    }
-    &.off{
-
-    }
-    &.on{
-
-    }
+.headerGnavPc {
+  width: 50px;
+  right: 0.8%;
+  top: 53.1vh;
+  margin: auto;
+  z-index: 0;
+  position: fixed;
+  z-index: 100;
+  @include mi.mq(sp) {
+    display: none;
+  }
+  &.off {
+  }
+  &.on {
+  }
 }
-.btnHeaderGnavPcOff{
-    cursor: pointer;
-    transition-duration: 0.5s;
+.btnHeaderGnavPcOff {
+  cursor: pointer;
+  transition-duration: 0.5s;
 }
-.headerGnavPc.off{
-    .btnHeaderGnavPcOff{
-        display: block;
-    }
-     .btnHeaderGnavPcOn{
-        display: none;
-    }
+.headerGnavPc.off {
+  .btnHeaderGnavPcOff {
+    display: block;
+  }
+  .btnHeaderGnavPcOn {
+    display: none;
+  }
 }
-.btnHeaderGnavPcfill{
-    fill:#1D1D1F;
-    transition-duration: 0.5s;
+.btnHeaderGnavPcfill {
+  fill: #1d1d1f;
+  transition-duration: 0.5s;
 }
-.btnHeaderGnavPcStroke{
-    stroke: #1D1D1F;
-    transition-duration: 0.5s;
+.btnHeaderGnavPcStroke {
+  stroke: #1d1d1f;
+  transition-duration: 0.5s;
 }
 
-.btnHeaderGnavPcOff:hover{
-    .btnHeaderGnavPcfill{
-        fill:#669B40;
-    }
-.btnHeaderGnavPcStroke{
-    stroke: #669B40;
-    }
+.btnHeaderGnavPcOff:hover {
+  .btnHeaderGnavPcfill {
+    fill: #669b40;
+  }
+  .btnHeaderGnavPcStroke {
+    stroke: #669b40;
+  }
 }
 
-.btnHeaderGnavPcOn{
-    cursor: pointer;
+.btnHeaderGnavPcOn {
+  cursor: pointer;
 }
-.btnHeaderGnavPcOn{
-.btnHeaderGnavPcfill{
-    fill:#669B40;
-    }
-    .btnHeaderGnavPcStroke{
-    stroke: #669B40;
-    }
+.btnHeaderGnavPcOn {
+  .btnHeaderGnavPcfill {
+    fill: #669b40;
+  }
+  .btnHeaderGnavPcStroke {
+    stroke: #669b40;
+  }
 }
-.headerGnavPc.off{
-    .btnHeaderGnavPcOff{
-        display: block;
-    }
-     .btnHeaderGnavPcOn{
-        display: none;
-    }
+.headerGnavPc.off {
+  .btnHeaderGnavPcOff {
+    display: block;
+  }
+  .btnHeaderGnavPcOn {
+    display: none;
+  }
 }
-.headerGnavPc.on{
-    .btnHeaderGnavPcOff{
-        display: none;
-    }
-     .btnHeaderGnavPcOn{
-        display: block;
-    }
+.headerGnavPc.on {
+  .btnHeaderGnavPcOff {
+    display: none;
+  }
+  .btnHeaderGnavPcOn {
+    display: block;
+  }
 }
 
-.headerPcGnav{
-    position: fixed;
-    z-index: 99;
-    top: 0;
+.headerPcGnav {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  width: 100%;
+  right: -100%;
+  height: 100vh;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.headerPcGnavLxn {
+  padding: 6.4vw 0vw 10.4166666667vw 0vw;
+  width: 88.421579%;
+  @include mi.mq(max1100) {
+    width: calc(100% - 100px);
+    margin: 0 70px 0 auto;
+  }
+}
+.logoHeaderPcGnavLxn {
+  @include mi.ontenerWidth(1637, 200);
+}
+.navHeaderPcGnav {
+  @include mi.marginPercent(1637, 57, 48, 0, auto);
+  width: 939px;
+  @include mi.mq(max1200) {
+    @include mi.marginPercent(1637, 47, 81, 0, auto);
     width: 100%;
-    right: -100%;
-    height: 100vh;
-    overflow: scroll;
-     -ms-overflow-style: none;
-    scrollbar-width: none;
-    &::-webkit-scrollbar {
-        display: none;
-    }
+  }
 }
-.headerPcGnavLxn{
-    padding: 6.4vw 0vw 10.4166666667vw 0vw;
-    width: 88.421579%;
-    @include mi.mq(max1100) {
-        width: calc(100% - 100px);
-        margin: 0 70px 0 auto;
-    }
+.ulNavHeaderPcGnav {
+  @include mi.ontenerWidth(939, 384);
 }
-.logoHeaderPcGnavLxn{
-@include mi.ontenerWidth( 1637,  200);
+.liNavHeaderPcGnav {
+  &:nth-child(n + 2) {
+    @include mi.marginPercent(939, 70, 0, 0, 0);
+  }
 }
-.navHeaderPcGnav{
-    @include mi.marginPercent(1637, 57,48 ,0 ,auto );
-    width: 939px;
-    @include mi.mq(max1200) {
-        @include mi.marginPercent(1637, 47,81 ,0 ,auto );
-        width: 100%;
-    }
+.btnLiNavHeaderPcGnav {
+  text-decoration: none;
+  &:hover {
+    opacity: 0.5;
+  }
 }
-.ulNavHeaderPcGnav{
-@include mi.ontenerWidth(939 , 384 );
+.txtBtnLiNavHeaderPcGnav {
+  @include mi.ontenerWidth(384, 349);
+  @include mi.fontSizePc(30);
+  @include mi.lineheight(auto, auto);
+  @include mi.letterSpacing(50);
 }
-.liNavHeaderPcGnav{
-
-    &:nth-child(n+2){
-    @include mi.marginPercent(939, 70,0 ,0 ,0 );
-    }
-}
-.btnLiNavHeaderPcGnav{
-text-decoration: none;
-    &:hover{
-        opacity:0.5 ;
-    }
-}
-.txtBtnLiNavHeaderPcGnav{
-    @include mi.ontenerWidth(384 , 349 );
-    @include mi.fontSizePc(30);
-    @include mi.lineheight(auto,auto);
-    @include mi.letterSpacing(50);
-}
-.iconBtnLiNavHeaderPcGnav{
-    border: 1px solid #FFF;
-    @include mi.kadomaru(100%);
-    @include mi.ontenerWidth(384 , 35 );
-    aspect-ratio: 1/1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img{
-        transition-duration: 0.5s;
-    }
-}
-
-.catHeaderPcGnavFx{
-    @include mi.marginPercent(1637, 106,auto,0 ,auto );
-    width: 100%;
-    flex-flow: row wrap;
-}
-
-.secCatHeaderPcGnavFx{
-   width: calc(100% - 800px);
-   max-width: 574px;
-   margin: 0.6% 0 0 0;
-    @include mi.mq(max1200) {
-        width: 100%;
-        max-width: unset;
-    }
-}
-.txtCatHeaderPcGnavFx{
-    @include mi.fontSizePc(18);
-    line-height: 1.65;
-    @include mi.letterSpacing(0);
-}
-
-.ctaMainHeaderGnavPc{
-    width: 747px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 3% 0 0;
-    @include mi.mq(max1200) {
-        margin: 10% auto 0 auto;
-    }
-}
-.liMainHeaderGnavPc{
-    @include mi.ontenerWidth( 760, 360 );
-     @include mi.mq(max1200) {
-         @include mi.ontenerWidth( 750, 360 );
-     }
-}
-.btnMainHeaderGnavPc{
-    aspect-ratio: 360/72;
-    @include mi.fontSizePc(20);
-    @include mi.lineheight(20,20);
-    @include mi.letterSpacing(0);
-    @include mi.kadomaru(60px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFF;
-    background-image: url(../img/txtFvTopCta02.svg) ;
-    background-repeat: no-repeat;
-    background-position: 93% center;
-    background-size: auto 14px;
-    width: 100%;
+.iconBtnLiNavHeaderPcGnav {
+  border: 1px solid #fff;
+  @include mi.kadomaru(100%);
+  @include mi.ontenerWidth(384, 35);
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
     transition-duration: 0.5s;
-     @include mi.mq(sp) {
-            background-position: 95% 41%;
-        }
-}
-.btnMainHeaderGnavPc:hover{
-    background-image: url(../img/txtFvTopCta02.svg) ;
-    background-repeat: no-repeat;
-    background-position: 94% center;
-     background-size: auto 14px;
-    letter-spacing: 0.15em;
-    opacity: 1;
-    @include mi.mq(sp) {
-        background-position: 95% 41%;
-    }
-}
-.rubyMainHeaderGnavPc{
-    @include mi.marginPercent(360, 10,auto ,0 ,auto );
-    @include mi.fontSizePc(14);
-    @include mi.lineheight(14,14);
-    @include mi.letterSpacing(0);
-    transition-duration: 0.5s;
-}
-.btnMainHeaderGnavPc:hover .rubyMainHeaderGnavPc{
-    letter-spacing: 0.07em;
+  }
 }
 
+.catHeaderPcGnavFx {
+  @include mi.marginPercent(1637, 106, auto, 0, auto);
+  width: 100%;
+  flex-flow: row wrap;
+}
 
+.secCatHeaderPcGnavFx {
+  width: calc(100% - 800px);
+  max-width: 574px;
+  margin: 0.6% 0 0 0;
+  @include mi.mq(max1200) {
+    width: 100%;
+    max-width: unset;
+  }
+}
+.txtCatHeaderPcGnavFx {
+  @include mi.fontSizePc(18);
+  line-height: 1.65;
+  @include mi.letterSpacing(0);
+}
+
+.ctaMainHeaderGnavPc {
+  width: 747px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 3% 0 0;
+  @include mi.mq(max1200) {
+    margin: 10% auto 0 auto;
+  }
+}
+.liMainHeaderGnavPc {
+  @include mi.ontenerWidth(760, 360);
+  @include mi.mq(max1200) {
+    @include mi.ontenerWidth(750, 360);
+  }
+}
+.btnMainHeaderGnavPc {
+  aspect-ratio: 360/72;
+  @include mi.fontSizePc(20);
+  @include mi.lineheight(20, 20);
+  @include mi.letterSpacing(0);
+  @include mi.kadomaru(60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url(../img/txtFvTopCta02.svg);
+  background-repeat: no-repeat;
+  background-position: 93% center;
+  background-size: auto 14px;
+  width: 100%;
+  transition-duration: 0.5s;
+  @include mi.mq(sp) {
+    background-position: 95% 41%;
+  }
+}
+.btnMainHeaderGnavPc:hover {
+  background-image: url(../img/txtFvTopCta02.svg);
+  background-repeat: no-repeat;
+  background-position: 94% center;
+  background-size: auto 14px;
+  letter-spacing: 0.15em;
+  opacity: 1;
+  @include mi.mq(sp) {
+    background-position: 95% 41%;
+  }
+}
+.rubyMainHeaderGnavPc {
+  @include mi.marginPercent(360, 10, auto, 0, auto);
+  @include mi.fontSizePc(14);
+  @include mi.lineheight(14, 14);
+  @include mi.letterSpacing(0);
+  transition-duration: 0.5s;
+}
+.btnMainHeaderGnavPc:hover .rubyMainHeaderGnavPc {
+  letter-spacing: 0.07em;
+}

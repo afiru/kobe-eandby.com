@@ -117,7 +117,7 @@
                 </li>
 
                 <li class="liMainHeaderGnavPc">
-                    <a class="bg_fff undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnMainHeaderGnavPc" href="mailto:okamoto@eandby.com">
+                    <a class=" undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnMainHeaderGnavPc" href="mailto:okamoto@eandby.com">
                         <p class="t_center cl_1D1D1F fw_500 txtset txtMainHeaderGnavPc">お困りごとをメールで送る</p>
                     </a>
                 </li>

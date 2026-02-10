@@ -1041,20 +1041,20 @@ LAYOUT
 }
 
 .btnHeaderGnavPcfill {
-  fill: #1D1D1F;
+  fill: #1d1d1f;
   transition-duration: 0.5s;
 }
 
 .btnHeaderGnavPcStroke {
-  stroke: #1D1D1F;
+  stroke: #1d1d1f;
   transition-duration: 0.5s;
 }
 
 .btnHeaderGnavPcOff:hover .btnHeaderGnavPcfill {
-  fill: #669B40;
+  fill: #669b40;
 }
 .btnHeaderGnavPcOff:hover .btnHeaderGnavPcStroke {
-  stroke: #669B40;
+  stroke: #669b40;
 }
 
 .btnHeaderGnavPcOn {
@@ -1062,10 +1062,10 @@ LAYOUT
 }
 
 .btnHeaderGnavPcOn .btnHeaderGnavPcfill {
-  fill: #669B40;
+  fill: #669b40;
 }
 .btnHeaderGnavPcOn .btnHeaderGnavPcStroke {
-  stroke: #669B40;
+  stroke: #669b40;
 }
 
 .headerGnavPc.off .btnHeaderGnavPcOff {
@@ -1196,7 +1196,7 @@ LAYOUT
 }
 
 .iconBtnLiNavHeaderPcGnav {
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   border-radius: 100%;
   /* CSS3草案 */
   -webkit-border-radius: 100%;
@@ -1304,7 +1304,7 @@ LAYOUT
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFF;
+  background-color: #fff;
   background-image: url(../img/txtFvTopCta02.svg);
   background-repeat: no-repeat;
   background-position: 93% center;
