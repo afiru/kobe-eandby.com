@@ -62,7 +62,7 @@ LAYOUT
 
   @include mi.mq(sp) {
     @include mi.marginPercent(330, 13, auto, 0, auto);
-    @include mi.fontSizeSp(22);
+    @include mi.fontSizeSp(13);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(0);
   }

@@ -1,6 +1,8 @@
 jQuery(function ($) {
     let pos = 0;
-    let isIgnoreScrollHide = false; // クリック直後のスクロール制御フラグ
+    let isIgnoreScrollHide = false;
+    let isSpMenuOpen = false;
+    let isPcFixedBtnHidden = false;
 
     let header = $('.baseHeader');
     let jsheaderGnav = $('.headerPcGnav');
@@ -8,113 +10,130 @@ jQuery(function ($) {
     let menuBtnSp = $('.jsBtnHeaderOpenSp');
     let menuCloseBtnSp = $('.jsBtnHeaderCloseSp');
     let headerSpGnav = $('.headerSpGnav');
+    let pcFixedBtn = $('.pcFixedBtn');
+    let kadaiTop = $('.kadai').offset().top;
 
+    /* =========================
+       PC メニュー
+    ========================= */
     menuBtn.on('click', function () {
         if ($(this).hasClass('off')) {
             $(this).removeClass('off').addClass('on');
-            jsheaderGnav.animate({
-                right: '0%'
-            }, 500);
+            jsheaderGnav.stop(true, true).animate({ right: '0%' }, 500);
         } else {
             $(this).removeClass('on').addClass('off');
-            jsheaderGnav.animate({
-                right: '-100%'
-            }, 500);
+            jsheaderGnav.stop(true, true).animate({ right: '-100%' }, 500);
         }
     });
 
-    menuBtnSp.on('click', function () {
-        header.addClass('on'); // メニュー開いたら必ず on
-        headerSpGnav.animate({
-            'right': '0%'
-        }, 500);
+    $('.headerPcGnav a').on('click', function () {
+        menuBtn.removeClass('on').addClass('off');
+        jsheaderGnav.stop(true, true).animate({ right: '-100%' }, 500);
     });
 
+    /* =========================
+       SP メニュー OPEN
+    ========================= */
     menuBtnSp.on('click', function () {
-        headerSpGnav.animate({
-            right: '0%'
-        }, 500);
+        isSpMenuOpen = true;
+        header.addClass('on').removeClass('hide');
+        headerSpGnav.stop(true, true).animate({ right: '0%' }, 500);
     });
 
+    /* =========================
+       SP メニュー CLOSE
+    ========================= */
     menuCloseBtnSp.on('click', function () {
-        headerSpGnav.animate({
-            right: '-100%'
-        }, 500);
+        isSpMenuOpen = false;
+        headerSpGnav.stop(true, true).animate({ right: '-100%' }, 500);
     });
 
+    /* =========================
+       SP メニュー内リンク
+    ========================= */
     $('.headerSpGnav a').on('click', function () {
         isIgnoreScrollHide = true;
+        isSpMenuOpen = false;
 
-        menuBtnSp.removeClass('on').addClass('off');
-        headerSpGnav.animate({
-            right: '-100%'
-        }, 500);
+        headerSpGnav.stop(true, true).animate({ right: '-100%' }, 500);
+        header.addClass('on').removeClass('hide');
 
-        header.addClass('on');
-        header.removeClass('hide');
-
-        setTimeout(function () {
+        setTimeout(() => {
             isIgnoreScrollHide = false;
         }, 300);
     });
 
+    /* =========================
+       スクロール制御（統合）
+    ========================= */
     $(window).on('scroll', function () {
         let scrollTop = $(this).scrollTop();
 
-        // 高さによる表示制御
-        if (scrollTop >= 150) {
-            header.addClass('on');
-        } else {
-            header.removeClass('on');
-        }
+        /* ---------- header ---------- */
+        if (!isSpMenuOpen) {
 
-        // 上下スクロールによる hide/show
-        if (!isIgnoreScrollHide) {
-            if (scrollTop < pos) {
-                header.removeClass('hide');
-            } else if (pos <= 0) {
-                header.fadeIn();
+            if (scrollTop >= 150) {
+                header.addClass('on');
             } else {
-                header.addClass('hide');
+                header.removeClass('on');
+            }
+
+            if (!isIgnoreScrollHide) {
+                if (scrollTop < pos) {
+                    header.removeClass('hide');
+                } else if (pos <= 0) {
+                    header.fadeIn();
+                } else {
+                    header.addClass('hide');
+                }
             }
         }
 
         pos = scrollTop;
+
+        /* ---------- PC 固定CTA（ふわっと） ---------- */
+        if (window.innerWidth < 768) {
+            pcFixedBtn.removeClass('is-show');
+            return;
+        }
+
+        if (isPcFixedBtnHidden) return;
+
+        if (scrollTop >= kadaiTop) {
+            pcFixedBtn.addClass('is-show');
+        } else {
+            pcFixedBtn.removeClass('is-show');
+        }
     });
 
-    //スムーススクロール
+    /* =========================
+       スムーススクロール
+    ========================= */
     $(window).on('load', function () {
+
         let urlHash = location.hash;
+
         if (urlHash) {
-            $('body,html').stop().scrollTop(0);
-            var target = $(urlHash);
-            var position = target.offset().top;
-            $('body,html').stop().animate({
-                scrollTop: position
+            $('body,html').scrollTop(0);
+            let target = $(urlHash);
+            $('body,html').animate({
+                scrollTop: target.offset().top
             }, 500);
         }
-        $('a[href^="#"]').click(function () {
-            var href = $(this).attr("href");
-            var target = $(href);
-            var position = target.offset().top;
-            $('body,html').stop().animate({
-                scrollTop: position
+
+        $('a[href^="#"]').on('click', function () {
+            let target = $($(this).attr('href'));
+            $('body,html').animate({
+                scrollTop: target.offset().top
             }, 500);
         });
     });
 
-    //追従スクロールしたら表示
-    $(window).on('scroll', function () {
-        // PC判定（例：768px以上）
-        if (window.innerWidth >= 768) {
-            if ($(this).scrollTop() >= $('.kadai').offset().top) {
-                $('.pcFixedBtn').fadeIn(500);
-            } else {
-                $('.pcFixedBtn').fadeOut(500);
-            }
-        } else {
-            // SPでは常に非表示にしたい場合
-            $('.pcFixedBtn').hide();
-        }
+    /* =========================
+       PC 固定CTA クリック
+    ========================= */
+    $('.btnCtaPcFixedBtnFxc').on('click', function () {
+        isPcFixedBtnHidden = true;
+        pcFixedBtn.removeClass('is-show');
     });
 });

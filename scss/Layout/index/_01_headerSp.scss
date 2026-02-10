@@ -1,97 +1,111 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.headerSp{
-    @include mi.ontenerWidth(375 , 350 );
-   padding: 2.5% 0% 2.4% 0%;
-    @include mi.marginPercent(375, 0,9 ,0 ,16 );
+.headerSp {
+  @include mi.ontenerWidth(375, 350);
+  padding: 2.5% 0% 2.4% 0%;
+  @include mi.marginPercent(375, 0, 9, 0, 16);
 }
-.logoHeaderSp{
-    @include mi.ontenerWidth( 350, 72 );
-    transform: translateY(8%);
-}
-.btnHeaderSp{
-    @include mi.ontenerWidth( 350, 46 );
-}
-.headerSpGnav{
-    @include mi.paddingPercent(375, 9, 0, 92, 0);
-    right: -100%;
-    top:0;
-    position: fixed;
-    z-index: 99;
-    overflow: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    height: 100vh;
+.logoHeaderSp {
+  @include mi.ontenerWidth(350, 72);
+  transform: translateY(8%);
+  img {
     width: 100%;
+    height: auto;
+  }
 }
-.headerSpGnavTop{
-    @include mi.paddingPercent(375, 0, 0, 9, 0);
-    margin: 0% auto 0% 5.06%;
-    width: 92.66%;
+.btnHeaderSp {
+  @include mi.ontenerWidth(350, 46);
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
-.logoHeaderSp{
-    @include mi.ontenerWidth( 340, 82 );
+.headerSpGnav {
+  @include mi.paddingPercent(375, 9, 0, 0, 0);
+  right: -100%;
+  top: 0;
+  position: fixed;
+  z-index: 99;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: 100svh;
+  width: 100%;
 }
-.btnHeaderSp{
-    @include mi.ontenerWidth( 340, 46 );
+.headerSpGnavTop {
+  @include mi.paddingPercent(375, 0, 0, 9, 0);
+  margin: 0% auto 0% 5.06%;
+  width: 92.66%;
+}
+.logoHeaderSp {
+  @include mi.ontenerWidth(340, 82);
+}
+.btnHeaderSp {
+  @include mi.ontenerWidth(340, 46);
 }
 
-.navMainHeaderGnavSp{
-   width: 80.23%;
-    margin-top: 16%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
+.navMainHeaderGnavSp {
+  width: 80.23%;
+  margin-top: 16%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  @include mi.paddingPercent(375, 0, 0, 92, 0);
 }
-.ulMainHeaderGnavSp{
-    width: 87.83%;
-    margin: auto;
+.ulMainHeaderGnavSp {
+  width: 87.83%;
+  margin: auto;
 }
-.liMainHeaderGnavSp{
-    &:nth-child(n+2){
-        margin: 13% 0% 0% 0%;
-    }
+.liMainHeaderGnavSp {
+  &:nth-child(n + 2) {
+    margin: 13% 0% 0% 0%;
+  }
 }
-.btnMainHeaderGnavSp{
-    @include mi.fontSizeSp(18);
-    @include mi.lineheight(18,18);
-    @include mi.letterSpacing(50);
-    aspect-ratio: 263/24;
-    width: 100%;
-    background: url(../img/btnMainHeaderGnavSp.svg)no-repeat center right;
+.btnMainHeaderGnavSp {
+  @include mi.fontSizeSp(18);
+  @include mi.lineheight(18, 18);
+  @include mi.letterSpacing(50);
+  aspect-ratio: 263/24;
+  width: 100%;
+  background: url(../img/btnMainHeaderGnavSp.svg) no-repeat center right;
+  background-size: auto 100%;
 }
 
-.ctaMainHeaderGnavSp{
-    margin: 22.66% 0% 0% 0%;
+.ctaMainHeaderGnavSp {
+  margin: 22.66% 0% 0% 0%;
 }
-.liMainHeaderGnavSp02{
-    width: 100%;
-    &:nth-child(n+2){
-        @include mi.marginPercent(300, 17,0 ,0 ,0 );
-    }
+.liMainHeaderGnavSp02 {
+  width: 100%;
+  &:nth-child(n + 2) {
+    @include mi.marginPercent(300, 17, 0, 0, 0);
+  }
 }
-.btnMainHeaderGnavSp02{
-    aspect-ratio: 300/60;
-    @include mi.kadomaru(60px);
-    width: 100%;
+.btnMainHeaderGnavSp02 {
+  aspect-ratio: 300/60;
+  @include mi.kadomaru(60px);
+  width: 100%;
 }
-.secMainHeaderGnavSp{
-
+.secMainHeaderGnavSp {
 }
-.h2MainHeaderGnavSp{
-    @include mi.fontSizeSp(16);
-    line-height: 1.5;
-    @include mi.letterSpacing(0);
+.h2MainHeaderGnavSp {
+  @include mi.fontSizeSp(16);
+  line-height: 1.5;
+  @include mi.letterSpacing(0);
 }
-.rubyMainHeaderGnavSp{
-    @include mi.fontSizeSp(12);
-    margin: 1.2% 0 0 0;
-    line-height: 1.2;
-    @include mi.letterSpacing(0);
+.rubyMainHeaderGnavSp {
+  @include mi.fontSizeSp(12);
+  margin: 1.2% 0 0 0;
+  line-height: 1.2;
+  @include mi.letterSpacing(0);
+}
+.txtMainHeaderGnavSp {
+  @include mi.fontSizeSp(16);
+  line-height: 1.5;
+  @include mi.letterSpacing(0);
 }

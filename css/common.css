@@ -819,6 +819,10 @@ LAYOUT
     width: 20.57%;
   }
 }
+.logoHeaderSp img {
+  width: 100%;
+  height: auto;
+}
 
 .btnHeaderSp {
   width: 46px;
@@ -828,10 +832,14 @@ LAYOUT
     width: 13.14%;
   }
 }
+.btnHeaderSp img {
+  width: 100%;
+  height: auto;
+}
 
 .headerSpGnav {
   padding-top: 9px;
-  padding-bottom: 92px;
+  padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
   right: -100%;
@@ -841,12 +849,12 @@ LAYOUT
   overflow: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  height: 100vh;
+  height: 100svh;
   width: 100%;
 }
 @media screen and (max-width: 1249px) {
   .headerSpGnav {
-    padding: 2.4% 0% 24.53% 0%;
+    padding: 2.4% 0% 0% 0%;
   }
 }
 
@@ -888,6 +896,15 @@ LAYOUT
   margin-bottom: 0%;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 0px;
+  padding-bottom: 92px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 1249px) {
+  .navMainHeaderGnavSp {
+    padding: 0% 0% 24.53% 0%;
+  }
 }
 
 .ulMainHeaderGnavSp {
@@ -905,6 +922,7 @@ LAYOUT
   aspect-ratio: 263/24;
   width: 100%;
   background: url(../img/btnMainHeaderGnavSp.svg) no-repeat center right;
+  background-size: auto 100%;
 }
 @media screen and (max-width: 767px) {
   .btnMainHeaderGnavSp {
@@ -974,6 +992,16 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .rubyMainHeaderGnavSp {
     font-size: 3.2vw;
+  }
+}
+
+.txtMainHeaderGnavSp {
+  line-height: 1.5;
+  letter-spacing: 0em;
+}
+@media screen and (max-width: 767px) {
+  .txtMainHeaderGnavSp {
+    font-size: 4.2666666667vw;
   }
 }
 
@@ -2005,6 +2033,11 @@ LAYOUT
   position: relative;
   z-index: 1;
 }
+@media screen and (max-width: 767px) {
+  .madeLxn {
+    width: 90%;
+  }
+}
 
 .secMade {
   width: 962px;
@@ -2017,22 +2050,12 @@ LAYOUT
 }
 @media screen and (max-width: 1250px) {
   .secMade {
-    width: 962px;
-  }
-}
-@media screen and (max-width: 1250px) and (max-width: 1249px) {
-  .secMade {
-    width: 76.95%;
+    width: 78.95%;
   }
 }
 @media screen and (max-width: 767px) {
   .secMade {
-    width: 330px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1249px) {
-  .secMade {
-    width: 88%;
+    width: 98%;
   }
 }
 
@@ -2108,7 +2131,7 @@ LAYOUT
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
-    letter-spacing: 0.05em;
+    letter-spacing: -0.14em;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1249px) {
@@ -2121,7 +2144,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h3Made {
-    font-size: 4.2666666667vw;
+    font-size: 10.6666666667vw;
   }
 }
 
@@ -2354,7 +2377,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h4Kadai {
-    font-size: 5.8666666667vw;
+    font-size: 3.4666666667vw;
   }
 }
 
@@ -7831,10 +7854,17 @@ LAYOUT
 .pcFixedBtn {
   position: fixed;
   bottom: 2%;
-  right: 0;
+  right: 2%;
   z-index: 2;
   width: 325px;
-  display: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+
+.pcFixedBtn.is-show {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .ctaPcFixedBtnFxc {

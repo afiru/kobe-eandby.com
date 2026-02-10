@@ -58,7 +58,7 @@
             </li>
 
             <li class="liMainHeaderGnavSp">
-                <a class="bg_fff undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnMainHeaderGnavSp" href="mailto:okamoto@eandby.com">
+                <a class="bg_fff undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnMainHeaderGnavSp02" href="mailto:okamoto@eandby.com">
                     <p class="t_center cl_1D1D1F fw_500 txtset txtMainHeaderGnavSp">お困りごとをメールで送る</p>
                 </a>
             </li>

@@ -1,106 +1,109 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use "../../Functions/mixin" as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
 .made {
-    padding: 12.2vw 0vw 11.5vw 0vw;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
+  padding: 12.2vw 0vw 11.5vw 0vw;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
 
-    @include mi.mq(sp) {
-        padding: 28% 0% 26% 0%;
-    }
+  @include mi.mq(sp) {
+    padding: 28% 0% 26% 0%;
+  }
 }
 
 .videoMade {
-    position: absolute;
-    width: auto;
-    height: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    z-index: 0;
+  position: absolute;
+  width: auto;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 0;
 }
 
 .madeLxn {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
+  @include mi.mq(sp) {
+    width: 90%;
+  }
 }
 
 .secMade {
-    @include mi.ontenerWidth(1570, 962);
-    margin: auto;
+  @include mi.ontenerWidth(1570, 962);
+  margin: auto;
 
-    @include mi.mq(max1250) {
-        @include mi.ontenerWidth(1250, 962);
-    }
+  @include mi.mq(max1250) {
+    width: 78.95%;
+  }
 
-    @include mi.mq(sp) {
-        @include mi.ontenerWidth(375, 330);
-    }
+  @include mi.mq(sp) {
+    width: 98%;
+  }
 }
 
 .h2Made {
-    @include mi.fontSizePc(20);
+  @include mi.fontSizePc(20);
+  @include mi.lineheightP(150);
+  @include mi.letterSpacing(50);
+
+  @include mi.mq(sp) {
+    @include mi.fontSizeSp(16);
     @include mi.lineheightP(150);
     @include mi.letterSpacing(50);
-
-    @include mi.mq(sp) {
-        @include mi.fontSizeSp(16);
-        @include mi.lineheightP(150);
-        @include mi.letterSpacing(50);
-    }
+  }
 }
 
 .h3Made {
-    @include mi.marginPercent(962, 17, 0, 0, 0);
-    @include mi.fontSizePc(64);
-    @include mi.lineheight(64, 64);
-    letter-spacing: -0.099em;
+  @include mi.marginPercent(962, 17, 0, 0, 0);
+  @include mi.fontSizePc(64);
+  @include mi.lineheight(64, 64);
+  letter-spacing: -0.099em;
 
-    @include mi.mq(max1000) {
-        @include mi.fontSizePc(58);
-    }
+  @include mi.mq(max1000) {
+    @include mi.fontSizePc(58);
+  }
 
-    @include mi.mq(sp) {
-        @include mi.marginPercent(330, 22, auto, 0, auto);
-        @include mi.fontSizeSp(16);
-        @include mi.lineheightP(150);
-        @include mi.letterSpacing(50);
-    }
+  @include mi.mq(sp) {
+    @include mi.marginPercent(330, 22, auto, 0, auto);
+    @include mi.fontSizeSp(40);
+    @include mi.lineheightP(150);
+    letter-spacing: -0.14em;
+  }
 }
 
 .txtMade {
-    @include mi.marginPercent(962, 63, auto, 0, auto);
-    @include mi.fontSizePc(32);
-    @include mi.lineheightP(190);
-    @include mi.letterSpacing(0);
+  @include mi.marginPercent(962, 63, auto, 0, auto);
+  @include mi.fontSizePc(32);
+  @include mi.lineheightP(190);
+  @include mi.letterSpacing(0);
 
-    @include mi.mq(sp) {
-        @include mi.marginPercent(330, 22, auto, 0, auto);
-        @include mi.fontSizeSp(16);
-        @include mi.lineheightP(162);
-        @include mi.letterSpacing(0);
-    }
+  @include mi.mq(sp) {
+    @include mi.marginPercent(330, 22, auto, 0, auto);
+    @include mi.fontSizeSp(16);
+    @include mi.lineheightP(162);
+    @include mi.letterSpacing(0);
+  }
 }
 
 .txtLastMade {
-    @include mi.marginPercent(962, 28, auto, 0, auto);
-    @include mi.fontSizePc(50);
+  @include mi.marginPercent(962, 28, auto, 0, auto);
+  @include mi.fontSizePc(50);
+  @include mi.lineheightP(160);
+  @include mi.letterSpacing(0);
+
+  @include mi.mq(sp) {
+    @include mi.marginPercent(330, 25, auto, 0, auto);
+    @include mi.fontSizeSp(24);
     @include mi.lineheightP(160);
     @include mi.letterSpacing(0);
-
-    @include mi.mq(sp) {
-        @include mi.marginPercent(330, 25, auto, 0, auto);
-        @include mi.fontSizeSp(24);
-        @include mi.lineheightP(160);
-        @include mi.letterSpacing(0);
-    }
+  }
 }
