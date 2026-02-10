@@ -3384,9 +3384,9 @@ LAYOUT
   animation: 70s linear 0s infinite normal none running loop2;
 }
 .ulSliderKyosanLxn li {
-  min-width: 150px;
+  min-width: 108px;
   height: auto;
-  margin: auto 0 auto 70px;
+  margin: auto 0 auto 101px;
 }
 
 @keyframes loop {
