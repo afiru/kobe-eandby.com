@@ -71,7 +71,7 @@
     <div class="d_flex j_between ali_center pcFixedBtnFx">
         <ul class="ctaPcFixedBtnFxc">
             <li class="liCtaPcFixedBtnFxc">
-                <a class="undernone bg_669B40 fw_500 d_flex j_center ali_center btnCtaPcFixedBtnFxc" href="mailto:okamoto@eandby.com">
+                <a class="undernone bg_669B40 fw_500 d_flex j_center ali_center btnCtaPcFixedBtnFxc" href="#contact">
                     <p class="t_center cl_fff fw_500 txtset txtCtaPcFixedBtnFxc">お困りごとを話す</p>
                 </a>
             </li>
