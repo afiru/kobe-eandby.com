@@ -1,4 +1,7 @@
 jQuery(function ($) {
+
+
+
     let pos = 0;
     let isIgnoreScrollHide = false;
     let isSpMenuOpen = false;
@@ -13,22 +16,30 @@ jQuery(function ($) {
     let pcFixedBtn = $('.pcFixedBtn');
     let kadaiTop = $('.kadai').offset().top;
 
+
+
     /* =========================
        PC メニュー
     ========================= */
     menuBtn.on('click', function () {
         if ($(this).hasClass('off')) {
             $(this).removeClass('off').addClass('on');
-            jsheaderGnav.stop(true, true).animate({ right: '0%' }, 500);
+            jsheaderGnav.stop(true, true).animate({
+                right: '0%'
+            }, 500);
         } else {
             $(this).removeClass('on').addClass('off');
-            jsheaderGnav.stop(true, true).animate({ right: '-100%' }, 500);
+            jsheaderGnav.stop(true, true).animate({
+                right: '-100%'
+            }, 500);
         }
     });
 
     $('.headerPcGnav a').on('click', function () {
         menuBtn.removeClass('on').addClass('off');
-        jsheaderGnav.stop(true, true).animate({ right: '-100%' }, 500);
+        jsheaderGnav.stop(true, true).animate({
+            right: '-100%'
+        }, 500);
     });
 
     /* =========================
@@ -37,7 +48,9 @@ jQuery(function ($) {
     menuBtnSp.on('click', function () {
         isSpMenuOpen = true;
         header.addClass('on').removeClass('hide');
-        headerSpGnav.stop(true, true).animate({ right: '0%' }, 500);
+        headerSpGnav.stop(true, true).animate({
+            right: '0%'
+        }, 500);
     });
 
     /* =========================
@@ -45,7 +58,9 @@ jQuery(function ($) {
     ========================= */
     menuCloseBtnSp.on('click', function () {
         isSpMenuOpen = false;
-        headerSpGnav.stop(true, true).animate({ right: '-100%' }, 500);
+        headerSpGnav.stop(true, true).animate({
+            right: '-100%'
+        }, 500);
     });
 
     /* =========================
@@ -55,7 +70,9 @@ jQuery(function ($) {
         isIgnoreScrollHide = true;
         isSpMenuOpen = false;
 
-        headerSpGnav.stop(true, true).animate({ right: '-100%' }, 500);
+        headerSpGnav.stop(true, true).animate({
+            right: '-100%'
+        }, 500);
         header.addClass('on').removeClass('hide');
 
         setTimeout(() => {
@@ -99,11 +116,15 @@ jQuery(function ($) {
 
         if (isPcFixedBtnHidden) return;
 
-        if (scrollTop >= kadaiTop) {
+        console.log(scrollTop, kadaiTop);
+        if (scrollTop > kadaiTop) {
             pcFixedBtn.addClass('is-show');
         } else {
             pcFixedBtn.removeClass('is-show');
         }
+
+
+
     });
 
     /* =========================
@@ -129,11 +150,13 @@ jQuery(function ($) {
         });
     });
 
-    /* =========================
-       PC 固定CTA クリック
-    ========================= */
-    $('.btnCtaPcFixedBtnFxc').on('click', function () {
-        isPcFixedBtnHidden = true;
-        pcFixedBtn.removeClass('is-show');
-    });
+
+});
+
+/* =========================
+   PC 固定CTA クリック
+========================= */
+$('.jsbtnCtaPcFixedBtnFxc02').on('click', function () {
+    isPcFixedBtnHidden = true;
+    pcFixedBtn.removeClass('is-show');
 });
