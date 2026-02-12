@@ -1,7 +1,7 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -21,8 +21,7 @@ LAYOUT
   }
 }
 
-.titleValue {
-}
+.titleValue {}
 
 .h2ValueLxn {
   @include mi.fontSizePc(26);
@@ -60,8 +59,7 @@ LAYOUT
   }
 }
 
-.swiper {
-}
+.swiper {}
 
 .swiper-wrapper {
   align-items: stretch;
@@ -100,8 +98,7 @@ LAYOUT
   }
 }
 
-.titleValueSlider {
-}
+.titleValueSlider {}
 
 .h4TitleValueSlider {
   @include mi.fontSizePc(26);
@@ -131,13 +128,13 @@ LAYOUT
 
 .h6TitleValueSlider {
   @include mi.marginPercent(379, 0, 0, 0, 0);
-  @include mi.fontSizePc(18);
+  @include mi.fontSizePc(17.5);
   @include mi.lineheightP(160);
   color: #66a13f;
 
   @include mi.mq(sp) {
     @include mi.marginPercent(320, 8, 0, 0, 0);
-    @include mi.fontSizeSp(16);
+    @include mi.fontSizeSp(15);
     @include mi.lineheightP(160);
   }
 }
@@ -162,7 +159,7 @@ LAYOUT
 
   @include mi.mq(sp) {
     @include mi.marginPercent(320, 14, 0, 14, 0);
-    @include mi.fontSizeSp(14);
+    @include mi.fontSizeSp(13);
     @include mi.lineheightP(160);
   }
 }
@@ -170,8 +167,7 @@ LAYOUT
 .ulValueSlider {
   margin-top: auto;
 
-  @include mi.mq(sp) {
-  }
+  @include mi.mq(sp) {}
 }
 
 .liValueSlider {
@@ -196,9 +192,10 @@ LAYOUT
   @include mi.fontSizePc(14);
   @include mi.lineheightP(130);
   @include mi.letterSpacing(0);
+  font-feature-settings: "palt";
 
   @include mi.mq(sp) {
-    @include mi.fontSizeSp(13);
+    @include mi.fontSizeSp(12);
     @include mi.lineheightP(130);
     @include mi.letterSpacing(0);
   }
@@ -247,8 +244,7 @@ LAYOUT
   }
 }
 
-.swiper-button-prev:hover {
-}
+.swiper-button-prev:hover {}
 
 .swiper-button-prev:hover {
   opacity: 1;
@@ -279,8 +275,7 @@ LAYOUT
   }
 }
 
-.swiper-button-next:hover {
-}
+.swiper-button-next:hover {}
 
 .swiper-button-next:hover {
   opacity: 1;

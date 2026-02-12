@@ -4187,7 +4187,7 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  font-size: 18px;
+  font-size: 17.5px;
   line-height: 160%;
   color: #66a13f;
 }
@@ -4198,7 +4198,7 @@ LAYOUT
 }
 @media screen and (max-width: 1249px) {
   .h6TitleValueSlider {
-    font-size: 1.4411529223vw;
+    font-size: 1.4011208967vw;
   }
 }
 @media screen and (max-width: 767px) {
@@ -4217,7 +4217,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .h6TitleValueSlider {
-    font-size: 4.2666666667vw;
+    font-size: 4vw;
   }
 }
 
@@ -4285,7 +4285,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtValueSlider {
-    font-size: 3.7333333333vw;
+    font-size: 3.4666666667vw;
   }
 }
 
@@ -4340,6 +4340,7 @@ LAYOUT
   font-size: 14px;
   line-height: 130%;
   letter-spacing: 0em;
+  font-feature-settings: "palt";
 }
 @media screen and (max-width: 1249px) {
   .txtLiValueSlider {
@@ -4354,7 +4355,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtLiValueSlider {
-    font-size: 3.4666666667vw;
+    font-size: 3.2vw;
   }
 }
 
