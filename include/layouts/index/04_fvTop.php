@@ -37,7 +37,7 @@
                 </li>
 
                 <li class="liFvTopCta">
-                    <a class="bg_E5E5E5 undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnFvTopCta" href="#komarigoto">
+                    <a class="bg_E5E5E5 undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnFvTopCta" href="#business">
                         <p class="t_center cl_1D1D1F fw_500 txtset txtFvTopCta txtFvTopCta02">事業内容を見る</p>
                     </a>
                 </li>
