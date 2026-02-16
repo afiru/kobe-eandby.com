@@ -2,6 +2,14 @@
 <html>
 
 <head>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQVLZBKR');</script>
+<!-- End Google Tag Manager -->
+
     <?php
   $title          = "E&by｜ビジネスでのお困りごとを「いいあんばい」で解決へ。世界で闘うためのメンター、実践型事業・経営支援";
   $keyword        = "岡本裕之,E&by,メンター,コンサル,グローバル戦略, 海外展開, 非常勤顧問,経営者支援,個人インポーター,イーアンドバイ,事業開発, 経営支援, 商品企画, マーケティング戦略, 組織運営, 人材育成, 農業ビジネス, 環境事業, 教育事業, ビジネスマッチング, 越境ビジネス, 世界";
@@ -117,4 +125,8 @@
 </head>
 
 <body id="body" class="body">
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQVLZBKR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <div class="waps" id="pagetop">
