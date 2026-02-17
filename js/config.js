@@ -1,11 +1,20 @@
+/* =========================
+   グローバル変数
+========================= */
+let pcFixedBtn;
+
+
+/* =========================
+   メイン処理
+========================= */
 jQuery(function ($) {
 
-
+    /* ----- 重要：ここで代入 ----- */
+    pcFixedBtn = $('.pcFixedBtn');
 
     let pos = 0;
     let isIgnoreScrollHide = false;
     let isSpMenuOpen = false;
-    let isPcFixedBtnHidden = false;
 
     let header = $('.baseHeader');
     let jsheaderGnav = $('.headerPcGnav');
@@ -13,7 +22,6 @@ jQuery(function ($) {
     let menuBtnSp = $('.jsBtnHeaderOpenSp');
     let menuCloseBtnSp = $('.jsBtnHeaderCloseSp');
     let headerSpGnav = $('.headerSpGnav');
-    let pcFixedBtn = $('.pcFixedBtn');
     let kadaiTop = $('.kadai').offset().top;
 
 
@@ -24,55 +32,39 @@ jQuery(function ($) {
     menuBtn.on('click', function () {
         if ($(this).hasClass('off')) {
             $(this).removeClass('off').addClass('on');
-            jsheaderGnav.stop(true, true).animate({
-                right: '0%'
-            }, 500);
+            jsheaderGnav.stop(true, true).animate({ right: '0%' }, 500);
         } else {
             $(this).removeClass('on').addClass('off');
-            jsheaderGnav.stop(true, true).animate({
-                right: '-100%'
-            }, 500);
+            jsheaderGnav.stop(true, true).animate({ right: '-100%' }, 500);
         }
     });
 
     $('.headerPcGnav a').on('click', function () {
         menuBtn.removeClass('on').addClass('off');
-        jsheaderGnav.stop(true, true).animate({
-            right: '-100%'
-        }, 500);
+        jsheaderGnav.stop(true, true).animate({ right: '-100%' }, 500);
     });
 
+
+
     /* =========================
-       SP メニュー OPEN
+       SP メニュー
     ========================= */
     menuBtnSp.on('click', function () {
         isSpMenuOpen = true;
         header.addClass('on').removeClass('hide');
-        headerSpGnav.stop(true, true).animate({
-            right: '0%'
-        }, 500);
+        headerSpGnav.stop(true, true).animate({ right: '0%' }, 500);
     });
 
-    /* =========================
-       SP メニュー CLOSE
-    ========================= */
     menuCloseBtnSp.on('click', function () {
         isSpMenuOpen = false;
-        headerSpGnav.stop(true, true).animate({
-            right: '-100%'
-        }, 500);
+        headerSpGnav.stop(true, true).animate({ right: '-100%' }, 500);
     });
 
-    /* =========================
-       SP メニュー内リンク
-    ========================= */
     $('.headerSpGnav a').on('click', function () {
         isIgnoreScrollHide = true;
         isSpMenuOpen = false;
 
-        headerSpGnav.stop(true, true).animate({
-            right: '-100%'
-        }, 500);
+        headerSpGnav.stop(true, true).animate({ right: '-100%' }, 500);
         header.addClass('on').removeClass('hide');
 
         setTimeout(() => {
@@ -80,10 +72,13 @@ jQuery(function ($) {
         }, 300);
     });
 
+
+
     /* =========================
-       スクロール制御（統合）
+       スクロール制御
     ========================= */
     $(window).on('scroll', function () {
+
         let scrollTop = $(this).scrollTop();
 
         /* ---------- header ---------- */
@@ -108,55 +103,84 @@ jQuery(function ($) {
 
         pos = scrollTop;
 
-        /* ---------- PC 固定CTA（ふわっと） ---------- */
+        /* ---------- PC 固定CTA ---------- */
         if (window.innerWidth < 768) {
             pcFixedBtn.removeClass('is-show');
             return;
         }
 
-        if (isPcFixedBtnHidden) return;
-
-        console.log(scrollTop, kadaiTop);
         if (scrollTop > kadaiTop) {
             pcFixedBtn.addClass('is-show');
         } else {
             pcFixedBtn.removeClass('is-show');
         }
-
-
-
     });
+
+
 
     /* =========================
        スムーススクロール
+    ========================= */
+    $('a[href^="#"]').on('click', function (e) {
+
+        let href = $(this).attr('href');
+
+        if (!href || href === '#') return;
+
+        let target = $(href);
+        if (!target.length) return;
+
+        e.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 500);
+    });
+
+
+
+    /* =========================
+       ページ読み込み時ハッシュ対応
     ========================= */
     $(window).on('load', function () {
 
         let urlHash = location.hash;
 
         if (urlHash) {
-            $('body,html').scrollTop(0);
+
             let target = $(urlHash);
-            $('body,html').animate({
+            if (!target.length) return;
+
+            $('html, body').scrollTop(0);
+
+            $('html, body').animate({
                 scrollTop: target.offset().top
             }, 500);
         }
-
-        $('a[href^="#"]').on('click', function () {
-            let target = $($(this).attr('href'));
-            $('body,html').animate({
-                scrollTop: target.offset().top
-            }, 500);
-        });
     });
-
 
 });
 
+
+
 /* =========================
-   PC 固定CTA クリック
+   PC 固定CTA クリック（外に出したままOK）
 ========================= */
-$('.jsbtnCtaPcFixedBtnFxc02').on('click', function () {
-    isPcFixedBtnHidden = true;
-    pcFixedBtn.removeClass('is-show');
+$('.jsbtnCtaPcFixedBtnFxc02').on('click', function (e) {
+
+    let href = $(this).attr('href');
+
+    if (href && href !== '#') {
+        let target = $(href);
+        if (target.length) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 500);
+        }
+    }
+
+    if (pcFixedBtn) {
+        pcFixedBtn.removeClass('is-show');
+    }
 });
