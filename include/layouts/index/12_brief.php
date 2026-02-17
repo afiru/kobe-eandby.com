@@ -11,11 +11,11 @@
                     <h3 class="cl_2C2C2C fw_500 h3MainBriefHistoryFx">主な経歴</h3>
                     <ul class="ulMainBriefHistoryFx">
                         <li class="d_flex j_start cl_2C2C2C fw_400 liMainBriefHistoryFx">
-                            <span class="yearMainBriefHistoryFx">1985年</span>
+                            <span class="yearMainBriefHistoryFx">1989年</span>
                             <span class="txtMainBriefHistoryFx">同志社大学法学部法律学科卒業</span>
                         </li>
                         <li class="d_flex j_start cl_2C2C2C fw_400 liMainBriefHistoryFx">
-                            <span class="yearMainBriefHistoryFx">1985年</span>
+                            <span class="yearMainBriefHistoryFx">1989年</span>
                             <span class="txtMainBriefHistoryFx">三洋電機株式会社入社</span>
                         </li>
                         <li class="d_flex j_start cl_2C2C2C fw_400 liMainBriefHistoryFx">

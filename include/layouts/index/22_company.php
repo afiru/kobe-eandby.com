@@ -5,7 +5,7 @@
             <ul class="ulCompany">
                 <li class="d_flex j_between row liCompany">
                     <h3 class="cl_000 fw_500 txtset h3Company">社名</h3>
-                    <p class="cl_000 fw_400 txtset txtCompany">E＆by</p>
+                    <p class="cl_000 fw_400 txtset txtCompany">株式会社E&by</p>
                 </li>
                 <li class="d_flex j_between row liCompany">
                     <h3 class="cl_000 fw_500 txtset h3Company">代表者</h3>
@@ -14,7 +14,7 @@
                 <li class="d_flex j_between row liCompany">
                     <h3 class="cl_000 fw_500 txtset h3Company">所在地</h3>
                     <p class="cl_000 fw_400 txtset txtCompany">
-                        オフィス：東京都港区芝1-18-1-506<br>本店所在地：大阪府寝屋川市大利町30-23
+                        オフィス：東京都港区芝4-18-1-506<br>本店所在地：大阪府寝屋川市大利町30-23
                     </p>
                 </li>
                 <li class="d_flex j_between row liCompany">
