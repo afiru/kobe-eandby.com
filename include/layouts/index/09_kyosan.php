@@ -82,9 +82,7 @@
                     <li class="liSliderKyosanLxn">
                         <img loading="lazy" class="" src="img/liSliderKyosanLxn02_07.png" alt="" width="108" height="108">
                     </li>
-                    <li class="liSliderKyosanLxn">
-                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_08.png" alt="" width="108" height="108">
-                    </li>
+
                 </ul>
                 <ul class=" ulSliderKyosanLxn02">
                     <li class="liSliderKyosanLxn">
@@ -108,9 +106,7 @@
                     <li class="liSliderKyosanLxn">
                         <img loading="lazy" class="" src="img/liSliderKyosanLxn02_07.png" alt="" width="108" height="108">
                     </li>
-                    <li class="liSliderKyosanLxn">
-                        <img loading="lazy" class="" src="img/liSliderKyosanLxn02_08.png" alt="" width="108" height="108">
-                    </li>
+
                 </ul>
             </div>
         </div>
