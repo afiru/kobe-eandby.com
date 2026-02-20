@@ -737,16 +737,18 @@ LAYOUT
 
 .btnNavHeaderPc {
   font-size: 16px;
-  font-style: normal;
-  leading-trim: both;
-  text-edge: cap;
-  display: block;
-  letter-spacing: 0;
 }
 @media screen and (max-width: 1249px) {
   .btnNavHeaderPc {
     font-size: 1.2810248199vw;
   }
+}
+.btnNavHeaderPc {
+  font-style: normal;
+  leading-trim: both;
+  text-edge: cap;
+  display: block;
+  letter-spacing: 0;
 }
 @media screen and (max-width: 1400px) {
   .btnNavHeaderPc {
@@ -774,10 +776,12 @@ LAYOUT
 @media screen and (max-width: 1400px) {
   .btnNavHeaderCta {
     width: 12.2142857143vw;
-    font-size: 1vw;
   }
   .btnNavHeaderCta img {
     max-width: 171px;
+  }
+  .btnNavHeaderCta {
+    font-size: 1vw;
   }
 }
 
@@ -792,16 +796,18 @@ LAYOUT
 ========================================================================== */
 .headerSp {
   width: 350px;
-  padding: 2.5% 0% 2.4% 0%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 16px;
-  margin-right: 9px;
 }
 @media screen and (max-width: 1249px) {
   .headerSp {
     width: 93.33%;
   }
+}
+.headerSp {
+  padding: 2.5% 0% 2.4% 0%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 16px;
+  margin-right: 9px;
 }
 @media screen and (max-width: 1249px) {
   .headerSp {
@@ -811,12 +817,14 @@ LAYOUT
 
 .logoHeaderSp {
   width: 72px;
-  transform: translateY(8%);
 }
 @media screen and (max-width: 1249px) {
   .logoHeaderSp {
     width: 20.57%;
   }
+}
+.logoHeaderSp {
+  transform: translateY(8%);
 }
 .logoHeaderSp img {
   width: 100%;
@@ -841,6 +849,13 @@ LAYOUT
   padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
+}
+@media screen and (max-width: 1249px) {
+  .headerSpGnav {
+    padding: 2.4% 0% 0% 0%;
+  }
+}
+.headerSpGnav {
   right: -100%;
   top: 0;
   position: fixed;
@@ -851,24 +866,21 @@ LAYOUT
   height: 100svh;
   width: 100%;
 }
-@media screen and (max-width: 1249px) {
-  .headerSpGnav {
-    padding: 2.4% 0% 0% 0%;
-  }
-}
 
 .headerSpGnavTop {
   padding-top: 0px;
   padding-bottom: 9px;
   padding-left: 0px;
   padding-right: 0px;
-  margin: 0% auto 0% 5.06%;
-  width: 92.66%;
 }
 @media screen and (max-width: 1249px) {
   .headerSpGnavTop {
     padding: 0% 0% 2.4% 0%;
   }
+}
+.headerSpGnavTop {
+  margin: 0% auto 0% 5.06%;
+  width: 92.66%;
 }
 
 .logoHeaderSp {
@@ -891,6 +903,13 @@ LAYOUT
 
 .navMainHeaderGnavSp {
   width: 300px;
+}
+@media screen and (max-width: 1249px) {
+  .navMainHeaderGnavSp {
+    width: 80%;
+  }
+}
+.navMainHeaderGnavSp {
   margin-top: 16%;
   margin-bottom: 0%;
   margin-left: auto;
@@ -899,11 +918,6 @@ LAYOUT
   padding-bottom: 92px;
   padding-left: 0px;
   padding-right: 0px;
-}
-@media screen and (max-width: 1249px) {
-  .navMainHeaderGnavSp {
-    width: 80%;
-  }
 }
 @media screen and (max-width: 1249px) {
   .navMainHeaderGnavSp {
@@ -920,18 +934,13 @@ LAYOUT
   margin: 11.35% 0% 0% 0%;
 }
 
-.btnMainHeaderGnavSp {
-  line-height: 1;
-  letter-spacing: 0.05em;
-  aspect-ratio: 263/24;
-  width: 100%;
-  background: url(../img/btnMainHeaderGnavSp.svg) no-repeat center right;
-  background-size: auto 100%;
-}
 @media screen and (max-width: 767px) {
   .btnMainHeaderGnavSp {
     font-size: 4.8vw;
   }
+}
+.btnMainHeaderGnavSp {
+  line-height: 1;
 }
 .btnMainHeaderGnavSp::before {
   display: block;
@@ -946,6 +955,13 @@ LAYOUT
   height: 0;
   margin-bottom: calc((1 - 1) * 0.5em);
   content: "";
+}
+.btnMainHeaderGnavSp {
+  letter-spacing: 0.05em;
+  aspect-ratio: 263/24;
+  width: 100%;
+  background: url(../img/btnMainHeaderGnavSp.svg) no-repeat center right;
+  background-size: auto 100%;
 }
 
 .ctaMainHeaderGnavSp {
@@ -978,35 +994,35 @@ LAYOUT
   width: 100%;
 }
 
-.h2MainHeaderGnavSp {
-  line-height: 1.5;
-  letter-spacing: 0em;
-}
 @media screen and (max-width: 767px) {
   .h2MainHeaderGnavSp {
     font-size: 4.2666666667vw;
   }
 }
-
-.rubyMainHeaderGnavSp {
-  margin: 0% 0 0 0;
-  line-height: 1.2;
+.h2MainHeaderGnavSp {
+  line-height: 1.5;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 767px) {
   .rubyMainHeaderGnavSp {
     font-size: 3.2vw;
   }
 }
-
-.txtMainHeaderGnavSp {
-  line-height: 1.5;
+.rubyMainHeaderGnavSp {
+  margin: 0% 0 0 0;
+  line-height: 1.2;
   letter-spacing: 0em;
 }
+
 @media screen and (max-width: 767px) {
   .txtMainHeaderGnavSp {
     font-size: 4.2666666667vw;
   }
+}
+.txtMainHeaderGnavSp {
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
 
 /* ==========================================================================
@@ -1126,7 +1142,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: 48px;
-  width: 939px;
 }
 @media screen and (max-width: 1249px) {
   .navHeaderPcGnav {
@@ -1135,6 +1150,9 @@ LAYOUT
     margin-left: auto;
     margin-right: 2.93%;
   }
+}
+.navHeaderPcGnav {
+  width: 939px;
 }
 @media screen and (max-width: 1200px) {
   .navHeaderPcGnav {
@@ -1184,19 +1202,23 @@ LAYOUT
 
 .txtBtnLiNavHeaderPcGnav {
   width: 349px;
-  font-size: 30px;
-  line-height: normal;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .txtBtnLiNavHeaderPcGnav {
     width: 90.88%;
   }
 }
+.txtBtnLiNavHeaderPcGnav {
+  font-size: 30px;
+}
 @media screen and (max-width: 1249px) {
   .txtBtnLiNavHeaderPcGnav {
     font-size: 2.4019215372vw;
   }
+}
+.txtBtnLiNavHeaderPcGnav {
+  line-height: normal;
+  letter-spacing: 0.05em;
 }
 
 .iconBtnLiNavHeaderPcGnav {
@@ -1208,15 +1230,17 @@ LAYOUT
   -moz-border-radius: 100%;
   /* Firefox用 */
   width: 35px;
-  aspect-ratio: 1/1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 @media screen and (max-width: 1249px) {
   .iconBtnLiNavHeaderPcGnav {
     width: 9.11%;
   }
+}
+.iconBtnLiNavHeaderPcGnav {
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .iconBtnLiNavHeaderPcGnav img {
   transition-duration: 0.5s;
@@ -1227,8 +1251,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  flex-flow: row wrap;
 }
 @media screen and (max-width: 1249px) {
   .catHeaderPcGnavFx {
@@ -1237,6 +1259,10 @@ LAYOUT
     margin-left: auto;
     margin-right: auto;
   }
+}
+.catHeaderPcGnavFx {
+  width: 100%;
+  flex-flow: row wrap;
 }
 
 .secCatHeaderPcGnavFx {
@@ -1253,19 +1279,21 @@ LAYOUT
 
 .txtCatHeaderPcGnavFx {
   font-size: 18px;
-  line-height: 1.65;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .txtCatHeaderPcGnavFx {
     font-size: 1.4411529223vw;
   }
 }
+.txtCatHeaderPcGnavFx {
+  line-height: 1.65;
+  letter-spacing: 0em;
+}
 
 .ctaMainHeaderGnavPc {
   width: 747px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   margin: 0 3% 0 0;
 }
@@ -1297,7 +1325,30 @@ LAYOUT
 .btnMainHeaderGnavPc {
   aspect-ratio: 360/72;
   font-size: 20px;
+}
+@media screen and (max-width: 1249px) {
+  .btnMainHeaderGnavPc {
+    font-size: 1.6012810248vw;
+  }
+}
+.btnMainHeaderGnavPc {
   line-height: 1;
+}
+.btnMainHeaderGnavPc::before {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-top: calc((1 - 1) * 0.5em);
+  content: "";
+}
+.btnMainHeaderGnavPc::after {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-bottom: calc((1 - 1) * 0.5em);
+  content: "";
+}
+.btnMainHeaderGnavPc {
   letter-spacing: 0em;
   border-radius: 60px;
   /* CSS3草案 */
@@ -1315,25 +1366,6 @@ LAYOUT
   background-size: auto 14px;
   width: 100%;
   transition-duration: 0.5s;
-}
-@media screen and (max-width: 1249px) {
-  .btnMainHeaderGnavPc {
-    font-size: 1.6012810248vw;
-  }
-}
-.btnMainHeaderGnavPc::before {
-  display: block;
-  width: 0;
-  height: 0;
-  margin-top: calc((1 - 1) * 0.5em);
-  content: "";
-}
-.btnMainHeaderGnavPc::after {
-  display: block;
-  width: 0;
-  height: 0;
-  margin-bottom: calc((1 - 1) * 0.5em);
-  content: "";
 }
 @media screen and (max-width: 767px) {
   .btnMainHeaderGnavPc {
@@ -1360,10 +1392,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 14px;
-  line-height: 1;
-  letter-spacing: 0em;
-  transition-duration: 0.5s;
 }
 @media screen and (max-width: 1249px) {
   .rubyMainHeaderGnavPc {
@@ -1373,10 +1401,16 @@ LAYOUT
     margin-right: auto;
   }
 }
+.rubyMainHeaderGnavPc {
+  font-size: 14px;
+}
 @media screen and (max-width: 1249px) {
   .rubyMainHeaderGnavPc {
     font-size: 1.1208967174vw;
   }
+}
+.rubyMainHeaderGnavPc {
+  line-height: 1;
 }
 .rubyMainHeaderGnavPc::before {
   display: block;
@@ -1391,6 +1425,10 @@ LAYOUT
   height: 0;
   margin-bottom: calc((1 - 1) * 0.5em);
   content: "";
+}
+.rubyMainHeaderGnavPc {
+  letter-spacing: 0em;
+  transition-duration: 0.5s;
 }
 
 .btnMainHeaderGnavPc:hover .rubyMainHeaderGnavPc {
@@ -1436,14 +1474,16 @@ LAYOUT
 
 .h1FvTop {
   font-size: 92px;
-  line-height: 130%;
-  letter-spacing: 0em;
-  letter-spacing: -0.14em;
 }
 @media screen and (max-width: 1249px) {
   .h1FvTop {
     font-size: 7.3658927142vw;
   }
+}
+.h1FvTop {
+  line-height: 130%;
+  letter-spacing: 0em;
+  letter-spacing: -0.14em;
 }
 @media screen and (max-width: 767px) {
   .h1FvTop {
@@ -1459,13 +1499,15 @@ LAYOUT
 .rubyFvTop {
   margin: 3.8vw 0vw 0vw 0vw;
   font-size: 24px;
-  line-height: 170%;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .rubyFvTop {
     font-size: 1.9215372298vw;
   }
+}
+.rubyFvTop {
+  line-height: 170%;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
   .rubyFvTop {
@@ -1675,13 +1717,15 @@ LAYOUT
 .txtFvTopFx {
   margin: 1.2vw 0vw 0vw 0vw;
   font-size: 16px;
-  line-height: 180%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .txtFvTopFx {
     font-size: 1.2810248199vw;
   }
+}
+.txtFvTopFx {
+  line-height: 180%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .txtFvTopFx {
@@ -1753,13 +1797,14 @@ LAYOUT
 }
 .txtScroll {
   font-size: 14px;
-  line-height: 1;
-  letter-spacing: 0.15em;
 }
 @media screen and (max-width: 1249px) {
   .txtScroll {
     font-size: 1.1208967174vw;
   }
+}
+.txtScroll {
+  line-height: 1;
 }
 .txtScroll::before {
   display: block;
@@ -1774,6 +1819,9 @@ LAYOUT
   height: 0;
   margin-bottom: calc((1 - 1) * 0.5em);
   content: "";
+}
+.txtScroll {
+  letter-spacing: 0.15em;
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
   .txtScroll {
@@ -2106,12 +2154,14 @@ LAYOUT
 
 .secMade {
   width: 962px;
-  margin: auto;
 }
 @media screen and (max-width: 1249px) {
   .secMade {
     width: 61.27%;
   }
+}
+.secMade {
+  margin: auto;
 }
 @media screen and (max-width: 1250px) {
   .secMade {
@@ -2126,13 +2176,15 @@ LAYOUT
 
 .h2Made {
   font-size: 20px;
-  line-height: 150%;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h2Made {
     font-size: 1.6012810248vw;
   }
+}
+.h2Made {
+  line-height: 150%;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
   .h2Made {
@@ -2151,19 +2203,22 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  font-size: 64px;
-  line-height: 1;
-  letter-spacing: -0.099em;
 }
 @media screen and (max-width: 1249px) {
   .h3Made {
     margin: 1.76% 0% 0% 0%;
   }
 }
+.h3Made {
+  font-size: 64px;
+}
 @media screen and (max-width: 1249px) {
   .h3Made {
     font-size: 5.1240992794vw;
   }
+}
+.h3Made {
+  line-height: 1;
 }
 .h3Made::before {
   display: block;
@@ -2178,6 +2233,9 @@ LAYOUT
   height: 0;
   margin-bottom: calc((1 - 1) * 0.5em);
   content: "";
+}
+.h3Made {
+  letter-spacing: -0.099em;
 }
 @media screen and (max-width: 1000px) {
   .h3Made {
@@ -2218,9 +2276,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 32px;
-  line-height: 190%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .txtMade {
@@ -2230,10 +2285,17 @@ LAYOUT
     margin-right: auto;
   }
 }
+.txtMade {
+  font-size: 32px;
+}
 @media screen and (max-width: 1249px) {
   .txtMade {
     font-size: 2.5620496397vw;
   }
+}
+.txtMade {
+  line-height: 190%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .txtMade {
@@ -2264,9 +2326,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 50px;
-  line-height: 160%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .txtLastMade {
@@ -2276,10 +2335,17 @@ LAYOUT
     margin-right: auto;
   }
 }
+.txtLastMade {
+  font-size: 50px;
+}
 @media screen and (max-width: 1249px) {
   .txtLastMade {
     font-size: 4.003202562vw;
   }
+}
+.txtLastMade {
+  line-height: 160%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .txtLastMade {
@@ -2340,13 +2406,15 @@ LAYOUT
 }
 .h2Kadai {
   font-size: 20px;
-  line-height: 150%;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h2Kadai {
     font-size: 1.6012810248vw;
   }
+}
+.h2Kadai {
+  line-height: 150%;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
   .h2Kadai {
@@ -2365,19 +2433,23 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  font-size: 40px;
-  line-height: 1;
-  letter-spacing: -0.115em;
 }
 @media screen and (max-width: 1249px) {
   .h3Kadai {
     margin: 1.52% 0% 0% 0%;
   }
 }
+.h3Kadai {
+  font-size: 40px;
+}
 @media screen and (max-width: 1249px) {
   .h3Kadai {
     font-size: 3.2025620496vw;
   }
+}
+.h3Kadai {
+  line-height: 1;
+  letter-spacing: -0.115em;
 }
 @media screen and (max-width: 767px) {
   .h3Kadai {
@@ -2408,19 +2480,23 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  font-size: 20px;
-  line-height: 175%;
-  letter-spacing: -0.115em;
 }
 @media screen and (max-width: 1249px) {
   .h4Kadai {
     margin: 1.52% 0% 0% 0%;
   }
 }
+.h4Kadai {
+  font-size: 20px;
+}
 @media screen and (max-width: 1249px) {
   .h4Kadai {
     font-size: 1.6012810248vw;
   }
+}
+.h4Kadai {
+  line-height: 175%;
+  letter-spacing: -0.115em;
 }
 @media screen and (max-width: 767px) {
   .h4Kadai {
@@ -2482,6 +2558,13 @@ LAYOUT
   padding-bottom: 35px;
   padding-left: 0px;
   padding-right: 0px;
+}
+@media screen and (max-width: 1249px) {
+  .liKadai {
+    padding: 2.35% 0% 2.22% 0%;
+  }
+}
+.liKadai {
   width: 31.97%;
   border-radius: 6px;
   /* CSS3草案 */
@@ -2494,11 +2577,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-}
-@media screen and (max-width: 1249px) {
-  .liKadai {
-    padding: 2.35% 0% 2.22% 0%;
-  }
 }
 @media screen and (max-width: 1249px) {
   .liKadai {
@@ -2538,14 +2616,16 @@ LAYOUT
 
 .txtLiKadai {
   font-size: 24px;
-  line-height: 145%;
-  letter-spacing: 0.05em;
-  text-align: center;
 }
 @media screen and (max-width: 1249px) {
   .txtLiKadai {
     font-size: 1.9215372298vw;
   }
+}
+.txtLiKadai {
+  line-height: 145%;
+  letter-spacing: 0.05em;
+  text-align: center;
 }
 @media screen and (max-width: 1550px) {
   .txtLiKadai {
@@ -2569,9 +2649,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 30px;
-  line-height: 145%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .h2KadaiCta {
@@ -2581,10 +2658,17 @@ LAYOUT
     margin-right: auto;
   }
 }
+.h2KadaiCta {
+  font-size: 30px;
+}
 @media screen and (max-width: 1249px) {
   .h2KadaiCta {
     font-size: 2.4019215372vw;
   }
+}
+.h2KadaiCta {
+  line-height: 145%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .h2KadaiCta {
@@ -2615,9 +2699,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 16px;
-  line-height: 180%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .txtKadaiCta {
@@ -2627,10 +2708,17 @@ LAYOUT
     margin-right: auto;
   }
 }
+.txtKadaiCta {
+  font-size: 16px;
+}
 @media screen and (max-width: 1249px) {
   .txtKadaiCta {
     font-size: 1.2810248199vw;
   }
+}
+.txtKadaiCta {
+  line-height: 180%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .txtKadaiCta {
@@ -2661,11 +2749,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  width: 746px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-flow: row wrap;
 }
 @media screen and (max-width: 1249px) {
   .ctaKadaiCta {
@@ -2674,6 +2757,13 @@ LAYOUT
     margin-left: auto;
     margin-right: auto;
   }
+}
+.ctaKadaiCta {
+  width: 746px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 @media screen and (max-width: 767px) {
   .ctaKadaiCta {
@@ -2825,12 +2915,14 @@ LAYOUT
 
 .h2KadaiCtaBtn {
   font-size: 20px;
-  transition-duration: 0.5s;
 }
 @media screen and (max-width: 1249px) {
   .h2KadaiCtaBtn {
     font-size: 1.6012810248vw;
   }
+}
+.h2KadaiCtaBtn {
+  transition-duration: 0.5s;
 }
 @media screen and (max-width: 767px) {
   .h2KadaiCtaBtn {
@@ -2848,20 +2940,24 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  font-size: 14px;
-  line-height: 100%;
-  letter-spacing: 0em;
-  transition-duration: 0.5s;
 }
 @media screen and (max-width: 1249px) {
   .rubyKadaiCta {
     margin: 2.89% 0% 0% 0%;
   }
 }
+.rubyKadaiCta {
+  font-size: 14px;
+}
 @media screen and (max-width: 1249px) {
   .rubyKadaiCta {
     font-size: 1.1208967174vw;
   }
+}
+.rubyKadaiCta {
+  line-height: 100%;
+  letter-spacing: 0em;
+  transition-duration: 0.5s;
 }
 @media screen and (max-width: 767px) {
   .rubyKadaiCta {
@@ -2878,14 +2974,16 @@ LAYOUT
 
 .txtKadaiCtaBtn {
   font-size: 20px;
-  line-height: 130%;
-  letter-spacing: 0em;
-  transition-duration: 0.5s;
 }
 @media screen and (max-width: 1249px) {
   .txtKadaiCtaBtn {
     font-size: 1.6012810248vw;
   }
+}
+.txtKadaiCtaBtn {
+  line-height: 130%;
+  letter-spacing: 0em;
+  transition-duration: 0.5s;
 }
 @media screen and (max-width: 767px) {
   .txtKadaiCtaBtn {
@@ -2980,13 +3078,15 @@ LAYOUT
 
 .h2StrongTop {
   font-size: 20px;
-  line-height: 150%;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h2StrongTop {
     font-size: 1.6012810248vw;
   }
+}
+.h2StrongTop {
+  line-height: 150%;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
   .h2StrongTop {
@@ -3005,19 +3105,23 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  font-size: 40px;
-  line-height: 157%;
-  letter-spacing: -0.115em;
 }
 @media screen and (max-width: 1249px) {
   .h3StrongTop {
     margin: 2.85% 0% 0% 0%;
   }
 }
+.h3StrongTop {
+  font-size: 40px;
+}
 @media screen and (max-width: 1249px) {
   .h3StrongTop {
     font-size: 3.2025620496vw;
   }
+}
+.h3StrongTop {
+  line-height: 157%;
+  letter-spacing: -0.115em;
 }
 @media screen and (max-width: 1400px) {
   .h3StrongTop {
@@ -3050,19 +3154,23 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  font-size: 16px;
-  line-height: 200%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .txtStrongTop {
     margin: 3.49% 0% 0% 0%;
   }
 }
+.txtStrongTop {
+  font-size: 16px;
+}
 @media screen and (max-width: 1249px) {
   .txtStrongTop {
     font-size: 1.2810248199vw;
   }
+}
+.txtStrongTop {
+  line-height: 200%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .txtStrongTop {
@@ -3155,20 +3263,24 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  font-size: 40px;
-  line-height: 150%;
-  letter-spacing: -0.115em;
-  width: 100%;
 }
 @media screen and (max-width: 1249px) {
   .h3StrongBtm {
     margin: 0% 0% 0% 0%;
   }
 }
+.h3StrongBtm {
+  font-size: 40px;
+}
 @media screen and (max-width: 1249px) {
   .h3StrongBtm {
     font-size: 3.2025620496vw;
   }
+}
+.h3StrongBtm {
+  line-height: 150%;
+  letter-spacing: -0.115em;
+  width: 100%;
 }
 @media screen and (max-width: 1400px) {
   .h3StrongBtm {
@@ -3209,19 +3321,23 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  font-size: 16px;
-  line-height: 200%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .txtStrongBtm {
     margin: 2.38% 0% 0% 0%;
   }
 }
+.txtStrongBtm {
+  font-size: 16px;
+}
 @media screen and (max-width: 1249px) {
   .txtStrongBtm {
     font-size: 1.2810248199vw;
   }
+}
+.txtStrongBtm {
+  line-height: 200%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .txtStrongBtm {
@@ -3296,13 +3412,15 @@ LAYOUT
 
 .h2Kyosan {
   font-size: 20px;
-  line-height: 150%;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h2Kyosan {
     font-size: 1.6012810248vw;
   }
+}
+.h2Kyosan {
+  line-height: 150%;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
   .h2Kyosan {
@@ -3479,13 +3597,15 @@ LAYOUT
 
 .h2MasseageLxn {
   font-size: 20px;
-  line-height: 150%;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h2MasseageLxn {
     font-size: 1.6012810248vw;
   }
+}
+.h2MasseageLxn {
+  line-height: 150%;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
   .h2MasseageLxn {
@@ -3504,9 +3624,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 40px;
-  line-height: 150%;
-  letter-spacing: -0.115em;
 }
 @media screen and (max-width: 1249px) {
   .h3MasseageLxn {
@@ -3516,10 +3633,17 @@ LAYOUT
     margin-right: auto;
   }
 }
+.h3MasseageLxn {
+  font-size: 40px;
+}
 @media screen and (max-width: 1249px) {
   .h3MasseageLxn {
     font-size: 3.2025620496vw;
   }
+}
+.h3MasseageLxn {
+  line-height: 150%;
+  letter-spacing: -0.115em;
 }
 @media screen and (max-width: 767px) {
   .h3MasseageLxn {
@@ -3592,7 +3716,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: 0px;
-  width: 39.25%;
 }
 @media screen and (max-width: 1249px) {
   .secMasseagePref {
@@ -3601,6 +3724,9 @@ LAYOUT
     margin-left: auto;
     margin-right: 0%;
   }
+}
+.secMasseagePref {
+  width: 39.25%;
 }
 @media screen and (max-width: 1800px) {
   .secMasseagePref {
@@ -3624,13 +3750,15 @@ LAYOUT
 
 .h3MasseagePref {
   font-size: 30px;
-  line-height: 180%;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h3MasseagePref {
     font-size: 2.4019215372vw;
   }
+}
+.h3MasseagePref {
+  line-height: 180%;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1450px) {
   .h3MasseagePref {
@@ -3685,9 +3813,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 15px;
-  line-height: normal;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .h4MasseagePref {
@@ -3697,10 +3822,17 @@ LAYOUT
     margin-right: auto;
   }
 }
+.h4MasseagePref {
+  font-size: 15px;
+}
 @media screen and (max-width: 1249px) {
   .h4MasseagePref {
     font-size: 1.2009607686vw;
   }
+}
+.h4MasseagePref {
+  line-height: normal;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 1450px) {
   .h4MasseagePref {
@@ -3771,13 +3903,15 @@ LAYOUT
 
 .h5MasseagePref {
   font-size: 24px;
-  line-height: 1;
-  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 1249px) {
   .h5MasseagePref {
     font-size: 1.9215372298vw;
   }
+}
+.h5MasseagePref {
+  line-height: 1;
+  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 1450px) {
   .h5MasseagePref {
@@ -3805,17 +3939,19 @@ LAYOUT
 
 .txtMasseagePref {
   font-size: 13px;
+}
+@media screen and (max-width: 1249px) {
+  .txtMasseagePref {
+    font-size: 1.0408326661vw;
+  }
+}
+.txtMasseagePref {
   line-height: 1;
   letter-spacing: 0.15em;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 15px;
   margin-right: 0px;
-}
-@media screen and (max-width: 1249px) {
-  .txtMasseagePref {
-    font-size: 1.0408326661vw;
-  }
 }
 @media screen and (max-width: 1249px) {
   .txtMasseagePref {
@@ -3852,9 +3988,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 16px;
-  line-height: 200%;
-  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 1249px) {
   .txtMasseagePrefMain {
@@ -3864,10 +3997,17 @@ LAYOUT
     margin-right: auto;
   }
 }
+.txtMasseagePrefMain {
+  font-size: 16px;
+}
 @media screen and (max-width: 1249px) {
   .txtMasseagePrefMain {
     font-size: 1.2810248199vw;
   }
+}
+.txtMasseagePrefMain {
+  line-height: 200%;
+  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 1450px) {
   .txtMasseagePrefMain {
@@ -3970,13 +4110,15 @@ LAYOUT
 
 .h2ValueLxn {
   font-size: 26px;
-  line-height: 150%;
-  letter-spacing: 0.15em;
 }
 @media screen and (max-width: 1249px) {
   .h2ValueLxn {
     font-size: 2.0816653323vw;
   }
+}
+.h2ValueLxn {
+  line-height: 150%;
+  letter-spacing: 0.15em;
 }
 @media screen and (max-width: 767px) {
   .h2ValueLxn {
@@ -3993,13 +4135,15 @@ LAYOUT
 .h3ValueLxn {
   margin: 0 0 0 1.5%;
   font-size: 20px;
-  line-height: 150%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .h3ValueLxn {
     font-size: 1.6012810248vw;
   }
+}
+.h3ValueLxn {
+  line-height: 150%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .h3ValueLxn {
@@ -4027,13 +4171,15 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  overflow: hidden;
-  width: 100%;
 }
 @media screen and (max-width: 1249px) {
   .valueSwipper {
     margin: 1.33% 0% 0% 0%;
   }
+}
+.valueSwipper {
+  overflow: hidden;
+  width: 100%;
 }
 @media screen and (max-width: 767px) {
   .valueSwipper {
@@ -4068,6 +4214,13 @@ LAYOUT
   padding-bottom: 25px;
   padding-left: 0px;
   padding-right: 0px;
+}
+@media screen and (max-width: 1249px) {
+  .valueSliderBx {
+    padding: 4.26% 0% 5.92% 0%;
+  }
+}
+.valueSliderBx {
   border-radius: 6px;
   /* CSS3草案 */
   -webkit-border-radius: 6px;
@@ -4076,11 +4229,6 @@ LAYOUT
   /* Firefox用 */
   aspect-ratio: 422/426;
   width: 100%;
-}
-@media screen and (max-width: 1249px) {
-  .valueSliderBx {
-    padding: 4.26% 0% 5.92% 0%;
-  }
 }
 @media screen and (max-width: 767px) {
   .valueSliderBx {
@@ -4099,15 +4247,17 @@ LAYOUT
 
 .valueSliderLxn {
   width: 374px;
-  margin: auto;
-  height: 100%;
-  display: flex;
-  flex-flow: column;
 }
 @media screen and (max-width: 1249px) {
   .valueSliderLxn {
     width: 88.62%;
   }
+}
+.valueSliderLxn {
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
 }
 @media screen and (max-width: 767px) {
   .valueSliderLxn {
@@ -4122,13 +4272,15 @@ LAYOUT
 
 .h4TitleValueSlider {
   font-size: 26px;
-  line-height: 160%;
-  letter-spacing: 0.15em;
 }
 @media screen and (max-width: 1249px) {
   .h4TitleValueSlider {
     font-size: 2.0816653323vw;
   }
+}
+.h4TitleValueSlider {
+  line-height: 160%;
+  letter-spacing: 0.15em;
 }
 @media screen and (max-width: 767px) {
   .h4TitleValueSlider {
@@ -4147,19 +4299,23 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 17px;
   margin-right: 0px;
-  font-size: 15px;
-  line-height: 160%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .h5TitleValueSlider {
     margin: 0% 0% 0% 4.48%;
   }
 }
+.h5TitleValueSlider {
+  font-size: 15px;
+}
 @media screen and (max-width: 1249px) {
   .h5TitleValueSlider {
     font-size: 1.2009607686vw;
   }
+}
+.h5TitleValueSlider {
+  line-height: 160%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .h5TitleValueSlider {
@@ -4187,19 +4343,23 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  font-size: 17.5px;
-  line-height: 160%;
-  color: #66a13f;
 }
 @media screen and (max-width: 1249px) {
   .h6TitleValueSlider {
     margin: 0% 0% 0% 0%;
   }
 }
+.h6TitleValueSlider {
+  font-size: 17.5px;
+}
 @media screen and (max-width: 1249px) {
   .h6TitleValueSlider {
     font-size: 1.4011208967vw;
   }
+}
+.h6TitleValueSlider {
+  line-height: 160%;
+  color: #66a13f;
 }
 @media screen and (max-width: 767px) {
   .h6TitleValueSlider {
@@ -4226,15 +4386,17 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  aspect-ratio: 379/1;
-  width: 100%;
-  background: #669b40;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .brdTitleValueSlider {
     margin: 5.27% 0% 0% 0%;
   }
+}
+.brdTitleValueSlider {
+  aspect-ratio: 379/1;
+  width: 100%;
+  background: #669b40;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .brdTitleValueSlider {
@@ -4256,18 +4418,22 @@ LAYOUT
   margin-bottom: 15px;
   margin-left: 0px;
   margin-right: 0px;
-  font-size: 16px;
-  line-height: 160%;
 }
 @media screen and (max-width: 1249px) {
   .txtValueSlider {
     margin: 4.22% 0% 3.95% 0%;
   }
 }
+.txtValueSlider {
+  font-size: 16px;
+}
 @media screen and (max-width: 1249px) {
   .txtValueSlider {
     font-size: 1.2810248199vw;
   }
+}
+.txtValueSlider {
+  line-height: 160%;
 }
 @media screen and (max-width: 767px) {
   .txtValueSlider {
@@ -4297,17 +4463,19 @@ LAYOUT
   padding-bottom: 10px;
   padding-left: 13px;
   padding-right: 13px;
+}
+@media screen and (max-width: 1249px) {
+  .liValueSlider {
+    padding: 2.11% 3.43% 2.63% 3.43%;
+  }
+}
+.liValueSlider {
   border-radius: 15px;
   /* CSS3草案 */
   -webkit-border-radius: 15px;
   /* Safari,Google Chrome用 */
   -moz-border-radius: 15px;
   /* Firefox用 */
-}
-@media screen and (max-width: 1249px) {
-  .liValueSlider {
-    padding: 2.11% 3.43% 2.63% 3.43%;
-  }
 }
 .liValueSlider:nth-child(n+2) {
   margin-top: 9px;
@@ -4338,14 +4506,16 @@ LAYOUT
 
 .txtLiValueSlider {
   font-size: 14px;
-  line-height: 130%;
-  letter-spacing: 0em;
-  font-feature-settings: "palt";
 }
 @media screen and (max-width: 1249px) {
   .txtLiValueSlider {
     font-size: 1.1208967174vw;
   }
+}
+.txtLiValueSlider {
+  line-height: 130%;
+  letter-spacing: 0em;
+  font-feature-settings: "palt";
 }
 @media screen and (max-width: 767px) {
   .txtLiValueSlider {
@@ -4364,9 +4534,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  width: 103px;
-  display: flex;
-  justify-content: space-between;
 }
 @media screen and (max-width: 1249px) {
   .arroWap {
@@ -4375,6 +4542,11 @@ LAYOUT
     margin-left: auto;
     margin-right: auto;
   }
+}
+.arroWap {
+  width: 103px;
+  display: flex;
+  justify-content: space-between;
 }
 @media screen and (max-width: 767px) {
   .arroWap {
@@ -4507,13 +4679,15 @@ LAYOUT
 
 .h2TitleBriefHistory {
   font-size: 26px;
-  line-height: 150%;
-  letter-spacing: 0.15em;
 }
 @media screen and (max-width: 1249px) {
   .h2TitleBriefHistory {
     font-size: 2.0816653323vw;
   }
+}
+.h2TitleBriefHistory {
+  line-height: 150%;
+  letter-spacing: 0.15em;
 }
 @media screen and (max-width: 767px) {
   .h2TitleBriefHistory {
@@ -4529,17 +4703,19 @@ LAYOUT
 
 .h3TitleArrowBreaf {
   font-size: 20px;
+}
+@media screen and (max-width: 1249px) {
+  .h3TitleArrowBreaf {
+    font-size: 1.6012810248vw;
+  }
+}
+.h3TitleArrowBreaf {
   line-height: 150%;
   letter-spacing: 0em;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 23px;
   margin-right: 0px;
-}
-@media screen and (max-width: 1249px) {
-  .h3TitleArrowBreaf {
-    font-size: 1.6012810248vw;
-  }
 }
 @media screen and (max-width: 1249px) {
   .h3TitleArrowBreaf {
@@ -4573,13 +4749,15 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  height: 1px;
-  width: 100%;
 }
 @media screen and (max-width: 1249px) {
   .brdTitleBriefHistory {
     margin: 1.33% 0% 0% 0%;
   }
+}
+.brdTitleBriefHistory {
+  height: 1px;
+  width: 100%;
 }
 @media screen and (max-width: 767px) {
   .brdTitleBriefHistory {
@@ -4635,13 +4813,15 @@ LAYOUT
 
 .h3MainBriefHistoryFx {
   font-size: 16px;
-  line-height: 130%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .h3MainBriefHistoryFx {
     font-size: 1.2810248199vw;
   }
+}
+.h3MainBriefHistoryFx {
+  line-height: 130%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .h3MainBriefHistoryFx {
@@ -4692,13 +4872,15 @@ LAYOUT
 .yearMainBriefHistoryFx {
   width: 10.82%;
   font-size: 16px;
-  line-height: 130%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .yearMainBriefHistoryFx {
     font-size: 1.2810248199vw;
   }
+}
+.yearMainBriefHistoryFx {
+  line-height: 130%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .yearMainBriefHistoryFx {
@@ -4721,13 +4903,15 @@ LAYOUT
 .txtMainBriefHistoryFx {
   width: 91.17%;
   font-size: 16px;
-  line-height: 130%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .txtMainBriefHistoryFx {
     font-size: 1.2810248199vw;
   }
+}
+.txtMainBriefHistoryFx {
+  line-height: 130%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .txtMainBriefHistoryFx {
@@ -4749,12 +4933,14 @@ LAYOUT
 
 .secMainBriefHistoryFx02 {
   width: 530px;
-  margin: 0vw 0vw 0vw 9.96875vw;
 }
 @media screen and (max-width: 1249px) {
   .secMainBriefHistoryFx02 {
     width: 33.75%;
   }
+}
+.secMainBriefHistoryFx02 {
+  margin: 0vw 0vw 0vw 9.96875vw;
 }
 @media screen and (max-width: 1450px) {
   .secMainBriefHistoryFx02 {
@@ -4806,13 +4992,15 @@ LAYOUT
 
 .liMainBriefCompanyFx {
   font-size: 16px;
-  line-height: 130%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .liMainBriefCompanyFx {
     font-size: 1.2810248199vw;
   }
+}
+.liMainBriefCompanyFx {
+  line-height: 130%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .liMainBriefCompanyFx {
@@ -4886,13 +5074,15 @@ LAYOUT
 
 .h2Special {
   font-size: 20px;
-  line-height: 150%;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h2Special {
     font-size: 1.6012810248vw;
   }
+}
+.h2Special {
+  line-height: 150%;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
   .h2Special {
@@ -4916,13 +5106,15 @@ LAYOUT
 .h3Special {
   margin: 1.2229166667vw 0vw 0vw 0vw;
   font-size: 40px;
-  line-height: 150%;
-  letter-spacing: -0.115em;
 }
 @media screen and (max-width: 1249px) {
   .h3Special {
     font-size: 3.2025620496vw;
   }
+}
+.h3Special {
+  line-height: 150%;
+  letter-spacing: -0.115em;
 }
 @media screen and (max-width: 767px) {
   .h3Special {
@@ -5073,13 +5265,15 @@ LAYOUT
 
 .h4SpecialTop {
   font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .h4SpecialTop {
     font-size: 1.2810248199vw;
   }
+}
+.h4SpecialTop {
+  line-height: 150%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 1700px) {
   .h4SpecialTop {
@@ -5108,13 +5302,15 @@ LAYOUT
 .h5SpecialTop {
   margin: 8.52% 0% 0% 0%;
   font-size: 24px;
-  line-height: auto0%;
-  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 1249px) {
   .h5SpecialTop {
     font-size: 1.9215372298vw;
   }
+}
+.h5SpecialTop {
+  line-height: auto0%;
+  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 1700px) {
   .h5SpecialTop {
@@ -5160,13 +5356,15 @@ LAYOUT
 .txtSpecialTop {
   margin: 4.34% 0% 0% 0%;
   font-size: 14px;
-  line-height: 150%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .txtSpecialTop {
     font-size: 1.1208967174vw;
   }
+}
+.txtSpecialTop {
+  line-height: 150%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 1700px) {
   .txtSpecialTop {
@@ -5212,13 +5410,15 @@ LAYOUT
 .h3SpecialMain {
   margin: 5.27% 0% 0% 0%;
   font-size: 18px;
-  line-height: 150%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .h3SpecialMain {
     font-size: 1.4411529223vw;
   }
+}
+.h3SpecialMain {
+  line-height: 150%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .h3SpecialMain {
@@ -5236,13 +5436,15 @@ LAYOUT
 .txtSpecialMain {
   margin: 1.75% 0% 0% 0%;
   font-size: 14px;
-  line-height: 160%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .txtSpecialMain {
     font-size: 1.1208967174vw;
   }
+}
+.txtSpecialMain {
+  line-height: 160%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .txtSpecialMain {
@@ -5313,13 +5515,15 @@ LAYOUT
 ========================================================================== */
 .h2BissinesTitle {
   font-size: 20px;
-  line-height: 150%;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h2BissinesTitle {
     font-size: 1.6012810248vw;
   }
+}
+.h2BissinesTitle {
+  line-height: 150%;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
   .h2BissinesTitle {
@@ -5354,14 +5558,16 @@ LAYOUT
 .h3BissinesTitle {
   margin: 1.204167vw 0vw 0vw 0vw;
   font-size: 40px;
-  line-height: 150%;
-  letter-spacing: -0.115em;
-  font-feature-settings: "palt";
 }
 @media screen and (max-width: 1249px) {
   .h3BissinesTitle {
     font-size: 3.2025620496vw;
   }
+}
+.h3BissinesTitle {
+  line-height: 150%;
+  letter-spacing: -0.115em;
+  font-feature-settings: "palt";
 }
 @media screen and (max-width: 767px) {
   .h3BissinesTitle {
@@ -5493,13 +5699,15 @@ LAYOUT
 
 .h2BussinessCnt {
   font-size: 12px;
-  line-height: auto0%;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h2BussinessCnt {
     font-size: 0.9607686149vw;
   }
+}
+.h2BussinessCnt {
+  line-height: auto0%;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
   .h2BussinessCnt {
@@ -5518,9 +5726,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 32px;
-  line-height: auto0%;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h3BussinessCnt {
@@ -5530,10 +5735,17 @@ LAYOUT
     margin-right: auto;
   }
 }
+.h3BussinessCnt {
+  font-size: 32px;
+}
 @media screen and (max-width: 1249px) {
   .h3BussinessCnt {
     font-size: 2.5620496397vw;
   }
+}
+.h3BussinessCnt {
+  line-height: auto0%;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1700px) {
   .h3BussinessCnt {
@@ -5573,9 +5785,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 22px;
-  line-height: 150%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .h4BussinessCnt {
@@ -5585,10 +5794,17 @@ LAYOUT
     margin-right: auto;
   }
 }
+.h4BussinessCnt {
+  font-size: 22px;
+}
 @media screen and (max-width: 1249px) {
   .h4BussinessCnt {
     font-size: 1.7614091273vw;
   }
+}
+.h4BussinessCnt {
+  line-height: 150%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 1700px) {
   .h4BussinessCnt {
@@ -5652,9 +5868,6 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 16px;
-  line-height: 160%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .txtBussinessCnt {
@@ -5664,10 +5877,17 @@ LAYOUT
     margin-right: auto;
   }
 }
+.txtBussinessCnt {
+  font-size: 16px;
+}
 @media screen and (max-width: 1249px) {
   .txtBussinessCnt {
     font-size: 1.2810248199vw;
   }
+}
+.txtBussinessCnt {
+  line-height: 160%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 1750px) {
   .txtBussinessCnt {
@@ -5751,13 +5971,15 @@ LAYOUT
 
 .h4ListBussinessCnt {
   font-size: 18px;
-  line-height: 150%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .h4ListBussinessCnt {
     font-size: 1.4411529223vw;
   }
+}
+.h4ListBussinessCnt {
+  line-height: 150%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 1750px) {
   .h4ListBussinessCnt {
@@ -5825,10 +6047,24 @@ LAYOUT
 
 .liListBussinessCnt {
   width: 371px;
+}
+@media screen and (max-width: 1249px) {
+  .liListBussinessCnt {
+    width: 50.82%;
+  }
+}
+.liListBussinessCnt {
   padding-top: 7px;
   padding-bottom: 2px;
   padding-left: 13px;
   padding-right: 10px;
+}
+@media screen and (max-width: 1249px) {
+  .liListBussinessCnt {
+    padding: 0.95% 1.36% 0.27% 1.78%;
+  }
+}
+.liListBussinessCnt {
   background: #F3F3F3;
   border-radius: 3px;
   /* CSS3草案 */
@@ -5837,23 +6073,15 @@ LAYOUT
   -moz-border-radius: 3px;
   /* Firefox用 */
   font-size: 15px;
-  line-height: 150%;
-  letter-spacing: 0em;
-}
-@media screen and (max-width: 1249px) {
-  .liListBussinessCnt {
-    width: 50.82%;
-  }
-}
-@media screen and (max-width: 1249px) {
-  .liListBussinessCnt {
-    padding: 0.95% 1.36% 0.27% 1.78%;
-  }
 }
 @media screen and (max-width: 1249px) {
   .liListBussinessCnt {
     font-size: 1.2009607686vw;
   }
+}
+.liListBussinessCnt {
+  line-height: 150%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 1750px) {
   .liListBussinessCnt {
@@ -6024,15 +6252,17 @@ LAYOUT
   margin-left: auto;
   margin-right: auto;
   font-size: 18px;
-  line-height: 130%;
-  letter-spacing: 0em;
-  padding: 0% 0% 1.45% 0%;
-  border-bottom: 1px solid #D9D9D9;
 }
 @media screen and (max-width: 1249px) {
   .h3BussinessBtm {
     font-size: 1.4411529223vw;
   }
+}
+.h3BussinessBtm {
+  line-height: 130%;
+  letter-spacing: 0em;
+  padding: 0% 0% 1.45% 0%;
+  border-bottom: 1px solid #D9D9D9;
 }
 @media screen and (max-width: 1750px) {
   .h3BussinessBtm {
@@ -6083,13 +6313,15 @@ LAYOUT
   margin-left: auto;
   margin-right: auto;
   font-size: 15px;
-  line-height: 140%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .h4BussinessBtm {
     font-size: 1.2009607686vw;
   }
+}
+.h4BussinessBtm {
+  line-height: 140%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 1750px) {
   .h4BussinessBtm {
@@ -6123,13 +6355,15 @@ LAYOUT
   margin-left: auto;
   margin-right: auto;
   font-size: 14px;
-  line-height: 160%;
-  letter-spacing: 0.075em;
 }
 @media screen and (max-width: 1249px) {
   .txtBussinessBtm {
     font-size: 1.1208967174vw;
   }
+}
+.txtBussinessBtm {
+  line-height: 160%;
+  letter-spacing: 0.075em;
 }
 @media screen and (max-width: 1750px) {
   .txtBussinessBtm {
@@ -6310,13 +6544,15 @@ LAYOUT
 
 .h2Vision {
   font-size: 20px;
-  line-height: normal;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h2Vision {
     font-size: 1.6012810248vw;
   }
+}
+.h2Vision {
+  line-height: normal;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h2Vision {
@@ -6352,13 +6588,15 @@ LAYOUT
 .h3Vision {
   margin: 3.40125vw 0vw 0vw 0vw;
   font-size: 40px;
-  line-height: 150%;
-  letter-spacing: -0.115em;
 }
 @media screen and (max-width: 1249px) {
   .h3Vision {
     font-size: 3.2025620496vw;
   }
+}
+.h3Vision {
+  line-height: 150%;
+  letter-spacing: -0.115em;
 }
 @media screen and (max-width: 1249px) {
   .h3Vision {
@@ -6397,13 +6635,15 @@ LAYOUT
 .txtVision {
   margin: 1.035417vw 0vw 0vw 0vw;
   font-size: 18px;
-  line-height: 220%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .txtVision {
     font-size: 1.4411529223vw;
   }
+}
+.txtVision {
+  line-height: 220%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .txtVision {
@@ -6457,13 +6697,15 @@ LAYOUT
 .h4Vision {
   margin: 8.458333vw 0vw 0vw 0vw;
   font-size: 20px;
-  line-height: auto0%;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h4Vision {
     font-size: 1.6012810248vw;
   }
+}
+.h4Vision {
+  line-height: auto0%;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h4Vision {
@@ -6540,13 +6782,15 @@ LAYOUT
 
 .h5Vision {
   font-size: 16px;
-  line-height: auto0%;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h5Vision {
     font-size: 1.2810248199vw;
   }
+}
+.h5Vision {
+  line-height: auto0%;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h5Vision {
@@ -6575,13 +6819,15 @@ LAYOUT
 .txtLiVison {
   margin: 1.38375vw 0vw 0vw 0vw;
   font-size: 24px;
-  line-height: auto0%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .txtLiVison {
     font-size: 1.9215372298vw;
   }
+}
+.txtLiVison {
+  line-height: auto0%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .txtLiVison {
@@ -6613,12 +6859,14 @@ LAYOUT
 
 .photoVisionlxn {
   width: 716px;
-  position: relative;
 }
 @media screen and (max-width: 1249px) {
   .photoVisionlxn {
     width: 45.6%;
   }
+}
+.photoVisionlxn {
+  position: relative;
 }
 @media screen and (max-width: 1700px) {
   .photoVisionlxn {
@@ -6647,11 +6895,13 @@ LAYOUT
 .photoVision {
   position: absolute;
   width: 46.40625vw;
-  left: 0;
-  top: 0;
 }
 .photoVision img {
   max-width: 891px;
+}
+.photoVision {
+  left: 0;
+  top: 0;
 }
 .photoVision img {
   width: 100%;
@@ -6718,13 +6968,15 @@ LAYOUT
 
 .h2TitleBrandMessage {
   font-size: 20px;
-  line-height: 150%;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h2TitleBrandMessage {
     font-size: 1.6012810248vw;
   }
+}
+.h2TitleBrandMessage {
+  line-height: 150%;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
   .h2TitleBrandMessage {
@@ -6740,17 +6992,19 @@ LAYOUT
 
 .h3TitleBrandMessage {
   font-size: 13px;
+}
+@media screen and (max-width: 1249px) {
+  .h3TitleBrandMessage {
+    font-size: 1.0408326661vw;
+  }
+}
+.h3TitleBrandMessage {
   line-height: 150%;
   letter-spacing: 0.05em;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 20px;
   margin-right: 0px;
-}
-@media screen and (max-width: 1249px) {
-  .h3TitleBrandMessage {
-    font-size: 1.0408326661vw;
-  }
 }
 @media screen and (max-width: 1249px) {
   .h3TitleBrandMessage {
@@ -6796,17 +7050,19 @@ LAYOUT
 
 .h4TitleBrandMessage {
   font-size: 22px;
+}
+@media screen and (max-width: 1249px) {
+  .h4TitleBrandMessage {
+    font-size: 1.7614091273vw;
+  }
+}
+.h4TitleBrandMessage {
   line-height: auto0%;
   letter-spacing: 0em;
   margin-top: 47px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-}
-@media screen and (max-width: 1249px) {
-  .h4TitleBrandMessage {
-    font-size: 1.7614091273vw;
-  }
 }
 @media screen and (max-width: 1249px) {
   .h4TitleBrandMessage {
@@ -6836,17 +7092,15 @@ LAYOUT
 
 .txtBrandMessage {
   font-size: 14px;
-  line-height: 160%;
-  line-height: 1.7142857143;
-  margin-top: 22px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
 }
 @media screen and (max-width: 1249px) {
   .txtBrandMessage {
     font-size: 1.1208967174vw;
   }
+}
+.txtBrandMessage {
+  line-height: 160%;
+  line-height: 1.7142857143;
 }
 .txtBrandMessage::before {
   display: block;
@@ -6861,6 +7115,12 @@ LAYOUT
   height: 0;
   margin-bottom: calc((1 - 1.7142857143) * 0.5em);
   content: "";
+}
+.txtBrandMessage {
+  margin-top: 22px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 @media screen and (max-width: 1249px) {
   .txtBrandMessage {
@@ -6956,13 +7216,15 @@ LAYOUT
 .h2Company {
   width: 29.93%;
   font-size: 20px;
-  line-height: normal;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .h2Company {
     font-size: 1.6012810248vw;
   }
+}
+.h2Company {
+  line-height: normal;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
   .h2Company {
@@ -7022,12 +7284,14 @@ LAYOUT
   padding-bottom: 28px;
   padding-left: 0px;
   padding-right: 0px;
-  border-bottom: 1px solid #d9d9d9;
 }
 @media screen and (max-width: 1249px) {
   .liCompany {
     padding: 0% 0% 2.91% 0%;
   }
+}
+.liCompany {
+  border-bottom: 1px solid #d9d9d9;
 }
 .liCompany:last-child {
   border-bottom: none;
@@ -7057,13 +7321,15 @@ LAYOUT
 .h3Company {
   width: 18.2%;
   font-size: 20px;
-  line-height: 200%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .h3Company {
     font-size: 1.6012810248vw;
   }
+}
+.h3Company {
+  line-height: 200%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .h3Company {
@@ -7103,13 +7369,15 @@ LAYOUT
 .txtCompany {
   width: 76.5%;
   font-size: 20px;
-  line-height: 200%;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .txtCompany {
     font-size: 1.6012810248vw;
   }
+}
+.txtCompany {
+  line-height: 200%;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .txtCompany {
@@ -7221,13 +7489,15 @@ LAYOUT
 
 .h2Contact {
   font-size: 24px;
-  line-height: 150%;
-  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 1249px) {
   .h2Contact {
     font-size: 1.9215372298vw;
   }
+}
+.h2Contact {
+  line-height: 150%;
+  letter-spacing: 0.1em;
 }
 @media screen and (max-width: 767px) {
   .h2Contact {
@@ -7247,19 +7517,23 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  font-size: 40px;
-  line-height: normal;
-  letter-spacing: -0.14em;
 }
 @media screen and (max-width: 1249px) {
   .h3Contact {
     margin: -0.1% 0% 0% 0%;
   }
 }
+.h3Contact {
+  font-size: 40px;
+}
 @media screen and (max-width: 1249px) {
   .h3Contact {
     font-size: 3.2025620496vw;
   }
+}
+.h3Contact {
+  line-height: normal;
+  letter-spacing: -0.14em;
 }
 @media screen and (max-width: 1450px) {
   .h3Contact {
@@ -7296,19 +7570,23 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  font-size: 24px;
-  line-height: normal;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .rubyContact {
     margin: 2.54% 0% 0% 0%;
   }
 }
+.rubyContact {
+  font-size: 24px;
+}
 @media screen and (max-width: 1249px) {
   .rubyContact {
     font-size: 1.9215372298vw;
   }
+}
+.rubyContact {
+  line-height: normal;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .rubyContact {
@@ -7328,19 +7606,23 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  font-size: 18px;
-  line-height: normal;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .h4Contact {
     margin: 14.45% 0% 0% 0%;
   }
 }
+.h4Contact {
+  font-size: 18px;
+}
 @media screen and (max-width: 1249px) {
   .h4Contact {
     font-size: 1.4411529223vw;
   }
+}
+.h4Contact {
+  line-height: normal;
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .h4Contact {
@@ -7374,13 +7656,14 @@ LAYOUT
 
 .liTxtContact {
   font-size: 16px;
-  line-height: 1;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 1249px) {
   .liTxtContact {
     font-size: 1.2810248199vw;
   }
+}
+.liTxtContact {
+  line-height: 1;
 }
 .liTxtContact::before {
   display: block;
@@ -7395,6 +7678,9 @@ LAYOUT
   height: 0;
   margin-bottom: calc((1 - 1) * 0.5em);
   content: "";
+}
+.liTxtContact {
+  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .liTxtContact {
@@ -7426,12 +7712,14 @@ LAYOUT
 
 .ctaContactCta {
   width: 361px;
-  margin: 3% 0 0 0;
 }
 @media screen and (max-width: 1249px) {
   .ctaContactCta {
     width: 32.81%;
   }
+}
+.ctaContactCta {
+  margin: 3% 0 0 0;
 }
 @media screen and (max-width: 1400px) {
   .ctaContactCta {
@@ -7507,15 +7795,17 @@ LAYOUT
 
 .secContactCta {
   width: 341px;
-  background: url(../img/btnContactCta.svg) no-repeat;
-  background-position: 94% center;
-  background-size: auto 34%;
-  transition-duration: 0.5s;
 }
 @media screen and (max-width: 1249px) {
   .secContactCta {
     width: 94.45%;
   }
+}
+.secContactCta {
+  background: url(../img/btnContactCta.svg) no-repeat;
+  background-position: 94% center;
+  background-size: auto 34%;
+  transition-duration: 0.5s;
 }
 @media screen and (max-width: 767px) {
   .secContactCta {
@@ -7532,14 +7822,16 @@ LAYOUT
 
 .h2ContactCta {
   font-size: 20px;
-  line-height: 130%;
-  letter-spacing: 0em;
-  transition-duration: 0.5s;
 }
 @media screen and (max-width: 1249px) {
   .h2ContactCta {
     font-size: 1.6012810248vw;
   }
+}
+.h2ContactCta {
+  line-height: 130%;
+  letter-spacing: 0em;
+  transition-duration: 0.5s;
 }
 @media screen and (max-width: 767px) {
   .h2ContactCta {
@@ -7559,20 +7851,24 @@ LAYOUT
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  font-size: 14px;
-  line-height: 150%;
-  letter-spacing: 0em;
-  transition-duration: 0.5s;
 }
 @media screen and (max-width: 1249px) {
   .rubyContactCta {
     margin: 0.29% 0% 0% 0%;
   }
 }
+.rubyContactCta {
+  font-size: 14px;
+}
 @media screen and (max-width: 1249px) {
   .rubyContactCta {
     font-size: 1.1208967174vw;
   }
+}
+.rubyContactCta {
+  line-height: 150%;
+  letter-spacing: 0em;
+  transition-duration: 0.5s;
 }
 @media screen and (max-width: 767px) {
   .rubyContactCta {
@@ -7597,23 +7893,27 @@ LAYOUT
 
 .txtContactCta {
   width: 341px;
-  background: url(../img/btnContactCta02.svg) no-repeat;
-  background-position: 94% center;
-  background-size: auto 63%;
-  font-size: 20px;
-  line-height: 130%;
-  letter-spacing: 0em;
-  transition-duration: 0.5s;
 }
 @media screen and (max-width: 1249px) {
   .txtContactCta {
     width: 94.45%;
   }
 }
+.txtContactCta {
+  background: url(../img/btnContactCta02.svg) no-repeat;
+  background-position: 94% center;
+  background-size: auto 63%;
+  font-size: 20px;
+}
 @media screen and (max-width: 1249px) {
   .txtContactCta {
     font-size: 1.6012810248vw;
   }
+}
+.txtContactCta {
+  line-height: 130%;
+  letter-spacing: 0em;
+  transition-duration: 0.5s;
 }
 @media screen and (max-width: 767px) {
   .txtContactCta {
@@ -7729,12 +8029,14 @@ LAYOUT
 
 .navFooter {
   width: 823px;
-  margin: 2% 0 0 0px;
 }
 @media screen and (max-width: 1249px) {
   .navFooter {
     width: 52.42%;
   }
+}
+.navFooter {
+  margin: 2% 0 0 0px;
 }
 @media screen and (max-width: 1249px) {
   .navFooter {
@@ -7758,13 +8060,15 @@ LAYOUT
 
 .liNavFooter {
   font-size: 20px;
-  line-height: normal;
-  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 1249px) {
   .liNavFooter {
     font-size: 1.6012810248vw;
   }
+}
+.liNavFooter {
+  line-height: normal;
+  letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
   .liNavFooter {
@@ -7780,15 +8084,17 @@ LAYOUT
 
 .liNavFooter01 {
   width: 160px;
-  margin-top: 0px;
-  margin-bottom: 34px;
-  margin-left: 0px;
-  margin-right: 0px;
 }
 @media screen and (max-width: 1249px) {
   .liNavFooter01 {
     width: 19.53%;
   }
+}
+.liNavFooter01 {
+  margin-top: 0px;
+  margin-bottom: 34px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 @media screen and (max-width: 1249px) {
   .liNavFooter01 {
@@ -7804,15 +8110,17 @@ LAYOUT
 
 .liNavFooter02 {
   width: 230px;
-  margin-top: 0px;
-  margin-bottom: 34px;
-  margin-left: 46px;
-  margin-right: 0px;
 }
 @media screen and (max-width: 1249px) {
   .liNavFooter02 {
     width: 28.08%;
   }
+}
+.liNavFooter02 {
+  margin-top: 0px;
+  margin-bottom: 34px;
+  margin-left: 46px;
+  margin-right: 0px;
 }
 @media screen and (max-width: 1249px) {
   .liNavFooter02 {
@@ -7828,15 +8136,17 @@ LAYOUT
 
 .liNavFooter03 {
   width: 135px;
-  margin-top: 0px;
-  margin-bottom: 34px;
-  margin-left: 46px;
-  margin-right: 0px;
 }
 @media screen and (max-width: 1249px) {
   .liNavFooter03 {
     width: 16.48%;
   }
+}
+.liNavFooter03 {
+  margin-top: 0px;
+  margin-bottom: 34px;
+  margin-left: 46px;
+  margin-right: 0px;
 }
 @media screen and (max-width: 1249px) {
   .liNavFooter03 {
@@ -7852,15 +8162,17 @@ LAYOUT
 
 .liNavFooter04 {
   width: 156px;
-  margin-top: 0px;
-  margin-bottom: 34px;
-  margin-left: 46px;
-  margin-right: 0px;
 }
 @media screen and (max-width: 1249px) {
   .liNavFooter04 {
     width: 19.04%;
   }
+}
+.liNavFooter04 {
+  margin-top: 0px;
+  margin-bottom: 34px;
+  margin-left: 46px;
+  margin-right: 0px;
 }
 @media screen and (max-width: 1249px) {
   .liNavFooter04 {
@@ -7884,17 +8196,19 @@ LAYOUT
 .copy {
   text-align: left;
   font-size: 12px;
+}
+@media screen and (max-width: 1249px) {
+  .copy {
+    font-size: 0.9607686149vw;
+  }
+}
+.copy {
   line-height: 180%;
   letter-spacing: 0.05em;
   margin-top: -2px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-}
-@media screen and (max-width: 1249px) {
-  .copy {
-    font-size: 0.9607686149vw;
-  }
 }
 @media screen and (max-width: 1249px) {
   .copy {
@@ -7957,12 +8271,14 @@ LAYOUT
   /* Firefox用 */
   aspect-ratio: 334/72;
   font-size: 20px;
-  background: #669b40;
 }
 @media screen and (max-width: 1249px) {
   .btnCtaPcFixedBtnFxc {
     font-size: 1.6012810248vw;
   }
+}
+.btnCtaPcFixedBtnFxc {
+  background: #669b40;
 }
 @media screen and (max-width: 767px) {
   .btnCtaPcFixedBtnFxc {
@@ -7983,14 +8299,16 @@ LAYOUT
 
 .txtCtaPcFixedBtnFxc {
   font-size: 20px;
-  line-height: 130%;
-  letter-spacing: 0em;
-  transition-duration: 0.5s;
 }
 @media screen and (max-width: 1249px) {
   .txtCtaPcFixedBtnFxc {
     font-size: 1.6012810248vw;
   }
+}
+.txtCtaPcFixedBtnFxc {
+  line-height: 130%;
+  letter-spacing: 0em;
+  transition-duration: 0.5s;
 }
 
 .btnCtaPcFixedBtnFxc:hover {
@@ -8040,13 +8358,15 @@ LAYOUT
 
 .btnFixedFooter01 {
   aspect-ratio: 169/37;
-  line-height: normal;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .btnFixedFooter01 {
     font-size: 3.4666666667vw;
   }
+}
+.btnFixedFooter01 {
+  line-height: normal;
+  letter-spacing: 0em;
 }
 
 .liFixedFooter02 {
@@ -8060,13 +8380,15 @@ LAYOUT
 
 .btnFixedFooter02 {
   aspect-ratio: 169/37;
-  line-height: normal;
-  letter-spacing: 0em;
 }
 @media screen and (max-width: 767px) {
   .btnFixedFooter02 {
     font-size: 3.4666666667vw;
   }
+}
+.btnFixedFooter02 {
+  line-height: normal;
+  letter-spacing: 0em;
 }
 
 .liFixedFooter03 {

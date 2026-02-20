@@ -58,15 +58,6 @@
                 </ul>
             </section>
             <ul class="ctaContactCta">
-                <li class="liContactCta">
-                    <a class="bg_669B40 cl_fff undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnContactCta" href="tel:090-9860-4544">
-                        <section class="secContactCta">
-                            <!--bg:../img/btnContactCta.svg-->
-                            <h2 class="t_center cl_fff fw_500 txtset h2ContactCta">お困りごとを電話で話す</h2>
-                            <p class="t_center cl_fff fw_500 txtset rubyContactCta">090-9860-4544（9：00-18：00 土日祝休）</p>
-                        </section>
-                    </a>
-                </li>
 
                 <li class="liContactCta">
                     <a class="bg_E5E5E5 undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnContactCta" href="mailto:okamoto@eandby.com">

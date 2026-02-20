@@ -49,15 +49,6 @@
 
         <ul class="ctaMainHeaderGnavSp">
             <li class="liMainHeaderGnavSp02">
-                <a class="bg_fff undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnMainHeaderGnavSp02" href="tel:090-9860-4544">
-                    <section class="secMainHeaderGnavSp">
-                        <h2 class="t_center cl_1D1D1F fw_500 txtset h2MainHeaderGnavSp">お困りごとを電話で話す</h2>
-                        <p class="t_center cl_1D1D1F fw_500 txtset rubyMainHeaderGnavSp">090-9860-4544（9：00-18：00 土日祝休）</p>
-                    </section>
-                </a>
-            </li>
-
-            <li class="liMainHeaderGnavSp02">
                 <a class="bg_fff undernone cl_1D1D1F fw_500 d_flex j_center ali_center btnMainHeaderGnavSp02" href="mailto:okamoto@eandby.com">
                     <p class="t_center cl_1D1D1F fw_500 txtset txtMainHeaderGnavSp">お困りごとをメールで送る</p>
                 </a>

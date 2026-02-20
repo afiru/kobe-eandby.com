@@ -1,7 +1,7 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -24,8 +24,7 @@ LAYOUT
   width: 100%;
   margin: auto;
 
-  @include mi.mq(sp) {
-  }
+  @include mi.mq(sp) {}
 }
 
 .h2Kadai {
@@ -146,7 +145,7 @@ LAYOUT
   @include mi.marginPercent(1570, 39, auto, 0, auto);
   width: 746px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 
@@ -209,6 +208,7 @@ LAYOUT
     background-repeat: no-repeat;
     background-position: 96% center;
     background-size: auto 14px;
+
     @include mi.mq(sp) {
       background-position: 95% center;
       background-size: auto 14px;
@@ -220,6 +220,7 @@ LAYOUT
     background-repeat: no-repeat;
     background-position: 96% center;
     background-size: auto 14px;
+
     @include mi.mq(sp) {
       background-position: 95% center;
       background-size: auto 14px;
@@ -282,6 +283,7 @@ LAYOUT
 
   .h2KadaiCtaBtn {
     letter-spacing: 0.15em;
+
     @include mi.mq(sp) {
       letter-spacing: 0em;
     }
@@ -289,6 +291,7 @@ LAYOUT
 
   .txtKadaiCtaBtn {
     letter-spacing: 0.15em;
+
     @include mi.mq(sp) {
       letter-spacing: 0em;
     }
@@ -296,6 +299,7 @@ LAYOUT
 
   .rubyKadaiCta {
     letter-spacing: 0.07em;
+
     @include mi.mq(sp) {
       letter-spacing: 0em;
     }
