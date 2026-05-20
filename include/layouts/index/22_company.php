@@ -35,6 +35,16 @@
                         オンラインスクール運営
                     </p>
                 </li>
+
+                <li class="bg_F5F5F5 liCompany02">
+                    <div class="d_flex j_between row ali_center liCompany02Fx">
+                        <section class="d_flex j_between ali_center secLiCompany02Fx">
+                            <h5 class="cl_1D1D1F fw_500 txtset h5LiCompany02Fx">インボイス登録番号</h5>
+                            <p class="cl_1D1D1F fw_500 txtset rubyLiCompany02Fx">（適格請求書発行事業者登録番号）</p>
+                        </section>
+                        <p class="cl_000 fw_400 txtset txtLiCompany02Fx">T8120001281396</p>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
