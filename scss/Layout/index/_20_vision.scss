@@ -1,7 +1,7 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use '../../Functions/mixin' as mi;
 
 /* ==========================================================================
 LAYOUT
@@ -24,7 +24,8 @@ LAYOUT
     }
 }
 
-.visionFx {}
+.visionFx {
+}
 
 .secVision {
     @include mi.ontenerWidth(1570, 680);
@@ -156,13 +157,13 @@ LAYOUT
 
 .liVision {
     @include mi.paddingVw(1920, 36, 0, 36, 0);
-    border-bottom: 1px solid #A2A2A2;
+    border-bottom: 1px solid #a2a2a2;
 
     @include mi.mq(sp) {
         padding: 7.87% 0% 4.05% 0%;
     }
 
-    &:nth-child(n+2) {
+    &:nth-child(n + 2) {
         margin: 0.985833vw 0vw 0vw 0vw;
     }
 }
@@ -216,6 +217,9 @@ LAYOUT
         @include mi.ontenerWidth(1570, 592);
     }
 
+    @include mi.mq(max1500) {
+        //@include mi.ontenerWidth(1570, 523);
+    }
     @include mi.mq(max1350) {
         @include mi.widthVw(1570, 620);
     }
@@ -238,6 +242,4 @@ LAYOUT
     @include mi.mq(max1700) {
         @include mi.widthVw(1920, 891);
     }
-
-
 }

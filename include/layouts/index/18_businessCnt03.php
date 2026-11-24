@@ -77,4 +77,78 @@
             </li>
         </ul>
     </div>
+
+    <!--261124ADD-->
+    <div class="bussinessCntLxn bussinessCntLxnAdd261124">
+           <div class="d_flex j_between row bussinessCntTop bussinessCntTopAdd261124">
+            <section class="secBussinessCnt secBussinessCntAdd261124">
+                <h2 class="cl_1D1D1F fw_500 txtset h2BussinessCntAdd261124">ジャケ買いワインのお店</h2>
+                <h3 class="cl_1D1D1F fw_500 txtset h3BussinessCntAdd261124">E&by Wine Shop</h3>
+                <h4 class="cl_1D1D1F fw_500 txtset h4BussinessCntAdd261124">
+                    いいあんばい
+                </h4>
+                <figure class="sp_only photoBussinessCntTop photoBussinessCntTopAdd261124">
+                 <img loading="lazy" src="img/photoBussinessCntTopAdd261124Sp.png" alt="ジャケ買いワインのお店" width="654" height="452">
+            </figure>
+                <h5 class="cl_1D1D1F fw_500 txtset h5BussinessCntAdd261124">
+                    ワインの世界はとても奥深く、<br>
+                    でも、最初の一歩は<br>
+                    「なんだか惹かれるラベル」からでいい。
+                </h5>
+                <p class="cl_1D1D1F fw_500 txtset txtBussinessCntAdd261124">
+                    E&byは、世界中から思わず手に取りたくなる<br>
+                    “映えるラベル（エチケット）”のワインを集めたお店です。<br>
+                    味や産地、価格だけではなく、「このボトル、好き。」という直感から始まるワイン選び。美しいラベルに込められた、つくり手の想いやストーリーを知ることで、ワインはもっとおいしく、もっと楽しくなる。<br><br>
+
+                    ワインをきっかけに、人が集い、語り合い、新しい出会いやアイデアが生まれる。人とアイデアがめぐる、小さなコミュニティ・スペース。それが、E&byです。
+                </p>
+
+            </section>
+
+            <figure class="pc_only photoBussinessCntTop photoBussinessCntTopAdd261124">
+                 <img loading="lazy" src="img/photoBussinessCntTopAdd261124Pc.png" alt="ジャケ買いワインのお店" width="654" height="452">
+            </figure>
+        </div>
+
+        <ul class="d_flex j_between row ulBussinessBtm ulBussinessBtmAdd261124">
+            <li class="liBussinessBtm liBussinessBtmAdd261124">
+                <figure class=" photoLiBussinessBtm photoLiBussinessBtmAdd261124">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="img/photoLiBussinessBtmAdd261124Pc01.png">
+                        <!--PC画像-->
+                        <source media="(max-width: 767px)" srcset="img/photoLiBussinessBtmAdd261124Sp01.png">
+                        <!--SP画像-->
+                        <img loading="lazy" src="img/photoLiBussinessBtmAdd261124Pc01.png" alt="店舗情報" width="205" height="142">
+                    </picture>
+                </figure>
+                <div class="boxBussinessBtmAdd261124">
+                    <h3 class="cl_1D1D1F fw_500 txtset h3BussinessBtm h3BussinessBtmAdd261124">店舗情報</h3>
+                    <p class="cl_2C2C2C fw_400 txtset text_justify txtBussinessBtm txtBussinessBtmAdd261124">
+                        住所：大阪府守口市本町2-5-38-A
+                    </p>
+                    <p class="cl_2C2C2C fw_400 txtset text_justify txtBussinessBtm txtBussinessBtmAdd261124 txtBussinessBtmAdd261124_02">
+                    京阪電車 守口市駅 徒歩5分<br>大阪メトロ谷町線 守口駅 徒歩2分
+                    </p>
+                </div>
+            </li>
+
+            <li class="liBussinessBtm liBussinessBtmAdd261124">
+                <figure class=" photoLiBussinessBtm photoLiBussinessBtmAdd261124">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="img/photoLiBussinessBtmAdd261124Pc02.png">
+                        <!--PC画像-->
+                        <source media="(max-width: 767px)" srcset="img/photoLiBussinessBtmAdd261124Sp02.png">
+                        <!--SP画像-->
+                        <img loading="lazy" src="img/photoLiBussinessBtmAdd261124Pc02.png" alt="お問い合わせ" width="205" height="142">
+                    </picture>
+                </figure>
+                <div class="boxBussinessBtmAdd261124">
+                    <h3 class="cl_1D1D1F fw_500 txtset h3BussinessBtm h3BussinessBtmAdd261124">お問い合わせ</h3>
+                    <p class="cl_2C2C2C fw_400 txtset text_justify txtBussinessBtm txtBussinessBtmAdd261124">
+                        電話：070-5484-2020
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
 </div>

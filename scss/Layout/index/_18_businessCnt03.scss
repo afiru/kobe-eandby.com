@@ -1,11 +1,163 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin"as mi;
+@use '../../Functions/mixin' as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.testIndex {
-    @include mi.ontenerWidth(1200, 500);
+.bussinessCntLxnAdd261124 {
+    margin: 2.7vw auto 0vw auto;
+    padding: 3.66% 0% 3.94% 0%;
+    @include mi.kadomaru(10px);
+    background: #f8f5f0;
+    @include mi.mq(sp) {
+        margin: 6% auto 0 auto;
+        padding: 7.2% 0% 11.91% 0%;
+    }
+}
+.bussinessCntTopAdd261124 {
+    @include mi.ontener_width02(1460, 1350);
+    margin: auto;
+    @include mi.mq(max1700) {
+        @include mi.ontener_width02(1500, 1430);
+    }
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(320, 283);
+    }
+}
+.secBussinessCntAdd261124 {
+    margin: -0.4vw 0 0 0;
+    @include mi.mq(sp) {
+    }
+}
+.h2BussinessCntAdd261124 {
+    @include mi.fontSizePc(16);
+    line-height: normal;
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(10);
+    }
+}
+.h3BussinessCntAdd261124 {
+    margin: 0.7vw 0vw 0vw 0vw;
+    @include mi.fontSizePc(64);
+    line-height: 1;
+    @include mi.letterSpacing(50);
+    font-family: 'Tiro Devanagari Hindi';
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(35);
+        margin-top: 3.14%;
+        @include mi.letterSpacing(30);
+        white-space: nowrap;
+    }
+}
+.h4BussinessCntAdd261124 {
+    margin: -0.2vw 0vw 0vw 0vw;
+    @include mi.fontSizePc(10);
+    line-height: 1;
+    @include mi.letterSpacing(20);
+    @include mi.mq(sp) {
+        margin-top: 0.14%;
+        @include mi.fontSizeSp(10);
+    }
+}
+.h5BussinessCntAdd261124 {
+    margin: 1.18vw 0vw 0vw 0vw;
+    @include mi.fontSizePc(22);
+    line-height: normal;
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        margin-top: 9.14%;
+        letter-spacing: -0.01em;
+        @include mi.fontSizeSp(15);
+    }
+}
+.txtBussinessCntAdd261124 {
+    margin: 1vw 0vw 0vw 0vw;
+    @include mi.fontSizePc(16);
+    line-height: 1.6;
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        margin: 5% 0 0 0;
+        @include mi.fontSizeSp(14);
+        line-height: 150%;
+    }
+}
+.photoBussinessCntTopAdd261124 {
+    @include mi.ontener_width02(1350, 654);
+    @include mi.mq(max1700) {
+        width: 45.44%;
+    }
+    @include mi.mq(sp) {
+        margin: 6% auto 0 auto;
+        width: 100%;
+    }
+}
+
+.ulBussinessBtmAdd261124 {
+    margin: 3.8vw auto 0vw auto;
+    @include mi.ontener_width02(1460, 1350);
+    @include mi.mq(max1700) {
+        @include mi.ontener_width02(1500, 1430);
+    }
+    @include mi.mq(sp) {
+        margin: 10.5% auto 0 auto;
+        width: 87.71%;
+    }
+}
+.liBussinessBtmAdd261124 {
+    width: 48.29%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    @include mi.mq(sp) {
+        width: 100%;
+        & + .liBussinessBtmAdd261124 {
+            margin-top: 9%;
+        }
+    }
+}
+.photoLiBussinessBtmAdd261124 {
+    @include mi.ontener_width02(625, 205);
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(283, 121);
+    }
+}
+.boxBussinessBtmAdd261124 {
+    margin: -1.5% 0 0 0;
+    @include mi.ontener_width02(625, 400);
+    @include mi.mq(sp) {
+        margin: -2% 0 0 0;
+        @include mi.ontenerWidth(283, 150);
+    }
+}
+.h3BussinessBtmAdd261124 {
+    padding: 0% 0% 2% 0%;
+    margin-top: 0;
+    @include mi.fontSizePc(18);
+    line-height: normal;
+    @include mi.letterSpacing(0);
+    border-bottom: 1px solid #d9d9d9;
+    @include mi.mq(sp) {
+        padding: 0% 0% 6.33% 0%;
+        @include mi.fontSizeSp(12);
+    }
+}
+.txtBussinessBtmAdd261124 {
+    margin-top: 4%;
+    @include mi.fontSizePc(14);
+    @include mi.lineheight(14, 24);
+    @include mi.letterSpacing(0);
+    @include mi.mq(sp) {
+        margin-top: 8%;
+        @include mi.fontSizeSp(10);
+        letter-spacing: -0.01em;
+    }
+}
+.txtBussinessBtmAdd261124_02 {
+    margin-top: 3%;
+    @include mi.mq(sp) {
+        margin-top: 4%;
+    }
 }
